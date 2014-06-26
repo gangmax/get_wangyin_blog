@@ -1,6 +1,6 @@
 # get_wangyin_blog
 
-A Clojure program to download [WangYin's blog](http://www.yinwang.org/)articles 
+A Clojure program to download [WangYin's blog](http://www.yinwang.org/) articles 
 into markdown format files.
 
 ## Usage
