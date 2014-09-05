@@ -69,5 +69,5 @@
 (defn -main [& args]
   (do
     (doc download)
-    (println (download "http://www.yinwang.org/" "http://yinwang.org/blog-cn/" "/tmp/"))))
+    (println (download "http://www.yinwang.org/" "http://yinwang.org/blog-cn/" "./blog/"))))
 
