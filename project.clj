@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [enlive "1.1.5"]
                 ]
+  :jvm-opts ^:replace [] ;Fix the "TieredCompilation is disabled in this release" error, from "https://github.com/technomancy/leiningen/wiki/Faster"
   :main get_wangyin_blog.core)
