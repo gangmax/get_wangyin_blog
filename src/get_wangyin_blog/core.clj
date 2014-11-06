@@ -50,9 +50,18 @@
     (sh "chmod" "+x" "/tmp/html2text.py")
     
     (map
-      #(let [file-path-name (str target-directory (second %))]
+      #(let [
+          file-path-name (str target-directory (second %))
+          ; Handle the "301 Moved Permanently" error: which is caused by the
+          ; "http://yinwang.org/" to "http://www.yinwang.org/" changes.
+          ; The solution is to add "www" at the begin and "/index.html"
+          ; at the end.
+          url (let [link (first %)]
+                (if (= "www." (subs (second (string/split link #"//")) 0 4))
+                  link
+                  (str (first (string/split link #"//")) "//www." (second (string/split link #"//")) "/index.html")))]
         (do
-          (println (str "Downloading '" (first %) "'..."))
+          (println (str "Downloading '" url "'..."))
           (spit file-path-name
             ; Get the raw markdown format by invoking the "html2text.py" program,
             ; then remove the useless '\n' characters in it.
@@ -60,7 +69,7 @@
             ; "\n" character are not a "\n", it is a useless "\n".
             ; Only the "\n\n" segment is a real "return" and should not be kept.
             (clojure.string/replace
-              (:out (sh "/tmp/html2text.py" (first %)))
+              (:out (sh "/tmp/html2text.py" url))
               #"([^\n])\n([^\n])" "$1$2"))
           (println (str "Saved to " file-path-name "..."))
           file-path-name))
