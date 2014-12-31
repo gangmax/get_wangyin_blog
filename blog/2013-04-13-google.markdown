@@ -1,8 +1,8 @@
 
 
-## Google 到底是什么问题
+## 我为什么不为 Google 工作
 
-（王垠 yinwang.org 版权所有，未经许可，请勿转载）
+（王垠 [yinwang.org](http://www.yinwang.org) 版权所有，未经许可，请勿转载）
 
 有人也许看过我以前对 Google 的评论。虽然它说出了实情，但也带有一些我自己的主观情绪。如果你想从另一个角度看看 Google 的问题，可以参考一下James Whittaker 的博文《[Why I leftGoogle](http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx)》。这个 James 当时是 Google 主管 test 的 director，是我在 Google的前老板的老板。我从来没跟他仔细说过话，所以我不能对他做出任何评价。这个文章仅供参考。
 
@@ -11,6 +11,8 @@
 在我上次批评 Google 之后，收到了一位老同学的反馈。他说有几个 Google的朋友看了我的文章很气愤，说我“让他们显得很丑陋”。我觉得很奇怪，因为我根本就不认识这几个人，更不可能对他们有什么恶意，为什么批评 Google就会引起“Google 员工”的如此强烈的反应呢？仔细想一下，如果我批评的不是 Google 而是麦当劳，那麦当劳的员工会有如此反应吗？
 
 显然，Google 的很多员工已经失去了自我，把 Google 等同于了自己，所以他们才会对我的评价做出如此反应。Google所做的一切，他们都不加判断的接受。Google 设计的所有东西，他们都认为是世界上最先进的技术。其实我对 Google 的工作环境唯一的反感之处，就是很多Google 员工像是生活在中国的文化大革命时代，像“祖国花园里的花朵”一样天天向上，为 Google 高唱赞歌。Google的“河蟹力量”，连中国共产党恐怕都自愧不如。
+
+[ ![](http://www.yinwang.org/images/those_who_know.png)](http://abstrusegoose.com/212)
 
 其实有一位曾经在 Google 工作的朋友（名字我为他保密）来信告诉我，我的感觉一点也没错，因为他当时在 Google 也是同样的感受，独立的人格和思维，在Google 仿佛趋于消亡。最近跟另一个公司的朋友谈到这问题，他也说 Google 确实是这样的。他的一些朋友进了 Google之后就仿佛完全变了一个人，连他都不敢相信这些人曾经是他的朋友。按他的话说，就是被“洗脑”了。
 
