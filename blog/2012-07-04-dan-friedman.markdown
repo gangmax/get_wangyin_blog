@@ -2,7 +2,7 @@
 
 ## GTF - Great Teacher Friedman
 
-（王垠 yinwang.org 版权所有，未经许可，请勿转载）
+（王垠 [yinwang.org](http://www.yinwang.org) 版权所有，未经许可，请勿转载）
 
 ### 写小人书的老顽童
 

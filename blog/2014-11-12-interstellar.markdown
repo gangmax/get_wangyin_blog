@@ -2,7 +2,7 @@
 
 ## 恶评《星际穿越》
 
-（王垠 yinwang.org 版权所有，未经许可，请勿转载）
+（王垠 [yinwang.org](http://www.yinwang.org) 版权所有，未经许可，请勿转载）
 
 ![](http://www.yinwang.org/images/interstellar.png)
 
