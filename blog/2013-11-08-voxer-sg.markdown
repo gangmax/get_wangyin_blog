@@ -2,8 +2,6 @@
 
 ## 再见 Voxer，你好 Sourcegraph
 
-（王垠 [yinwang.org](http://www.yinwang.org) 版权所有，未经许可，请勿转载）
-
 话说离开 Coverity 之后，在 Coverity 创始人和 CTO Andy Chow 的介绍下，我加入了一家叫做 Voxer的公司，成为了他们的第一个“Data Engineer”。尽管 Coverity 对待员工相当恶劣，但我不得不承认 Andy Chow是个特别好的人。要是我直接在他手下做事，那可能也不至于这么快离开 Coverity。可惜啊，似乎每个 startup在外部资本介入之后，权力都不再集中在最初的 founder 手里，以至于连创始人都拿有些事情没办法。到现在看来，离开 Coverity还真是明智的决定，它拯救了我的心情和不少的脑神经。我求上帝保佑仍然在 Coverity 工作的中国同事们。
 
 话说这个 Voxer，它是一种手机 app，作用相当于一个对讲机。跟很多类似的软件（比如微信，Heytell, Whatsapp）不同的地方是，Voxer的语音传输有各种专利的设计，速度快。所以有些需要高效通信的机构（比如出租车公司，快递公司，机场）在使用这个 app。然而我在 Voxer 的工作不是设计这个app，而是跟一位 data scientist 一起做“大数据”分析。这是跟我的专长非常不同的工作，但由于 Coverity伤了我的神经，心想换换口味也无妨。但后来我发现，我迅速的看透了这大数据系统里面的机要，设想出了更好的设计，并且不再想停留于作为这些工具的使用者。

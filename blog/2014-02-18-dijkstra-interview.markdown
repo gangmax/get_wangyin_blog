@@ -2,8 +2,6 @@
 
 ## 一个对 Dijkstra 的采访视频
 
-（王垠 [yinwang.org](http://www.yinwang.org) 版权所有，未经许可，请勿转载）
-
 ![](http://www.yinwang.org/images/dijkstra-interview.png)
 
 （也可以访问 [YouTube](http://www.youtube.com/watch?v=RCCigccBzIU) 或者从源地址下载[MPEG1](http://www.cs.utexas.edu/users/EWD/video-audio/NoorderlichtVideo.html)，300M）
