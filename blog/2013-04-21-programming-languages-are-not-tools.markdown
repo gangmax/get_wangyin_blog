@@ -2,8 +2,6 @@
 
 ## 程序语言不是工具
 
-（王垠 yinwang.org 版权所有，未经许可，请勿转载）
-
 在谈论到程序语言的好坏的时候，总是有人说：“程序语言只是一种工具。只要你的算法好，不管用什么语言都能写出一样好的程序。”在本科第一堂编程课上，我的教授就这么对我们说。可是现在我却发现，这是一个根本错误的说法。
 
 我不知道这种说法确切的来源，然而昨天在浏览网页的时候，偶然发现了 C++ 的设计者 Bjarne Stroustrup 的一些类似的说法。这些说法来自于2007 年 MIT Technology Review 对 Stroustrup的[采访](http://www.technologyreview.com/qa/407076/bjarne-stroustrup)。

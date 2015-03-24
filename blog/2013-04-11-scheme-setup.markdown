@@ -2,8 +2,6 @@
 
 ## Scheme 编程环境的设置
 
-（王垠 yinwang.org 版权所有，未经许可，请勿转载）
-
 ![](http://www.yinwang.org/images/paredit1.gif)
 
 介绍了这么久的 Scheme，却没有讲过如何配置一个高效的 Scheme 的编程环境。有些人开始学习 Scheme的时候感觉无从下手，所以今天讲一下它的配置。
