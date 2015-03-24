@@ -2,8 +2,6 @@
 
 ## Oberon 操作系统：被忽略的珍宝
 
-（王垠 yinwang.org 版权所有，未经许可，请勿转载）
-
 推荐一篇很久以前看的文章：[Oberon - The OverlookedJewel](http://www.ics.uci.edu/~franz/Site/pubs-pdf/BC03.pdf)
 
 它介绍的是 Niklaus Wirth 设计的一种操作系统，叫做 Oberon。Niklaus Wirth 就是大家熟知的 Pascal语言的设计者。绝大部分人都没听说过有 Oberon 这个东西存在，更难以把它跟 Niklaus Wirth 的大名挂上钩。所以作者说：“Wirth 因为Pascal 而闻名于世，可是接下来几年，他成为了 Pascal 的受害者。” 确实是这样。Wirth 一直都不觉得 Pascal是他的杰作。我想他应该会更喜欢以 Oberon 闻名于世。

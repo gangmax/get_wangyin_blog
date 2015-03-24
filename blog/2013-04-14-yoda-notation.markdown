@@ -2,8 +2,6 @@
 
 ## Yoda 表示法错在哪里
 
-（王垠 yinwang.org 版权所有，未经许可，请勿转载）
-
 在上一篇[博文](http://www.yinwang.org/blog-cn/2013/04/14/terminology/)里，我提到了 Yoda表示法。
 
 ### Yoda Notation（Yoda 表示法）

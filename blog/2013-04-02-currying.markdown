@@ -2,8 +2,6 @@
 
 ## 谈谈 Currying
 
-（王垠 yinwang.org 版权所有，未经许可，请勿转载）
-
 很多基于 lambda calculus 的程序语言，比如 ML 和 Haskell，都习惯用一种叫做 currying 的手法来表示函数。比如，如果你在Haskell 里面这样写一个函数：
 
             f x y = x + y    

@@ -2,8 +2,6 @@
 
 ## RubySonar：一个 Ruby 静态分析器
 
-（王垠 yinwang.org 版权所有，未经许可，请勿转载）
-
 在过去一个多月时间里，我大部分时间都在做一个 Ruby 的静态分析叫做[RubySonar](https://github.com/yinwang0/rubysonar)。它使用与 PySonar2 类似的技术，不过针对Ruby 的语义进行了很多调整。现在这个分析器已经能够支持[Sourcegraph](https://sourcegraph.com/github.com/rails/rails) 的 Ruby代码搜索和浏览。这比起之前的效果是一个很大的进步。
 
 [ ![](http://www.yinwang.org/images/rubysonar1.gif) ](https://sourcegraph.com/github.com/jekyll/jekyll/symbols/ruby/gem/Jekyll/Command/$classmethods/globs)
