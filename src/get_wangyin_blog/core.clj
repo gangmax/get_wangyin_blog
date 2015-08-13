@@ -49,7 +49,7 @@
     
     (sh "chmod" "+x" "/tmp/html2text.py")
     
-    (map
+    (pmap
       #(let [
           file-path-name (str target-directory (second %))
           ; Handle the "301 Moved Permanently" error: which is caused by the
