@@ -1,5 +1,3 @@
-
-
 ## 电视编剧的问题
 
 ![](http://www.yinwang.org/images/from-star.jpg)

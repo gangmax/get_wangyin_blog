@@ -1,5 +1,3 @@
-
-
 ## PySonar2 开源了
 
 经过 Google 的许可，我现在将 [PySonar](http://yinwang0.wordpress.com/2010/09/12/pysonar)第二版本开源，就叫 PySonar2 吧。代码可以在我的 GitHub 下载：

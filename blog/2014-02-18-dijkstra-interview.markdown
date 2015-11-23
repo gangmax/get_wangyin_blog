@@ -1,5 +1,3 @@
-
-
 ## 一个对 Dijkstra 的采访视频
 
 ![](http://www.yinwang.org/images/dijkstra-interview.png)

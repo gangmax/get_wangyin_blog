@@ -1,5 +1,3 @@
-
-
 ## TeXmacs：一个真正“所见即所得”的排版系统
 
 ![](http://www.yinwang.org/images/texmacs.png)
