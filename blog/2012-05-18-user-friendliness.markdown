@@ -1,5 +1,3 @@
-
-
 ## 什么是“对用户友好”
 
 ![](http://www.yinwang.org/images/user-friendly.jpeg)

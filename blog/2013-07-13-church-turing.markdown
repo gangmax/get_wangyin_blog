@@ -1,10 +1,6 @@
-
-
 ## 丘奇和图灵
 
 ![](http://www.yinwang.org/images/Alonzo_Church.jpg)
-
-
 
 ![](http://www.yinwang.org/images/Alan_Turing.jpg)
 
