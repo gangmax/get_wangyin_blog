@@ -1,3 +1,5 @@
+
+
 ## 所谓“人为错误”
 
 昨天是一个让人悲哀的日子。旧金山湾区主要的上下班交通工具Caltrain，在24小时之内发生三次事故，撞死三人。其中一次事故发生在Menlo Park，一辆汽车被困在铁轨上，因为被前后的车辆堵塞而无法逃避，终于被飞驰而来的列车撞成一堆废铁。开车人被消防队员从残骸里切割出来，送往医院后不久死亡。([新闻视频](http://www.ktvu.com/story/28193228/driver-killed-in-menlo-park-caltrain-accident-was-trapped-on-tracks)）

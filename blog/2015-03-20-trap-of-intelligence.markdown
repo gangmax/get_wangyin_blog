@@ -1,3 +1,5 @@
+
+
 ## 智商的圈套
 
 上次买了个[任天堂3DS](http://www.jianshu.com/p/b501a1675f4d)游戏机，觉得里面的游戏很无聊，所以第二天就把游戏机连同游戏一起，转手倒卖给了别人。从那天之后，我开始琢磨一个问题——到底是什么让我觉得一个游戏好玩或者不好玩。我似乎对事物有一种很特别的品味，很多别人说“好玩”，“有趣”的游戏或者电影，我一看就觉得很无趣，或者很自虐。我一生中玩过最好玩的游戏，其实没有几个，可能掰着手指头都数得出来：[Braid](http://braid-game.com)，[Limbo](http://en.wikipedia.org/wiki/Limbo_%28video_game%29)，[Klonoa](http://en.wikipedia.org/wiki/Klonoa:_Door_to_Phantomile)（風のクロノアdoor to phantomile），《[纪念碑谷](https://itunes.apple.com/cn/app/ji-nian-bei-gu/id728293409)》，[Metal GearSolid](http://en.wikipedia.org/wiki/Metal_Gear_Solid)，……
