@@ -1,3 +1,5 @@
+
+
 ## 什么是语义学
 
 ![](http://www.yinwang.org/images/semantics.jpeg)
