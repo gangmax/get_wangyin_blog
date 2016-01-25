@@ -1,24 +1,34 @@
 
 
-## Tesla Autopilot的事故责任问题
+## Tesla Autopilot
 
-(以下内容是《[Tesla Model S的设计失误](http://www.yinwang.org/blog-cn/2015/12/12/tesla-model-s)》一文中新加入的小节。由于写作时间相距太远，而且由于它的[时效性](http://www.reuters.com/article/us-tesla-autopilot-idUSKCN0UO0NM20160110)，现在也把它单独提出来，独立成文。)
+以下内容是《[Tesla Model S的设计失误](http://www.yinwang.org/blog-cn/2015/12/12/tesla-model-s)》一文中新加入的小节。由于写作时间相距太远，而且由于它的[时效性](http://www.reuters.com/article/us-tesla-autopilot-idUSKCN0UO0NM20160110)，现在也把它单独提出来，独立成文。
 
-两个月前，Tesla通过“软件更新”，使Model S具有了初级的“自动驾驶”（autopilot）功能。这个功能可以让ModelS自动地，沿着有明确边界线的车道行驶，根据前后车辆的速度相应的加速和减速。驾驶员在这种情况下可以放开方向盘和油门，刹车，让车子的电脑系统自己驾驶。
+两个月前，Tesla通过“软件更新”，使Model S具有了初级的“自动驾驶”（autopilot）功能。这个功能可以让ModelS自动地，沿着有“清晰边界线”的车道行驶，根据前后车辆的速度相应的加速和减速。
 
-这貌似一个很新很酷的功能，咋一看跟Google的自动驾驶车有的一拼。让人感觉科幻小说里的场景，就快要成为现实。然而在推出后不久，YouTube上出现了一些视频（[视频1](https://www.youtube.com/watch?v=Lx3-epk_ztQ)，[视频2](https://www.youtube.com/watch?v=LJnYCEQwtHs)，[视频3](https://www.youtube.com/watch?v=rkZ-jhLxrVc)，[视频4](https://www.youtube.com/watch?v=MrwxEX8qOxA)，[视频5](https://www.youtube.com/watch?v=mLOG1bw3vSM)）。它们显示，autopilot在某些情况下有可能进行错误的，猛烈的转弯，险些造成车祸。
+这貌似一个很新很酷的功能，咋一看跟Google的自动车有的一拼（其实差得天远）。然而在推出后不久，YouTube上出现了一些视频（[视频1](https://www.youtube.com/watch?v=MrwxEX8qOxA)，[视频2](https://www.youtube.com/watch?v=Lx3-epk_ztQ)，[视频3](https://www.youtube.com/watch?v=LJnYCEQwtHs)，[视频4](https://www.youtube.com/watch?v=rkZ-jhLxrVc)，[视频5](https://www.youtube.com/watch?v=mLOG1bw3vSM)）。它们显示，autopilot在某些情况下有可能进行错误的判断和操作，有些险些造成严重的迎面车祸。
 
-让我感到悲哀的是，视频的很多评论，大部分都在谩骂车主是傻逼：“这是车主自己的责任！”“Autopilot只能在车道上有明确的边界线的时候使用！谁叫你不看说明书的！”…… Elon Musk也在一次[采访](https://www.youtube.com/watch?v=60-b09XsyqU)中明确的告诉记者：“如果用户因为使用autopilot而导致了车祸，是用户自己的责任！”他反复地声明：“autopilot还处于beta版本……” 意思是，你们小心着用！
+[ ![](http://www.yinwang.org/images/model-s-autopilot-frontal.png)](https://www.youtube.com/watch?v=MrwxEX8qOxA)
 
-我对这些说法持不同的观点：
+特别是[视频1](https://www.youtube.com/watch?v=MrwxEX8qOxA)显示，在路面线条清晰，天气很好的路上，autopilot忽然向左，试图转向反方向的车道，差点导致严重的对撞车祸。仔细观察autopilot转向之前的情况，是由于路面上有阳光投下来的树影。Autopilot误以为那是一个障碍物，所以试图把车转上反方向的车道！
 
-首先，Tesla根本就不应该把一个处于"beta状态"的功能，自动推送到所有Model S的系统里面。实际上，像autopilot这种功能，关系到人的生命安全，根本就不应该有"beta版本"或者“测试版本”之说。Tesla把这样不成熟的系统，强制推送给用户，然后又说如果出了事故，用户负所有责任，这是一种推卸责任的做法。没有任何人愿意拿自己的生命给Tesla做“beta测试”！
+从这个简单的视频我们可以看出：
+
+  1. Autopilot没有对图像进行基本的“阴影消除”，它不能区分阴影和障碍物。阳光强烈，阴影明显的时候，autopilot可能把阴影当成障碍物。阴影消除在计算机视觉已经研究挺多了，这说明Tesla有可能没有进行基础的计算机视觉研究。缺乏分辨阴影和障碍物的能力，这样的自动驾驶系统是完全不可接受的。
+
+  2. 道路中间有明显的，表示“禁止超车”的双黄线，对面有来车。Autopilot为了避开“障碍”，冒着对撞的危险，左转跨越双黄线。这表示autopilot连基本的交通规则，紧急情况下的正确操作方式都搞不清楚。或者也许这软件里面连双黄线都没有识别，甚至连这个概念都没有。
+
+对于一个有经验的驾驶员来说，如果发现前方有障碍物，正确的作法不应该是猛烈地转弯避开，而应该是紧急刹车。从视频上我们看出，车子没有刹车减速（保持在37~38），而是猛烈地左转。而且是等树影到了面前，才忽然进行操作，没有计算提前量。这说明设计autopilot的人，连基本的开车常识都不明白。
+
+让我感到悲哀的是，这些视频的很多评论，大部分都在谩骂车主是傻逼：“这是车主自己的责任！”，“Autopilot只能在高速公路上使用”，“只能在车道上有明确的边界线的时候使用！”，“不能在有很多弯道的地方“，“只能在能够看见前方300米道路的地方使用”，“谁叫你不看说明书的！”…… Elon Musk也在一次[采访](https://www.youtube.com/watch?v=60-b09XsyqU)中明确的告诉记者：“如果用户因为使用autopilot而导致了车祸，是用户自己的责任！” 他反复地声明：“autopilot还处于beta版本……” 意思是，你们小心着用！
+
+我对这些说法持不同的观点。首先，Tesla根本就不应该把一个处于"beta状态"的功能，自动推送到所有Model S的系统里面。实际上，像autopilot这种功能，关系到人的生命安全，根本就不应该有"beta版本"或者“测试版本”之说。Tesla把这样不成熟的系统，强制推送给用户，然后又说如果出了事故，用户负所有责任，这是一种推卸责任的做法。要知道，没有任何人愿意拿自己的生命给Tesla做“beta测试”。
 
 另外，就算是用户没有仔细阅读autopilot的使用说明，在“不该”用它的地方（比如路面线条不清晰的地方）使用了autopilot，如果出了车祸，Tesla也应该负完全的责任。理由如下：
 
   1. 作为用户，他们没有义务阅读并且深刻的理解autopilot的局限性。在软件行业，存在一种习惯性的“责备用户”的不良风气。如果软件的设计有问题，用户没记住它的毛病，没能有效地绕过，那么如果出了问题，一般被认为是用户的错。Tesla想把软件行业的这种不正之风，引入到人命关天的汽车行业，那显然是行不通的。
 
-  2. Tesla的autopilot局限性实在太多，没人记得住。天气不好的时候不行，路面上的边界线不清晰也不行，光线不好不行，高速出口不行，…… 实际上，在如此苛刻的限定条件下，任何一个汽车厂商都可以做出Tesla那种autopilot。
+  2. Tesla的autopilot实现方式幼稚，局限性实在太多。天气不好的时候不行，路面上的边界线不清晰也不行，光线不好或者有阴影不行，路上有施工的路桩不行，高速出口不行，…… 实际上，在如此苛刻的限定条件下，任何一个汽车厂商都可以做出Tesla那种autopilot。
 
 我自己的便宜Honda车，就有偏离车道时发出警告的功能（Lane Drift Warning，LDW）。装个摄像头，来点最简单的图像处理就搞定。在Indiana大学的时候，我们有一门本科级别的课程，就是写代码控制一辆高尔夫球车（也是电动车呢），沿着路面上的线条自动行驶。这根本没什么难度，因为它能正确行驶的条件，实在是太苛刻了。
 
@@ -36,7 +46,7 @@
 
 由于意识到这个问题，知道出了问题自己是逃不掉责任的，Tesla最近又通过强制的软件更新，对autopilot的功能进行了一些[限制](http://www.reuters.com/article/us-tesla-autopilot-idUSKCN0UO0NM20160110)，说是为了防止用户“滥用”autopilot做一些“疯狂”的事情。Tesla很疯狂，反倒指责用户“滥用”和“疯狂”。这让人很愤慨。
 
-对autopilot发布限制的同时，Tesla又推出了所谓的“自动趴车”和“召唤”（summon）功能。这些功能貌似很酷，然而它们也附带了许多的限制条件。你只能在某些地方，满足某种特定条件，才能用这些功能。如果你违反这些条件，出了事故，Tesla声称不负责。
+对autopilot进行限制的同时，Tesla又推出了beta版的“[自动趴车](http://www.cnet.com/news/tesla-cars-can-now-self-park-at-your-command)”和“召唤”（summon）功能。这些功能貌似很酷，然而它们也附带了许多的限制条件。你只能在某些地方，满足某种特定条件，才能用这些功能。如果你违反这些条件，出了事故，Tesla声称不负责。
 
 这些能够让车子自己移动的功能，跟autopilot一样，同样会给社会带来安全隐患。比如，有人在不该使用自动趴车和summon功能的地方用了它，就可能会导致车祸。这不是用户的问题，而是Tesla根本不应该发布这些不成熟的技术来哗众取巧。
 
