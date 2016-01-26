@@ -1,8 +1,6 @@
-
-
 ## Tesla Model X的车门设计问题
 
-Tesla即将推出的SUV（Model X），不但继承了以上提到的Model S的各种问题（触摸屏，门把，……），而且还制造了新的问题。ModelX具有一个别出心裁的车门设计，这车子看起来像一只展翅的鸟：
+Tesla即将推出的SUV（Model X），不但继承了以上提到的Model S的各种问题（触摸屏，门把，……），而且还制造了新的问题。Model X具有一个别出心裁的车门设计，这车子看起来像一只展翅的鸟：
 
 ![](http://www.yinwang.org/images/model-x-door.jpg)
 
@@ -14,7 +12,9 @@ Tesla即将推出的SUV（Model X），不但继承了以上提到的Model S的�
 
 如果你运气好，没有受伤，头脑还清醒，气囊和安全带也没挡住你，那么你必须完成三件复杂的操作，才能逃离Model X：
 
-  1. 揭开车门上扬声器的盖子  2. 扳动一个隐蔽在那里的机关  3. 然后自己把车门举起来
+1.  揭开车门上扬声器的盖子
+2.  扳动一个隐蔽在那里的机关
+3.  然后自己把车门举起来
 
 我比较无语…… 如何揭开扬声器的盖子？你需要随时在车里准备好榔头和改锥吗？螺丝藏在哪里的？要知道，用户可不是Tesla雇佣的机械师。这对于车祸逃生是非常不利的设计。如果撞坏了电源，后面的人恐怕无法在合理时间之内逃离。
 
@@ -24,13 +24,13 @@ Tesla即将推出的SUV（Model X），不但继承了以上提到的Model S的�
 
 ![](http://www.yinwang.org/images/suv-in-snow.jpg)
 
-  * 车门升起时，车的后部上方有很大的空挡。下雨或者下雪的时候，雨雪会乘着车门张开的时候，大量飘进车里。
+*   车门升起时，车的后部上方有很大的空挡。下雨或者下雪的时候，雨雪会乘着车门张开的时候，大量飘进车里。
 
-  * 当车门升起来的时候，夹在门缝里的灰尘和渣滓会掉进车里。车顶上如果有积雪，也会掉进去。设想一下，下雪天开了一会车，打开后门，结果车顶上的雪都掉在后面的人头上了……
+*   当车门升起来的时候，夹在门缝里的灰尘和渣滓会掉进车里。车顶上如果有积雪，也会掉进去。设想一下，下雪天开了一会车，打开后门，结果车顶上的雪都掉在后面的人头上了……
 
-  * 下大雪的时候，后面的车门可能被大雪压住打不开，或者导致电动机超负荷损坏。
+*   下大雪的时候，后面的车门可能被大雪压住打不开，或者导致电动机超负荷损坏。
 
-  * 由于门上的缝隙太长，这种设计更加容易出现由于密封圈老化而漏水的问题。
+*   由于门上的缝隙太长，这种设计更加容易出现由于密封圈老化而漏水的问题。
 
 ### 趴车的麻烦
 
@@ -44,21 +44,20 @@ Tesla即将推出的SUV（Model X），不但继承了以上提到的Model S的�
 
 ![](http://www.yinwang.org/images/suv-sliding-door.jpg)
 
-如果你知道，Model X的车身宽度为81.6英寸，比Hummer H2, Cadillac Escalade和FordF-150这样的庞然大物还要宽，你就会发现真正的问题不在于空间不够，而是在于这车实在太宽了。有多少人愿意开这么宽的车，是一个问题。
+如果你知道，Model X的车身宽度为81.6英寸，比Hummer H2, Cadillac Escalade和Ford F-150这样的庞然大物还要宽，你就会发现真正的问题不在于空间不够，而是在于这车实在太宽了。有多少人愿意开这么宽的车，是一个问题。
 
 ### 实用性问题
 
-  * 顶棚不再能安装货架。不知道滑雪板和kayak之类该绑在哪里。这降低了Model X作为一个SUV（Sport Utility Vehicle）的使用价值。
+*   顶棚不再能安装货架。不知道滑雪板和kayak之类该绑在哪里。这降低了Model X作为一个SUV（Sport Utility Vehicle）的使用价值。
 
-![](http://www.yinwang.org/images/suv-kayak.jpg)
+    ![](http://www.yinwang.org/images/suv-kayak.jpg)
 
-  * 后门上不再能放随身物品。这样后面的乘客会不是很方便。
+*   后门上不再能放随身物品。这样后面的乘客会不是很方便。
 
-![](http://www.yinwang.org/images/suv-back-door.png)
+    ![](http://www.yinwang.org/images/suv-back-door.png)
 
 ### 制造和维修的问题
 
-  * 这种车门机械非常复杂，容易出问题，维修起来很麻烦。制造起来也很麻烦，以至于一家很有经验的，为奔驰和通用提供配件的德国设备厂商，都没法满足Tesla的要求。请参考这篇[新闻](http://www.theverge.com/2016/1/20/10800140/tesla-lawsuit-hoerbiger-model-x-falcon-wing-door)。
+*   这种车门机械非常复杂，容易出问题，维修起来很麻烦。制造起来也很麻烦，以至于一家很有经验的，为奔驰和通用提供配件的德国设备厂商，都没法满足Tesla的要求。请参考这篇[新闻](http://www.theverge.com/2016/1/20/10800140/tesla-lawsuit-hoerbiger-model-x-falcon-wing-door)。
 
-![](http://www.yinwang.org/images/falcon-wing-door-machinery.png)
-
+    ![](http://www.yinwang.org/images/falcon-wing-door-machinery.png)
