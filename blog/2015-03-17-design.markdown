@@ -1,5 +1,3 @@
-
-
 ## 设计的重要性
 
 我曾经在一篇[文章](http://www.yinwang.org/blog-cn/2014/07/17/rest)里谈过关于设计的问题，然而那篇文章由于标题不够醒目，可能很多人没有注意看。我觉得现在有必要把里面的内容专门提出来讲一下，因为设计在我的心目中具有至关重要的地位，却被很多计算机科学家和程序员所轻视。
@@ -12,7 +10,7 @@
 
 经常有人自豪的声称自己的项目有多少万行代码，仿佛代码的行数是衡量一个软件质量的标准，行数越多质量越好，然而事实却恰恰相反。你可能需要经历过Indiana式的教育才能真正的理解这一点。如果你拿一些引以为豪的代码给Dan Friedman看，他可能瞟一眼就说：“太长了。当年这个东西我两行代码就写出来了……” 你摸着脑袋怀疑他是不是在吹牛，怎么可能！然后过了几个星期，你把代码重写了好多遍之后，真的发现只需要两行！这时候他才会微笑着点点头，一副龟仙人的味道。就是这样的教育，让我能够在短短几个星期之内，完成Google一个小组的人花几年也没法完成的项目。看过我写的代码，你也许会理解这句[《小王子》作者](http://zh.wikipedia.org/wiki/%E5%AE%89%E6%89%98%E4%B8%87%C2%B7%E5%BE%B7%E5%9C%A3%E5%9F%83%E5%85%8B%E7%B5%AE%E4%BD%A9%E9%87%8C)的[名言](http://www.brainyquote.com/quotes/quotes/a/antoinedes121910.html)：“一个设计师知道他达到了完美，并不是当他不能再加进任何东西，而是当没有任何东西可以被去掉。”
 
-如果你跟我一样关心设计，却发现身边的人喜欢显示自己能搞懂复杂的东西，跟你说容易的东西都是菜鸟用的，那么你需要一个朋友。书籍是人类最好的朋友，因为它的作者可以跨越时间和空间的限制，给你最需要的支持和鼓励。这就是当我阅读这本1988年出版的《[The Design of EverydayThings](http://www.amazon.com/Design-Everyday-Things-Revised-Expanded-ebook/dp/B00E257T6C)》（简称DOET）时的感觉。我觉得，终于有人懂我了！有趣的是，它的作者 Don Norman 曾经是 AppleFellow，也是《[The Unix-HatersHandbook](http://web.mit.edu/~simsong/www/ugh.pdf)》一书序言的作者。
+如果你跟我一样关心设计，却发现身边的人喜欢显示自己能搞懂复杂的东西，跟你说容易的东西都是菜鸟用的，那么你需要一个朋友。书籍是人类最好的朋友，因为它的作者可以跨越时间和空间的限制，给你最需要的支持和鼓励。这就是当我阅读这本1988年出版的《[The Design of Everyday Things](http://www.amazon.com/Design-Everyday-Things-Revised-Expanded-ebook/dp/B00E257T6C)》（简称DOET）时的感觉。我觉得，终于有人懂我了！有趣的是，它的作者 Don Norman 曾经是 Apple Fellow，也是《[The Unix-Haters Handbook](http://web.mit.edu/~simsong/www/ugh.pdf)》一书序言的作者。
 
 ![](http://www.yinwang.org/images/doet.jpg)
 
@@ -20,7 +18,6 @@ DOET 不但包含并且支持了我的博文《[黑客文化的精髓](http://ww
 
 我觉得这应该是每个程序员必读的书籍。为什么每个程序员必读呢？因为虽然这本书是设计类专业的必读书籍，而计算机及其编程语言和工具，其实才是作者指出的缺乏设计思想的“重灾区”。看了它，你会发现很多所谓的“人为错误”，其实是工具的设计不合理造成的。一个设计良好的工具，应该只需要很少量的文档甚至不需要文档。这本书将提供给你改进一切事物的原则和灵感。你会恢复你的人性。
 
-值得一提的是，虽然 Don Norman 曾经是 Apple Fellow，但我觉得 Apple 产品设计的人性化程度与 Norman大叔的思维高度还是有一定的差距的。因为我看了这书之后，立马发现了iPhone的一些设计问题。
+值得一提的是，虽然 Don Norman 曾经是 Apple Fellow，但我觉得 Apple 产品设计的人性化程度与 Norman 大叔的思维高度还是有一定的差距的。因为我看了这书之后，立马发现了iPhone的一些设计问题。
 
 如果你跟我一样不想用眼睛看书，可以到 Audible 买本[有声书](http://www.audible.com/pd/Science-Technology/The-Design-of-Everyday-Things-Audiobook/B005I5MDGQ)来听。
-

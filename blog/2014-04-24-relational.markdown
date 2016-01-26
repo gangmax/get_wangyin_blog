@@ -1,5 +1,3 @@
-
-
 ## 关系模型的实质
 
 每当我批评关系式数据库，就会有人说，SQL和关系式数据库的设计，其实偏离了E.F.Codd最初的关系式理论。关系式理论和关系式模型，本身还是很好的，只不过被人实现的时候搞砸了。如果你看透了本质，就会发现这只是一个托词。关系式数据库的问题是根源性的，这个问题其实源自关系式理论本身，而不只是具体的实现。
@@ -12,21 +10,34 @@
 
 关系模型的每一个“关系”或者“行”（row），表示的不过是一个普通语言里的“结构”，就像C语言的struct。一个表（table），其实不过是某种结构的数组。举个例子，以下SQL语句构造的数据库表：
 
-            CREATE TABLE Students ( sid CHAR(20),                            name CHAR(20),                            login CHAR(20),                            age INTEGER,                            gpa REAL )    
+    CREATE TABLE Students ( sid CHAR(20),
+                            name CHAR(20),
+                            login CHAR(20),
+                            age INTEGER,
+                            gpa REAL )
 
 其实相当于以下C语言的结构数组：
 
-            struct student {      char* sid;      char* name;      char* login;      int age;      double gpa;    }    
+    struct student {
+      char* sid;
+      char* name;
+      char* login;
+      int age;
+      double gpa;
+    }
 
-每一个“foreignkey”，其实就是一个指针。每一个join操作，本质上就是对指针的“访问”，找到它所指向的对象。在实现上，join跟指针引用有一定差别，因为join需要查“索引”（index），所以它比指针引用要慢。
+每一个“foreign key”，其实就是一个指针。每一个join操作，本质上就是对指针的“访问”，找到它所指向的对象。在实现上，join跟指针引用有一定差别，因为 join需要查“索引”（index），所以它比指针引用要慢。
 
 所谓的查询（query），本质上就是函数式语言里面的filter, map等操作。只不过关系式代数更加笨拙，组合能力很弱。比如，以下的SQL语句
 
-            SELECT Book.title     FROM Book     WHERE price > 100    
+    SELECT Book.title
+     FROM Book
+     WHERE price > 100
 
 其实相当于以下的Lisp代码：
 
-            (map .title         (filter (lambda (b) (> (.price b) 100)) Book)    
+    (map .title
+         (filter (lambda (b) (> (.price b) 100)) Book)
 
 ### 关系式模型的局限性
 
@@ -47,4 +58,3 @@ SQL和关系模型所引起的一系列无须有的问题，终究引发了所�
 最新的一些NoSQL数据库，比如Neo4j, MongoDB等，部分的改善了SQL的表达力问题。Neo4j设计了个古怪的查询语言叫Cypher，不但语法古怪，表达力弱，而且效率出奇的低，以至于几乎任何有用的操作，你都必须使用Java写“扩展”（extension）来完成。MongoDB使用JSON来表示查询，本质就是手写编译器里的语法树（AST），非常奇葩和苦逼。现在看来，数据库的主要问题，其实是语言设计的问题。NoSQL数据库的领域，由于缺乏经过正规教育的程序语言专家，而且由于利益驱使，不尊重事实，所以会在很长一段时间之内处于混沌之中。
 
 其实数据库的问题哪有那么困难，它其实跟“远过程调用”（RPC）没什么两样。只要你有一个程序语言，你就可以发送这语言的代码，到一个“数据服务器”。服务器接受并执行这代码，对数据进行索引，查询和重构，最后返回结果给客户端。如果你看清了SQL的实质，就会发现这样的“过程式设计”，其实并不会损失SQL的“描述”能力。反而由于过程式语言的简单，直接和普遍，使得开发效率大大提高。NoSQL数据库比起SQL和关系式数据库，存在某种优势，也就是因为它们在朦胧中朝着这个“RPC”的方向发展。
-
