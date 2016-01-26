@@ -1,13 +1,11 @@
 ; 
 ; Get all Wangyin's blog pages and convert them into markdown format.
 ;
-; Several things need to be done to archived it: 
+; Several things need to be done to achieve this:
 ;
 ; 1. Parse the index page of "http://www.yinwang.org/", get all the blog pages;
 ;
-; 2. Get the blog pages and covert them into markdown format with "html2text.py";
-;
-; 3. Handle the unexpected "\n" characters made by "html2text".
+; 2. Get the blog pages and covert them into markdown format with "h2m.js".
 ;
 ; http://stackoverflow.com/questions/15474994/how-to-parse-html-file-using-clojure
 ; https://github.com/swannodette/enlive-tutorial/
@@ -45,10 +43,6 @@
           ".markdown")
         links))
     
-    (spit "/tmp/html2text.py" (slurp (io/resource "html2text.py")))
-    
-    (sh "chmod" "+x" "/tmp/html2text.py")
-    
     (pmap
       #(let [
           file-path-name (str target-directory (second %))
@@ -62,15 +56,7 @@
                   (str (first (string/split link #"//")) "//www." (second (string/split link #"//")) "/index.html")))]
         (do
           (println (str "Downloading '" url "'..."))
-          (spit file-path-name
-            ; Get the raw markdown format by invoking the "html2text.py" program,
-            ; then remove the useless '\n' characters in it.
-            ; If both of the last character before and the next character after a
-            ; "\n" character are not a "\n", it is a useless "\n".
-            ; Only the "\n\n" segment is a real "return" and should not be kept.
-            (clojure.string/replace
-              (:out (sh "/tmp/html2text.py" url))
-              #"([^\n])\n([^\n])" "$1$2"))
+          (spit file-path-name (:out (sh (str (System/getProperty "user.dir") "/resources/h2m.js") url)))
           (println (str "Saved to " file-path-name "..."))
           file-path-name))
       (zipmap links file-names))))
@@ -79,4 +65,3 @@
   (do
     (doc download)
     (println (download "http://www.yinwang.org/" "http://yinwang.org/blog-cn/" "./blog/"))))
-
