@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
 /*
- * Before use this script, you need to install "nodejs" and the "to-markdown"
- * and "request" packages as well. At time moment I'm using:
+ * Before using this script, you need to install "nodejs" first, and then
+ * the "to-markdown" and "request" npm packages as well. At this moment I'm
+ * using:
  *
  * node.js: 5.5.0
  * to-markdown: 2.0.1
