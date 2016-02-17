@@ -48,12 +48,11 @@
           file-path-name (str target-directory (second %))
           ; Handle the "301 Moved Permanently" error: which is caused by the
           ; "http://yinwang.org/" to "http://www.yinwang.org/" changes.
-          ; The solution is to add "www" at the begin and "/index.html"
-          ; at the end.
+          ; The solution is to add "www" at the begining of the URL.
           url (let [link (first %)]
                 (if (= "www." (subs (second (string/split link #"//")) 0 4))
                   link
-                  (str (first (string/split link #"//")) "//www." (second (string/split link #"//")) "/index.html")))]
+                  (str (first (string/split link #"//")) "//www." (second (string/split link #"//")))))]
         (do
           (println (str "Downloading '" url "'..."))
           (spit file-path-name (:out (sh (str (System/getProperty "user.dir") "/resources/h2m.js") url)))
