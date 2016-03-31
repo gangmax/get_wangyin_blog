@@ -64,11 +64,13 @@ Google Glass吹够了牛皮，忽然人间蒸发了。可惜的是，粉丝们�
 
 ### Go语言
 
-Go语言，也是Google最爱炫耀的技术。我之前的[文章](http://www.yinwang.org/blog-cn/2014/04/18/golang)已经分析的很清楚了，Go语言就是一个彻底的垃圾。每个研究过PL的人，都在嘲笑Go语言的设计，笑掉了大牙。
+Go语言，也是Google最爱炫耀的技术之一。我之前的[文章](http://www.yinwang.org/blog-cn/2014/04/18/golang)已经分析的很清楚了，Go语言就是一坨屎。每个研究过PL的人，都在嘲笑Go语言的设计，笑掉了大牙。
 
-Google对于真正的计算机科学，程序语言的研究，远远不如微软，Intel，Oracle（Sun），IBM，Cisco。基本就是业余水平。很可惜的是，Google仍然可以靠着自己在网络界的影响力，面对专家们的嘲笑，明目张胆在业界推广Go这个大垃圾，祸害其他人。你说我们这些PL人士，怎么可能不鄙视Google :)
+Google对于真正的计算机科学，程序语言的研究，远远不如微软，Intel，Oracle（Sun），IBM，Cisco。基本就是业余水平。很可惜的是，Google仍然可以靠着自己在网络界的影响力，面对专家们的嘲笑，明目张胆在业界推广Go这个大垃圾，祸害其他人。你说我们这些PL人士，怎么可能不鄙视Google？
 
-对了，Google还有另外一个垃圾语言，叫做Dart。Google内部还有一个自用的垃圾语言，叫做Sawzall。Sawzall的[创造者](https://en.wikipedia.org/wiki/Rob_Pike)，后来创造了Go。此人之前设计了[Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)操作系统，自以为超越了Unix，而其实呢继承了Unix的所有糟粕，只含有一些肤浅的界面改动，而且还不怎么好用。不是我有偏见哈，可我发现的规律就是，制造垃圾的人，永远都只会制造垃圾。
+对了，Google还有另外一个垃圾语言，叫做Dart。Google内部还有一个自用的垃圾语言，叫做Sawzall。Sawzall的[创造者](https://en.wikipedia.org/wiki/Rob_Pike)，后来创造了Go。此人之前设计了[Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)操作系统，自以为超越了Unix，而其实呢继承了Unix的所有糟粕，只含有一些肤浅的界面改动，而且还不怎么好用，所以后来根本没人用。不是我有偏见哈，可我发现的规律就是，制造垃圾的自大狂，永远都只会制造垃圾。
+
+因为内行人都知道Google对于语言的造诣和态度之肤浅，所以几乎没有科班出生的程序语言专家愿意去Google工作。大部分最好的PL人员进入了微软，少数去了其它地方。
 
 ### Google的水平
 
