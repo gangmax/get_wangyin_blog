@@ -1,6 +1,6 @@
 (defproject get_wangyin_blog "0.1.0-SNAPSHOT"
   :description "Get all Wangyin's blog pages and convert them into markdown format."
-  :url "http://github.com/gangmax"
+  :url "http://github.com/gangmax/get_wangyin_blog"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
