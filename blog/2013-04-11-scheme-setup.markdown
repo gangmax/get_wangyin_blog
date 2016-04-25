@@ -34,6 +34,7 @@ ParEdit mode 可以在这里下载：
 
 下载之后，把它放到一个目录里，比如 ~/.emacs.d，然后打开 ~/.emacs 配置文件，加入如下设置：
 
+    (add-to-list 'load-path "~/.emacs.d")
     (autoload 'paredit-mode "paredit"
       "Minor mode for pseudo-structurally editing Lisp code."
       t)
@@ -104,7 +105,7 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
 1.  `C-right`: 也就是按住 Ctrl 再按右箭头。它的作用是让光标右边的括号，“吞掉”下一个S表达式。
 
-    比如，`(a b c) (d e)`。你把光标放在 `(a b c)` 里面，然后按 `C-right`。结果就是 `(a b c (d e))`。也就是把 `(d e)` 被整个“吞进”了 `(a b c)` 里面。
+        比如，`(a b c) (d e)`。你把光标放在 `(a b c)` 里面，然后按 `C-right`。结果就是 `(a b c (d e))`。也就是把 `(d e)` 被整个“吞进”了 `(a b c)` 里面。 
 
 2.  `M-r`: 去掉外层代码。
 

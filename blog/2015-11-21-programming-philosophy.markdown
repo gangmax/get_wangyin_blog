@@ -293,16 +293,16 @@
 
 有些人喜欢利用IDE的自动换行机制，编辑之后用一个热键把整个代码重新格式化一遍，IDE就会把超过行宽限制的代码自动折行。可是这种自动这行，往往没有根据代码的逻辑来进行，不能帮助理解代码。自动换行之后可能产生这样的代码：
 
-       if (someLongCondition1() && someLongCondition2() && someLongCondition3() && 
+       if (someLongCondition1() && someLongCondition2() && someLongCondition3() &&
          someLongCondition4()) {
          ...
        }
 
 由于`someLongCondition4()`超过了行宽限制，被编辑器自动换到了下面一行。虽然满足了行宽限制，换行的位置却是相当任意的，它并不能帮助人理解这代码的逻辑。这几个boolean表达式，全都用`&&`连接，所以它们其实处于平等的地位。为了表达这一点，当需要折行的时候，你应该把每一个表达式都放到新的一行，就像这个样子：
 
-       if (someLongCondition1() && 
-           someLongCondition2() && 
-           someLongCondition3() && 
+       if (someLongCondition1() &&
+           someLongCondition2() &&
+           someLongCondition3() &&
            someLongCondition4()) {
          ...
        }
@@ -346,12 +346,12 @@
 
 *   永远不要省略花括号。很多语言允许你在某种情况下省略掉花括号，比如C，Java都允许你在if语句里面只有一句话的时候省略掉花括号：
 
-        if (...) 
+        if (...)
           action1();
 
     咋一看少打了两个字，多好。可是这其实经常引起奇怪的问题。比如，你后来想要加一句话`action2()`到这个if里面，于是你就把代码改成：
 
-        if (...) 
+        if (...)
           action1();
           action2();
 
@@ -509,11 +509,11 @@
       if (...) {
         ...
         return false;
-      } 
+      }
     } else if (...) {
       ...
       return false;
-    } 
+    }
     return true;
 
 这种写法看似更加简洁，避免了重复，然而却很容易出现疏忽和漏洞。嵌套的if语句省略了一些else，依靠语句的“控制流”来处理else的情况，是很难正确的分析和推理的。如果你的if条件里使用了`&&`和`||`之类的逻辑运算，就更难看出是否涵盖了所有的情况。
@@ -557,7 +557,7 @@
 错误处理是一个古老的问题，可是经过了几十年，还是很多人没搞明白。Unix的系统API手册，一般都会告诉你可能出现的返回值和错误信息。比如，Linux的[read](http://man7.org/linux/man-pages/man2/read.2.html)系统调用手册里面有如下内容：
 
 <pre>RETURN VALUE 
-On success, the number of bytes read is returned... 
+On success, the number of bytes read is returned...
 
 On error, -1 is returned, and errno is set appropriately.
 
@@ -815,5 +815,9 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 2.  先写出可用的代码，反复推敲，再考虑是否需要重用的问题。
 
 3.  先写出可用，简单，明显没有bug的代码，再考虑测试的问题。
+
+> 创造这样的精品文章需要很多的精力和咖啡 ;) 如果你喜欢这篇文章，请付款支持。建议金额$5美元。【[PayPal付款链接](http://paypal.me/yinwang0/5)】。支付宝二维码：
+> 
+> ![](http://upload-images.jianshu.io/upload_images/68562-87cccd26dde8490a.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
 
   </pre>
