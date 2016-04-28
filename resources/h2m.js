@@ -5,9 +5,9 @@
  * the "to-markdown" and "request" npm packages as well. At this moment I'm
  * using:
  *
- * node.js: 5.5.0
- * to-markdown: 2.0.1
- * request: 2.67.0
+ * node.js: 6.0.0
+ * to-markdown: 3.0.0
+ * request: 2.72.0
  *
  * This script is used to convert an HTML file into a markdown format string
  * which is based on:
