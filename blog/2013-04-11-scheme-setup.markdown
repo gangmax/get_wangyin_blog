@@ -10,15 +10,23 @@ Scheme 的配置有很多种方式，我不想介绍太多东西，免得有人�
 
 ### 安装 Scheme
 
-世界上最好的 Scheme 实现是 Chez Scheme，但是它不免费也不开源。所以如果你不想破费，那就只好下载一个它的“免费版”，叫做 Petite Chez Scheme（petite 是法语里“小”的意思）。它可以在这里下载：
+#### Chez Scheme
 
-[http://scheme.com/download](http://scheme.com/download)
+世界上最快，最成熟可靠的 Scheme 实现是 R. Kent Dybvig 所作的 Chez Scheme。它可以把 Scheme 编译成机器代码，运行速度非常高。Chez Scheme 曾经是商业软件，价格昂贵，然而现在却开源了，并且可以免费使用。你可以在这里下载 Chez Scheme 的源代码：
 
-这个页面挺长，上面都是正式版的 Chez Scheme，一点击就会叫你“联系销售人员”。要滚动到下面才能看见免费的版本。怎么安装我就不讲了，自己看说明应该很容易的。
+[https://github.com/cisco/ChezScheme](https://github.com/cisco/ChezScheme)
 
-Petite 是一个完善的，高效的实现，你可以把它当成解释器使用。这个解释器的速度非常之快，甚至比很多别的 Scheme 实现编译后的代码还要快。但是它有一个问题，就是它给出的出错信息太简约了，以至于连出错的函数名字都不告诉你。这样写大一点的程序就会比较痛苦了（虽然我还是用它写了2000多行的编译器代码）。
+编译安装很快很方便，在 Linux 和 Mac 系统基本就是这样：
 
-所以如果你想写稍微大点的东西，可以用 Racket。它可以在这里下载：
+    ./configure
+    make
+    sudo make install
+
+整个编译安装过程只需要30秒。这是世界上最快编译自己全套系统的编译器。
+
+#### Racket
+
+如果你对性能没有特别高的需求，主要用于学习，也可以用 Racket。它可以在这里下载：
 
 [http://racket-lang.org](http://racket-lang.org)
 
