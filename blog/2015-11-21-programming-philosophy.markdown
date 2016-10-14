@@ -816,8 +816,6 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
 3.  先写出可用，简单，明显没有bug的代码，再考虑测试的问题。
 
-> 创造这样的精品文章需要很多的精力和咖啡 ;) 如果你喜欢这篇文章，请付款支持。建议金额$5美元。【[PayPal付款链接](http://paypal.me/yinwang0/5)】。支付宝二维码：
-> 
-> ![](http://upload-images.jianshu.io/upload_images/68562-87cccd26dde8490a.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
+> 创造这样的精品文章需要很多的精力和咖啡 ;) 如果你喜欢这篇文章，请付款支持。建议金额$5美元或者30人民币。付款方式请参考[这里](http://www.yinwang.org/blog-cn/2016/04/13/pay-blog)。
 
-  </pre>
+                        </pre>
