@@ -47,14 +47,14 @@
       "Get the meaningful text content from the HTML content."
       [content prefix postfix]
       (let [
-        cannot-trim-tag "CANNOT find trim prefix/postfix!!!!!!\n\n\n"
         prefix-index (string/index-of content prefix)
         postfix-index (string/index-of content postfix)]
-        (if (and 
-              (not (nil? prefix-index))
-              (not (nil? postfix-index))
-              (>= prefix-index 0)
-              (> postfix-index prefix-index))
+        (if
+          (and 
+            (not (nil? prefix-index))
+            (not (nil? postfix-index))
+            (>= prefix-index 0)
+            (> postfix-index prefix-index))
           (subs content (+ prefix-index (count prefix)) postfix-index)
           content)))
 
