@@ -25,13 +25,18 @@ request(
   {uri: process.argv[2]},
   function(error, response, body){
     if(!error) {
-      var content = body.substring(
-        body.indexOf('<body>') + '<body>'.length,
-        body.indexOf('</body>'));
-      // 2. Convert the HTML content to markdown format.
-      var toMarkdown = require('to-markdown');
-      var md = toMarkdown(content.toString());
-      // 3. Write the markdown content.
-      console.log(md);
+      var fromIndex = body.indexOf('<body>');
+      var toIndex = body.indexOf('</body>');
+      var content = '';
+      if (fromIndex >= 0 && fromIndex < toIndex) {
+        content = body.substring(fromIndex + '<body>'.length, toIndex);
+        // 2. Convert the HTML content to markdown format.
+        var toMarkdown = require('to-markdown');
+        var md = toMarkdown(content.toString());
+        // 3. Write the markdown content.
+        console.log(md);
+      }
+    } else {
+      console.error(error);
     }
   });
