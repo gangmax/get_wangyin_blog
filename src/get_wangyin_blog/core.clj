@@ -21,6 +21,13 @@
     [net.cgrand.enlive-html :as html]
     [clojure.java.io :as io] ))
 
+(defn doseq-interval
+  "http://stackoverflow.com/questions/25733717/clojure-thread-sleep-between-map-evaluation"
+  [f coll interval]
+  (doseq [x coll]
+    (f x)
+    (Thread/sleep interval)))
+
 (defn download
   "Get all Wangyin's blog pages and convert them into markdown format."
   [base-url url-prefix target-directory]
@@ -32,7 +39,6 @@
           (html/html-resource
             (java.net.URL. base-url))
           [:li.list-group-item :a])))
-    
     (def file-names
       (map
         #(str
@@ -42,13 +48,15 @@
             (.replace \/ \-))
           ".markdown")
         links))
-    
     (defn trim-content
       "Get the meaningful text content from the HTML content."
       [content prefix postfix]
       (let [
         prefix-index (string/index-of content prefix)
         postfix-index (string/index-of content postfix)]
+        (do
+        ;(println (str "prefix-index=" prefix-index ", postfix-index=" postfix-index))
+        ;(println content)
         (if
           (and 
             (not (nil? prefix-index))
@@ -56,10 +64,11 @@
             (>= prefix-index 0)
             (> postfix-index prefix-index))
           (subs content (+ prefix-index (count prefix)) postfix-index)
-          content)))
+          content))))
 
     (pmap
-      #(let [
+      #(let
+        [
           file-path-name (str target-directory (second %))
           ; Handle the "301 Moved Permanently" error: which is caused by the
           ; "http://yinwang.org/" to "http://www.yinwang.org/" changes.
@@ -69,15 +78,19 @@
                   link
                   (str (first (string/split link #"//")) "//www." (second (string/split link #"//")))))
           prefix "<div style=\"margin: 2% 5% 2% 5%\">\n\n<table>\n\n<tbody>\n\n<tr>\n\n<td width=\"60%\">\n\n<div style=\"padding: 2% 8% 5% 8%; border: 1px solid LightGrey;\">\n\n"
-          postfix "\n</div>\n\n<div style=\"margin-top: 5px\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>\n\n</td>\n\n<td width=\"16%\" valign=\"top\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n</div>\n"]
-        (do
-          (println (str "Downloading '" url "'..."))
-          (spit file-path-name 
-            (trim-content 
-              (:out (sh (str (System/getProperty "user.dir") "/resources/h2m.js") url))
-              prefix postfix))
-          (println (str "Saved to " file-path-name "..."))
-          file-path-name))
+          postfix "\n</div>\n\n<div style=\"margin-top: 5px\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>\n\n</td>\n\n<td width=\"16%\" valign=\"top\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n</div>\n"
+        ]
+        (println (str "Downloading '" url "'..."))
+        (def text
+            (-> (str (System/getProperty "user.dir") "/resources/h2m.js")
+              (sh url)
+              :out
+              (trim-content prefix postfix)))
+        (when-not (empty? text) (spit file-path-name text))
+        (if (empty? text)
+          (println (str "CANNOT FETCH THE CONTENT BY THE GIVEN URL: " url "..."))
+          (println (str "Saved to " file-path-name "...")))
+        file-path-name)
       (zipmap links file-names))))
 
 (defn -main [& args]
