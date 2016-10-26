@@ -81,14 +81,13 @@
           postfix "\n</div>\n\n<div style=\"margin-top: 5px\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>\n\n</td>\n\n<td width=\"16%\" valign=\"top\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n</div>\n"
         ]
         (println (str "Downloading '" url "'..."))
-        (def text
-            (-> (str (System/getProperty "user.dir") "/resources/h2m.js")
-              (sh url)
-              :out
-              (trim-content prefix postfix)))
+        (def output
+          (-> (str (System/getProperty "user.dir") "/resources/h2m.js")
+              (sh url)))
+        (def text (trim-content (:out output) prefix postfix))
         (when-not (empty? text) (spit file-path-name text))
         (if (empty? text)
-          (println (str "CANNOT FETCH THE CONTENT BY THE GIVEN URL: " url "..."))
+          (println (str "CANNOT FETCH THE CONTENT BY THE GIVEN URL: " url ": " (:error output)))
           (println (str "Saved to " file-path-name "...")))
         file-path-name)
       (zipmap links file-names))))
