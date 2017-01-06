@@ -12,5 +12,4 @@ lein run
 
 Copyright © 2014 Max Huang
 
-Distributed under the Eclipse Public License either version 1.0 or (at your 
-option) any later version.
+Distributed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt).
