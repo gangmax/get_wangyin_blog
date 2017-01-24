@@ -1,18 +1,3 @@
-<div style="margin: 2% 5% 2% 5%">
-
-<table>
-
-<tbody>
-
-<tr>
-
-<td width="60%">
-
-<div style="padding: 2% 8% 5% 8%; border: 1px solid LightGrey;">
-
-## 我的 Tweet
-
-<div class="tweet">
 
 _2016.11.08_用了一段时间 C# 之后，发现之前习以为常的 Java 花括号规则，把开始花括号放在语句末尾，其实并不如 C 和 C# 的规则。  
 
@@ -120,20 +105,3 @@ _2016.05.25_是谁提出了 pair programming 这种做法，是谁在某些公�
 
 _2016.05.25_带妹纸一起看了『美国队长』。不幸的是没有买到小场的宽敞豪华座，只好去看了大场的 3D IMAX 版。3D 电影看起来其实不如普通的，画面感觉不真实，动作快了就看不清楚。而且塑料眼镜材料很次，各种扭曲反光，眼睛挺不舒服。最后我完全不知道这个片讲了什么故事，只觉得貌似一伙超人，因为某种误会打起来了，还挺好玩的。妹纸听了我的观后感，笑了 :)
 
-</div>
-
-</div>
-
-<div style="margin-top: 5px"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
-
-</td>
-
-<td width="16%" valign="top"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
