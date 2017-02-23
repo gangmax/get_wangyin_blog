@@ -19,19 +19,18 @@
  * Created by Max Huang.
  */
 
-// 1. Read the HTML file content.
 var request = require('request');
+var toMarkdown = require('to-markdown');
+// 1. Read the HTML file content.
 request(
   {uri: process.argv[2]},
   function(error, response, body){
     if(!error) {
       var fromIndex = body.indexOf('<body>');
       var toIndex = body.indexOf('</body>');
-      var content = '';
       if (fromIndex >= 0 && fromIndex < toIndex) {
-        content = body.substring(fromIndex + '<body>'.length, toIndex);
         // 2. Convert the HTML content to markdown format.
-        var toMarkdown = require('to-markdown');
+        var content = body.substring(fromIndex + '<body>'.length, toIndex);
         var md = toMarkdown(content.toString());
         // 3. Write the markdown content.
         console.log(md);
