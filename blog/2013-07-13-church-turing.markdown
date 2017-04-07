@@ -8,8 +8,6 @@
 
 <td>![](http://www.yinwang.org/images/Alonzo_Church.jpg)</td>
 
-<td> </td>
-
 <td>![](http://www.yinwang.org/images/Alan_Turing.jpg)</td>
 
 </tr>
