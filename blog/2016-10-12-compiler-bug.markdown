@@ -6,6 +6,8 @@
 
 看似合理，然而它却是不正确的，你能看出来这样的推理错在何处吗？我一时想不起来之前具体的例子了（如果你知道的话告诉我）。上网搜了一下相关话题，发现这篇 Chris Lattner (LLVM 和 [Swift 语言](http://www.yinwang.org/blog-cn/2016/06/06/swift) 的设计者) 写于 2011 年的[文章](http://blog.llvm.org/2011/05/what-every-c-programmer-should-know_14.html)。文中指出，编译器利用 C 语言的“未定义行为”进行优化，是合理的，对于性能是很重要的，并且举出这样一个例子：
 
+<div class="language-c highlighter-rouge">
+
     void contains_null_check(int *P) {
       int dead = *P;
       if (P == 0)
@@ -13,7 +15,11 @@
       *P = 4;
     }
 
+</div>
+
 这例子跟我之前看到的 GCC bug 不大一样，但大致是类似的推理方式：这个函数依次经过这样两个优化步骤（RNCE 和 DCE），之后得出“等价”的代码：
+
+<div class="language-c highlighter-rouge">
 
     void contains_null_check_after_RNCE(int *P) {
       int dead = *P;
@@ -22,12 +28,18 @@
       *P = 4;
     }
 
+</div>
+
+<div class="language-c highlighter-rouge">
+
     void contains_null_check_after_RNCE_and_DCE(int *P) {
       //int dead = *P;    // 死代码消除
       //if (false)        // 死代码
       //  return;         // 死代码
       *P = 4;
     }
+
+</div>
 
 他的推理方式是这样：
 

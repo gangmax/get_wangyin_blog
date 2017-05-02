@@ -18,9 +18,13 @@ Scheme 的配置有很多种方式，我不想介绍太多东西，免得有人�
 
 编译安装很快很方便，在 Linux 和 Mac 系统基本就是这样：
 
+<div class="highlighter-rouge">
+
     ./configure
     make
     sudo make install
+
+</div>
 
 整个编译安装过程只需要30秒。这是世界上最快编译自己全套系统的编译器。
 
@@ -42,16 +46,22 @@ ParEdit mode 可以在这里下载：
 
 下载之后，把它放到一个目录里，比如 ~/.emacs.d，然后打开 ~/.emacs 配置文件，加入如下设置：
 
+<div class="highlighter-rouge">
+
     (add-to-list 'load-path "~/.emacs.d")
     (autoload 'paredit-mode "paredit"
       "Minor mode for pseudo-structurally editing Lisp code."
       t)
+
+</div>
 
 这样，只要你使用 M-x paredit-mode 就可以自动载入这个模式。具体的操作方式可以看它的说明（按 C-h m 查看“模式帮助”），我下面也会简单说一下。
 
 ### 设置 scheme mode
 
 我一般就用系统自带的 Scheme 模式，叫 cmuscheme。但是为了方便，我自己写了几个函数，用于在执行 Scheme 代码的时候自动启动解释器，并且打开解释器窗口。你基本只需要把下面的代码拷贝到你的 .emacs 文件里就行：
+
+<div class="highlighter-rouge">
 
     ;;;;;;;;;;;;
     ;; Scheme 
@@ -103,6 +113,8 @@ ParEdit mode 可以在这里下载：
         (define-key scheme-mode-map (kbd "<f5>") 'scheme-send-last-sexp-split-window)
         (define-key scheme-mode-map (kbd "<f6>") 'scheme-send-definition-split-window)))
 
+</div>
+
 我的配置会在加载 Scheme 文件的时候自动载入 ParEdit mode，并且把 F5 键绑定到“执行前面的S表达式”。这样设置的目的是，我只要把光标移动到一个S表达式之后，然后用一根手指头按 F5，就可以执行程序。够懒吧。
 
 ### ParEdit mode 的简单使用方法
@@ -113,18 +125,30 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
 1.  `C-right`: 也就是按住 Ctrl 再按右箭头。它的作用是让光标右边的括号，“吞掉”下一个S表达式。
 
+    <div class="highlighter-rouge">
+
         比如，`(a b c) (d e)`。你把光标放在 `(a b c)` 里面，然后按 `C-right`。结果就是 `(a b c (d e))`。也就是把 `(d e)` 被整个“吞进”了 `(a b c)` 里面。 
+
+    </div>
 
 2.  `M-r`: 去掉外层代码。
 
     这在你需要去掉外层的 let 等结构的时候非常有用。比如，如果你的代码看起来是这样：
 
+    <div class="highlighter-rouge">
+
         (let ([x 10])
           (* x 2))
 
+    </div>
+
     当你把光标放在 `(* x 2)` 的最左边，然后按 `M-r`，结果就变成了
 
+    <div class="highlighter-rouge">
+
         (* x 2)
+
+    </div>
 
     也就是把外面的 `(let ([x 10]) ...)` 给“掀掉”了。
 
@@ -140,8 +164,12 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
 然后在 .emacs 里面加入两行：
 
+<div class="highlighter-rouge">
+
     (require 'parenface)
     (set-face-foreground 'paren-face "DimGray")
+
+</div>
 
 然后再打开 Scheme 代码的时候，你就会看到是这个样子：
 

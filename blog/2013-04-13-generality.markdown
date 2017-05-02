@@ -9,7 +9,7 @@
 [http://www.snopes.com/business/genius/spacepen.asp](http://www.snopes.com/business/genius/spacepen.asp)
 
 > 传说 1960 年代美俄“太空竞赛”的时候，NASA 遇到一个严重的技术问题：宇航员需要一支可以在外太空的真空中写字的钢笔。最后 NASA 耗资150万美元研制出了这样的钢笔。可惜这种钢笔在市场上并不行销。
-> 
+
 > 俄国人也遇到同样的问题。他们使用了铅笔。
 
 这个故事虽然是假的，但是却具有伊索寓言的威力。现在再来看我们的软件行业，你也许会发现：

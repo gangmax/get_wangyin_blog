@@ -16,19 +16,35 @@
 
 有些人很在乎 `i++` 与 `++i` 的区别，去追究 `(i++) + (++i)` 这类表达式的含义，追究 `i++` 与 `++i` 谁的效率更高。这些其实都是徒劳的。比如，`i++` 与 `++i` 的效率差别，其实来自于早期 C 编译器的愚蠢。因为 `i++` 需要在增加之后返回 `i` 原来的值，所以它其实被编译为：
 
+<div class="highlighter-rouge">
+
     (tmp = i, i = i + 1, tmp)
+
+</div>
 
 但是在
 
+<div class="highlighter-rouge">
+
     for (int i = 0; i < max; i++)
+
+</div>
 
 这样的语句中，其实你并不需要在 `i++` 之后得到它自增前的值。所以有人说，在这里应该用 `++i` 而不是 `i++`，否则你就会浪费一次对中间变量 `tmp` 的赋值。而其实呢，一个良好设计的编译器应该在两种情况下都生成相同的代码。这是因为在 `i++` 的情况，代码其实先被转化为：
 
+<div class="highlighter-rouge">
+
     for (int i = 0; i < max; (tmp = i, i = i + 1, tmp))
+
+</div>
 
 由于 `tmp` 这个临时变量从来没被用过，所以它会被编译器的“dead code elimination”消去。所以编译器最后实际上得到了：
 
+<div class="highlighter-rouge">
+
     for (int i = 0; i < max; i = i + 1)
+
+</div>
 
 所以，“精通”这些细微的问题，并不能让你成为一个好的程序员。很多人所认为的高明的技巧，经常都是因为早期系统设计的缺陷所致。一旦这些系统被改进，这些技巧就没什么用处了。
 
@@ -40,12 +56,20 @@
 
 在几乎所有像 C，C++，Java 的语言里，赋值语句都可以被作为值。之所以设计成这样，是因为你就可以写这样的代码：
 
+<div class="highlighter-rouge">
+
     if (y = 0) { ... }
+
+</div>
 
 而不是
 
+<div class="highlighter-rouge">
+
     y = 0;
     if (y) { ... }
+
+</div>
 
 程序好像缩短了一行，然而，这种写法经常引起一种常见的错误，那就是为了写 `if (y == 0) { ... }` 而把 `==` 比较操作少打了一个 `=`，变成了 `if (y = 0) { ... }`。很多人犯这个错误，是因为数学里的 `=` 就是比较两个值是否相等的意思。
 
@@ -53,11 +77,19 @@
 
 正确的做法是什么呢？在一个类型完备的语言里面，像 `y=0` 这样的赋值语句，其实是不应该可以返回一个值的，所以它不允许你写：
 
+<div class="highlighter-rouge">
+
     x = y = 0
+
+</div>
 
 或者
 
+<div class="highlighter-rouge">
+
     if (y = 0) { ... }
+
+</div>
 
 这样的代码。
 
@@ -71,14 +103,22 @@
 
 1.  Google 公司的代码规范里面规定，在任何情况下 for 语句和 if 语句之后必须写花括号，即使 C 和 Java 允许你在其只包含一行代码的时候省略它们。比如，你不能这样写
 
+    <div class="highlighter-rouge">
+
         for (int i=0; i < n; i++)
            some_function(i);
 
+    </div>
+
     而必须写成
+
+    <div class="highlighter-rouge">
 
          for (int i=0; i < n; i++) {
            some_function(i);
          }
+
+    </div>
 
     请分析：这样多写两个花括号，是好还是不好？
 
@@ -86,18 +126,26 @@
 
 2.  当我第二次到 Google 实习的时候，发现我一年前给他们写的代码，很多被调整了结构。几乎所有如下结构的代码：
 
+    <div class="highlighter-rouge">
+
          if (condition) {
            return x;
          } else {
            return y;
          }
 
+    </div>
+
     都被人改成了：
+
+    <div class="highlighter-rouge">
 
          if (condition) {
            return x;
          }
          return y;
+
+    </div>
 
     请问这里省略了一个 `else` 和两个花括号，会带来什么好处或者坏处？
 
