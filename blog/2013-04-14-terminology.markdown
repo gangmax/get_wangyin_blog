@@ -8,11 +8,19 @@
 
     在 C/C++ 里面使用这样的表达式顺序：
 
+    <div class="highlighter-rouge">
+
         if ("blue" == theSky) ...
+
+    </div>
 
     这是为了避免意外的写成：
 
+    <div class="highlighter-rouge">
+
         if (theSky = "blue") ...
+
+    </div>
 
     “Yoda 表示法”的名字来源于《星球大战》的 Yoda 大师。他说话的单词顺序相当奇特，比如：“Backwards it is, yes!”
 

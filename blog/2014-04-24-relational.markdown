@@ -10,13 +10,19 @@
 
 关系模型的每一个“关系”或者“行”（row），表示的不过是一个普通语言里的“结构”，就像C语言的struct。一个表（table），其实不过是某种结构的数组。举个例子，以下SQL语句构造的数据库表：
 
+<div class="highlighter-rouge">
+
     CREATE TABLE Students ( sid CHAR(20),
                             name CHAR(20),
                             login CHAR(20),
                             age INTEGER,
                             gpa REAL )
 
+</div>
+
 其实相当于以下C语言的结构数组：
+
+<div class="highlighter-rouge">
 
     struct student {
       char* sid;
@@ -26,18 +32,28 @@
       double gpa;
     }
 
+</div>
+
 每一个“foreign key”，其实就是一个指针。每一个join操作，本质上就是对指针的“访问”，找到它所指向的对象。在实现上，join跟指针引用有一定差别，因为 join需要查“索引”（index），所以它比指针引用要慢。
 
 所谓的查询（query），本质上就是函数式语言里面的filter, map等操作。只不过关系式代数更加笨拙，组合能力很弱。比如，以下的SQL语句
+
+<div class="highlighter-rouge">
 
     SELECT Book.title
      FROM Book
      WHERE price > 100
 
+</div>
+
 其实相当于以下的Lisp代码：
+
+<div class="highlighter-rouge">
 
     (map .title
          (filter (lambda (b) (> (.price b) 100)) Book)
+
+</div>
 
 ### 关系式模型的局限性
 

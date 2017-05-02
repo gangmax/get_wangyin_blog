@@ -16,21 +16,33 @@ Go 的简单性体现在它的语法和语义的某些方面。Go 的语法比 C
 
 *   进步：Go 有语法支持一种类似 struct literal 的构造，比如你可以写这样的代码来构造一个 S struct：
 
+    <div class="highlighter-rouge">
+
         S { x: 1, y: 2, }
+
+    </div>
 
     这比起 Java 只能用构造函数来创建对象是一个不错的方便性上的改进。这些东西可能借鉴于 JavaScript 等语言的设计。
 
 *   倒退：类型放在变量后面，却没有分隔符。如果变量和它的类型写成像 Pascal 那样的，比如 `x : int`，那也许还好。然而 Go 的写法却是 `x int`，没有那个冒号，而且允许使用 `x, y int` 这样的写法。这种语法跟 var，函数参数组合在一起之后，就产生了扰乱视线的效果。比如你可以写一个函数是这样开头的：
 
+    <div class="highlighter-rouge">
+
           func foo(s string, x, y, z int, c bool) {
             ...
           }
 
+    </div>
+
     注意 x, y, z 那个位置，其实是很混淆的。因为看见 `x` 的时候我不能立即从后面那个符号（`, y`）看到它是什么类型。所以在 Go 里面我推荐的写法是把 `x` 和 `y` 完全分开，就像 C 和 Java 那样，不过类型写在后面：
+
+    <div class="highlighter-rouge">
 
           func foo(s string, x int, y int, z int, c bool) {
             ...
           }
+
+    </div>
 
     这样一来就比较清晰了，虽然我愿意再多写一些冒号。每一个参数都是“名字 类型”的格式，所以我一眼就看到 x 是 int。虽然多打几个字，然而节省的是“眼球 parse 代码”的开销。
 
@@ -38,7 +50,7 @@ Go 的简单性体现在它的语法和语义的某些方面。Go 的语法比 C
 
 *   倒退：过度地“语法重载”，比如 switch, for 等关键字。Go 的 switch 关键字其实包含了两种不同的东西。它可以是 C 里面的普通的 switch（Scheme 的 case），也可以是像 Scheme 的 cond 那样的嵌套分支语句。这两种语句其实是语义完全不同的，然而 Go 的设计者为了显得简单，把它们合二为一，而其实引起了更大的混淆。这是因为，就算你把它们合二为一，它们仍然是两种不同的语义结构。把它们合并的结果是，每次看到 switch 你都需要从它们“头部”的不同点把这两种不同的结构区分开来，增加了人脑的开销。正确的作法是把它们分开，就像 Scheme 那样。其实我设计语言的时候有时候也犯同样的错误，以为两个东西“本质”上是一样的，所以合二为一，结果经过一段时间，发现其实是不一样的。所以不要小看了 Scheme，很多你认为是“新想法”的东西，其实早就被它那非常严谨的委员会给抛弃在了历史的长河中。
 
-Go 语言里面还有其他一些语法设计问题，比如强制把 `{` 放在一行之后而且不能换行，if 语句的判断开头可以嵌套赋值操作等等。这些试图让程序显得短小的作法，其实反而降低了程序理解的流畅度。
+Go 语言里面还有其他一些语法设计问题，比如强制把 `<span class="p">{</span>` 放在一行之后而且不能换行，if 语句的判断开头可以嵌套赋值操作等等。这些试图让程序显得短小的作法，其实反而降低了程序理解的流畅度。
 
 所以总而言之，Go 的语法很难被叫做“简单”或者“优雅”，它的简单性其实在 Java 之下。
 
@@ -80,14 +92,22 @@ Go 和 Unix 系统一样，在出现的早期就已经因为不吸取前人的�
 
 很多人都觉得 Go 的多返回值设计是一个进步，然而这里面却有很多蹊跷的东西。且不说这根本不是什么新东西（Scheme 很早就有了多返回值 let-values），Go 的多返回值却被大量的用在了错误的地方—Go 利用多返回值来表示出错信息。比如 Go 代码里最常见的结构就是：
 
+<div class="highlighter-rouge">
+
     ret, err := foo(x, y, z)
     if err != nil {
-        return err
+    	return err
     }
+
+</div>
 
 如果 `foo` 的调用产生了错误，那么 `err` 就不是 nil。Go 要求你在定义了变量之后必须使用它，否则报错。这样它“碰巧”避免了出现错误 `err` 而不检查的情况。否则如果你想忽略错误，就必须写成
 
+<div class="highlighter-rouge">
+
     ret, _ := foo(x, y, z)
+
+</div>
 
 这样当 foo 出错的时候，程序就会自动在那个位置当掉。
 
@@ -116,7 +136,11 @@ Go 采用了基于接口（interface）的面向对象设计，你可以使用�
 
 想想 sort 在函数式语言里有多简单吧？比如，Scheme 和 OCaml 都可以直接这样写：
 
+<div class="highlighter-rouge">
+
     (sort '(3 4 1 2) <)
+
+</div>
 
 这里 Scheme 把函数 `<` 直接作为参数传给 sort 函数，而没有包装在什么接口里面。你发现了吗，Go 的那个 interface 里面的三个方法，其实本来应该作为三个参数直接传递给 Sort，但由于受到 design pattern 等思想的局限，Go 的设计者把它们“打包”作为接口来传递。而且由于 Go 没有 generics，你无法像函数式语言一样写这三个函数，接受比较的“元素”作为参数，而必须使用它们的“下标”。由于这些方法只接受下标作为参数，所以 Sort 只能对数组进行排序。另外由于 Go 的设计比较“底层”，所以你需要另外两个参数: len 和 swap。
 
@@ -126,9 +150,9 @@ Go 采用了基于接口（interface）的面向对象设计，你可以使用�
 
 Goroutine 可以说是 Go 的最重要的特色。很多人使用 Go 就是听说 goroutine 能支持所谓的“大并发”。
 
-首先这种大并发并不是什么新鲜东西。每个理解程序语言理论的人都知道 goroutine 其实就是一些用户级的 "continuation"。系统级的 continuation 通常被叫做“进程”或者“线程”。Continuation 是函数式语言专家们再了解不过的东西了，比如我的前导师 Amr Sabry 就是关于 continuation 的顶级专家之一。
+首先这种大并发并不是什么新鲜东西。每个理解程序语言理论的人都知道 goroutine 其实就是一些用户级的 “continuation”。系统级的 continuation 通常被叫做“进程”或者“线程”。Continuation 是函数式语言专家们再了解不过的东西了，比如我的前导师 Amr Sabry 就是关于 continuation 的顶级专家之一。
 
-Node.js 那种 "callback hell"，其实就是函数式语言里面常用的一种手法，叫做 continuation passing style (CPS)。而我在 Friedman 课上写的那“40行代码”就是用来实现从普通程序到 CPS 程序的转化的。由于 Scheme 有 call/cc，所以从理论上讲，它可以不通过 CPS 样式的代码而实现大并发。
+Node.js 那种 “callback hell”，其实就是函数式语言里面常用的一种手法，叫做 continuation passing style (CPS)。而我在 Friedman 课上写的那“40行代码”就是用来实现从普通程序到 CPS 程序的转化的。由于 Scheme 有 call/cc，所以从理论上讲，它可以不通过 CPS 样式的代码而实现大并发。
 
 所以函数式语言只要支持 continuation，就会很容易的实现大并发，也许还会更高效，更好用一些。比如 Scheme 的一个实现 Gambit-C 就可以被用来实现大并发的东西。Chez Scheme 也许也可以，不过还有待确认。
 
@@ -150,15 +174,19 @@ Go 的标准库的设计里面带有浓郁的 Unix 气息。比起 Java 之类�
 
 ### HTML template 库
 
-我使用过 Go 的 template library 来生成一些网页。这是一种“基本可用”的模板方式，然而比起很多其他成熟的技术，却是相当的不足的。让我比较惊讶的是，Go 的 template 里面夹带的代码，居然不是 Go 语言自己，而是一种表达能力相当弱的语言，有点像一种退化的 Lisp，只不过把括号换成了 `{ {...} }` 这样的东西。
+我使用过 Go 的 template library 来生成一些网页。这是一种“基本可用”的模板方式，然而比起很多其他成熟的技术，却是相当的不足的。让我比较惊讶的是，Go 的 template 里面夹带的代码，居然不是 Go 语言自己，而是一种表达能力相当弱的语言，有点像一种退化的 Lisp，只不过把括号换成了 `<span class="p">{</span> <span class="w"></span> <span class="err">{...</span><span class="p">}</span> <span class="w"></span> <span class="err">}</span>` 这样的东西。
 
 比如你可以写这样的网页模板：
+
+<div class="highlighter-rouge">
 
     { {define "Contents"} }
     { {if .Paragraph.Length} }
     <p>{ {.Paragraph.Content} }</p>
     { {end} }
     { {end} }
+
+</div>
 
 由于每个模板接受一个 struct 作为填充的数据，你可以使用 `.Paragraph.Content` 这样的代码，然而这不但很丑陋，而且让模板不灵活，不好理解。你需要把需要的数据全都放进同一个结构才能从模板里面访问它们。
 
