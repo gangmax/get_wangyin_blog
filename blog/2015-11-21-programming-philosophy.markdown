@@ -732,35 +732,42 @@
 
 错误处理是一个古老的问题，可是经过了几十年，还是很多人没搞明白。Unix的系统API手册，一般都会告诉你可能出现的返回值和错误信息。比如，Linux的[read](http://man7.org/linux/man-pages/man2/read.2.html)系统调用手册里面有如下内容：
 
-<pre>RETURN VALUE 
-On success, the number of bytes read is returned...
+<div class="highlighter-rouge">
 
-On error, -1 is returned, and errno is set appropriately.
+    RETURN VALUE 
+    On success, the number of bytes read is returned...
 
-ERRORS
+    On error, -1 is returned, and errno is set appropriately.
 
-EAGAIN, EBADF, EFAULT, EINTR, EINVAL, ...
-</pre>
+    ERRORS
+
+    EAGAIN, EBADF, EFAULT, EINTR, EINVAL, ...
+
+</div>
 
 很多初学者，都会忘记检查`read`的返回值是否为-1，觉得每次调用`read`都得检查返回值真繁琐，不检查貌似也相安无事。这种想法其实是很危险的。如果函数的返回值告诉你，要么返回一个正数，表示读到的数据长度，要么返回-1，那么你就必须要对这个-1作出相应的，有意义的处理。千万不要以为你可以忽视这个特殊的返回值，因为它是一种“可能性”。代码漏掉任何一种可能出现的情况，都可能产生意想不到的灾难性结果。
 
 对于Java来说，这相对方便一些。Java的函数如果出现问题，一般通过异常（exception）来表示。你可以把异常加上函数本来的返回值，看成是一个“union类型”。比如：
 
-```
-String foo() throws MyException {
-  ...
-}
-```
+<div class="highlighter-rouge">
 
-这里MyException是一个错误返回。你可以认为这个函数返回一个union类型：`{String, MyException}`。任何调用`foo`的代码，必须对MyException作出合理的处理，才有可能确保程序的正确运行。Union类型是一种相当先进的类型，目前只有极少数语言（比如Typed Racket）具有这种类型，我在这里提到它，只是为了方便解释概念。掌握了概念之后，你其实可以在头脑里实现一个union类型系统，这样使用普通的语言也能写出可靠的代码。
+    String foo() throws MyException {
+      ...
+    }
+
+</div>
+
+这里MyException是一个错误返回。你可以认为这个函数返回一个union类型：`<span class="p">{</span><span class="err">String,</span> <span class="w"></span> <span class="err">MyException</span><span class="p">}</span>`。任何调用`foo`的代码，必须对MyException作出合理的处理，才有可能确保程序的正确运行。Union类型是一种相当先进的类型，目前只有极少数语言（比如Typed Racket）具有这种类型，我在这里提到它，只是为了方便解释概念。掌握了概念之后，你其实可以在头脑里实现一个union类型系统，这样使用普通的语言也能写出可靠的代码。
 
 由于Java的类型系统强制要求函数在类型里面声明可能出现的异常，而且强制调用者处理可能出现的异常，所以基本上不可能出现由于疏忽而漏掉的情况。但有些Java程序员有一种恶习，使得这种安全机制几乎完全失效。每当编译器报错，说“你没有catch这个foo函数可能出现的异常”时，有些人想都不想，直接把代码改成这样：
 
-```
-try {
-  foo();
-} catch (Exception e) {}
-```
+<div class="highlighter-rouge">
+
+    try {
+      foo();
+    } catch (Exception e) {}
+
+</div>
 
 或者最多在里面放个log，或者干脆把自己的函数类型上加上`throws Exception`，这样编译器就不再抱怨。这些做法貌似很省事，然而都是错误的，你终究会为此付出代价。
 
@@ -770,26 +777,30 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
 如果你在自己函数的类型加上`throws Exception`，那么你就不可避免的需要在调用它的地方处理这个异常，如果调用它的函数也写着`throws Exception`，这毛病就传得更远。我的经验是，尽量在异常出现的当时就作出处理。否则如果你把它返回给你的调用者，它也许根本不知道该怎么办了。
 
-另外，try { ... } catch里面，应该包含尽量少的代码。比如，如果`foo`和`bar`都可能产生异常A，你的代码应该尽可能写成：
+另外，try { … } catch里面，应该包含尽量少的代码。比如，如果`foo`和`bar`都可能产生异常A，你的代码应该尽可能写成：
 
-```
-try {
-  foo();
-} catch (A e) {...}
+<div class="highlighter-rouge">
 
-try {
-  bar();
-} catch (A e) {...}
-```
+    try {
+      foo();
+    } catch (A e) {...}
+
+    try {
+      bar();
+    } catch (A e) {...}
+
+</div>
 
 而不是
 
-```
-try {
-  foo();
-  bar();
-} catch (A e) {...}
-```
+<div class="highlighter-rouge">
+
+    try {
+      foo();
+      bar();
+    } catch (A e) {...}
+
+</div>
 
 第一种写法能明确的分辨是哪一个函数出了问题，而第二种写法全都混在一起。明确的分辨是哪一个函数出了问题，有很多的好处。比如，如果你的catch代码里面包含log，它可以提供给你更加精确的错误信息，这样会大大地加速你的调试过程。
 
@@ -801,213 +812,242 @@ try {
 
 这些语言的类型系统允许null出现在任何对象（指针）类型可以出现的地方，然而null其实根本不是一个合法的对象。它不是一个String，不是一个Integer，也不是一个自定义的类。null的类型本来应该是NULL，也就是null自己。根据这个基本观点，我们推导出以下原则：
 
-- 尽量不要产生null指针。尽量不要用null来初始化变量，函数尽量不要返回null。如果你的函数要返回“没有”，“出错了”之类的结果，尽量使用Java的异常机制。虽然写法上有点别扭，然而Java的异常，和函数的返回值合并在一起，基本上可以当成union类型来用。比如，如果你有一个函数find，可以帮你找到一个String，也有可能什么也找不到，你可以这样写：
+*   尽量不要产生null指针。尽量不要用null来初始化变量，函数尽量不要返回null。如果你的函数要返回“没有”，“出错了”之类的结果，尽量使用Java的异常机制。虽然写法上有点别扭，然而Java的异常，和函数的返回值合并在一起，基本上可以当成union类型来用。比如，如果你有一个函数find，可以帮你找到一个String，也有可能什么也找不到，你可以这样写：
 
-  ```
-  public String find() throws NotFoundException {
-    if (...) {
-      return ...;
-    } else {
-      throw new NotFoundException();
-    }
-}
-```
+    <div class="highlighter-rouge">
 
-  Java的类型系统会强制你catch这个NotFoundException，所以你不可能像漏掉检查null一样，漏掉这种情况。Java的异常也是一个比较容易滥用的东西，不过我已经在上一节告诉你如何正确的使用异常。
+        public String find() throws NotFoundException {
+          if (...) {
+            return ...;
+          } else {
+            throw new NotFoundException();
+          }
+        }
 
-  Java的try...catch语法相当的繁琐和蹩脚，所以如果你足够小心的话，像`find`这类函数，也可以返回null来表示“没找到”。这样稍微好看一些，因为你调用的时候不必用try...catch。很多人写的函数，返回null来表示“出错了”，这其实是对null的误用。“出错了”和“没有”，其实完全是两码事。“没有”是一种很常见，正常的情况，比如查哈希表没找到，很正常。“出错了”则表示罕见的情况，本来正常情况下都应该存在有意义的值，偶然出了问题。如果你的函数要表示“出错了”，应该使用异常，而不是null。
+    </div>
 
-- 不要catch NullPointerException。有些人写代码很nice，他们喜欢“容错”。首先他们写一些函数，这些函数里面不大小心，没检查null指针：
+    Java的类型系统会强制你catch这个NotFoundException，所以你不可能像漏掉检查null一样，漏掉这种情况。Java的异常也是一个比较容易滥用的东西，不过我已经在上一节告诉你如何正确的使用异常。
 
-  ```
-  void foo() {
-    String found = find();
-    int len = found.length();
-    ...
-  }
-  ```
+    Java的try…catch语法相当的繁琐和蹩脚，所以如果你足够小心的话，像`find`这类函数，也可以返回null来表示“没找到”。这样稍微好看一些，因为你调用的时候不必用try…catch。很多人写的函数，返回null来表示“出错了”，这其实是对null的误用。“出错了”和“没有”，其实完全是两码事。“没有”是一种很常见，正常的情况，比如查哈希表没找到，很正常。“出错了”则表示罕见的情况，本来正常情况下都应该存在有意义的值，偶然出了问题。如果你的函数要表示“出错了”，应该使用异常，而不是null。
 
-  当foo调用产生了异常，他们不管三七二十一，就把调用的地方改成这样：
+*   不要catch NullPointerException。有些人写代码很nice，他们喜欢“容错”。首先他们写一些函数，这些函数里面不大小心，没检查null指针：
 
-  ```
-  try {
-    foo();
-  } catch (Exception e) {
-    ...
-  }
-  ```
+    <div class="highlighter-rouge">
 
-  这样当found是null的时候，NullPointerException就会被捕获并且得到处理。这其实是很错误的作法。首先，上一节已经提到了，`catch (Exception e)`这种写法是要绝对避免的，因为它捕获所有的异常，包括NullPointerException。这会让你意外地捕获try语句里面出现的NullPointerException，从而把代码的逻辑搅得一塌糊涂。
+        void foo() {
+          String found = find();
+          int len = found.length();
+          ...
+        }
 
-  另外就算你写成`catch (NullPointerException e)`也是不可以的。由于foo的内部缺少了null检查，才出现了NullPointerException。现在你不对症下药，倒把每个调用它的地方加上catch，以后你的生活就会越来越苦。正确的做法应该是改动foo，而不改调用它的代码。foo应该被改成这样：
+    </div>
 
-  ```
-  void foo() {
-    String found = find();
-    if (found != null) {
-      int len = found.length();
-      ...
-    } else {
-      ...
-    }
-  }
-  ```
+    当foo调用产生了异常，他们不管三七二十一，就把调用的地方改成这样：
 
-   在null可能出现的当时就检查它是否是null，然后进行相应的处理。
+    <div class="highlighter-rouge">
 
-- 不要把null放进“容器数据结构”里面。所谓容器（collection），是指一些对象以某种方式集合在一起，所以null不应该被放进Array，List，Set等结构，不应该出现在Map的key或者value里面。把null放进容器里面，是一些莫名其妙错误的来源。因为对象在容器里的位置一般是动态决定的，所以一旦null从某个入口跑进去了，你就很难再搞明白它去了哪里，你就得被迫在所有从这个容器里取值的位置检查null。你也很难知道到底是谁把它放进去的，代码多了就导致调试极其困难。
+        try {
+          foo();
+        } catch (Exception e) {
+          ...
+        }
 
-  解决方案是：如果你真要表示“没有”，那你就干脆不要把它放进去（Array，List，Set没有元素，Map根本没那个entry），或者你可以指定一个特殊的，真正合法的对象，用来表示“没有”。
+    </div>
 
-  需要指出的是，类对象并不属于容器。所以null在必要的时候，可以作为对象成员的值，表示它不存在。比如：
+    这样当found是null的时候，NullPointerException就会被捕获并且得到处理。这其实是很错误的作法。首先，上一节已经提到了，`catch (Exception e)`这种写法是要绝对避免的，因为它捕获所有的异常，包括NullPointerException。这会让你意外地捕获try语句里面出现的NullPointerException，从而把代码的逻辑搅得一塌糊涂。
 
-  ```
-  class A {
-    String name = null;
-    ...
-  }
-  ```
+    另外就算你写成`catch (NullPointerException e)`也是不可以的。由于foo的内部缺少了null检查，才出现了NullPointerException。现在你不对症下药，倒把每个调用它的地方加上catch，以后你的生活就会越来越苦。正确的做法应该是改动foo，而不改调用它的代码。foo应该被改成这样：
 
-  之所以可以这样，是因为null只可能在A对象的name成员里出现，你不用怀疑其它的成员因此成为null。所以你每次访问name成员时，检查它是否是null就可以了，不需要对其他成员也做同样的检查。
+    <div class="highlighter-rouge">
 
-- 函数调用者：明确理解null所表示的意义，尽早检查和处理null返回值，减少它的传播。null很讨厌的一个地方，在于它在不同的地方可能表示不同的意义。有时候它表示“没有”，“没找到”。有时候它表示“出错了”，“失败了”。有时候它甚至可以表示“成功了”，…… 这其中有很多误用之处，不过无论如何，你必须理解每一个null的意义，不能给混淆起来。
+        void foo() {
+          String found = find();
+          if (found != null) {
+            int len = found.length();
+            ...
+          } else {
+            ...
+          }
+        }
 
-  如果你调用的函数有可能返回null，那么你应该在第一时间对null做出“有意义”的处理。比如，上述的函数`find`，返回null表示“没找到”，那么调用`find`的代码就应该在它返回的第一时间，检查返回值是否是null，并且对“没找到”这种情况，作出有意义的处理。
+    </div>
 
-  “有意义”是什么意思呢？我的意思是，使用这函数的人，应该明确的知道在拿到null的情况下该怎么做，承担起责任来。他不应该只是“向上级汇报”，把责任踢给自己的调用者。如果你违反了这一点，就有可能采用一种不负责任，危险的写法：
+    在null可能出现的当时就检查它是否是null，然后进行相应的处理。
 
-  ```
-  public String foo() {
-    String found = find();
-    if (found == null) {
-      return null;
-    }
-  }
-  ```
+*   不要把null放进“容器数据结构”里面。所谓容器（collection），是指一些对象以某种方式集合在一起，所以null不应该被放进Array，List，Set等结构，不应该出现在Map的key或者value里面。把null放进容器里面，是一些莫名其妙错误的来源。因为对象在容器里的位置一般是动态决定的，所以一旦null从某个入口跑进去了，你就很难再搞明白它去了哪里，你就得被迫在所有从这个容器里取值的位置检查null。你也很难知道到底是谁把它放进去的，代码多了就导致调试极其困难。
 
-  当看到find()返回了null，foo自己也返回null。这样null就从一个地方，游走到了另一个地方，而且它表示另外一个意思。如果你不假思索就写出这样的代码，最后的结果就是代码里面随时随地都可能出现null。到后来为了保护自己，你的每个函数都会写成这样：
+    解决方案是：如果你真要表示“没有”，那你就干脆不要把它放进去（Array，List，Set没有元素，Map根本没那个entry），或者你可以指定一个特殊的，真正合法的对象，用来表示“没有”。
 
-  ```
-  public void foo(A a, B b, C c) {
-    if (a == null) { ... }
-    if (b == null) { ... }
-    if (c == null) { ... }
-    ...
-  }
-  ```
+    需要指出的是，类对象并不属于容器。所以null在必要的时候，可以作为对象成员的值，表示它不存在。比如：
 
-- 函数作者：明确声明不接受null参数，当参数是null时立即崩溃。不要试图对null进行“容错”，不要让程序继续往下执行。如果调用者使用了null作为参数，那么调用者（而不是函数作者）应该对程序的崩溃负全责。
+    <div class="highlighter-rouge">
 
-  上面的例子之所以成为问题，就在于人们对于null的“容忍态度”。这种“保护式”的写法，试图“容错”，试图“优雅的处理null”，其结果是让调用者更加肆无忌惮的传递null给你的函数。到后来，你的代码里出现一堆堆nonsense的情况，null可以在任何地方出现，都不知道到底是哪里产生出来的。谁也不知道出现了null是什么意思，该做什么，所有人都把null踢给其他人。最后这null像瘟疫一样蔓延开来，到处都是，成为一场噩梦。
+        class A {
+          String name = null;
+          ...
+        }
 
-  正确的做法，其实是强硬的态度。你要告诉函数的使用者，我的参数全都不能是null，如果你给我null，程序崩溃了该你自己负责。至于调用者代码里有null怎么办，他自己该知道怎么处理（参考以上几条），不应该由函数作者来操心。
+    </div>
 
-  采用强硬态度一个很简单的做法是使用`Objects.requireNonNull()`。它的定义很简单：
+    之所以可以这样，是因为null只可能在A对象的name成员里出现，你不用怀疑其它的成员因此成为null。所以你每次访问name成员时，检查它是否是null就可以了，不需要对其他成员也做同样的检查。
 
-  ```
-  public static <t>T requireNonNull(T obj) {
-    if (obj == null) {
-      throw new NullPointerException();
-    } else {
-      return obj;
-    }
-  }
-  ```
+*   函数调用者：明确理解null所表示的意义，尽早检查和处理null返回值，减少它的传播。null很讨厌的一个地方，在于它在不同的地方可能表示不同的意义。有时候它表示“没有”，“没找到”。有时候它表示“出错了”，“失败了”。有时候它甚至可以表示“成功了”，…… 这其中有很多误用之处，不过无论如何，你必须理解每一个null的意义，不能给混淆起来。
 
-  你可以用这个函数来检查不想接受null的每一个参数，只要传进来的参数是null，就会立即触发`NullPointerException`崩溃掉，这样你就可以有效地防止null指针不知不觉传递到其它地方去。
+    如果你调用的函数有可能返回null，那么你应该在第一时间对null做出“有意义”的处理。比如，上述的函数`find`，返回null表示“没找到”，那么调用`find`的代码就应该在它返回的第一时间，检查返回值是否是null，并且对“没找到”这种情况，作出有意义的处理。
 
-- 使用@NotNull和@Nullable标记。IntelliJ提供了@NotNull和@Nullable两种标记，加在类型前面，这样可以比较简洁可靠地防止null指针的出现。IntelliJ本身会对含有这种标记的代码进行静态分析，指出运行时可能出现`NullPointerException`的地方。在运行时，会在null指针不该出现的地方产生`IllegalArgumentException`，即使那个null指针你从来没有deference。这样你可以在尽量早期发现并且防止null指针的出现。
+    “有意义”是什么意思呢？我的意思是，使用这函数的人，应该明确的知道在拿到null的情况下该怎么做，承担起责任来。他不应该只是“向上级汇报”，把责任踢给自己的调用者。如果你违反了这一点，就有可能采用一种不负责任，危险的写法：
 
-- 使用Optional类型。Java 8和Swift之类的语言，提供了一种叫Optional的类型。正确的使用这种类型，可以在很大程度上避免null的问题。null指针的问题之所以存在，是因为你可以在没有“检查”null的情况下，“访问”对象的成员。
+    <div class="highlighter-rouge">
 
-  Optional类型的设计原理，就是把“检查”和“访问”这两个操作合二为一，成为一个“原子操作”。这样你没法只访问，而不进行检查。这种做法其实是ML，Haskell等语言里的模式匹配（pattern matching）的一个特例。模式匹配使得类型判断和访问成员这两种操作合二为一，所以你没法犯错。
+        public String foo() {
+          String found = find();
+          if (found == null) {
+            return null;
+          }
+        }
 
-  比如，在Swift里面，你可以这样写：
+    </div>
 
-  ```
-  let found = find()
-  if let content = found {
-    print("found: " + content)
-  }
-  ```
+    当看到find()返回了null，foo自己也返回null。这样null就从一个地方，游走到了另一个地方，而且它表示另外一个意思。如果你不假思索就写出这样的代码，最后的结果就是代码里面随时随地都可能出现null。到后来为了保护自己，你的每个函数都会写成这样：
 
-  你从`find()`函数得到一个Optional类型的值`found`。假设它的类型是`String?`，那个问号表示它可能包含一个String，也可能是nil。然后你就可以用一种特殊的if语句，同时进行null检查和访问其中的内容。这个if语句跟普通的if语句不一样，它的条件不是一个Bool，而是一个变量绑定`let content = found`。
+    <div class="highlighter-rouge">
 
-  我不是很喜欢这语法，不过这整个语句的含义是：如果found是nil，那么整个if语句被略过。如果它不是nil，那么变量content被绑定到found里面的值（unwrap操作），然后执行`print("found: " + content)`。由于这种写法把检查和访问合并在了一起，你没法只进行访问而不检查。
+        public void foo(A a, B b, C c) {
+          if (a == null) { ... }
+          if (b == null) { ... }
+          if (c == null) { ... }
+          ...
+        }
 
-  Java 8的做法比较蹩脚一些。如果你得到一个Optional<string>类型的值found，你必须使用“函数式编程”的方式，来写这之后的代码：
+    </div>
 
-  ```
-  Optional <string>found = find();
-  found.ifPresent(content -> System.out.println("found: " + content));
-  ```
+*   函数作者：明确声明不接受null参数，当参数是null时立即崩溃。不要试图对null进行“容错”，不要让程序继续往下执行。如果调用者使用了null作为参数，那么调用者（而不是函数作者）应该对程序的崩溃负全责。
 
-  这段Java代码跟上面的Swift代码等价，它包含一个“判断”和一个“取值”操作。ifPresent先判断found是否有值（相当于判断是不是null）。如果有，那么将其内容“绑定”到lambda表达式的content参数（unwrap操作），然后执行lambda里面的内容，否则如果found没有内容，那么ifPresent里面的lambda不执行。
+    上面的例子之所以成为问题，就在于人们对于null的“容忍态度”。这种“保护式”的写法，试图“容错”，试图“优雅的处理null”，其结果是让调用者更加肆无忌惮的传递null给你的函数。到后来，你的代码里出现一堆堆nonsense的情况，null可以在任何地方出现，都不知道到底是哪里产生出来的。谁也不知道出现了null是什么意思，该做什么，所有人都把null踢给其他人。最后这null像瘟疫一样蔓延开来，到处都是，成为一场噩梦。
 
-  Java的这种设计有个问题。判断null之后分支里的内容，全都得写在lambda里面。在函数式编程里，这个lambda叫做“[continuation](https://en.wikipedia.org/wiki/Continuation)”，Java把它叫做
-“[Consumer](https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html)”，它表示“如果found不是null，拿到它的值，然后应该做什么”。由于lambda是个函数，你不能在里面写`return`语句返回出外层的函数。比如，如果你要改写下面这个函数（含有null）：
+    正确的做法，其实是强硬的态度。你要告诉函数的使用者，我的参数全都不能是null，如果你给我null，程序崩溃了该你自己负责。至于调用者代码里有null怎么办，他自己该知道怎么处理（参考以上几条），不应该由函数作者来操心。
 
-  ```
-  public static String foo() {
-    String found = find();
-    if (found != null) {
-      return found;
-    } else {
-      return "";
-    }
-  }
-  ```
+    采用强硬态度一个很简单的做法是使用`Objects.requireNonNull()`。它的定义很简单：
 
-  就会比较麻烦。因为如果你写成这样：
+    <div class="highlighter-rouge">
 
-  ```
-  public static String foo() {
-    Optional <string>found = find();
-    found.ifPresent(content -> {
-      return content;    // can't return from foo here
-    });
-    return "";
-  }
-  ```
+        public static <T> T requireNonNull(T obj) {
+          if (obj == null) {
+            throw new NullPointerException();
+          } else {
+            return obj;
+          }
+        }
 
-  里面的`return a`，并不能从函数`foo`返回出去。它只会从lambda返回，而且由于那个lambda（[Consumer.accept](https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html#accept-T-)）的返回类型必须是`void`，编译器会报错，说你返回了String。由于Java里closure的自由变量是只读的，你没法对lambda外面的变量进行赋值，所以你也不能采用这种写法：
+    </div>
 
-  ```
-  public static String foo() {
-    Optional <string>found = find();
-    String result = "";
-    found.ifPresent(content -> {
-      result = content;    // can't assign to result
-    });
-    return result;
-  }
-  ```
+    你可以用这个函数来检查不想接受null的每一个参数，只要传进来的参数是null，就会立即触发`NullPointerException`崩溃掉，这样你就可以有效地防止null指针不知不觉传递到其它地方去。
 
-  所以，虽然你在lambda里面得到了found的内容，如何使用这个值，如何返回一个值，却让人摸不着头脑。你平时的那些Java编程手法，在这里几乎完全废掉了。实际上，判断null之后，你必须使用Java 8提供的一系列古怪的[函数式编程操作](http://www.oracle.com/technetwork/articles/java/java8-optional-2175753.html)：`map`, `flatMap`, `orElse`之类，想法把它们组合起来，才能表达出原来代码的意思。比如之前的代码，只能改写成这样：
+*   使用@NotNull和@Nullable标记。IntelliJ提供了@NotNull和@Nullable两种标记，加在类型前面，这样可以比较简洁可靠地防止null指针的出现。IntelliJ本身会对含有这种标记的代码进行静态分析，指出运行时可能出现`NullPointerException`的地方。在运行时，会在null指针不该出现的地方产生`IllegalArgumentException`，即使那个null指针你从来没有deference。这样你可以在尽量早期发现并且防止null指针的出现。
 
-  ```
-  public static String foo() {
-    Optional <string>found = find();
-    return found.orElse("");
-  }
-  ```
+*   使用Optional类型。Java 8和Swift之类的语言，提供了一种叫Optional的类型。正确的使用这种类型，可以在很大程度上避免null的问题。null指针的问题之所以存在，是因为你可以在没有“检查”null的情况下，“访问”对象的成员。
 
-  这简单的情况还好。复杂一点的代码，我还真不知道怎么表达，我怀疑Java 8的Optional类型的方法，到底有没有提供足够的表达力。那里面少数几个东西表达能力不咋的，论工作原理，却可以扯到functor，continuation，甚至monad等高深的理论…… 仿佛用了Optional之后，这语言就不再是Java了一样。
+    Optional类型的设计原理，就是把“检查”和“访问”这两个操作合二为一，成为一个“原子操作”。这样你没法只访问，而不进行检查。这种做法其实是ML，Haskell等语言里的模式匹配（pattern matching）的一个特例。模式匹配使得类型判断和访问成员这两种操作合二为一，所以你没法犯错。
 
-  所以Java虽然提供了Optional，但我觉得可用性其实比较低，难以被人接受。相比之下，Swift的设计更加简单直观，接近普通的过程式编程。你只需要记住一个特殊的语法`if let content = found {...}`，里面的代码写法，跟普通的过程式语言没有任何差别。
+    比如，在Swift里面，你可以这样写：
 
-  总之你只要记住，使用Optional类型，要点在于“原子操作”，使得null检查与取值合二为一。这要求你必须使用我刚才介绍的特殊写法。如果你违反了这一原则，把检查和取值分成两步做，还是有可能犯错误。比如在Java 8里面，你可以使用`found.get()`这样的方式直接访问found里面的内容。在Swift里你也可以使用`found!`来直接访问而不进行检查。
+    <div class="highlighter-rouge">
 
-  你可以写这样的Java代码来使用Optional类型：
+        let found = find()
+        if let content = found {
+          print("found: " + content)
+        }
 
-  ```
-  Option <string>found = find();
-  if (found.isPresent()) {
-    System.out.println("found: " + found.get());
-  }
-  ```
+    </div>
 
-  如果你使用这种方式，把检查和取值分成两步做，就可能会出现运行时错误。`if (found.isPresent())`本质上跟普通的null检查，其实没什么两样。如果你忘记判断`found.isPresent()`，直接进行`found.get()`，就会出现`NoSuchElementException`。这跟`NullPointerException`本质上是一回事。所以这种写法，比起普通的null的用法，其实换汤不换药。如果你要用Optional类型而得到它的益处，请务必遵循我之前介绍的“原子操作”写法。
+    你从`find()`函数得到一个Optional类型的值`found`。假设它的类型是`String?`，那个问号表示它可能包含一个String，也可能是nil。然后你就可以用一种特殊的if语句，同时进行null检查和访问其中的内容。这个if语句跟普通的if语句不一样，它的条件不是一个Bool，而是一个变量绑定`let content = found`。
+
+    我不是很喜欢这语法，不过这整个语句的含义是：如果found是nil，那么整个if语句被略过。如果它不是nil，那么变量content被绑定到found里面的值（unwrap操作），然后执行`print("found: " + content)`。由于这种写法把检查和访问合并在了一起，你没法只进行访问而不检查。
+
+    Java 8的做法比较蹩脚一些。如果你得到一个Optional<string>类型的值found，你必须使用“函数式编程”的方式，来写这之后的代码：</string>
+
+    <div class="highlighter-rouge">
+
+        Optional<String> found = find();
+        found.ifPresent(content -> System.out.println("found: " + content));
+
+    </div>
+
+    这段Java代码跟上面的Swift代码等价，它包含一个“判断”和一个“取值”操作。ifPresent先判断found是否有值（相当于判断是不是null）。如果有，那么将其内容“绑定”到lambda表达式的content参数（unwrap操作），然后执行lambda里面的内容，否则如果found没有内容，那么ifPresent里面的lambda不执行。
+
+    Java的这种设计有个问题。判断null之后分支里的内容，全都得写在lambda里面。在函数式编程里，这个lambda叫做“[continuation](https://en.wikipedia.org/wiki/Continuation)”，Java把它叫做 “[Consumer](https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html)”，它表示“如果found不是null，拿到它的值，然后应该做什么”。由于lambda是个函数，你不能在里面写`return`语句返回出外层的函数。比如，如果你要改写下面这个函数（含有null）：
+
+    <div class="highlighter-rouge">
+
+        public static String foo() {
+          String found = find();
+          if (found != null) {
+            return found;
+          } else {
+            return "";
+          }
+        }
+
+    </div>
+
+    就会比较麻烦。因为如果你写成这样：
+
+    <div class="highlighter-rouge">
+
+        public static String foo() {
+          Optional<String> found = find();
+          found.ifPresent(content -> {
+            return content;    // can't return from foo here
+          });
+          return "";
+        }
+
+    </div>
+
+    里面的`return a`，并不能从函数`foo`返回出去。它只会从lambda返回，而且由于那个lambda（[Consumer.accept](https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html#accept-T-)）的返回类型必须是`void`，编译器会报错，说你返回了String。由于Java里closure的自由变量是只读的，你没法对lambda外面的变量进行赋值，所以你也不能采用这种写法：
+
+    <div class="highlighter-rouge">
+
+        public static String foo() {
+          Optional<String> found = find();
+          String result = "";
+          found.ifPresent(content -> {
+            result = content;    // can't assign to result
+          });
+          return result;
+        }
+
+    </div>
+
+    所以，虽然你在lambda里面得到了found的内容，如何使用这个值，如何返回一个值，却让人摸不着头脑。你平时的那些Java编程手法，在这里几乎完全废掉了。实际上，判断null之后，你必须使用Java 8提供的一系列古怪的[函数式编程操作](http://www.oracle.com/technetwork/articles/java/java8-optional-2175753.html)：`map`, `flatMap`, `orElse`之类，想法把它们组合起来，才能表达出原来代码的意思。比如之前的代码，只能改写成这样：
+
+    <div class="highlighter-rouge">
+
+        public static String foo() {
+          Optional<String> found = find();
+          return found.orElse("");
+        }
+
+    </div>
+
+    这简单的情况还好。复杂一点的代码，我还真不知道怎么表达，我怀疑Java 8的Optional类型的方法，到底有没有提供足够的表达力。那里面少数几个东西表达能力不咋的，论工作原理，却可以扯到functor，continuation，甚至monad等高深的理论…… 仿佛用了Optional之后，这语言就不再是Java了一样。
+
+    所以Java虽然提供了Optional，但我觉得可用性其实比较低，难以被人接受。相比之下，Swift的设计更加简单直观，接近普通的过程式编程。你只需要记住一个特殊的语法`if let content = found {...}`，里面的代码写法，跟普通的过程式语言没有任何差别。
+
+    总之你只要记住，使用Optional类型，要点在于“原子操作”，使得null检查与取值合二为一。这要求你必须使用我刚才介绍的特殊写法。如果你违反了这一原则，把检查和取值分成两步做，还是有可能犯错误。比如在Java 8里面，你可以使用`found.get()`这样的方式直接访问found里面的内容。在Swift里你也可以使用`found!`来直接访问而不进行检查。
+
+    你可以写这样的Java代码来使用Optional类型：
+
+    <div class="highlighter-rouge">
+
+        Option<String> found = find();
+        if (found.isPresent()) {
+          System.out.println("found: " + found.get());
+        }
+
+    </div>
+
+    如果你使用这种方式，把检查和取值分成两步做，就可能会出现运行时错误。`if (found.isPresent())`本质上跟普通的null检查，其实没什么两样。如果你忘记判断`found.isPresent()`，直接进行`found.get()`，就会出现`NoSuchElementException`。这跟`NullPointerException`本质上是一回事。所以这种写法，比起普通的null的用法，其实换汤不换药。如果你要用Optional类型而得到它的益处，请务必遵循我之前介绍的“原子操作”写法。
 
 ### 防止过度工程
 
@@ -1025,10 +1065,8 @@ try {
 
 根据这些，我总结出来的防止过度工程的原则如下：
 
-1\. 先把眼前的问题解决掉，解决好，再考虑将来的扩展问题。
-2\. 先写出可用的代码，反复推敲，再考虑是否需要重用的问题。
-3\. 先写出可用，简单，明显没有bug的代码，再考虑测试的问题。
+1.  先把眼前的问题解决掉，解决好，再考虑将来的扩展问题。
+2.  先写出可用的代码，反复推敲，再考虑是否需要重用的问题。
+3.  先写出可用，简单，明显没有bug的代码，再考虑测试的问题。
 
-> 创造这样的精品文章需要很多的精力和咖啡 ;) 如果你喜欢这篇文章，请付款支持。建议金额$5美元或者30人民币。付款方式请参考[这里](http://www.yinwang.org/blog-cn/2016/04/13/pay-blog)。</string></string></string></string></string></string></t> 
-
-</pre>
+> 创造这样的精品文章需要很多的精力和咖啡 ;) 如果你喜欢这篇文章，请付款支持。建议金额$5美元或者30人民币。付款方式请参考[这里](http://www.yinwang.org/blog-cn/2016/04/13/pay-blog)。
