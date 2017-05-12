@@ -10,8 +10,6 @@
 
 <td><img src="http://www.yinwang.org/images/Alonzo_Church.jpg" height=300></td>
 
-<td> </td>
-
 <td><img src="http://www.yinwang.org/images/Alan_Turing.jpg" height=300></td>
 
 </tr>
