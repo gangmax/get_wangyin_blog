@@ -20,7 +20,7 @@ Racket 具有宏（macro），所以它其实可以变成很多种语言。如�
 
 Racket 允许使用方括号而不只是圆括号，所以你可以写这样的代码：
 
-<div class="highlighter-rouge">
+<div class="language-clojure highlighter-rouge">
 
     (let ([x 1]
           [y 2])
