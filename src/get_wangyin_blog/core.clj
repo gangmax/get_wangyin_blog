@@ -39,6 +39,7 @@
           (html/html-resource
             (java.net.URL. base-url))
           [:li.list-group-item :a])))
+    ;(println links)
     (def file-names
       (map
         #(str
@@ -48,6 +49,7 @@
             (.replace \/ \-))
           ".markdown")
         links))
+    ;(println file-names)
     (defn trim-content
       "Get the meaningful text content from the HTML content."
       [content prefix postfix]
@@ -73,7 +75,7 @@
           ; Handle the "301 Moved Permanently" error: which is caused by the
           ; "http://yinwang.org/" to "http://www.yinwang.org/" changes.
           ; The solution is to add "www" at the begining of the URL.
-          url (let [link (first %)]
+          url (let [link (str base-url (first %))] ; base-url: "http://www.yinwang.org/", first(link): "/blog-cn/2017/05/16/chinese"
                 (if (= "www." (subs (second (string/split link #"//")) 0 4))
                   link
                   (str (first (string/split link #"//")) "//www." (second (string/split link #"//")))))
@@ -95,4 +97,4 @@
 (defn -main [& args]
   (do
     (doc download)
-    (println (download "http://www.yinwang.org/" "http://yinwang.org/blog-cn/" "./blog/"))))
+    (println (download "http://www.yinwang.org" "/blog-cn/" "./blog/"))))
