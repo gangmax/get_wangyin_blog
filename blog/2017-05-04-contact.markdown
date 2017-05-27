@@ -14,4 +14,4 @@
 
 如果你也想摆脱 Gmail，可要小心。不要以为换成 iCloud, GMX, Fastmail 或者 Hushmail 一类就会好些。实际上服务器在美国，加拿大，德国的 email 提供商，不管他吹嘘有多么严格的保密技术，由于政府插手，很可能都有类似 Gmail 的监听问题。我建议选择服务器位于瑞士，挪威，或者其它非美国，非欧盟国家，因为美国和欧盟是腐烂的政府。具体要怎么选择，你可以参考这篇文章：http://prxbx.com/email。
 
-另外，我注意到有人注册了 Tutanota 的“加密邮件”。Tutanota 位于德国，而德国政府显然是有严重问题的，最近 Tutanota 还发表了这样的 [blog](https://tutanota.com/blog/posts/trump-family-encryption)，拿用户的隐私开玩笑，所以我不建议使用 Tutanota。我曾经推荐过 ProtonMail，然而后来我发现 ProtonMail 虽然位于瑞士，但它在主页上大肆鼓吹它的团队来自美国名校，比如 CEO 是哈佛毕业，还有很多斯坦福毕业的。哈佛和斯坦福这两个学校在政治上都是是美国政府的走狗和喉舌。另外 ProtonMail 在加密算法上也有问题，注册新用户有时生成 4096 位公钥，有时却生成 2048 位公钥，不知道怎么回事，我觉得他们的作法很不严谨。另外 ProtonMail 太新了，简直就是随着美国网络监控的曝光而产生的，所以有嫌疑是另外一个圈套。这使得我不信任 ProtonMail。
+另外，我注意到有人注册了 Tutanota 的“加密邮件”。Tutanota 位于德国，而德国政府显然是有严重问题的，最近 Tutanota 还发表了这样的 [blog](https://tutanota.com/blog/posts/trump-family-encryption)，拿用户的隐私开玩笑，所以我不建议使用 Tutanota。我曾经推荐过 ProtonMail，然而后来我发现 ProtonMail 虽然位于瑞士，但它在主页上大肆鼓吹它的团队来自美国名校，比如 CEO 是哈佛毕业，还有很多斯坦福毕业的。哈佛和斯坦福这两个学校在政治上都是美国政府的走狗和喉舌。另外 ProtonMail 在加密算法上也有问题，注册新用户有时生成 4096 位公钥，有时却生成 2048 位公钥，不知道怎么回事，我觉得他们的作法很不严谨。另外 ProtonMail 太新了，简直就是随着美国网络监控的曝光而产生的，所以有嫌疑是另外一个圈套。这使得我不信任 ProtonMail。
