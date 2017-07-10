@@ -822,55 +822,53 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     </div>
 
-    ```
-
     Java的类型系统会强制你catch这个NotFoundException，所以你不可能像漏掉检查null一样，漏掉这种情况。Java的异常也是一个比较容易滥用的东西，不过我已经在上一节告诉你如何正确的使用异常。
 
     Java的try…catch语法相当的繁琐和蹩脚，所以如果你足够小心的话，像`find`这类函数，也可以返回null来表示“没找到”。这样稍微好看一些，因为你调用的时候不必用try…catch。很多人写的函数，返回null来表示“出错了”，这其实是对null的误用。“出错了”和“没有”，其实完全是两码事。“没有”是一种很常见，正常的情况，比如查哈希表没找到，很正常。“出错了”则表示罕见的情况，本来正常情况下都应该存在有意义的值，偶然出了问题。如果你的函数要表示“出错了”，应该使用异常，而不是null。
 
 *   不要catch NullPointerException。有些人写代码很nice，他们喜欢“容错”。首先他们写一些函数，这些函数里面不大小心，没检查null指针：
 
-<div class="highlighter-rouge">
+    <div class="highlighter-rouge">
 
-      void foo() {
-        String found = find();
-        int len = found.length();
-        ...
-      }
-
-</div>
-
-当foo调用产生了异常，他们不管三七二十一，就把调用的地方改成这样：
-
-<div class="highlighter-rouge">
-
-      try {
-        foo();
-      } catch (Exception e) {
-        ...
-      }
-
-</div>
-
-这样当found是null的时候，NullPointerException就会被捕获并且得到处理。这其实是很错误的作法。首先，上一节已经提到了，`catch (Exception e)`这种写法是要绝对避免的，因为它捕获所有的异常，包括NullPointerException。这会让你意外地捕获try语句里面出现的NullPointerException，从而把代码的逻辑搅得一塌糊涂。
-
-另外就算你写成`catch (NullPointerException e)`也是不可以的。由于foo的内部缺少了null检查，才出现了NullPointerException。现在你不对症下药，倒把每个调用它的地方加上catch，以后你的生活就会越来越苦。正确的做法应该是改动foo，而不改调用它的代码。foo应该被改成这样：
-
-<div class="highlighter-rouge">
-
-      void foo() {
-        String found = find();
-        if (found != null) {
+        void foo() {
+          String found = find();
           int len = found.length();
           ...
-        } else {
+        }
+
+    </div>
+
+    当foo调用产生了异常，他们不管三七二十一，就把调用的地方改成这样：
+
+    <div class="highlighter-rouge">
+
+        try {
+          foo();
+        } catch (Exception e) {
           ...
         }
-      }
 
-</div>
+    </div>
 
-在null可能出现的当时就检查它是否是null，然后进行相应的处理。
+    这样当found是null的时候，NullPointerException就会被捕获并且得到处理。这其实是很错误的作法。首先，上一节已经提到了，`catch (Exception e)`这种写法是要绝对避免的，因为它捕获所有的异常，包括NullPointerException。这会让你意外地捕获try语句里面出现的NullPointerException，从而把代码的逻辑搅得一塌糊涂。
+
+    另外就算你写成`catch (NullPointerException e)`也是不可以的。由于foo的内部缺少了null检查，才出现了NullPointerException。现在你不对症下药，倒把每个调用它的地方加上catch，以后你的生活就会越来越苦。正确的做法应该是改动foo，而不改调用它的代码。foo应该被改成这样：
+
+    <div class="highlighter-rouge">
+
+        void foo() {
+          String found = find();
+          if (found != null) {
+            int len = found.length();
+            ...
+          } else {
+            ...
+          }
+        }
+
+    </div>
+
+    在null可能出现的当时就检查它是否是null，然后进行相应的处理。
 
 *   不要把null放进“容器数据结构”里面。所谓容器（collection），是指一些对象以某种方式集合在一起，所以null不应该被放进Array，List，Set等结构，不应该出现在Map的key或者value里面。把null放进容器里面，是一些莫名其妙错误的来源。因为对象在容器里的位置一般是动态决定的，所以一旦null从某个入口跑进去了，你就很难再搞明白它去了哪里，你就得被迫在所有从这个容器里取值的位置检查null。你也很难知道到底是谁把它放进去的，代码多了就导致调试极其困难。
 
@@ -1068,5 +1066,3 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 3.  先写出可用，简单，明显没有bug的代码，再考虑测试的问题。
 
 > 创造这样的精品文章需要很多的精力和咖啡 ;) 如果你喜欢这篇文章，请付款支持。建议金额$5美元或者30人民币。付款方式请参考[这里](http://www.yinwang.org/blog-cn/2016/04/13/pay-blog)。
-
-```
