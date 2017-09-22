@@ -85,12 +85,10 @@
                     (str (first (string/split link #"//")) "//www." (second (string/split link #"//")))))
             prefix "<div style=\"margin: 2% 5% 2% 5%\">\n\n<table>\n\n<tbody>\n\n<tr>\n\n<td width=\"60%\">\n\n<div style=\"margin-bottom: 5px\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>\n\n<div style=\"padding: 2% 8% 5% 8%; border: 1px solid LightGrey;\">\n\n"
             postfix "\n</div>\n\n</td>\n\n<td width=\"16%\" valign=\"top\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n</div>\n"
+            output (-> (str (System/getProperty "user.dir") "/resources/h2m.js") (sh url))
+            text (trim-content (:out output) prefix postfix)
           ]
-          (println (str "Downloading '" url "'..."))
-          (def output
-            (-> (str (System/getProperty "user.dir") "/resources/h2m.js")
-                (sh url)))
-          (def text (trim-content (:out output) prefix postfix))
+          (println (str "Parsing '" url "'..."))
           (if (empty? text)
             (println (str "CANNOT FETCH THE CONTENT BY THE GIVEN URL: " url ": " (:error output)))
             (do
