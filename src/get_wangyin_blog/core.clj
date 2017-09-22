@@ -91,10 +91,11 @@
             (-> (str (System/getProperty "user.dir") "/resources/h2m.js")
                 (sh url)))
           (def text (trim-content (:out output) prefix postfix))
-          (when-not (empty? text) (spit file-path-name text))
           (if (empty? text)
             (println (str "CANNOT FETCH THE CONTENT BY THE GIVEN URL: " url ": " (:error output)))
-            (println (str "Saved to " file-path-name "...")))
+            (do
+              (spit file-path-name text)
+              (println (str "Saved to " file-path-name "..."))))
           file-path-name)
         (zipmap links file-names))))
 
