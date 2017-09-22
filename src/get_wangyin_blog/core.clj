@@ -55,23 +55,16 @@
     prefix-index (string/index-of content prefix)
     postfix-index (string/index-of content postfix)]
     (do
-    ;(println (str "prefix-index=" prefix-index ", postfix-index=" postfix-index))
-    ;(println content)
-    (if
-      (and
-        (not (nil? prefix-index))
-        (not (nil? postfix-index))
-        (>= prefix-index 0)
-        (> postfix-index prefix-index))
-      (subs content (+ prefix-index (count prefix)) postfix-index)
-      content))))
-
-(defn doseq-interval
-  "http://stackoverflow.com/questions/25733717/clojure-thread-sleep-between-map-evaluation"
-  [f coll interval]
-  (doseq [x coll]
-    (f x)
-    (Thread/sleep interval)))
+      ;(println (str "prefix-index=" prefix-index ", postfix-index=" postfix-index))
+      ;(println content)
+      (if
+        (and
+          (not (nil? prefix-index))
+          (not (nil? postfix-index))
+          (>= prefix-index 0)
+          (> postfix-index prefix-index))
+        (subs content (+ prefix-index (count prefix)) postfix-index)
+        content))))
 
 (defn download
   "Get all Wangyin's blog pages and convert them into markdown format."
