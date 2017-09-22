@@ -22,7 +22,7 @@
     [clojure.java.io :as io] ))
 
 (defn gunzip
-  "Gunzipping files with Clojure,rom: https://tsdh.wordpress.com/2012/02/17/gunzipping-files-with-clojure/"
+  "Gunzipping content with Clojure. From: https://tsdh.wordpress.com/2012/02/17/gunzipping-files-with-clojure/"
   [fi fo]
   (with-open [i (io/reader
                  (java.util.zip.GZIPInputStream.
