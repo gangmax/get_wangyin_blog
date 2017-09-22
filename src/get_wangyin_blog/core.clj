@@ -75,7 +75,6 @@
     (pmap
         #(let
           [
-            file-path-name (str target-directory (second %))
             ; Handle the "301 Moved Permanently" error: which is caused by the
             ; "http://yinwang.org/" to "http://www.yinwang.org/" changes.
             ; The solution is to add "www" at the begining of the URL.
@@ -87,6 +86,7 @@
             postfix "\n</div>\n\n</td>\n\n<td width=\"16%\" valign=\"top\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n</div>\n"
             output (-> (str (System/getProperty "user.dir") "/resources/h2m.js") (sh url))
             text (trim-content (:out output) prefix postfix)
+            file-path-name (str target-directory (second %))
           ]
           (println (str "Parsing '" url "'..."))
           (if (empty? text)
