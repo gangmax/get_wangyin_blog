@@ -23,7 +23,7 @@ var request = require('request');
 var toMarkdown = require('to-markdown');
 // 1. Read the HTML file content.
 request(
-  {uri: process.argv[2]},
+  {uri: process.argv[2], gzip: true},
   function(error, response, body){
     if(!error) {
       var fromIndex = body.indexOf('<body>');
@@ -31,6 +31,7 @@ request(
       if (fromIndex >= 0 && fromIndex < toIndex) {
         // 2. Convert the HTML content to markdown format.
         var content = body.substring(fromIndex + '<body>'.length, toIndex);
+        console.log(content);
         var md = toMarkdown(content.toString());
         // 3. Write the markdown content.
         console.log(md);
