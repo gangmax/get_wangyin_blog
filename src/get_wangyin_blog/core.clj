@@ -31,11 +31,15 @@
     (doseq [l (line-seq i)]
       (.println o l))))
 
-(defn get-link-items [base_url]
-  (with-open [output (java.io.ByteArrayOutputStream.)]
-    (do
-      (gunzip (java.net.URL. base_url) output)
-      (html/select (html/html-resource (java.io.StringReader. (.toString output))) [:li.list-group-item :a]))))
+(defn get-link-items [base-url gzip-switch]
+  (if gzip-switch
+    ; If the "gzip" option is on.
+    (with-open [output (java.io.ByteArrayOutputStream.)]
+      (do
+        (gunzip (java.net.URL. base-url) output)
+        (html/select (html/html-resource (java.io.StringReader. (.toString output))) [:li.list-group-item :a])))
+    ; if the "gzip" option is off.
+    (html/select (html/html-resource (java.net.URL. base-url)) [:li.list-group-item :a])))
 
 (defn get-links [link-items]
   (map #(:href (:attrs %)) link-items))
@@ -68,9 +72,9 @@
 
 (defn download
   "Get all Wangyin's blog pages and convert them into markdown format."
-  [base-url url-prefix target-directory]
+  [base-url url-prefix target-directory gzip-switch]
   (let [
-    links (get-links (get-link-items base-url))
+    links (get-links (get-link-items base-url gzip-switch))
     file-names (get-file-names links url-prefix)]
     (pmap
         #(let
@@ -100,4 +104,4 @@
 (defn -main [& args]
   (do
     (doc download)
-    (println (download "http://www.yinwang.org" "/blog-cn/" "./blog/"))))
+    (println (download "http://www.yinwang.org" "/blog-cn/" "./blog/", false))))
