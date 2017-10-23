@@ -12,8 +12,12 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     “函数调用参数个数错误”
     “变量 a 没有定义，位于 loop 处”
+
+</div>
 
 </div>
 

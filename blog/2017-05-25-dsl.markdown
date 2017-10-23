@@ -108,6 +108,8 @@ Dex 的故事跟 NaCl 有所不同，但最后的结果差不多。NaCl 是一�
 
 <div class="language-xml highlighter-rouge">
 
+<div class="highlight">
+
     <rule>
       <condition>
         <operator>gt</operator>
@@ -116,6 +118,8 @@ Dex 的故事跟 NaCl 有所不同，但最后的结果差不多。NaCl 是一�
       </condition>
       <action>block</action>
     </rule>    
+
+</div>
 
 </div>
 

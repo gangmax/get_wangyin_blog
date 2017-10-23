@@ -22,9 +22,13 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="language-clojure highlighter-rouge">
 
+<div class="highlight">
+
     (let ([x 1]
           [y 2])
       (+ x y))
+
+</div>
 
 </div>
 
@@ -70,6 +74,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     #lang racket
 
     (define tree-sum
@@ -83,9 +89,13 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 </div>
 
+</div>
+
 你可以通过以下的例子来测试它的正确性：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     (tree-sum '(1 2))
     ;; => 3
@@ -95,6 +105,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
     ;; => 6
     (tree-sum '((1 2) (3 4)))
     ;; => 10
+
+</div>
 
 </div>
 
@@ -115,11 +127,15 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (match x
       [模式 结果]
       [模式 结果]
        ...   ...
     )    
+
+</div>
 
 </div>
 
@@ -131,6 +147,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (match exp
       [(? number? x) x]
       [`(,e1 ,e2)
@@ -140,12 +158,18 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 </div>
 
+</div>
+
 第二行里面的 `'(,e1 ,e2)` 是一个模式（pattern），它被用来匹配 `exp` 的值。如果 `exp` 是 `'(1 2)`，那么它与`'(,e1 ,e2)`匹配的时候，就会把 `e1` 绑定到 `'1`，把 `e2` 绑定到 `'2`。这是因为它们结构相同：
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     `(,e1 ,e2)
     '(  1   2)
+
+</div>
 
 </div>
 
@@ -171,6 +195,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     #lang racket                                  ; 声明用 Racket 语言
 
     (define calc
@@ -188,9 +214,13 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 </div>
 
+</div>
+
 你可以得到如下的结果：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     (calc '(+ 1 2))
     ;; => 3
@@ -198,6 +228,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
     ;; => 6
     (calc '(* (+ 1 2) (+ 3 4)))
     ;; => 21
+
+</div>
 
 </div>
 
@@ -211,11 +243,15 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         (match op
           ['+ (+ v1 v2)]
           ['- (- v1 v2)]
           ['* (* v1 v2)]
           ['/ (/ v1 v2)])
+
+    </div>
 
     </div>
 
@@ -243,8 +279,12 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (((lambda (x) (lambda (y) (+ x y))) 1) 2)
     ;; => 3
+
+</div>
 
 </div>
 
@@ -254,9 +294,13 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (let ([x 1])
       (let ([y 2])
         (+ x y)))
+
+</div>
 
 </div>
 
@@ -265,6 +309,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 下面是我们今天要完成的解释器，它可以运行一个 R2 程序。你可以先留意一下各部分的注释。
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     #lang racket
 
@@ -328,9 +374,13 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 </div>
 
+</div>
+
 这里有一些测试例子：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     (r2 '(+ 1 2))
     ;; => 3
@@ -362,6 +412,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 </div>
 
+</div>
+
 （完整的代码和示例，可以在[这里下载](https://github.com/yinwang0/interpreters/blob/master/r2-interpreter.ss)。)
 
 在接下来的几节，我们来仔细看看这个解释器的各个部分。
@@ -371,6 +423,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 算术操作一般都是程序里最基本的构造，它们不能再被细分为多个步骤，所以我们先来看看对算术操作的处理。以下就是 R2 解释器处理算术的部分，它是 `interp` 的最后一个分支。
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     (match exp
       ... ...
@@ -382,6 +436,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
            ['- (- v1 v2)]                     ; 如果是减号，乘号，除号，相似的处理
            ['* (* v1 v2)]
            ['/ (/ v1 v2)]))])
+
+</div>
 
 </div>
 
@@ -421,6 +477,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     ;; 空环境
     (define env0 '())
 
@@ -439,13 +497,19 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 </div>
 
+</div>
+
 这里我们用一种最简单的数据结构，Scheme 的 association list，来表示环境。Association list 看起来像这个样子：`((x . 1) (y . 2) (z . 5))`。它是一个两元组（pair）的链表，左边的元素是 key，右边的元素是 value。写得直观一点就是：
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     ((x . 1)
      (y . 2)
      (z . 5))
+
+</div>
 
 </div>
 
@@ -461,11 +525,15 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (let ([x 1])         ; env='()。绑定x到1。
       (let ([y 2])       ; env='((x . 1))。绑定y到2。
         (let ([x 3])     ; env='((y . 2) (x . 1))。绑定x到3。
           (+ x y))))     ; env='((x . 3) (y . 2) (x . 1))。查找x，得到3；查找y，得到2。
     ;; => 5
+
+</div>
 
 </div>
 
@@ -475,11 +543,15 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (let ([x 1])          ; env='()。绑定x到1。
       (+ (let ([x 2])     ; env='((x . 1))。绑定x到2。
            x)             ; env='((x . 2) (x . 1))。查找x，得到2。
        x))                ; env='((x . 1))。查找x，得到1。
     ;; => 3               ; 两个不同的x的和，1+2等于3。
+
+</div>
 
 </div>
 
@@ -507,9 +579,13 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     [`(let ([,x ,e1]) ,e2)                           
      (let ([v1 (interp e1 env)])              ; 解释右边表达式e1，得到值v1
        (interp e2 (ext-env x v1 env)))]       ; 把(x . v1)扩充到环境顶部，对e2求值
+
+</div>
 
 </div>
 
@@ -523,10 +599,14 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (let ([x 2])
       (let ([f (lambda (y) (* x y))])
         (let ([x 4])
           (f 3))))
+
+</div>
 
 </div>
 
@@ -538,6 +618,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     ;; Scheme
     (let ([x 2])
       (let ([f (lambda (y) (* x y))])
@@ -545,6 +627,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
           (f 3))))
 
     ;; => 6
+
+</div>
 
 </div>
 
@@ -570,7 +654,11 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (struct Closure (f env))
+
+</div>
 
 </div>
 
@@ -578,8 +666,12 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     [`(lambda (,x) ,e)
      (Closure exp env)]
+
+</div>
 
 </div>
 
@@ -593,12 +685,16 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     [`(,e1 ,e2)                                            
      (let ([v1 (interp e1 env)]             ; 计算函数 e1 的值
            [v2 (interp e2 env)])            ; 计算参数 e2 的值
        (match v1
          [(Closure `(lambda (,x) ,e) env-save)      ; 用模式匹配的方式取出闭包里的各个子结构
           (interp e (ext-env x v2 env-save))]))]    ; 在闭包的环境env-save中把x绑定到v2，解释函数体     
+
+</div>
 
 </div>
 
@@ -614,6 +710,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (r2
     '(let ([x 2])
        (let ([f (lambda (y) (* x y))])
@@ -624,9 +722,13 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 </div>
 
+</div>
+
 你也许发现了，如果我们的语言是 dynamic scoping，那就没必要使用闭包了，因为我们根本不需要闭包里面保存的环境。这样一来，dynamic scoping 的解释器就可以写成这样：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     (define interp
       (lambda (exp env)
@@ -643,6 +745,8 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
                 (interp e (ext-env x v2 env))]))]
           ... ...
     )))
+
+</div>
 
 </div>
 

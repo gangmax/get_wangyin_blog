@@ -6,6 +6,8 @@ Swift 1.0 试图利用 var 和 let 的区别来指定 array 成员的可变性�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     var shoppingList = ["Eggs", "Milk"]
 
     // 可以对 array 成员赋值
@@ -13,7 +15,11 @@ Swift 1.0 试图利用 var 和 let 的区别来指定 array 成员的可变性�
 
 </div>
 
+</div>
+
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     let shoppingList = ["Eggs", "Milk"]
 
@@ -22,11 +28,15 @@ Swift 1.0 试图利用 var 和 let 的区别来指定 array 成员的可变性�
 
 </div>
 
+</div>
+
 这是错误的。在 Swift 1.0 里面，array 像其它的 object 一样，是一种“reference type”。为了理解这个问题，你应该清晰地区分 array reference 和 array 成员的区别。在这个例子里，`shoppingList` 是一个 array reference，而 `shoppingList[0]` 是访问一个 array 成员，这两者有着非常大的不同。
 
 var 和 let 本来是用于指定 `shoppingList` 这个 reference 是否可变，也就是决定 `shoppingList` 是否可以指向另一个 array 对象。正确的用法应该是这样：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     var shoppingList = ["Eggs", "Milk"]
 
@@ -38,7 +48,11 @@ var 和 let 本来是用于指定 `shoppingList` 这个 reference 是否可变�
 
 </div>
 
+</div>
+
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     let shoppingList = ["Eggs", "Milk"]
 
@@ -47,6 +61,8 @@ var 和 let 本来是用于指定 `shoppingList` 这个 reference 是否可变�
 
     // let 不能限制对 array 成员赋值，不报错
     shoppingList[0] = "Salad"
+
+</div>
 
 </div>
 
@@ -60,6 +76,8 @@ Swift 2.0 修正了这个问题，然而可惜的是，它的修正方式是错�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     let shoppingList = ["Eggs", "Milk"]
 
     // 不能对 array 成员赋值，因为 shoppingList 是 value type
@@ -69,15 +87,21 @@ Swift 2.0 修正了这个问题，然而可惜的是，它的修正方式是错�
 
 </div>
 
+</div>
+
 这看似一个可行的解决方案，然而它却没有击中要害。这是一种削足适履的做法，它带来了另外的问题。把 array 作为 value type，使得每一次对 array 变量的赋值或者参数传递，都必须进行拷贝。你没法让两个变量指向同一个 array，也就是说 array 不再能被共享。比如：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     var a = [1, 2, 3]
 
     // a 的内容被拷贝给 b
     // a 和 b 是两个不同的 array，有相同的内容
     var b = a   
+
+</div>
 
 </div>
 

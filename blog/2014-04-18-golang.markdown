@@ -18,7 +18,11 @@ Go 的简单性体现在它的语法和语义的某些方面。Go 的语法比 C
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         S { x: 1, y: 2, }
+
+    </div>
 
     </div>
 
@@ -28,9 +32,13 @@ Go 的简单性体现在它的语法和语义的某些方面。Go 的语法比 C
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
           func foo(s string, x, y, z int, c bool) {
             ...
           }
+
+    </div>
 
     </div>
 
@@ -38,9 +46,13 @@ Go 的简单性体现在它的语法和语义的某些方面。Go 的语法比 C
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
           func foo(s string, x int, y int, z int, c bool) {
             ...
           }
+
+    </div>
 
     </div>
 
@@ -50,7 +62,7 @@ Go 的简单性体现在它的语法和语义的某些方面。Go 的语法比 C
 
 *   倒退：过度地“语法重载”，比如 switch, for 等关键字。Go 的 switch 关键字其实包含了两种不同的东西。它可以是 C 里面的普通的 switch（Scheme 的 case），也可以是像 Scheme 的 cond 那样的嵌套分支语句。这两种语句其实是语义完全不同的，然而 Go 的设计者为了显得简单，把它们合二为一，而其实引起了更大的混淆。这是因为，就算你把它们合二为一，它们仍然是两种不同的语义结构。把它们合并的结果是，每次看到 switch 你都需要从它们“头部”的不同点把这两种不同的结构区分开来，增加了人脑的开销。正确的作法是把它们分开，就像 Scheme 那样。其实我设计语言的时候有时候也犯同样的错误，以为两个东西“本质”上是一样的，所以合二为一，结果经过一段时间，发现其实是不一样的。所以不要小看了 Scheme，很多你认为是“新想法”的东西，其实早就被它那非常严谨的委员会给抛弃在了历史的长河中。
 
-Go 语言里面还有其他一些语法设计问题，比如强制把 `<span class="p">{</span>` 放在一行之后而且不能换行，if 语句的判断开头可以嵌套赋值操作等等。这些试图让程序显得短小的作法，其实反而降低了程序理解的流畅度。
+Go 语言里面还有其他一些语法设计问题，比如强制把 `{` 放在一行之后而且不能换行，if 语句的判断开头可以嵌套赋值操作等等。这些试图让程序显得短小的作法，其实反而降低了程序理解的流畅度。
 
 所以总而言之，Go 的语法很难被叫做“简单”或者“优雅”，它的简单性其实在 Java 之下。
 
@@ -94,6 +106,8 @@ Go 和 Unix 系统一样，在出现的早期就已经因为不吸取前人的�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     ret, err := foo(x, y, z)
     if err != nil {
     	return err
@@ -101,11 +115,17 @@ Go 和 Unix 系统一样，在出现的早期就已经因为不吸取前人的�
 
 </div>
 
+</div>
+
 如果 `foo` 的调用产生了错误，那么 `err` 就不是 nil。Go 要求你在定义了变量之后必须使用它，否则报错。这样它“碰巧”避免了出现错误 `err` 而不检查的情况。否则如果你想忽略错误，就必须写成
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     ret, _ := foo(x, y, z)
+
+</div>
 
 </div>
 
@@ -138,7 +158,11 @@ Go 采用了基于接口（interface）的面向对象设计，你可以使用�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (sort '(3 4 1 2) <)
+
+</div>
 
 </div>
 
@@ -172,17 +196,21 @@ Go 的标准库的设计里面带有浓郁的 Unix 气息。比起 Java 之类�
 
 ### HTML template 库
 
-我使用过 Go 的 template library 来生成一些网页。这是一种“基本可用”的模板方式，然而比起很多其他成熟的技术，却是相当的不足的。让我比较惊讶的是，Go 的 template 里面夹带的代码，居然不是 Go 语言自己，而是一种表达能力相当弱的语言，有点像一种退化的 Lisp，只不过把括号换成了 `<span class="p">{</span> <span class="w"></span> <span class="err">{...</span><span class="p">}</span> <span class="w"></span> <span class="err">}</span>` 这样的东西。
+我使用过 Go 的 template library 来生成一些网页。这是一种“基本可用”的模板方式，然而比起很多其他成熟的技术，却是相当的不足的。让我比较惊讶的是，Go 的 template 里面夹带的代码，居然不是 Go 语言自己，而是一种表达能力相当弱的语言，有点像一种退化的 Lisp，只不过把括号换成了 `{ {...} }` 这样的东西。
 
 比如你可以写这样的网页模板：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     { {define "Contents"} }
     { {if .Paragraph.Length} }
     <p>{ {.Paragraph.Content} }</p>
     { {end} }
     { {end} }
+
+</div>
 
 </div>
 

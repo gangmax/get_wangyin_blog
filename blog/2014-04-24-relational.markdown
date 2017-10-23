@@ -12,6 +12,8 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     CREATE TABLE Students ( sid CHAR(20),
                             name CHAR(20),
                             login CHAR(20),
@@ -20,9 +22,13 @@
 
 </div>
 
+</div>
+
 其实相当于以下C语言的结构数组：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     struct student {
       char* sid;
@@ -34,11 +40,15 @@
 
 </div>
 
+</div>
+
 每一个“foreign key”，其实就是一个指针。每一个join操作，本质上就是对指针的“访问”，找到它所指向的对象。在实现上，join跟指针引用有一定差别，因为 join需要查“索引”（index），所以它比指针引用要慢。
 
 所谓的查询（query），本质上就是函数式语言里面的filter, map等操作。只不过关系式代数更加笨拙，组合能力很弱。比如，以下的SQL语句
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     SELECT Book.title
      FROM Book
@@ -46,12 +56,18 @@
 
 </div>
 
+</div>
+
 其实相当于以下的Lisp代码：
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (map .title
          (filter (lambda (b) (> (.price b) 100)) Book)
+
+</div>
 
 </div>
 

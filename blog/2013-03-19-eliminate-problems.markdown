@@ -22,7 +22,11 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
              A -----> B
+
+    </div>
 
     </div>
 

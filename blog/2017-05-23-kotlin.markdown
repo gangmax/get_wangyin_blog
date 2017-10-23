@@ -34,6 +34,8 @@ Android 显然不可能抛弃 Java 而拥抱 Kotlin。毕竟现有的 Android �
 
 <div class="language-java highlighter-rouge">
 
+<div class="highlight">
+
     void foo(string filename) throws FileNotFoundException
     {
       if (...)
@@ -45,9 +47,13 @@ Android 显然不可能抛弃 Java 而拥抱 Kotlin。毕竟现有的 Android �
 
 </div>
 
+</div>
+
 Java 要求你必须在函数头部写上“throws FileNotFoundException”，否则它就不能编译。这个声明表示函数在某些情况下，会抛出 FileNotFoundException 这个异常。由于编译器看到了这个声明，它会严格检查你对 foo 函数的用法。在调用 foo 的时候，你必须使用 try-catch 处理这个异常，或者在调用的函数头部也声明 “throws FileNotFoundException”，把这个异常传递给上一层调用者。
 
 <div class="language-java highlighter-rouge">
+
+<div class="highlight">
 
     try
     {
@@ -57,6 +63,8 @@ Java 要求你必须在函数头部写上“throws FileNotFoundException”，�
     {
         ...
     }
+
+</div>
 
 </div>
 
@@ -76,6 +84,8 @@ Java 要求你必须在函数头部写上“throws FileNotFoundException”，�
 
 <div class="language-c# highlighter-rouge">
 
+<div class="highlight">
+
     try
     {
         foo();
@@ -84,6 +94,8 @@ Java 要求你必须在函数头部写上“throws FileNotFoundException”，�
     {
         ...
     }
+
+</div>
 
 </div>
 

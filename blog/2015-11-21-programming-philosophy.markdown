@@ -22,6 +22,8 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     if (...) {
       if (...) {
         ...
@@ -33,6 +35,8 @@
     } else {
       ...
     }
+
+</div>
 
 </div>
 
@@ -60,6 +64,8 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         void foo() {
           if (getOS().equals("MacOS")) {
             a();
@@ -76,11 +82,15 @@
 
     </div>
 
+    </div>
+
     写这个函数的人，根据系统是否为“MacOS”来做不同的事情。你可以看出这个函数里，其实只有`c()`是两种系统共有的，而其它的`a()`, `b()`, `d()`, `e()`都属于不同的分支。
 
     这种“复用”其实是有害的。如果一个函数可能做两种事情，它们之间共同点少于它们的不同点，那你最好就写两个不同的函数，否则这个函数的逻辑就不会很清晰，容易出现错误。其实，上面这个函数可以改写成两个函数：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         void fooMacOS() {
           a();
@@ -90,9 +100,13 @@
 
     </div>
 
+    </div>
+
     和
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         void fooOther() {
           b();
@@ -102,9 +116,13 @@
 
     </div>
 
+    </div>
+
     如果你发现两件事情大部分内容相同，只有少数不同，多半时候你可以把相同的部分提取出去，做成一个辅助函数。比如，如果你有个函数是这样：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         void foo() {
           a();
@@ -119,9 +137,13 @@
 
     </div>
 
+    </div>
+
     其中`a()`，`b()`，`c()`都是一样的，只有`d()`和`e()`根据系统有所不同。那么你可以把`a()`，`b()`，`c()`提取出去：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         void preFoo() {
           a();
@@ -130,9 +152,13 @@
 
     </div>
 
+    </div>
+
     然后制造两个函数：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         void fooMacOS() {
           preFoo();
@@ -141,9 +167,13 @@
 
     </div>
 
+    </div>
+
     和
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         void fooOther() {
           preFoo();
@@ -152,11 +182,15 @@
 
     </div>
 
+    </div>
+
     这样一来，我们既共享了代码，又做到了每个函数只做一件简单的事情。这样的代码，逻辑就更加清晰。
 
 *   避免使用全局变量和类成员（class member）来传递信息，尽量使用局部变量和参数。有些人写代码，经常用类成员来传递信息，就像这样：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
          class A {
            String x;
@@ -175,11 +209,15 @@
 
     </div>
 
+    </div>
+
     首先，他使用`findX()`，把一个值写入成员`x`。然后，使用`x`的值。这样，`x`就变成了`findX`和`print`之间的数据通道。由于`x`属于`class A`，这样程序就失去了模块化的结构。由于这两个函数依赖于成员x，它们不再有明确的输入和输出，而是依赖全局的数据。`findX`和`foo`不再能够离开`class A`而存在，而且由于类成员还有可能被其他代码改变，代码变得难以理解，难以确保正确性。
 
     如果你使用局部变量而不是类成员来传递信息，那么这两个函数就不需要依赖于某一个class，而且更加容易理解，不易出错：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
          String findX() {
             ...
@@ -190,6 +228,8 @@
            String x = findX();
            print(x);
          }
+
+    </div>
 
     </div>
 
@@ -207,8 +247,12 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         // put elephant1 into fridge2
         put(elephant1, fridge2);
+
+    </div>
 
     </div>
 
@@ -218,6 +262,8 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         void foo() {
           int index = ...;
           ...
@@ -228,9 +274,13 @@
 
     </div>
 
+    </div>
+
     由于这中间都没有使用过`index`，也没有改变过它所依赖的数据，所以这个变量定义，其实可以挪到接近使用它的地方：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         void foo() {
           ...
@@ -239,6 +289,8 @@
           bar(index);
           ...
         }
+
+    </div>
 
     </div>
 
@@ -252,6 +304,8 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         boolean successInDeleteFile = deleteFile("foo.txt");
         if (successInDeleteFile) {
           ...
@@ -261,9 +315,13 @@
 
     </div>
 
+    </div>
+
     这个局部变量`successInDeleteFile`大可不必这么啰嗦。因为它只用过一次，而且用它的地方就在下面一行，所以读者可以轻松发现它是`deleteFile`返回的结果。如果你把它改名为`success`，其实读者根据一点上下文，也知道它表示”success in deleteFile”。所以你可以把它改成这样：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         boolean success = deleteFile("foo.txt");
         if (success) {
@@ -274,11 +332,15 @@
 
     </div>
 
+    </div>
+
     这样的写法不但没漏掉任何有用的语义信息，而且更加易读。`successInDeleteFile`这种“[camelCase](https://en.wikipedia.org/wiki/CamelCase)”，如果超过了三个单词连在一起，其实是很碍眼的东西。所以如果你能用一个单词表示同样的意义，那当然更好。
 
 4.  不要重用局部变量。很多人写代码不喜欢定义新的局部变量，而喜欢“重用”同一个局部变量，通过反复对它们进行赋值，来表示完全不同意思。比如这样写：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         String msg;
         if (...) {
@@ -291,9 +353,13 @@
 
     </div>
 
+    </div>
+
     虽然这样在逻辑上是没有问题的，然而却不易理解，容易混淆。变量`msg`两次被赋值，表示完全不同的两个值。它们立即被`log.info`使用，没有传递到其它地方去。这种赋值的做法，把局部变量的作用域不必要的增大，让人以为它可能在将来改变，也许会在其它地方被使用。更好的做法，其实是定义两个变量：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         if (...) {
           String msg = "succeed";
@@ -305,11 +371,15 @@
 
     </div>
 
+    </div>
+
     由于这两个`msg`变量的作用域仅限于它们所处的if语句分支，你可以很清楚的看到这两个`msg`被使用的范围，而且知道它们之间没有任何关系。
 
 5.  把复杂的逻辑提取出去，做成“帮助函数”。有些人写的函数很长，以至于看不清楚里面的语句在干什么，所以他们误以为需要写注释。如果你仔细观察这些代码，就会发现不清晰的那片代码，往往可以被提取出去，做成一个函数，然后在原来的地方调用。由于函数有一个名字，这样你就可以使用有意义的函数名来代替注释。举一个例子：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         ...
         // put elephant1 into fridge2
@@ -324,9 +394,13 @@
 
     </div>
 
+    </div>
+
     如果你把这片代码提出去定义成一个函数：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         void put(Elephant elephant, Fridge fridge) {
           openDoor(fridge);
@@ -340,13 +414,19 @@
 
     </div>
 
+    </div>
+
     这样原来的代码就可以改成：
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         ...
         put(elephant1, fridge2);
         ...
+
+    </div>
 
     </div>
 
@@ -356,8 +436,12 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         Pizza pizza = makePizza(crust(salt(), butter()),
            topping(onion(), tomato(), sausage()));
+
+    </div>
 
     </div>
 
@@ -365,9 +449,13 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         Crust crust = crust(salt(), butter());
         Topping topping = topping(onion(), tomato(), sausage());
         Pizza pizza = makePizza(crust, topping);
+
+    </div>
 
     </div>
 
@@ -379,6 +467,8 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
        if (someLongCondition1() && someLongCondition2() && someLongCondition3() &&
          someLongCondition4()) {
          ...
@@ -386,9 +476,13 @@
 
 </div>
 
+</div>
+
 由于`someLongCondition4()`超过了行宽限制，被编辑器自动换到了下面一行。虽然满足了行宽限制，换行的位置却是相当任意的，它并不能帮助人理解这代码的逻辑。这几个boolean表达式，全都用`&&`连接，所以它们其实处于平等的地位。为了表达这一点，当需要折行的时候，你应该把每一个表达式都放到新的一行，就像这个样子：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
        if (someLongCondition1() &&
            someLongCondition2() &&
@@ -399,12 +493,18 @@
 
 </div>
 
+</div>
+
 这样每一个条件都对齐，里面的逻辑就很清楚了。再举个例子：
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
        log.info("failed to find file {} for command {}, with exception {}", file, command,
          exception);
+
+</div>
 
 </div>
 
@@ -412,8 +512,12 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
        log.info("failed to find file {} for command {}, with exception {}",
          file, command, exception);
+
+</div>
 
 </div>
 
@@ -425,10 +529,14 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     expect(foo).to.be.a('string');
     expect(foo).to.equal('bar');
     expect(foo).to.have.length(3);
     expect(tea).to.have.property('flavors').with.length(3);
+
+</div>
 
 </div>
 
@@ -452,8 +560,12 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         if (...)
           action1();
+
+    </div>
 
     </div>
 
@@ -461,9 +573,13 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         if (...)
           action1();
           action2();
+
+    </div>
 
     </div>
 
@@ -494,6 +610,8 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         List<String> goodNames = new ArrayList<>();
         for (String name: names) {
           if (name.contains("bad")) {
@@ -505,11 +623,15 @@
 
     </div>
 
+    </div>
+
     它说：“如果name含有’bad’这个词，跳过后面的循环代码……” 注意，这是一种“负面”的描述，它不是在告诉你什么时候“做”一件事，而是在告诉你什么时候“不做”一件事。为了知道它到底在干什么，你必须搞清楚continue会导致哪些语句被跳过了，然后脑子里把逻辑反个向，你才能知道它到底想做什么。这就是为什么含有continue和break的循环不容易理解，它们依靠“控制流”来描述“不做什么”，“跳过什么”，结果到最后你也没搞清楚它到底“要做什么”。
 
     其实，我们只需要把continue的条件反向，这段代码就可以很容易的被转换成等价的，不含continue的代码：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         List<String> goodNames = new ArrayList<>();
         for (String name: names) {
@@ -521,6 +643,8 @@
 
     </div>
 
+    </div>
+
     `goodNames.add(name);`和它之后的代码全部被放到了if里面，多了一层缩进，然而continue却没有了。你再读这段代码，就会发现更加清晰。因为它是一种更加“正面”地描述。它说：“在name不含有’bad’这个词的时候，把它加到goodNames的链表里面……”
 
     情况2：for和while头部都有一个循环的“终止条件”，那本来应该是这个循环唯一的退出条件。如果你在循环中间有break，它其实给这个循环增加了一个退出条件。你往往只需要把这个条件合并到循环头部，就可以去掉break。
@@ -528,6 +652,8 @@
     比如下面这段代码：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         while (condition1) {
           ...
@@ -538,13 +664,19 @@
 
     </div>
 
+    </div>
+
     当condition成立的时候，break会退出循环。其实你只需要把condition2反转之后，放到while头部的终止条件，就可以去掉这种break语句。改写后的代码如下：
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         while (condition1 && !condition2) {
           ...
         }
+
+    </div>
 
     </div>
 
@@ -553,6 +685,8 @@
     情况3：很多break退出循环之后，其实接下来就是一个return。这种break往往可以直接换成return。比如下面这个例子：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         public boolean hasBadName(List<String> names) {
             boolean result = false;
@@ -568,9 +702,13 @@
 
     </div>
 
+    </div>
+
     这个函数检查names链表里是否存在一个名字，包含“bad”这个词。它的循环里包含一个break语句。这个函数可以被改写成：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         public boolean hasBadName(List<String> names) {
             for (String name: names) {
@@ -580,6 +718,8 @@
             }
             return false;
         }
+
+    </div>
 
     </div>
 
@@ -593,7 +733,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     command1 && command2 && command3
+
+</div>
 
 </div>
 
@@ -601,7 +745,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     command1 || command2 || command3
+
+</div>
 
 </div>
 
@@ -611,9 +759,13 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     if (action1() || action2() && action3()) {
       ...
     }
+
+</div>
 
 </div>
 
@@ -625,11 +777,15 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     if (!action1()) {
       if (action2()) {
         action3();
       }
     }
+
+</div>
 
 </div>
 
@@ -640,6 +796,8 @@
 在之前一节里，我提到了自己写的代码里面很少出现只有一个分支的if语句。我写出的if语句，大部分都有两个分支，所以我的代码很多看起来是这个样子：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     if (...) {
       if (...) {
@@ -657,11 +815,15 @@
 
 </div>
 
+</div>
+
 使用这种方式，其实是为了无懈可击的处理所有可能出现的情况，避免漏掉corner case。每个if语句都有两个分支的理由是：如果if的条件成立，你做某件事情；但是如果if的条件不成立，你应该知道要做什么另外的事情。不管你的if有没有else，你终究是逃不掉，必须得思考这个问题的。
 
 很多人写if语句喜欢省略else的分支，因为他们觉得有些else分支的代码重复了。比如我的代码里，两个else分支都是`return true`。为了避免重复，他们省略掉那两个else分支，只在最后使用一个`return true`。这样，缺了else分支的if语句，控制流自动“掉下去”，到达最后的`return true`。他们的代码看起来像这个样子：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     if (...) {
       if (...) {
@@ -676,6 +838,8 @@
 
 </div>
 
+</div>
+
 这种写法看似更加简洁，避免了重复，然而却很容易出现疏忽和漏洞。嵌套的if语句省略了一些else，依靠语句的“控制流”来处理else的情况，是很难正确的分析和推理的。如果你的if条件里使用了`&&`和`||`之类的逻辑运算，就更难看出是否涵盖了所有的情况。
 
 由于疏忽而漏掉的分支，全都会自动“掉下去”，最后返回意想不到的结果。即使你看一遍之后确信是正确的，每次读这段代码，你都不能确信它照顾了所有的情况，又得重新推理一遍。这简洁的写法，带来的是反复的，沉重的头脑开销。这就是所谓“面条代码”，因为程序的逻辑分支，不是像一棵枝叶分明的树，而是像面条一样绕来绕去。
@@ -684,10 +848,14 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     String s = "";
     if (x < 5) {
       s = "ok";
     }
+
+</div>
 
 </div>
 
@@ -697,12 +865,16 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     String s;
     if (x < 5) {
       s = "ok";
     } else {
       s = "";
     }
+
+</div>
 
 </div>
 
@@ -714,7 +886,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     String s = x < 5 ? "ok" : "";
+
+</div>
 
 </div>
 
@@ -730,6 +906,8 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     RETURN VALUE 
     On success, the number of bytes read is returned...
 
@@ -741,11 +919,15 @@
 
 </div>
 
+</div>
+
 很多初学者，都会忘记检查`read`的返回值是否为-1，觉得每次调用`read`都得检查返回值真繁琐，不检查貌似也相安无事。这种想法其实是很危险的。如果函数的返回值告诉你，要么返回一个正数，表示读到的数据长度，要么返回-1，那么你就必须要对这个-1作出相应的，有意义的处理。千万不要以为你可以忽视这个特殊的返回值，因为它是一种“可能性”。代码漏掉任何一种可能出现的情况，都可能产生意想不到的灾难性结果。
 
 对于Java来说，这相对方便一些。Java的函数如果出现问题，一般通过异常（exception）来表示。你可以把异常加上函数本来的返回值，看成是一个“union类型”。比如：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     String foo() throws MyException {
       ...
@@ -753,15 +935,21 @@
 
 </div>
 
-这里MyException是一个错误返回。你可以认为这个函数返回一个union类型：`<span class="p">{</span><span class="err">String,</span> <span class="w"></span> <span class="err">MyException</span><span class="p">}</span>`。任何调用`foo`的代码，必须对MyException作出合理的处理，才有可能确保程序的正确运行。Union类型是一种相当先进的类型，目前只有极少数语言（比如Typed Racket）具有这种类型，我在这里提到它，只是为了方便解释概念。掌握了概念之后，你其实可以在头脑里实现一个union类型系统，这样使用普通的语言也能写出可靠的代码。
+</div>
+
+这里MyException是一个错误返回。你可以认为这个函数返回一个union类型：`{String, MyException}`。任何调用`foo`的代码，必须对MyException作出合理的处理，才有可能确保程序的正确运行。Union类型是一种相当先进的类型，目前只有极少数语言（比如Typed Racket）具有这种类型，我在这里提到它，只是为了方便解释概念。掌握了概念之后，你其实可以在头脑里实现一个union类型系统，这样使用普通的语言也能写出可靠的代码。
 
 由于Java的类型系统强制要求函数在类型里面声明可能出现的异常，而且强制调用者处理可能出现的异常，所以基本上不可能出现由于疏忽而漏掉的情况。但有些Java程序员有一种恶习，使得这种安全机制几乎完全失效。每当编译器报错，说“你没有catch这个foo函数可能出现的异常”时，有些人想都不想，直接把代码改成这样：
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     try {
       foo();
     } catch (Exception e) {}
+
+</div>
 
 </div>
 
@@ -777,6 +965,8 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     try {
       foo();
     } catch (A e) {...}
@@ -787,14 +977,20 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
 </div>
 
+</div>
+
 而不是
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     try {
       foo();
       bar();
     } catch (A e) {...}
+
+</div>
 
 </div>
 
@@ -812,6 +1008,8 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         public String find() throws NotFoundException {
           if (...) {
             return ...;
@@ -819,6 +1017,8 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
             throw new NotFoundException();
           }
         }
+
+    </div>
 
     </div>
 
@@ -830,6 +1030,8 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         void foo() {
           String found = find();
           int len = found.length();
@@ -838,9 +1040,13 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     </div>
 
+    </div>
+
     当foo调用产生了异常，他们不管三七二十一，就把调用的地方改成这样：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         try {
           foo();
@@ -850,11 +1056,15 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     </div>
 
+    </div>
+
     这样当found是null的时候，NullPointerException就会被捕获并且得到处理。这其实是很错误的作法。首先，上一节已经提到了，`catch (Exception e)`这种写法是要绝对避免的，因为它捕获所有的异常，包括NullPointerException。这会让你意外地捕获try语句里面出现的NullPointerException，从而把代码的逻辑搅得一塌糊涂。
 
     另外就算你写成`catch (NullPointerException e)`也是不可以的。由于foo的内部缺少了null检查，才出现了NullPointerException。现在你不对症下药，倒把每个调用它的地方加上catch，以后你的生活就会越来越苦。正确的做法应该是改动foo，而不改调用它的代码。foo应该被改成这样：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         void foo() {
           String found = find();
@@ -868,6 +1078,8 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     </div>
 
+    </div>
+
     在null可能出现的当时就检查它是否是null，然后进行相应的处理。
 
 *   不要把null放进“容器数据结构”里面。所谓容器（collection），是指一些对象以某种方式集合在一起，所以null不应该被放进Array，List，Set等结构，不应该出现在Map的key或者value里面。把null放进容器里面，是一些莫名其妙错误的来源。因为对象在容器里的位置一般是动态决定的，所以一旦null从某个入口跑进去了，你就很难再搞明白它去了哪里，你就得被迫在所有从这个容器里取值的位置检查null。你也很难知道到底是谁把它放进去的，代码多了就导致调试极其困难。
@@ -878,10 +1090,14 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         class A {
           String name = null;
           ...
         }
+
+    </div>
 
     </div>
 
@@ -895,6 +1111,8 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         public String foo() {
           String found = find();
           if (found == null) {
@@ -904,9 +1122,13 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     </div>
 
+    </div>
+
     当看到find()返回了null，foo自己也返回null。这样null就从一个地方，游走到了另一个地方，而且它表示另外一个意思。如果你不假思索就写出这样的代码，最后的结果就是代码里面随时随地都可能出现null。到后来为了保护自己，你的每个函数都会写成这样：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         public void foo(A a, B b, C c) {
           if (a == null) { ... }
@@ -914,6 +1136,8 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
           if (c == null) { ... }
           ...
         }
+
+    </div>
 
     </div>
 
@@ -927,6 +1151,8 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         public static <T> T requireNonNull(T obj) {
           if (obj == null) {
             throw new NullPointerException();
@@ -934,6 +1160,8 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
             return obj;
           }
         }
+
+    </div>
 
     </div>
 
@@ -949,10 +1177,14 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         let found = find()
         if let content = found {
           print("found: " + content)
         }
+
+    </div>
 
     </div>
 
@@ -964,8 +1196,12 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         Optional<String> found = find();
         found.ifPresent(content -> System.out.println("found: " + content));
+
+    </div>
 
     </div>
 
@@ -974,6 +1210,8 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
     Java的这种设计有个问题。判断null之后分支里的内容，全都得写在lambda里面。在函数式编程里，这个lambda叫做“[continuation](https://en.wikipedia.org/wiki/Continuation)”，Java把它叫做 “[Consumer](https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html)”，它表示“如果found不是null，拿到它的值，然后应该做什么”。由于lambda是个函数，你不能在里面写`return`语句返回出外层的函数。比如，如果你要改写下面这个函数（含有null）：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         public static String foo() {
           String found = find();
@@ -986,9 +1224,13 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     </div>
 
+    </div>
+
     就会比较麻烦。因为如果你写成这样：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         public static String foo() {
           Optional<String> found = find();
@@ -1000,9 +1242,13 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     </div>
 
+    </div>
+
     里面的`return a`，并不能从函数`foo`返回出去。它只会从lambda返回，而且由于那个lambda（[Consumer.accept](https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html#accept-T-)）的返回类型必须是`void`，编译器会报错，说你返回了String。由于Java里closure的自由变量是只读的，你没法对lambda外面的变量进行赋值，所以你也不能采用这种写法：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         public static String foo() {
           Optional<String> found = find();
@@ -1015,14 +1261,20 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     </div>
 
+    </div>
+
     所以，虽然你在lambda里面得到了found的内容，如何使用这个值，如何返回一个值，却让人摸不着头脑。你平时的那些Java编程手法，在这里几乎完全废掉了。实际上，判断null之后，你必须使用Java 8提供的一系列古怪的[函数式编程操作](http://www.oracle.com/technetwork/articles/java/java8-optional-2175753.html)：`map`, `flatMap`, `orElse`之类，想法把它们组合起来，才能表达出原来代码的意思。比如之前的代码，只能改写成这样：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
         public static String foo() {
           Optional<String> found = find();
           return found.orElse("");
         }
+
+    </div>
 
     </div>
 
@@ -1036,10 +1288,14 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         Option<String> found = find();
         if (found.isPresent()) {
           System.out.println("found: " + found.get());
         }
+
+    </div>
 
     </div>
 

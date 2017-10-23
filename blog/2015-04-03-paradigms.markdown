@@ -10,6 +10,8 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     struct Point {
       double x;
       double y;
@@ -17,14 +19,20 @@
 
 </div>
 
+</div>
+
 那么你用`point.x`和`point.y`可以直接访问它的X和Y坐标。但你也可以把它存储为“极坐标”方式：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     struct Point {
       double r;
       double angle;
     }
+
+</div>
 
 </div>
 
@@ -64,6 +72,8 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     int f(int x) {
         int y = 0;
         int z = 0;
@@ -71,6 +81,8 @@
         z = y + 1;
         return z / 3;
     }
+
+</div>
 
 </div>
 

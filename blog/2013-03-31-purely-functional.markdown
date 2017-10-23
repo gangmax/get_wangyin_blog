@@ -8,6 +8,8 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     int random()
     {
       static int seed = 0;
@@ -17,13 +19,19 @@
 
 </div>
 
+</div>
+
 这里的 `seed` 是一个“static 变量”，其本质就是一个全局变量，只不过这个全局变量只能被 `random` 这一个函数访问。每次调用 `random()`，它都会使用 `next_random(seed)` 生成下一个随机数，并且把 `seed` 的值更新为这个新的随机数。在 `random()` 的执行结束之后，`seed` 会一直保存这个值。下一次调用 `random()`，它就会根据 `seed` 保存的值，算出下一个随机数，然后再次更新 `seed`，如此继续。这就是为什么每一次调用 `random()`，你都会得到不同的随机数。
 
 可是在 Haskell 里面情况就很不一样了。由于 Haskell 不能保留状态，所以同一个“变量”在它作用域的任何位置都具有相同的值。每一个函数只要输入相同，就会输出同样的结果。所以在 Haskell 里面，你不能轻松的表达 `random` 这样的“不纯函数”。为了让 `random` 在每次调用得到不同的输出，你必须给它“不同的输入”。那怎么才能给它不同的输入呢？Haskell 采用的办法，就是把“种子”作为输入，然后返回两个值：新的随机数和新的种子，然后想办法把这个新的种子传递给下一次的 `random` 调用。所以 Haskell 的 `random` 的“线路”看起来像这个样子：
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     （旧种子）---> （新随机数，新种子）
+
+</div>
 
 </div>
 
@@ -45,6 +53,8 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     int f(int x) {
         int y = 0;
         int z = 0;
@@ -55,11 +65,15 @@
 
 </div>
 
+</div>
+
 这是为什么呢？因为它计算的是数学函数 `f(x) = (2x+1)/3` 。你给它同样的输入，肯定会得到同样的输出。函数里虽然对 `y` 和 `z` 进行了赋值，但这种赋值都是“局部”的，它们不会留下“状态”。所以这个函数虽然使用了被“纯函数程序员”们唾弃的赋值语句，却仍然完全的符合“纯函数”的定义。
 
 如果你研究过编译器，就会理解其中的道理。因为这个函数里的 `y` 和 `z`，不过是函数的“数据流”里的一些“中间节点”，它们的用途是用来暂存一些“中间结果”。这些局部的赋值操作，跟函数调用时的“参数传递”没有本质的区别，它们不过都是把信息传送到指定的节点而已。如果你不相信的话，我现在就可以把这些赋值语句全都改写成函数调用：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     int f(int x) {
         return g(2 * x);
@@ -72,6 +86,8 @@
     int h(int z) {
         return z/3;
     }    
+
+</div>
 
 </div>
 

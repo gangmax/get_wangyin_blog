@@ -18,7 +18,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (tmp = i, i = i + 1, tmp)
+
+</div>
 
 </div>
 
@@ -26,7 +30,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     for (int i = 0; i < max; i++)
+
+</div>
 
 </div>
 
@@ -34,7 +42,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     for (int i = 0; i < max; (tmp = i, i = i + 1, tmp))
+
+</div>
 
 </div>
 
@@ -42,7 +54,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     for (int i = 0; i < max; i = i + 1)
+
+</div>
 
 </div>
 
@@ -58,7 +74,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     if (y = 0) { ... }
+
+</div>
 
 </div>
 
@@ -66,8 +86,12 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     y = 0;
     if (y) { ... }
+
+</div>
 
 </div>
 
@@ -79,7 +103,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     x = y = 0
+
+</div>
 
 </div>
 
@@ -87,7 +115,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     if (y = 0) { ... }
+
+</div>
 
 </div>
 
@@ -105,8 +137,12 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         for (int i=0; i < n; i++)
            some_function(i);
+
+    </div>
 
     </div>
 
@@ -114,9 +150,13 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
          for (int i=0; i < n; i++) {
            some_function(i);
          }
+
+    </div>
 
     </div>
 
@@ -128,6 +168,8 @@
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
          if (condition) {
            return x;
          } else {
@@ -136,14 +178,20 @@
 
     </div>
 
+    </div>
+
     都被人改成了：
 
     <div class="highlighter-rouge">
+
+    <div class="highlight">
 
          if (condition) {
            return x;
          }
          return y;
+
+    </div>
 
     </div>
 

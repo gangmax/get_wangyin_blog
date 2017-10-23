@@ -10,7 +10,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     if ("blue" == theSky) ...
+
+</div>
 
 </div>
 
@@ -18,7 +22,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     if (theSky = "blue") ...
+
+</div>
 
 </div>
 
@@ -36,8 +44,12 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     theSky = "blue";
     if (theSky) ...
+
+</div>
 
 </div>
 
@@ -45,8 +57,12 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     theSky = "blue";
     if (theSky != NULL) ...
+
+</div>
 
 </div>
 
@@ -56,7 +72,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     if (theSky := "blue") ...
+
+</div>
 
 </div>
 

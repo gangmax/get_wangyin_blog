@@ -104,4 +104,4 @@
 (defn -main [& args]
   (do
     (doc download)
-    (println (download "http://www.yinwang.org" "/blog-cn/" "./blog/", true))))
+    (println (download "http://www.yinwang.org" "/blog-cn/" "./blog/", false))))

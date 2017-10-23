@@ -12,9 +12,13 @@ Java 有值类型，原始类型 int，boolean 等是值类型，其实是长久
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     int x = 1;    // x指向内存地址A，内容是整数1
     int y = x;    // y指向同样的内存地址A，内容是整数1
     x = 2;        // x指向另一个内存地址B，内容是整数2。y仍然指向地址A，内容是1。
+
+</div>
 
 </div>
 
