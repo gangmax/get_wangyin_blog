@@ -20,9 +20,13 @@ Scheme 的配置有很多种方式，我不想介绍太多东西，免得有人�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     ./configure
     make
     sudo make install
+
+</div>
 
 </div>
 
@@ -48,10 +52,14 @@ ParEdit mode 可以在这里下载：
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (add-to-list 'load-path "~/.emacs.d")
     (autoload 'paredit-mode "paredit"
       "Minor mode for pseudo-structurally editing Lisp code."
       t)
+
+</div>
 
 </div>
 
@@ -62,6 +70,8 @@ ParEdit mode 可以在这里下载：
 我一般就用系统自带的 Scheme 模式，叫 cmuscheme。但是为了方便，我自己写了几个函数，用于在执行 Scheme 代码的时候自动启动解释器，并且打开解释器窗口。你基本只需要把下面的代码拷贝到你的 .emacs 文件里就行：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     ;;;;;;;;;;;;
     ;; Scheme 
@@ -115,6 +125,8 @@ ParEdit mode 可以在这里下载：
 
 </div>
 
+</div>
+
 我的配置会在加载 Scheme 文件的时候自动载入 ParEdit mode，并且把 F5 键绑定到“执行前面的S表达式”。这样设置的目的是，我只要把光标移动到一个S表达式之后，然后用一根手指头按 F5，就可以执行程序。够懒吧。
 
 ### ParEdit mode 的简单使用方法
@@ -127,7 +139,11 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         比如，`(a b c) (d e)`。你把光标放在 `(a b c)` 里面，然后按 `C-right`。结果就是 `(a b c (d e))`。也就是把 `(d e)` 被整个“吞进”了 `(a b c)` 里面。 
+
+    </div>
 
     </div>
 
@@ -137,8 +153,12 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         (let ([x 10])
           (* x 2))
+
+    </div>
 
     </div>
 
@@ -146,7 +166,11 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
     <div class="highlighter-rouge">
 
+    <div class="highlight">
+
         (* x 2)
+
+    </div>
 
     </div>
 
@@ -166,8 +190,12 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (require 'parenface)
     (set-face-foreground 'paren-face "DimGray")
+
+</div>
 
 </div>
 

@@ -4,7 +4,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     f x y = x + y
+
+</div>
 
 </div>
 
@@ -12,7 +16,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     map (f 2) [1, 2, 3]
+
+</div>
 
 </div>
 
@@ -22,10 +30,14 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (define f
       (lambda (x)
         (lambda (y)
           (+ x y))))
+
+</div>
 
 </div>
 
@@ -35,7 +47,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     map (\y->f 2 y) [1, 2, 3]
+
+</div>
 
 </div>
 
@@ -57,7 +73,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     f x y = x / y
+
+</div>
 
 </div>
 
@@ -67,7 +87,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     map (flip f 2) [1, 2, 3]
+
+</div>
 
 </div>
 
@@ -75,7 +99,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     flip f x y = f y x
+
+</div>
 
 </div>
 
@@ -83,7 +111,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     f x y z = (x - y) / z
+
+</div>
 
 </div>
 
@@ -91,7 +123,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     map (flip (f 1) 2) [1, 2, 3]
+
+</div>
 
 </div>
 
@@ -99,7 +135,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     map (\y -> f 1 y 2) [1, 2, 3]
+
+</div>
 
 </div>
 
@@ -113,7 +153,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     map (\y -> f y 1 2) [1, 2, 3]
+
+</div>
 
 </div>
 

@@ -20,9 +20,13 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (setq f 
           (let ((x 1)) 
             (lambda (y) (* x y))))
+
+</div>
 
 </div>
 
@@ -36,8 +40,12 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (let ((x 2))
       (funcall f 2))
+
+</div>
 
 </div>
 
@@ -47,8 +55,12 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (let ((x 3))
       (funcall f 2))
+
+</div>
 
 </div>
 
@@ -58,13 +70,19 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (funcall f 2)
+
+</div>
 
 </div>
 
 你想这次总该得到 2 了吧？结果，出错了：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     Debugger entered--Lisp error: (void-variable x)
       (* x y)
@@ -77,6 +95,8 @@
 
 </div>
 
+</div>
+
 看到问题了吗？f 的行为，随着调用位置的一个“名叫 x”的变量的值而发生变化。而这个 x，跟 f 定义处的 x 其实根本就不是同一个变量，它们只不过名字相同而已。这会导致非常难以发现的错误，也就是早期的 Lisp 最令人头痛的地方。好在现在的大部分语言其实已经吸取了这个教训，所以你不再会遇到这种让人发疯的痛苦。不管是 Scheme, Common Lisp, Haskell, OCaml, Python, JavaScript…… 都不使用 dynamic scoping。
 
 那现在也许你了解了，什么是让人深恶痛绝的 dynamic scoping。如果我告诉你，Lisp Machine 所使用的语言 Lisp Machine Lisp 使用的也是 dynamic scoping，你也许就明白了为什么 Lisp Machine 会失败。因为它跟现在的 Common Lisp 和 Scheme，真的是天壤之别。我宁愿写 C++，Java 或者 Python，也不愿意写 Lisp Machine Lisp 或者 Emacs Lisp。
@@ -85,7 +105,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     '(lambda (y) (* x y))
+
+</div>
 
 </div>
 
@@ -105,6 +129,8 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (documentclass article (11pt))
     (document
       (abstract (...))
@@ -113,6 +139,8 @@
       (section (Second Section)
           ... )
     )
+
+</div>
 
 </div>
 

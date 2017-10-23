@@ -12,6 +12,8 @@
 
 <div class="language-java highlighter-rouge">
 
+<div class="highlight">
+
     class A {
       int a;
       int x;
@@ -26,9 +28,13 @@
 
 </div>
 
+</div>
+
 奉行DRY原则的人喜欢把它改成这样：
 
 <div class="language-java highlighter-rouge">
+
+<div class="highlight">
 
     class C {
       int a;
@@ -43,6 +49,8 @@
       int u;
       int v;
     }
+
+</div>
 
 </div>
 

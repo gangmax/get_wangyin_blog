@@ -10,6 +10,8 @@ Scheme 对 Lisp 的这种混乱做法采取了一定的改进，所以在 Scheme
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     int i = 0;
     ...
     ...
@@ -17,17 +19,25 @@ Scheme 对 Lisp 的这种混乱做法采取了一定的改进，所以在 Scheme
 
 </div>
 
+</div>
+
 Scheme 停止把 `nil` 作为“假”，却仍然把不是 `#f` 的值全都作为“真”。Scheme 的崇拜者一般都告诉你，这样做的好处是，你可以使用
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (or x y z)
+
+</div>
 
 </div>
 
 这样的表达式，如果其中有一个不是 `#f`，那么这个表达式会直接返回它实际的值，而不只是 `#t`。然后你就可以写这样的代码：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     (cond
      [(or x y z)
@@ -36,14 +46,20 @@ Scheme 停止把 `nil` 作为“假”，却仍然把不是 `#f` 的值全都作
 
 </div>
 
+</div>
+
 而不是：
 
 <div class="highlighter-rouge">
+
+<div class="highlight">
 
     (let ([found (first-non-false x y z)])
       (cond
        [(not (eq? found #f))
         (do-something-with found)]))
+
+</div>
 
 </div>
 

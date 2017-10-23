@@ -8,6 +8,8 @@
 
 <div class="language-c# highlighter-rouge">
 
+<div class="highlight">
+
     void foo()
     {
       var event = new ManualResetEvent(false);
@@ -17,9 +19,13 @@
 
 </div>
 
+</div>
+
 貌似没什么困难嘛，我们把每个对象的 Dispose 方法都调用一下，不就得了？然而问题远远不是这么简单。很多时候你根本搞不清楚什么时候该释放一个对象，因为它存在于一个复杂，动态变化的数据结构里面。除非你使用引用计数，否则你没有办法确定调用 Dispose 的时机。如果你过早调用了 Dispose 方法，而其实还有人在用它，就会出现严重的错误。这问题就像 C 语言里面的 free，很多时候你不知道该不该 free 一块内存。如果你过早的 free 了内存，就会出现非常严重而蹊跷的内存错误，比泄漏内存还要严重很多。举一个 C 语言的例子：
 
 <div class="language-c highlighter-rouge">
+
+<div class="highlight">
 
     void main()
     {
@@ -39,6 +45,8 @@
 
 </div>
 
+</div>
+
 你知道这个程序最后是什么结果吗？自己运行一下看看吧。所以对于复杂的数据结构，比如图节点，你就只好给对象加上引用计数。我当年用 C 语言写计算几何算法的时候就干过这种事情，相信我，这其实挺痛苦。或者如果你的内存够用，也不需要分配释放很多中间结果，那你就干脆把这些对象都放进一个“池子”，到算法结束以后再一并释放它们……
 
 是的 C# 有垃圾回收（GC），所以你以为不用再考虑这些低级问题了。不幸的是，IDisposable 接口以及对于它兢兢业业的态度，把这麻烦事给带回来了。以前在 Java 里用此类对象，从来没遇到过这么麻烦的事情，最多就是打开文件的时候要记得关掉（关于文件，我之后会细讲一下）。我不记得 Java 的等价物（[Closeable](https://docs.oracle.com/javase/7/docs/api/java/io/Closeable.html) 接口）引起过这么多的麻烦，Java 的 [Semaphore](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Semaphore.html) 根本就没有实现 Closeable 接口，也不需要在用完之后调用什么 Close 或者 Dispose 之类的方法。作为一个眼睛雪亮的旁观者，我开始怀疑 C# 里的那些像 Semaphore 之类的小东西是否真的需要显式的“释放资源”。
@@ -48,6 +56,8 @@
 其中 HashAlgorithm 的 Dispose 方法完全没必要，这个类的源代码看起来是这个样子：
 
 <div class="language-c# highlighter-rouge">
+
+<div class="highlight">
 
     public abstract class HashAlgorithm : IDisposable, ICryptoTransform {
       ...
@@ -67,9 +77,13 @@
 
 </div>
 
+</div>
+
 看明白了吗？它不过是在把内部数组 HashValue 的每个元素清零，然后把指针设为 null。这个库代码作者没有搞明白的是，如果你的 Dispose 方法只是在把一些成员设为 null，那么你根本就不需要实现 IDisposable。为什么呢？因为把引用设为 null 并不等于 C 语言里面的 free，它并不能立即回收那份内存，就算你的对象里面有一个很大的数组也一样。我发现有些 C# 程序员喜欢在使用对象之后把引用赋值为 null，就像这样写代码：
 
 <div class="language-c# highlighter-rouge">
+
+<div class="highlight">
 
     void foo()
     {
@@ -79,6 +93,8 @@
       // ...
       x = null;
     }
+
+</div>
 
 </div>
 
@@ -100,6 +116,8 @@
 
 <div class="language-c# highlighter-rouge">
 
+<div class="highlight">
+
     void UseFoo()
     {
       Foo foo = new Foo();
@@ -107,6 +125,8 @@
       foo.Dispose();  // 没必要
       foo = null;     // 没必要
     }
+
+</div>
 
 </div>
 
@@ -119,6 +139,8 @@
 作为练习，你可以分析一下 MemoryStream 的 Dispose 方法，为什么是没必要的：
 
 <div class="language-c# highlighter-rouge">
+
+<div class="highlight">
 
     protected override void Dispose(bool disposing)
     {
@@ -143,14 +165,20 @@
 
 </div>
 
+</div>
+
 另外，我发现 AutoResetEvent，ManualResetEvent，ReaderWriterLockSlim，Semaphore 这些 IDisposable 对象，里面的所谓“资源”，归根结底都是一些很小的 Windows event 对象，而且它们都继承了 SafeHandle。SafeHandle 本身有一个“析构函数”（finalizer），它看起来是这个样子：
 
 <div class="language-c# highlighter-rouge">
+
+<div class="highlight">
 
     ~SafeHandle()
     {
     	Dispose(false);
     }
+
+</div>
 
 </div>
 

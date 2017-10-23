@@ -8,6 +8,8 @@
 
 <div class="language-c highlighter-rouge">
 
+<div class="highlight">
+
     void contains_null_check(int *P) {
       int dead = *P;
       if (P == 0)
@@ -17,9 +19,13 @@
 
 </div>
 
+</div>
+
 这例子跟我之前看到的 GCC bug 不大一样，但大致是类似的推理方式：这个函数依次经过这样两个优化步骤（RNCE 和 DCE），之后得出“等价”的代码：
 
 <div class="language-c highlighter-rouge">
+
+<div class="highlight">
 
     void contains_null_check_after_RNCE(int *P) {
       int dead = *P;
@@ -30,7 +36,11 @@
 
 </div>
 
+</div>
+
 <div class="language-c highlighter-rouge">
+
+<div class="highlight">
 
     void contains_null_check_after_RNCE_and_DCE(int *P) {
       //int dead = *P;    // 死代码消除
@@ -38,6 +48,8 @@
       //  return;         // 死代码
       *P = 4;
     }
+
+</div>
 
 </div>
 

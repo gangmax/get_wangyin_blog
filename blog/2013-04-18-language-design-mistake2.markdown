@@ -16,7 +16,11 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     List<有一个头和两只手的正常人> normalPeople;
+
+</div>
 
 </div>
 

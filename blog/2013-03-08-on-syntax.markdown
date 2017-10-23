@@ -42,7 +42,11 @@ Lisp （Scheme 的前身）是世界上第二老的程序语言。最老的是 F
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
           (D ‘(^ x 2) ‘x)
+
+</div>
 
 </div>
 
@@ -66,9 +70,13 @@ Lisp （Scheme 的前身）是世界上第二老的程序语言。最老的是 F
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     case x
       Short _ -> 1
       VeryLooooooooooooooooooooooooog _ -> 2
+
+</div>
 
 </div>
 
@@ -76,9 +84,13 @@ Lisp （Scheme 的前身）是世界上第二老的程序语言。最老的是 F
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     case x
       Short _                           -> 1
       VeryLooooooooooooooooooooooooog _ -> 2
+
+</div>
 
 </div>
 
@@ -88,9 +100,13 @@ Lisp （Scheme 的前身）是世界上第二老的程序语言。最老的是 F
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (case x
       (-> (Short _) 1)
       (-> (VeryLooooooooooooooooooooooooog _) 2))
+
+</div>
 
 </div>
 
@@ -100,9 +116,13 @@ Lisp （Scheme 的前身）是世界上第二老的程序语言。最老的是 F
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (case x
       ((Short _) 1)
       ((VeryLooooooooooooooooooooooooog _) 2))
+
+</div>
 
 </div>
 
