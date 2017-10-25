@@ -92,6 +92,8 @@
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     void traverse(Node node, Set<Node> &visited)
     {
       if (visited.contains(node)) {
@@ -101,6 +103,8 @@
         process_node(node, visited);   // 里面会递归调用 traverse
       }
     }
+
+</div>
 
 </div>
 
