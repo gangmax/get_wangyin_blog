@@ -30,7 +30,11 @@
 
 <div class="language-javascript highlighter-rouge">
 
+<div class="highlight">
+
     function (x) { return x * x }
+
+</div>
 
 </div>
 
