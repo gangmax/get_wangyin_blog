@@ -6,12 +6,8 @@
 
 你可以使用以下方式付款：
 
-1.  微信支付：
-
-    ![](http://www.yinwang.org/images/wechat-pay.jpg)
-
-2.  支付宝：
+1.  支付宝：
 
     ![](http://www.yinwang.org/images/alipay.jpg)
 
-3.  PayPal：请点击[[付款链接](http://paypal.me/yinwang0/5)]
+2.  PayPal：请点击[[付款链接](http://paypal.me/yinwang0/5)]
