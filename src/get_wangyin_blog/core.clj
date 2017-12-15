@@ -86,8 +86,8 @@
                   (if (= "www." (subs (second (string/split link #"//")) 0 4))
                     link
                     (str (first (string/split link #"//")) "//www." (second (string/split link #"//")))))
-            prefix "<div style=\"margin: 2% 5% 2% 5%\">\n\n<table>\n\n<tbody>\n\n<tr>\n\n<td width=\"60%\">\n\n<div style=\"margin-bottom: 5px\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>\n\n<div style=\"padding: 2% 8% 5% 8%; border: 1px solid LightGrey;\">\n\n"
-            postfix "\n</div>\n\n</td>\n\n<td width=\"16%\" valign=\"top\"><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n</div>\n"
+            prefix "The prefix triming is not needed now since the text is handled by the 'h2m.js' script."
+            postfix "The postfix triming is not needed now since the text is handled by the 'h2m.js' script."
             output (-> (str (System/getProperty "user.dir") "/resources/h2m.js") (sh url))
             text (trim-content (:out output) prefix postfix)
             file-path-name (str target-directory (second %))
@@ -104,4 +104,4 @@
 (defn -main [& args]
   (do
     (doc download)
-    (println (download "http://www.yinwang.org" "/blog-cn/" "./blog/", true))))
+    (println (download "http://www.yinwang.org" "/blog-cn/" "./blog/", false))))
