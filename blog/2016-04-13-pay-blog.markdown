@@ -10,4 +10,16 @@
 
     ![](http://www.yinwang.org/images/alipay.jpg)
 
-2.  PayPal：请点击[[付款链接](http://paypal.me/yinwang0/5)]
+2.  微信：
+
+    ![](http://www.yinwang.org/images/wechat-pay.jpg)
+
+3.  PayPal：请点击[[付款链接](http://paypal.me/yinwang0/5)]
+
+4.  比特币。BTC 收款地址 1MEvqnRgr1BirfmfpGXwxc4YVhok2gsr9F
+
+    或者二维码：
+
+    ![](http://www.yinwang.org/images/bitcoin-address.jpg)
+
+    ​
