@@ -12,4 +12,6 @@
 
 3.  PayPal：请点击[[付款链接](http://paypal.me/yinwang0/5)]
 
-4.  BitcoinCash（BCH）。试验一下 BitcoinCash。注意这不是 Bitcoin Core，发送 Bitcoin 到这个地址会导致丢失。由于 Bitcoin 手续费太高，不适合用在这里。我的 BCH 收款地址是： 1DHF41RaMvfSaEScLF2i2nRsSwy8f7EcyM
+4.  比特币（BTC）：1MEvqnRgr1BirfmfpGXwxc4YVhok2gsr9F
+
+5.  BitcoinCash（BCH）：1DHF41RaMvfSaEScLF2i2nRsSwy8f7EcyM
