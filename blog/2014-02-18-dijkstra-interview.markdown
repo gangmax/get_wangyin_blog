@@ -1,6 +1,6 @@
 ## 一个对 Dijkstra 的采访视频
 
-[![](http://www.yinwang.org/images/dijkstra-interview.png)](http://v.youku.com/v_show/id_XNjc1MDMzNDg4.html)
+[![](http://www.yinwang.org/images/dijkstra-interview.jpg)](http://v.youku.com/v_show/id_XNjc1MDMzNDg4.html)
 
 （也可以访问 [YouTube](http://www.youtube.com/watch?v=RCCigccBzIU) 或者从源地址下载 [MPEG1](http://www.cs.utexas.edu/users/EWD/video-audio/NoorderlichtVideo.html)，300M）
 
