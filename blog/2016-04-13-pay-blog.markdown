@@ -1,6 +1,8 @@
 ## 博文的自愿付费方式
 
-喜欢我的文章的人，可以自愿付费购买。你可以使用以下方式付款：
+喜欢我的文章的人，可以自愿付费购买。你可以使用以下方式付款。
+
+我为这些付款方式固定了金额，原因是偶尔会有人付极少量的金额，但利用付款留言来传达他们的不健康心态。所以为了卫生和品牌形象，我设置了固定金额（30 人民币）作为“过滤器”，这对于从事 IT 工作的人应该不是问题。如果你觉得这金额有困难的话，你的付款就免了。本来就是“自愿付费”，所以就请不要来跟我哭穷了 :p
 
 1.  支付宝：
 
@@ -12,6 +14,10 @@
 
 3.  PayPal：请点击[[付款链接](http://paypal.me/yinwang0/5)]
 
-4.  比特币（BTC）：1MEvqnRgr1BirfmfpGXwxc4YVhok2gsr9F
+4.  加密货币：
 
-5.  BitcoinCash（BCH）：1DHF41RaMvfSaEScLF2i2nRsSwy8f7EcyM
+    *   比特币（BTC）：1MEvqnRgr1BirfmfpGXwxc4YVhok2gsr9F
+    *   BitcoinCash（BCH）：1DHF41RaMvfSaEScLF2i2nRsSwy8f7EcyM
+    *   ETH: 0xb9146f8e5cb800787edece517224670fe8983e4a
+
+    ​
