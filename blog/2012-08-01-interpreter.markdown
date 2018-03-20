@@ -20,7 +20,7 @@ Racket 具有宏（macro），所以它其实可以变成很多种语言。如�
 
 Racket 允许使用方括号而不只是圆括号，所以你可以写这样的代码：
 
-<div class="language-clojure highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -32,7 +32,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 </div>
 
-方括号跟圆括号可以互换，唯一的要求是方括号必须和方括号匹配。通常我喜欢用方括号来表示“无动作”的数据（比如上面的 `[x 1]`, `[y 2]`），这样可以跟函数调用和其它具有“动作”的代码，产生“视觉差”。这对于代码的可读性是一个改善，因为到处都是圆括号的话，确实有点太单调。
+方括号跟圆括号可以互换，唯一的要求是方括号必须和方括号匹配。通常我喜欢用方括号来表示“无动作”的数据（比如上面的 `[x 1]`, `[y 2]`），这样可以跟函数调用和其它具有“动作”的代码，产生“视觉差”。这对于代码的可读性是一个改善，因为到处都是圆括号的话，确实有点太单调，容易打瞌睡。
 
 另外，Racket 程序的最上面都需要加上像 `<span class="o">#</span><span class="nv">lang</span> <span class="nv">racket</span>` 这样的语言选择标记，这样 Racket 才可以知道你想用哪个语言变种。
 
@@ -42,17 +42,19 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 ![](http://upload-images.jianshu.io/upload_images/68562-573476c0d8151871.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/400)
 
-比如，你输入表达式 `'(+ 1 2)` ，它就输出值，整数`3`。表达式是一种“表象”或者“符号”，而值却更加接近“本质”或者“意义”。解释器从符号出发，得到它的意义，这也许就是它为什么叫做“解释器”。
+比如，你输入表达式 `'(+ 1 2)` ，它就输出值，整数`3`。表达式是一种“表象”或者“符号”，而值却更加接近“本质”或者“意义”。我们“解释”了符号，得到它的意义，这也许就是为什么它叫做“解释器”。
 
-需要注意的是，表达式是一个数据结构，而不是一个字符串。我们用一种叫“S表达式”（S-expression）的结构来存储表达式。比如表达式 `'(+ 1 2)` 其实是一个链表（list），它里面的内容是三个符号（symbol）：`+`, `1` 和 `2`，而不是字符串`"(+ 1 2)"`。
+需要注意的是，表达式是一个数据结构，而不是一个字符串。我们用一种叫“S 表达式”（S-expression）的结构来存储表达式。比如表达式 `'(+ 1 2)` 其实是一个链表（list），它里面的内容是三个符号（symbol）：`+`, `1` 和 `2`，而不是字符串`"(+ 1 2)"`。
 
-从S表达式这样的“结构化数据”里提取信息，方便又可靠，而从字符串里提取信息，麻烦而且容易出错。Scheme（Lisp）语言里面大量使用结构化数据，少用字符串，这就是 Lisp 系统比 Unix 系统先进的地方之一。
+从 S 表达式这样的“结构化数据”里提取信息，方便又可靠，而从字符串里提取信息，麻烦而且容易出错。Scheme（Lisp）语言里面大量使用结构化数据，少用字符串，这是 Lisp 系统比 Unix 系统先进的地方之一。
 
-从计算理论的角度讲，每个程序都是一台机器的“描述”，而解释器就是在“模拟”这台机器的运转，也就是在进行“计算”。所以从某种意义上讲，解释器就是计算的本质。当然，不同的解释器就会带来不同的计算。你可能没有想到，CPU 也是一个解释器，它专门解释执行机器语言。
+从计算理论的角度讲，每个程序都是一台机器的“描述”，而解释器就是在“模拟”这台机器的运转，也就是在进行“计算”。所以从某种意义上讲，解释器就是计算的本质。当然，不同的解释器就会带来不同的计算。
+
+CPU 也是一个解释器，它专门解释执行机器语言。如果你深刻理解了解释器，就可以从本质上看出各种 CPU 的设计为什么是那个样子，它们有什么优缺点，而不只是被动的作为它们的使用者。
 
 ### 抽象语法树（Abstract Syntax Tree）
 
-我们用S表达式所表示的代码，本质上是一种叫做“树”（tree）的数据结构。更具体一点，这叫做“抽象语法树”（Abstract Syntax Tree，简称 AST）。下文为了简洁，我们省略掉“抽象”两个字，就叫它“语法树”。
+用 S 表达式所表示的代码，本质上是一种叫做“树”（tree）的数据结构。更具体一点，这叫做“抽象语法树”（Abstract Syntax Tree，简称 AST）。下文为了简洁，我们省略掉“抽象”两个字，就叫它“语法树”。
 
 跟普通的树结构一样，语法树里的节点，要么是一个“叶节点”，要么是一颗“子树”。叶节点是不能再细分的“原子”，比如数字，字符串，操作符，变量名。而子树是可以再细分的“结构”，比如算术表达式，函数定义，函数调用，等等。
 
@@ -66,13 +68,13 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 在基础的数据结构课程里，我们都学过二叉树的遍历操作，也就是所谓先序遍历，中序遍历和后序遍历。语法树跟二叉树，其实没有很大区别，所以你也可以在它上面进行遍历。解释器的算法，就是在语法树上的一种遍历操作。由于这个渊源关系，我们先来做一个遍历二叉树的练习。做好了之后，我们就可以把这段代码扩展成一个解释器。
 
-这个练习是这样：写出一个函数，名叫`tree-sum`，它对二叉树进行“求和”，把所有节点里的数加在一起，返回它们的和。举个例子，`(tree-sum '((1 2) (3 4)))`，执行后应该返回 `10`。注意：这是一颗二叉树，所以不会含有长度超过2的子树，你不需要考虑像 `((1 2) (3 4 5))` 这类情况。需要考虑的例子是像这样：`(1 2)`，`(1 (2 3))`, `((1 2) 3)` `((1 2) (3 4))`，……
+这个练习是这样：写出一个函数，名叫`tree-sum`，它对二叉树进行“求和”，把所有节点里的数加在一起，返回它们的和。举个例子，`(tree-sum '((1 2) (3 4)))`，执行后应该返回 `10`。注意：这是一颗二叉树，所以不会含有长度超过 2 的子树，你不需要考虑像 `((1 2) (3 4 5))` 这类情况。需要考虑的例子是像这样：`(1 2)`，`(1 (2 3))`, `((1 2) 3)` `((1 2) (3 4))`，……
 
 （为了达到最好的学习效果，你最好试一下写出这个函数再继续往下看。）
 
 好了，希望你得到了跟我差不多的结果。我的代码是这个样子：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -93,7 +95,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 你可以通过以下的例子来测试它的正确性：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -125,7 +127,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 模式匹配的形式一般是这样：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -145,7 +147,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 举个实在点的例子。我的代码里用了这样一个 match 表达式：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -162,7 +164,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 第二行里面的 `'(,e1 ,e2)` 是一个模式（pattern），它被用来匹配 `exp` 的值。如果 `exp` 是 `'(1 2)`，那么它与`'(,e1 ,e2)`匹配的时候，就会把 `e1` 绑定到 `'1`，把 `e2` 绑定到 `'2`。这是因为它们结构相同：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -193,7 +195,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 好了，下面就是这个计算器的代码。它接受一个表达式，输出一个数字作为结果。
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -218,7 +220,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 你可以得到如下的结果：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -241,7 +243,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 2.  对子树 e1 和 e2 分别求值之后，我们不是返回 `(+ v1 v2)`，而是根据 `op` 的不同，返回不同的结果：
 
-    <div class="highlighter-rouge">
+    <div class="language-scheme highlighter-rouge">
 
     <div class="highlight">
 
@@ -277,7 +279,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 举个例子， `(lambda (x) (lambda (y) (+ x y)))` 是个嵌套的函数定义，它也可以被看成是有两个参数（`x` 和 `y`）的函数，这个函数返回 `x` 和 `y` 的和。当这样的函数被调用的时候，需要两层调用，就像这样：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -292,7 +294,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 另外，我们的绑定语法 `(let ([x e1]) e2)`，比起 Scheme 的绑定也有一些局限。我们的 let 只能绑定一个变量，而 Scheme 可以绑定多个，像这样 `(let ([x 1] [y 2]) (+ x y))`。这也不是一个严重的限制，因为我们可以啰嗦一点，用嵌套的 let 绑定：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -308,7 +310,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 下面是我们今天要完成的解释器，它可以运行一个 R2 程序。你可以先留意一下各部分的注释。
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -378,7 +380,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 这里有一些测试例子：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -422,7 +424,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 算术操作一般都是程序里最基本的构造，它们不能再被细分为多个步骤，所以我们先来看看对算术操作的处理。以下就是 R2 解释器处理算术的部分，它是 `interp` 的最后一个分支。
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -475,7 +477,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 在我们的解释器里，用于处理环境的代码如下：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -501,7 +503,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 这里我们用一种最简单的数据结构，Scheme 的 association list，来表示环境。Association list 看起来像这个样子：`((x . 1) (y . 2) (z . 5))`。它是一个两元组（pair）的链表，左边的元素是 key，右边的元素是 value。写得直观一点就是：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -523,7 +525,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 举个例子：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -541,7 +543,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 这并不等于说 `(x . 1)` 就可以被改写或者丢弃，因为它仍然是有用的。你只需要看一个稍微不同的例子，就知道这是怎么回事：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -577,7 +579,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 现在我们来看看对 let 绑定的解释：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -597,7 +599,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 我们举个例子来解释这个问题。下面这段代码，它的值应该是多少呢？
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -616,7 +618,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 在历史上，这段代码可能有两种不同的结果，这种区别一直延续到今天。如果你在 Scheme （Racket）里面写以上的代码，它的结果是6。
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -652,7 +654,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 为了实现 lexical scoping，我们必须把函数做成“闭包”（closure）。闭包是一种特殊的数据结构，它由两个元素组成：函数的定义和当前的环境。我们把闭包定义为一个 Racket 的 struct 结构：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -664,7 +666,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 有了这个数据结构，我们对 `(lambda (x) e)` 的解释就可以写成这样：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -683,7 +685,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 好了，我们终于到了最后的关头，函数调用。为了直观，我们把函数调用的代码拷贝如下：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -708,7 +710,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 有意思的是，如果我们用 `env`，而不是`env-save` 来解释函数体，那我们的语言就变成了 dynamic scoping。现在来实验一下：你可以把 `(interp e (ext-env x v2 env-save))` 里面的 `env-save` 改成 `env`，再试试我们之前讨论过的代码，它的输出就会变成 12。那就是我们之前讲过的，dynamic scoping 的结果。
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -726,7 +728,7 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 你也许发现了，如果我们的语言是 dynamic scoping，那就没必要使用闭包了，因为我们根本不需要闭包里面保存的环境。这样一来，dynamic scoping 的解释器就可以写成这样：
 
-<div class="highlighter-rouge">
+<div class="language-scheme highlighter-rouge">
 
 <div class="highlight">
 
@@ -762,22 +764,18 @@ Racket 允许使用方括号而不只是圆括号，所以你可以写这样的�
 
 ### 不足之处
 
-现在你已经学会了如何写出一个简单的解释器，它可以处理一个相当强的，具有“first-class 函数”的语言。出于教学的考虑，这个解释器并没有考虑实用的需求，所以它并不能作为“工业应用”。在这里，我指出它的一些不足之处。
+现在你已经学会了如何写出一个简单的解释器，它可以处理一个相当强大的函数式语言。出于教学的考虑，这个解释器并没有考虑实用的需求，所以它并不能作为工业应用。在这里，我指出它的一些不足之处。
 
 1.  缺少必要的语言构造。我们的语言里缺少好些实用语言必须的构造：递归，数组，赋值操作，字符串，自定义数据结构，…… 作为一篇基础性的读物，我不能把这些都加进来。如果你对这些有兴趣，可以看看其它书籍，或者等待我的后续作品。
 
-2.  不合法代码的检测和报告。你也许发现了，这个解释器的 match 表达式，全都假定了输入都是合法的程序，它并没有检查不合法的情况。如果你给它一个不合法的程序，它的行为会变得诡异。一个实用的解释器，必须加入对代码格式进行全面检测，报告不合法的代码结构。
+2.  不合法代码的检测和报告。你也许发现了，这个解释器的 match 表达式，全都假定了输入都是合法的程序，它并没有检查不合法的情况。如果你给它一个不合法的程序，它不会马上报错，而是会真去算它，以至于导致奇怪的后果。一个实用的解释器，必须加入对代码格式进行全面检测，在运行之前就报告不合法的代码结构。
 
 3.  低效率的数据结构。在 association list 里面查找变量，是线性的复杂度。当程序有很多变量的时候就有性能问题。一个实用的解释器，需要更高效的数据结构。这种数据结构不一定非得是函数式的。你也可以用非函数式的数据结构（比如哈希表），经过一定的改造，达到同样的性质，却具有更高的效率。 ​ 另外，你还可以把环境转化成一个数组。给环境里的每个变量分配一个下标（index），在这个数组里就可以找到它的值。如果你用数组表示环境，那么这个解释器就向编译器迈进了一步。
 
-4.  S表达式的歧义问题。为了教学需要，我们的解释器直接使用S表达式来表达语法树，用模式匹配来进行分支遍历。在实际的语言里，这种方式会带来比较大的问题。因为S表达式是一种通用的数据结构，用它表示的东西，看起来都差不多的样子。一旦程序的语法构造多起来，直接对S表达式进行模式匹配，会造成歧义。 ​
+4.  S 表达式的歧义问题。为了教学需要，我们的解释器直接使用 S 表达式来表达语法树，用模式匹配来进行分支遍历。在实际的语言里，这种方式会带来比较大的问题。因为 S 表达式是一种通用的数据结构，用它表示的东西，看起来都差不多的样子。一旦程序的语法构造多起来，直接对 S 表达式进行模式匹配，会造成歧义。 ​
 
-    比如 `(,op ,e1 ,e2)` ，你以为它只匹配二元算术操作，比如 `(+ 1 2)`。但它其实也可以匹配一个 let 绑定： `(let ([x 1]) (* x 2))`。这是因为它们顶层元素的数目是一样的。为了消除歧义，你得小心的安排模式的顺序，比如你必须把 `(let ([,x ,e1]) ,e2)` 的模式放在 `(,op ,e1, e2)` 前面。所以最好的办法，是不要直接在S表达式上写解释器，而是先写一个“parser”，这个parser把S表达式转换成 Racket 的 struct 结构。然后解释器再在 struct 上面进行分支匹配。这样解释器不用担心歧义问题，而且会带来效率的提升。
+    比如 `(,op ,e1 ,e2)` ，你以为它只匹配二元算术操作，比如 `(+ 1 2)`。但它其实也可以匹配一个 let 绑定： `(let ([x 1]) (* x 2))`。这是因为它们顶层元素的数目是一样的。为了消除歧义，你得小心的安排模式的顺序，比如你必须把 `(let ([,x ,e1]) ,e2)` 的模式放在 `(,op ,e1, e2)` 前面。所以最好的办法，是不要直接在 S 表达式上写解释器，而是先写一个“parser”，这个 parser 把 S 表达式转换成 Racket 的 struct 结构。然后解释器再在 struct 上面进行分支匹配。这样解释器不用担心歧义问题，而且会带来效率的提升。
 
 ### 付费方式
 
-如果你喜欢这篇文章，愿意鼓励我继续出品这类精品，欢迎向我的支付宝账号进行捐款。
-
-![](http://upload-images.jianshu.io/upload_images/68562-87cccd26dde8490a.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
-
-在美国的朋友，也可以通过paypal捐款：【[PayPal付款链接](http://paypal.me/yinwang0)】
+如果你喜欢这篇文章，可以到这里[付费购买](http://www.yinwang.org/blog-cn/2016/04/13/pay-blog)。
