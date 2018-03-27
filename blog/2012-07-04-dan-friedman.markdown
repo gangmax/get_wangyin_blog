@@ -46,7 +46,7 @@ Friedman 有一个本领域的人都知道的“弱点”——他不喜欢静�
 
 ### miniCoq
 
-你永远想象不到 Dan Friedman 的思维的极限在哪里。当你认为他是一个函数式语言专家的时候，他设计了 miniKanren，一种逻辑式编程语言 (logic programming language)，并且写出 《The Reasoned Schemer》这样的书，用于教授逻辑编程。当你认为他不懂类型系统的时候，他开始捣鼓最尖端的 Martin-Löf 类型理论，并且开始设计机器证明系统。而他做这些，完全是出于自己的兴趣。他从来不在乎别人在这个方向已经做到了什么程度，却经常能出乎意料的简化别人的设计。
+你永远想象不到 Dan Friedman 的思维的极限在哪里。当你认为他是一个函数式语言专家的时候，他设计了 miniKanren，一种逻辑式编程语言 (logic programming language)，并且写出 《The Reasoned Schemer》这样的书，用于教授逻辑编程。当你认为他不懂类型系统的时候，他开始捣鼓当时最热门的 Martin-Löf 类型理论，并且开始设计机器证明系统。而他做这些，完全是出于自己的兴趣。他从来不在乎别人在这个方向已经做到了什么程度，却经常能出乎意料的简化别人的设计。
 
 有一次系里举办教授们的“闪电式演讲”(lightening talk)，每位教授只有5分钟时间上去介绍自己的研究。轮到 Friedman 的时候，他慢条斯理的走上去，说：“我不着急。我只有几句话要说。我不知道我能不能拖够5分钟……”大家都笑了。他接着说：“我现在最喜欢的东西是 Curry-Howard correspondence 和定理证明。我觉得现在的机器证明系统太复杂了，比如 Coq 有 nnnnn 行代码。我想在 x 年之内，简化 Coq，得到一个 miniCoq……”
 
@@ -84,6 +84,8 @@ Friedman 啊，把这样一个问题作为“智力题”，真有你的！我�
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     (define cps
       (lambda (exp)
         (letrec
@@ -117,13 +119,19 @@ Friedman 啊，把这样一个问题作为“智力题”，真有你的！我�
 
 </div>
 
+</div>
+
 而这还不是 B621 的全部，每一个星期 Friedman 会在黑板上写下一道很难的题目。他不让你看书或者看论文。他有时甚至不告诉你题目里相关概念的名字，或者故意给它们起个新名字，让你想查都查不到。他要求你完全靠自己把这些难题解出来，下一个星期的时候在黑板上给其它同学讲解。他没有明确的评分标准，让你感觉完全没有成绩的压力。
 
 这些题目包括一些很难的问题， 比如 church numeral 的前驱 (predecessor)。这个问题，当年是 Stephen Kleene （图灵的学长） 花了三个月冥思苦想才做出来的。不幸的是我在 Cornell 就学到了 Kleene 的做法，造成了思维的定势，所以这个训练当时对我来说失去了意义。而我们班上却有一个数学系的同学，出人意料的在一个星期之内做出了一个比 Kleene 还要简单的方法。他的完整的代码（用传统的 lambda calculus 语法表示）如下：
 
 <div class="highlighter-rouge">
 
+<div class="highlight">
+
     λn w z. ((n λl h. h (l w)) (λd.z)) (λx.x)
+
+</div>
 
 </div>
 
