@@ -14,25 +14,33 @@
  *
  *   https://github.com/domchristie/to-markdown/
  *
- * Usage: ./h2m.js http://www.yinwang.org/blog-cn/2014/04/18/golang/index.html
+ * Usage 1(WangYin's blog):
+ *   ./h2m.js 'http://www.yinwang.org/blog-cn/2018/10/14/update' '<div class="inner">' '</body>'
+ *
+ * Usage 2(1bypte blog):
+ *  ./h2m.js 'https://1byte.io/leancloud-story-avos/' '<article>' '</article>'
  *
  * Created by Max Huang.
  */
 
 var request = require('request');
 var toMarkdown = require('to-markdown');
-// 1. Read the HTML file content.
+
+// 1. Get the parameters.
+var url = process.argv[2];
+var startToken = process.argv[3];
+var endToken = process.argv[4];
+
+// 2. Read the HTML file content.
 request(
-  {uri: process.argv[2], gzip: true},
+  {uri: url, gzip: true},
   function(error, response, body){
     if(!error) {
-      var contentStartToken = '<div class="inner">';
-      var contentEndToken = '</body>';
-      var fromIndex = body.indexOf(contentStartToken);
-      var toIndex = body.indexOf(contentEndToken);
+      var fromIndex = body.indexOf(startToken);
+      var toIndex = body.indexOf(endToken);
       if (fromIndex >= 0 && fromIndex < toIndex) {
         // 2. Convert the HTML content to markdown format.
-        var content = body.substring(fromIndex + contentStartToken.length, toIndex);
+        var content = body.substring(fromIndex + startToken.length, toIndex);
         // console.log(content);
         var md = toMarkdown(content.toString());
         // 3. Write the markdown content.
