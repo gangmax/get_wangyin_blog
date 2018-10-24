@@ -88,7 +88,9 @@
                     (str (first (string/split link #"//")) "//www." (second (string/split link #"//")))))
             prefix "The prefix triming is not needed now since the text is handled by the 'h2m.js' script."
             postfix "The postfix triming is not needed now since the text is handled by the 'h2m.js' script."
-            output (-> (str (System/getProperty "user.dir") "/resources/h2m.js") (sh url))
+            ; "<div class=\"inner\">" & "</body>" are the start/end tags for the md content in the HTML page,
+            ; they are different for different websites.
+            output (-> (str (System/getProperty "user.dir") "/resources/h2m.js") (sh url "<div class=\"inner\">" "</body>"))
             text (trim-content (:out output) prefix postfix)
             file-path-name (str target-directory (second %))
           ]
