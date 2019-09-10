@@ -9,3 +9,7 @@
 2.  微信：由于微信付款经常出问题，暂时停止使用。
 
 3.  PayPal：请点击[[付款链接](http://paypal.me/yinwang0/5)]
+
+4.  BitCoin：1K3eF2YK3B4NvV9UddsBstXjaKYM93KjYZ
+
+![](http://www.yinwang.org/images/bitcoin-address.jpg)
