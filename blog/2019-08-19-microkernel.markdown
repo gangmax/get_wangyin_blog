@@ -48,177 +48,134 @@
 
 （8 月 19 日，开始）
 
-WY：好多年没折腾 OS，现在再折腾应该有新的发现。这篇 [paper](https://pdfs.semanticscholar.org/983f/f3bf3adf07c9679f4a4e49cd5a8db2e68c5a.pdf) 说 Minix 3 比 Linux 要慢 510%。
+<div class="left">WY：好多年没折腾 OS，现在再折腾应该有新的发现。这篇 [paper](https://pdfs.semanticscholar.org/983f/f3bf3adf07c9679f4a4e49cd5a8db2e68c5a.pdf) 说 Minix 3 比 Linux 要慢 510%。WY：通常的定义，说微内核只需要 send 和 receive 两个系统调用。你不觉得有问题吗？其实函数调用的本质就是 send（参数）和 receive（返回值），但只有这两个系统调用，这种做法是过度的复用（multiplex）。（下载 Minix 3 源代码看了一会儿。上网搜索关于微内核的资料……）</div>
 
-WY：通常的定义，说微内核只需要 send 和 receive 两个系统调用。你不觉得有问题吗？其实函数调用的本质就是 send（参数）和 receive（返回值），但只有这两个系统调用，这种做法是过度的复用（multiplex）。
+<div class="right">LD：是。LD：一个外设产生了中断，中断管理进程接收到到中断，发一个消息给相应的设备驱动进程，这个进程处理中断请求，如果设备驱动有 bug，挂了，也不会干扰 OS。这就是微内核逻辑。</div>
 
-LD：是。
+<div class="left">WY：微内核似乎一直没解决性能问题。后面的 L4, QNX... 把 sever 隔离在不同的地址空间似乎是个最大的问题。</div>
 
-LD：一个外设产生了中断，中断管理进程接收到到中断，发一个消息给相应的设备驱动进程，这个进程处理中断请求，如果设备驱动有 bug，挂了，也不会干扰 OS。这就是微内核逻辑。
+<div class="right">LD：导致通讯成本特别大。本来传递个地址就可以的事。现在要整个复制过去。</div>
 
-（下载 Minix 3 源代码看了一会儿。上网搜索关于微内核的资料……）
+<div class="left">WY：地址空间不应该分开。或者也许可以在 MMU 上面做文章，传递时把那片内存给 map 过去。这样上下文切换又是一个开销…… 函数调用被搞的这么麻烦，微内核似乎确实是不行。对了，微内核服务调用时会产生进程切换吗？</div>
 
-WY：微内核似乎一直没解决性能问题。后面的 L4, QNX… 把 sever 隔离在不同的地址空间似乎是个最大的问题。
+<div class="right">LD：会，按照微内核的定义，每一个基本单元都是一个进程。</div>
 
-LD：导致通讯成本特别大。本来传递个地址就可以的事。现在要整个复制过去。
+<div class="left">WY：完蛋了。</div>
 
-WY：地址空间不应该分开。或者也许可以在 MMU 上面做文章，传递时把那片内存给 map 过去。这样上下文切换又是一个开销…… 函数调用被搞的这么麻烦，微内核似乎确实是不行。对了，微内核服务调用时会产生进程切换吗？
+<div class="right">LD：内存管理是一个进程，IO 管理是一个进程，每个设备驱动是一个进程，中断管理是一个进程。</div>
 
-LD：会，按照微内核的定义，每一个基本单元都是一个进程。
+<div class="left">WY：进程切换的开销……</div>
 
-WY：完蛋了。
+<div class="right">LD：为了降低进程间通信开销，所以定义了 L4。我也不太懂这个有啥用。</div>
 
-LD：内存管理是一个进程，IO 管理是一个进程，每个设备驱动是一个进程，中断管理是一个进程。
+<div class="left">WY：改善的是通信开销，但仍然有进程切换开销。我刚看了一下 L4，它是从寄存器传值，但是进程切换会把寄存器都放到内存吧。</div>
 
-WY：进程切换的开销……
+<div class="right">LD：对呀，所以 L4 意义似乎不大。LD：带“微”的除了微软和微信，没一个成功的。LD：最近流行的所谓微服务。</div>
 
-LD：为了降低进程间通信开销，所以定义了 L4。我也不太懂这个有啥用。
+<div class="left">WY：驱动的 bug 应该有其他办法。</div>
 
-WY：改善的是通信开销，但仍然有进程切换开销。我刚看了一下 L4，它是从寄存器传值，但是进程切换会把寄存器都放到内存吧。
+<div class="right">LD：现在的 OS 的问题，就是内核微小的错误，都是让整个系统挂掉。这和我们写软件应该用多进程还是多线程，同样的问题。</div>
 
-LD：对呀，所以 L4 意义似乎不大。
+<div class="left">WY：应该从硬件底层彻底抛弃现在的进程切换方式。保存的上下文太多。</div>
 
-LD：带“微”的除了微软和微信，没一个成功的。
+<div class="right">LD：现在 OS 不是分成 user 和 kernel 保护级别么。 我觉得再增加一个两个保护级别，专门针对设备驱动程序似乎是更好的选择。</div>
 
-LD：最近流行的所谓微服务。
+<div class="left">WY：我以前设想一个办法可以完全不需要保护级别，而且不需要虚拟内存。</div>
 
-WY：驱动的 bug 应该有其他办法。
+<div class="right">LD：怎么办？ 编译器静态分析搞定？Rust？</div>
 
-LD：现在的 OS 的问题，就是内核微小的错误，都是让整个系统挂掉。这和我们写软件应该用多进程还是多线程，同样的问题。
+<div class="left">WY：完全使用实地址，但是代码无法访问对象外面的内存。</div>
 
-WY：应该从硬件底层彻底抛弃现在的进程切换方式。保存的上下文太多。
+<div class="right">LD：靠编译器保证？</div>
 
-LD：现在 OS 不是分成 user 和 kernel 保护级别么。 我觉得再增加一个两个保护级别，专门针对设备驱动程序似乎是更好的选择。
+<div class="left">WY：不需要多先进的编译器。语言里面没有指针这东西就行，这样你没法访问不是给你的对象。嗯，需要抛弃 C 语言……</div>
 
-WY：我以前设想一个办法可以完全不需要保护级别，而且不需要虚拟内存。
+<div class="right">LD：Rust！</div>
 
-LD：怎么办？ 编译器静态分析搞定？Rust？
+<div class="left">WY：还用不着 Rust。其实 JVM 早就是那样了。只不过通常不认为 JVM 是一个操作系统，但操作系统完全可以做成那样。</div>
 
-WY：完全使用实地址，但是代码无法访问对象外面的内存。
+<div class="right">LD：所谓对象，就是每次地址访问，除了地址还有一个 size？ 超过 size 不允许？还是编译器确保一定不会超过 size？</div>
 
-LD：靠编译器保证？
+<div class="left">WY：你在 Java 或者其它高级语言比如 Python... 都没法访问对象外面的内存啊。只有 C 可以，因为 C 有指针，可以随便指到哪。</div>
 
-WY：不需要多先进的编译器。语言里面没有指针这东西就行，这样你没法访问不是给你的对象。嗯，需要抛弃 C 语言……
+<div class="right">LD：是的。C 这种方式，就是天天在没有护栏的桥上走来走去。除了越界访问，还有一个问题，就是多个 task 同时改一块内存。</div>
 
-LD：Rust！
+<div class="left">WY：然后为了防止越界，有了“进程”，“虚拟地址”这种概念。</div>
 
-WY：用不着 Rust，哈哈。其实 JVM 早就是那样了。只不过通常不认为 JVM 是一个操作系统，但操作系统完全可以做成那样。
+<div class="right">LD：虚拟地址，还是为了用虚拟内存。</div>
 
-LD：所谓对象，就是每次地址访问，除了地址还有一个 size？ 超过 size 不允许？还是编译器确保一定不会超过 size？
+<div class="left">WY：虚拟地址，虚拟内存就是为了隔离。每个进程都以为地址从0开始，然后本来很容易的函数调用被隔离开了。如果改变了这个，微内核就真的可以很快了。实际上内核就不存在了…… 哦，还是有。就只剩下调度器，内存管理。IPC 没了，被函数调用所取代。</div>
 
-WY：你在 Java 或者其它高级语言比如 Python… 都没法访问对象外面的内存啊。只有 C 可以，因为 C 有指针，可以随便指到哪。
+<div class="right">LD：换个思路。其实 OS 最容易出问题的是硬件驱动，所以尽量让硬件标准化，别每个硬件都搞一套自己的驱动。让一套驱动支持多种硬件，问题就解决了。比如 usb 驱动。完全可以做到一类硬件都用一个设备驱动。</div>
 
-LD：是的。C 这种方式，就是天天在没有护栏的桥上走来走去。除了越界访问，还有一个问题，就是多个 task 同时改一块内存。
+<div class="left">WY：我还是觉得驱动程序 bug 其实可以不导致当机。用内核线程行不行？共享地址空间，但是异步执行。</div>
 
-WY：然后为了防止越界，有了“进程”，“虚拟地址”这种概念。
+<div class="right">LD：Linux 似乎就是这样。tasklet，可以被调度的。</div>
 
-LD：虚拟地址，还是为了用虚拟内存。
+<div class="left">WY：所以驱动程序要是当掉，可以不死对吗？我回去查一下。</div>
 
-WY：虚拟地址，虚拟内存就是为了隔离。每个进程都以为地址从0开始，然后本来很容易的函数调用被隔离开了。如果改变了这个，微内核就真的可以很快了。实际上内核就不存在了…… 哦，还是有。就只剩下调度器，内存管理。IPC 没了，被函数调用所取代。
+<div class="right">LD：看啥错误了。不小心修改了其它模块的内存就完蛋了。其它错误最多硬件本身不能用了。</div>
 
-LD：换个思路。其实 OS 最容易出问题的是硬件驱动，所以尽量让硬件标准化，别每个硬件都搞一套自己的驱动。让一套驱动支持多种硬件，问题就解决了。比如 usb 驱动。完全可以做到一类硬件都用一个设备驱动。
+<div class="left">WY：所以就是为什么你说再多一个保护级别。</div>
 
-WY：我还是觉得驱动程序 bug 其实可以不导致当机。用内核线程行不行？共享地址空间，但是异步执行。
+<div class="right">LD：嗯，别碰了内核关键的代码。但是驱动之间还是可以互相干扰的。</div>
 
-LD：Linux 似乎就是这样。tasklet，可以被调度的。
+<div class="left">WY：是个不错的折中方案。所以微内核解决了一个不是那么关键的问题。</div>
 
-WY：所以驱动程序要是当掉，可以不死对吗？我回去查一下。
+<div class="right">LD：是的。这个问题不重要。哦，对了，Windows 是微内核的。好像从 2000 开始。</div>
 
-LD：看啥错误了。不小心修改了其它模块的内存就完蛋了。其它错误最多硬件本身不能用了。
+<div class="left">WY：只是号称吧。Mac OS X 不是号称 Mach 微内核加 BSD 吗？</div>
 
-WY：所以就是为什么你说再多一个保护级别。
+<div class="right">LD：对。MacOS 也是微内核。</div>
 
-LD：嗯，别碰了内核关键的代码。但是驱动之间还是可以互相干扰的。
+<div class="left">WY：那他们怎么解决的性能问题呢？</div>
 
-WY：是个不错的折中方案。所以微内核解决了一个不是那么关键的问题。
+<div class="right">LD：不知道。Windows 蓝屏可不少，显然没做到完全隔离。至于 Mac，不清楚为啥那么稳定。</div>
 
-LD：是的。这个问题不重要。哦，对了，Windows 是微内核的。好像从 2000 开始。
+<div class="left">WY：根据我们之前的讨论，Mac 微内核可能是假的。Mac 稳定是因为它的 driver 就没几个吧，硬件都是固定选好的。</div>
 
-WY：只是号称吧。Mac OS X 不是号称 Mach 微内核加 BSD 吗？
+<div class="right">LD：嗯，也是稳定的主要原因。</div>
 
-LD：对。MacOS 也是微内核。
+<div class="left">WY：这个英明了…… 而且看来微内核在集群方面也没什么用处。</div>
 
-WY：那他们怎么解决的性能问题呢？
-
-LD：不知道。Windows 蓝屏可不少，显然没做到完全隔离。至于 Mac，不清楚为啥那么稳定。
-
-WY：根据我们之前的讨论，Mac 微内核可能是假的。Mac 稳定是因为它的 driver 就没几个吧，硬件都是固定选好的。
-
-LD：嗯，也是稳定的主要原因。
-
-WY：这个英明了…… 而且看来微内核在集群方面也没什么用处。
-
-LD：集群，每个计算机是一个 node。挂了也不怕。
+<div class="right">LD：集群，每个计算机是一个 node。挂了也不怕。</div>
 
 （8 月 20 日继续讨论）
 
-WY：我发现这个 [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.361.4009&rep=rep1&type=pdf)……
+<div class="left">WY：我发现这个 [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.361.4009&rep=rep1&type=pdf)……WY：这东西叫 L4Linux，就是 Linux 跑在 L4 微内核上。比起纯 Linux，开销只有 5%WY：代码在这里：http://os.inf.tu-dresden.de/L4/LinuxOnL4WY：L4 的做法是 1) 小参数用寄存器传递，不切换某些寄存器。2) 大型参数把内存映射到接收进程，跟我之前设想的一样。这样避免了拷贝。然后采用了“direct process switch”，“lazy scheduling”降低了调度开销。现代处理器的 tagged TLB 之类也大大降低了进程切换开销。 ![](https://www.yinwang.org/images/direct-message-copy.jpg) WY：上图是 direct message copy。先把接收进程的目的地址映射到发送进程的地址空间，然后发送进程往里拷贝。所以其实仍然有一次拷贝，并不像我理想的 OS 那样直接就能传递对象引用，完全不用拷贝。Pass-by-value vs pass-by-reference。但这比起 Linux 似乎开销是一样的。</div>
 
-WY：这东西叫 L4Linux，就是 Linux 跑在 L4 微内核上。比起纯 Linux，开销只有 5%
+<div class="right">LD：微内核好处真的很大么？</div>
 
-WY：代码在这里：http://os.inf.tu-dresden.de/L4/LinuxOnL4
+<div class="left">WY：好处就是微内核的好处，隔离。可能看各人需求了。一个 99.99% 可靠的系统和一个 99.999999% 可靠的系统的差别？WY：不过似乎高可靠需求都去用 vxworks 之类的了（上网查询 vxworks……）WY：原来 vxworks 也是微内核。WY：5% 的开销还可以接受…… 进程切换开销貌似没有提，用的地址映射方法。</div>
 
-WY：L4 的做法是 1) 小参数用寄存器传递，不切换某些寄存器。2) 大型参数把内存映射到接收进程，跟我之前设想的一样。这样避免了拷贝。然后采用了“direct process switch”，“lazy scheduling”降低了调度开销。现代处理器的 tagged TLB 之类也大大降低了进程切换开销。
+<div class="right">LD：cross address space</div>
 
-![](https://www.yinwang.org/images/direct-message-copy.jpg)
+<div class="left">WY：刚买了个 tplink 路由器，里面跑的 vxworks。</div>
 
-WY：上图是 direct message copy。先把接收进程的目的地址映射到发送进程的地址空间，然后发送进程往里拷贝。所以其实仍然有一次拷贝，并不像我理想的 OS 那样直接就能传递对象引用，完全不用拷贝。Pass-by-value vs pass-by-reference。但这比起 Linux 似乎开销是一样的。
+<div class="right">LD：tplink 不是 Linux？</div>
 
-LD：微内核好处真的很大么？
+<div class="left">WY：新的 tplink AC1900，改成了 vxworks。Airport Extreme 也是 vxworks。</div>
 
-WY：好处就是微内核的好处，隔离。可能看各人需求了。一个 99.99% 可靠的系统和一个 99.999999% 可靠的系统的差别？
+<div class="right">LD：why？</div>
 
-WY：不过似乎高可靠需求都去用 vxworks 之类的了
+<div class="left">WY：实时，可靠性高吧。</div>
 
-（上网查询 vxworks……）
+<div class="right">LD：可靠性应该是最高的之一。卫星、武器都用。</div>
 
-WY：原来 vxworks 也是微内核。
+<div class="left">WY：波音 787 也用这个，各种火星车…… 貌似还是说明一些问题。WY：还有个 [GreenHills Integrity DO-178B](https://www.ghs.com/products/safety_critical/integrity-do-178b.html) 实时操作系统。F35 用的。WY：Much of the F-35's software is written in C and C++ because of programmer availability; Ada83 code also is reused from the F-22\. The Integrity DO-178B real-time operating system (RTOS) from Green Hills Software runs on COTS Freescale PowerPC processors.WY：Freescale PowerPC...</div>
 
-WY：5% 的开销还可以接受…… 进程切换开销貌似没有提，用的地址映射方法。
+<div class="right">LD：我们的一个 mcu 就是 Freescale 的 PowerPCLD：有个叫“rtems”的 os，我一直很关注。</div>
 
-LD：cross address space
+<div class="left">WY：摘自 Integrity DO-178B RTOS：
 
-WY：刚买了个 tplink 路由器，里面跑的 vxworks。
+<pre>Safe and secure by design
+- RTOS designed for use in reliable, mission critical, 
+safety critical and secure (MILS & MLS) applications
+- Based on modern microkernel RTOS design
+- Fast, deterministic behavior with absolute minimum interrupt latencies
+</pre>
 
-LD：tplink 不是 Linux？
-
-WY：新的 tplink AC1900，改成了 vxworks。Airport Extreme 也是 vxworks。
-
-LD：why？
-
-WY：实时，可靠性高吧。
-
-LD：可靠性应该是最高的之一。卫星、武器都用。
-
-WY：波音 787 也用这个。各种火星车。
-
-WY：还有个 [GreenHills Integrity DO-178B](https://www.ghs.com/products/safety_critical/integrity-do-178b.html) 实时操作系统。F35 用的。
-
-WY：Much of the F-35’s software is written in C and C++ because of programmer availability; Ada83 code also is reused from the F-22\. The Integrity DO-178B real-time operating system (RTOS) from Green Hills Software runs on COTS Freescale PowerPC processors.
-
-WY：Freescale PowerPC…
-
-LD：我们的一个 mcu 就是 freescale 的 powerpc
-
-LD：有个叫“rtems”的 os，我一直很关注。
-
-WY：摘自 Integrity DO-178B RTOS：
-
-<div class="highlighter-rouge">
-
-<div class="highlight">
-
-    Safe and secure by design
-    - RTOS designed for use in reliable, mission critical, 
-    safety critical and secure (MILS & MLS) applications
-    - Based on modern microkernel RTOS design
-    - Fast, deterministic behavior with absolute minimum interrupt latencies
-
-</div>
-
-</div>
-
-WY：Integrity 也是微内核。看来微内核是可靠一些，属于在 C 语言框架下的一个不错的折中方案。
+WY：Integrity 也是微内核。看来微内核是可靠一些，属于在 C 语言框架下的一个不错的折中方案。</div>
 
 ……
 
