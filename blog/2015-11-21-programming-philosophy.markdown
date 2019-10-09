@@ -1192,7 +1192,7 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 
     我不是很喜欢这语法，不过这整个语句的含义是：如果found是nil，那么整个if语句被略过。如果它不是nil，那么变量content被绑定到found里面的值（unwrap操作），然后执行`print("found: " + content)`。由于这种写法把检查和访问合并在了一起，你没法只进行访问而不检查。
 
-    Java 8的做法比较蹩脚一些。如果你得到一个Optional<string>类型的值found，你必须使用“函数式编程”的方式，来写这之后的代码：</string>
+    Java 8的做法比较蹩脚一些。如果你得到一个 `Optional<String>`类型的值found，你必须使用“函数式编程”的方式，来写这之后的代码：
 
     <div class="highlighter-rouge">
 

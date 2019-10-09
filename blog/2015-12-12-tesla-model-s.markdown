@@ -1,14 +1,14 @@
-## Tesla Model S的设计失误
+## Tesla Model S 的设计失误
 
 ![](http://www.yinwang.org/images/model-s-interior.jpg)
 
-这幅美丽的图片，就是红极一时的Tesla电动车Model S的内景。然而你有没有发现，其中有一些不大对劲的地方？虽然我看好电动汽车，它们环保，安静，运动敏捷，然而我发现Tesla的这款Model S，其实有一些严重的设计失误。
+这幅美丽的图片，就是红极一时的 Tesla 电动车 Model S 的内景。然而你有没有发现，其中有一些不大对劲的地方？虽然我看好电动汽车，它们环保，安静，运动敏捷，然而我发现 Tesla 的这款 Model S，其实有一些严重的设计失误。
 
 ### 缺少硬件开关，过度依赖软件和触摸屏
 
-纵观Model S的内景，你会发现这车里面怎么光溜溜的，就没看到几个按钮。确实如此，Model S内部设施的控制，基本上完全靠中间那个很大的触摸屏。
+纵观 Model S 的内景，你会发现这车里面怎么光溜溜的，就没看到几个按钮。确实如此，Model S 内部设施的控制，基本上完全靠中间那个很大的触摸屏。
 
-顶棚上有一个天窗，却没看见天窗的开关。通常说来，当人们看见门或者窗户，他们期望有一个开关，设在旁边顺手的地方。然而你在Model S里面一抬头，却看不见任何可以按下或者掰动的开关。顶棚上面几乎是光溜溜的一片：
+顶棚上有一个天窗，却没看见天窗的开关。通常说来，当人们看见门或者窗户，他们期望有一个开关，设在旁边顺手的地方。然而你在 Model S 里面一抬头，却看不见任何可以按下或者掰动的开关。顶棚上面几乎是光溜溜的一片：
 
 ![](http://www.yinwang.org/images/model-s-sunroof.jpg)
 
@@ -22,7 +22,7 @@
 
 然而这种依赖于触摸屏的设计，其实是让简单的问题变复杂，变麻烦了。其它车的天窗开关都是很明显，不需要“找”的，而Tesla的天窗开关，你要找一会儿，甚至找到了还要琢磨一下，才会知道该怎么用。我现在把导致这种结果的原因，详细分析如下：
 
-1.  天窗控制器不在天窗旁边。触摸屏跟天窗，处于风马不及的位置。这违反了一条基本的设计原理：控制器应该很容易找到，最好在它所控制的东西上面或者旁边。如果用户想打开天窗，他应该能够在天窗旁边，找到一个明显是用来打开它的开关。几乎所有其它车子，天窗开关都在顶棚上，不知Model S的设计者，为何要抛弃这种久经考验的设计。
+1.  天窗控制器不在天窗旁边。触摸屏跟天窗，处于风马不及的位置。这违反了一条基本的设计原理：控制器应该很容易找到，最好在它所控制的东西上面或者旁边。如果用户想打开天窗，他应该能够在天窗旁边，找到一个明显是用来打开它的开关。几乎所有其它车子，天窗开关都在顶棚上，不知 Model S 的设计者，为何要抛弃这种久经考验的设计。
 
 2.  触摸屏上干扰信息太多，不容易找到正确的按钮。触摸屏太大，上面显示着所有控制器的信息。这些控制器的位置，本来可以分布在车的各个部位，现在却集中到了一个仅十几寸的屏幕上面。这当然显示不下，只有放到好几个菜单里面去。
 
@@ -58,17 +58,17 @@
 
 ### 系统可靠性：触摸屏是“中央薄弱环节”
 
-仔细观察一下Model S，你会发现它的内部几乎没有硬件的开关。几乎所有的设施：天窗，空调气孔，窗户，门，后备箱，充电盖，…… 全都是用这个触摸屏来控制。
+仔细观察一下 Model S，你会发现它的内部几乎没有硬件的开关。几乎所有的设施：天窗，空调气孔，窗户，门，后备箱，充电盖，…… 全都是用这个触摸屏来控制。
 
-从系统设计的角度来看，这个触摸屏就是一个“中央薄弱环节”（single point of failure）。只要触摸屏一出问题，你就会失去对几乎所有设施的控制。根据这篇[文章](http://www.autonews.com/article/20140811/OEM06/140819992/tesla-model-s-has-more-than-its-share-of-problems-consumer-reports)，有的Tesla用户报告说，他的Model S在12000英里的时候，触摸屏突然坏掉，以至于门把都没法用了！
+从系统设计的角度来看，这个触摸屏就是一个“中央薄弱环节”（single point of failure）。只要触摸屏一出问题，你就会失去对几乎所有设施的控制。根据这篇[文章](http://www.autonews.com/article/20140811/OEM06/140819992/tesla-model-s-has-more-than-its-share-of-problems-consumer-reports)，有的 Tesla 用户报告说，他的 Model S 在 12000 英里的时候，触摸屏突然坏掉，以至于门把都没法用了！
 
 > Just before the car went in for its annual service, at a little over 12,000 miles, the center screen went blank, eliminating access to just about every function of the car…
 
-相比之下，其它汽车的硬件开关位置是分散的，它们的电路逻辑是相对独立的。一个开关坏掉了，另外一个还可以用。其它车子的屏幕，一般只用来显示倒车摄像信息，以及音乐娱乐等无关紧要的东西。Tesla用这个屏幕来控制所有的配件，真的是发挥过度了。
+相比之下，其它汽车的硬件开关位置是分散的，它们的电路逻辑是相对独立的。一个开关坏掉了，另外一个还可以用。其它车子的屏幕，一般只用来显示倒车摄像信息，以及音乐娱乐等无关紧要的东西。Tesla 用这个屏幕来控制所有的配件，真的是发挥过度了。
 
 ### 门把的设计问题
 
-Model S的门把设计也有问题。它的门把是电动的，而其它车的门把，都是机械的。在停止的状态，Model S的门把会自动缩回去，不露一点缝隙：
+Model S 的门把设计也有问题。它的门把是电动的，而其它车的门把，都是机械的。在停止的状态，Model S 的门把会自动缩回去，不露一点缝隙：
 
 ![](http://www.yinwang.org/images/model-s-door-handle-down.jpg)
 
@@ -76,17 +76,17 @@ Model S的门把设计也有问题。它的门把是电动的，而其它车的�
 
 ![](http://www.yinwang.org/images/model-s-door-handle-up.jpg)
 
-按照Tesla设计师的[思路](http://www.carbodydesign.com/2013/11/tesla-chief-designer-creating-a-car-from-the-ground-up)：“第一次接近这部车的时候，你首先接触到的是门把：这应该是一个印象深刻的经历。在你走近的同时，门把也伸出来——就好像是这车子想起了你……”
+按照 Tesla 设计师的[思路](http://www.carbodydesign.com/2013/11/tesla-chief-designer-creating-a-car-from-the-ground-up)：“第一次接近这部车的时候，你首先接触到的是门把：这应该是一个印象深刻的经历。在你走近的同时，门把也伸出来——就好像是这车子想起了你……”
 
 > As you approach the car for the first time, the first contact you have with the vehicle is through the door handle: it needs to be a memorable experience […] The idea of this door handles that protrudes from the car as you approach it – [it’s like] the car is already thinking for you.
 
 多么诗情画意的场景，一部会想起你的车，一个朋友！可惜这美好的第一印象，是经不起现实考验的。等你买下这车，实际用起来的时候，问题就来了。首先，这个门把被人手抓握的部分，是扁平的形状。这种形状非常的不符合人体工学，捏起来会很不舒服，使不上劲。如果车门被冰冻住，或者门被撞变形了，或者有紧急情况需要很快的开门，这门把就会带来很大的麻烦，甚至可能是很危险的。
 
-另外，在寒冷的地区，车停在外面，缩进去的门把会被冰冻住。等你要开门的时候，才发现门把被冻住了，出不来。如果软件出了故障，也可能导致门把出不来。一旦出了这些事情，你就完全失去了打开车门的能力。如果门把是机械的，就算上面有一点冰，一拉把手，冰就碎掉，门就开了。如果实在冻得严重了，你把冰稍微凿一下，一拉就开。Tesla的设计者，貌似完全没考虑过这些“意外”的情况。
+另外，在寒冷的地区，车停在外面，缩进去的门把会被冰冻住。等你要开门的时候，才发现门把被冻住了，出不来。如果软件出了故障，也可能导致门把出不来。一旦出了这些事情，你就完全失去了打开车门的能力。如果门把是机械的，就算上面有一点冰，一拉把手，冰就碎掉，门就开了。如果实在冻得严重了，你把冰稍微凿一下，一拉就开。Tesla 的设计者，貌似完全没考虑过这些“意外”的情况。
 
-没有任何其它牌子的汽车采用像这样的门把设计。从丰田一直到[Bugatti](http://www.bugatti.com)，它们的门把全都是机械的，粗壮的，直接就可以拉的。没人在这上面耍花样。你想这应该有原因的吧？由于人的生命安全，在事故的时候依赖于快速地打开车门，门把的设计需要是坚固而可靠的。
+没有任何其它牌子的汽车采用像这样的门把设计。从丰田一直到 [Bugatti](http://www.bugatti.com)，它们的门把全都是机械的，粗壮的，直接就可以拉的。没人在这上面耍花样。你想这应该有原因的吧？由于人的生命安全，在事故的时候依赖于快速地打开车门，门把的设计需要是坚固而可靠的。
 
-只有Tesla别出心裁，搞得门把完全缩进去，跟车门平齐，连个可以用力的地方都没有。门把和车门之间的缝隙很小，所以冻在里面的冰没法凿开。很多人发现这是个讨厌的问题。看看这篇[讨论](https://my.teslamotors.com/it_IT/forum/forums/those-door-handles)，你就会发现人们为了这个门把，费了多少脑筋，想出五花八门的解决方案：
+只有 Tesla 别出心裁，搞得门把完全缩进去，跟车门平齐，连个可以用力的地方都没有。门把和车门之间的缝隙很小，所以冻在里面的冰没法凿开。很多人发现这是个讨厌的问题。看看这篇[讨论](https://my.teslamotors.com/it_IT/forum/forums/those-door-handles)，你就会发现人们为了这个门把，费了多少脑筋，想出五花八门的解决方案：
 
 *   提前远程启动车子，让内部温度起来，化掉把手上的冰
 *   往门把上泼热水
@@ -99,7 +99,7 @@ Model S的门把设计也有问题。它的门把是电动的，而其它车的�
 
 ### 人体工学和舒适性问题
 
-另外，我发现Model S的触摸屏，其实在一个很不舒服的位置。如果我靠在司机的座位上，我的手是无法顺利地碰到屏幕右边的。我必须启用我的腹肌，稍微坐起来一点，努力伸出右手，才能够得着那个位置。
+另外，我发现 Model S 的触摸屏，其实在一个很不舒服的位置。如果我靠在司机的座位上，我的手是无法顺利地碰到屏幕右边的。我必须启用我的腹肌，稍微坐起来一点，努力伸出右手，才能够得着那个位置。
 
 如果触摸屏的位置稍微往下放一点，倾斜度降低一些，就会方便很多。另外，这个触摸屏真的不需要做那么大。
 
@@ -109,51 +109,51 @@ Model S的门把设计也有问题。它的门把是电动的，而其它车的�
 
 这貌似是用来放随身物品的。然而这个空间，由于位置和形状的问题，恐怕不会得到有效的利用。由于平台位置太低，几乎到了地板上，如果往里面放置物品，拿起来会非常的不顺手，甚至需要弯腰下去，而且恐怕会被不小心踢翻。因为整个平面是光滑的，中间也没有挡板，车子加减速时，东西可能会到处乱跑。从美学角度看，这个区域的边界，跟触摸屏线条错位，感觉不流畅，不美观。
 
-另外有用户[反映](https://my.teslamotors.com/it_CH/forum/forums/cup-holders-and-spilled-coffee)，Model S的咖啡杯座，被设置在一个很容易被手肘碰翻的位置。某些Tesla的“专家用户”对此的建议是，去买“防溅”的咖啡杯。有些聪明人甚至自己设计，并且用3D打印机山寨了一个架子来放咖啡：
+另外有用户[反映](https://my.teslamotors.com/it_CH/forum/forums/cup-holders-and-spilled-coffee)，Model S 的咖啡杯座，被设置在一个很容易被手肘碰翻的位置。某些 Tesla 的“专家用户”对此的建议是，去买“防溅”的咖啡杯。有些聪明人甚至自己设计，并且用 3D 打印机山寨了一个架子来放咖啡：
 
 ![](http://www.yinwang.org/images/model-s-3d-printed-cup-holder.png)
 
-我对此举动非常的无语。本来Tesla的设计师应该做好的东西，居然需要自己动手。很不可思议的是，这样不舒服的车，被叫做“豪华车”，价钱是其它牌子的两三倍……
+我对此举动非常的无语。本来 Tesla 的设计师应该做好的东西，居然需要自己动手。很不可思议的是，这样不舒服的车，被叫做“豪华车”，价钱是其它牌子的两三倍……
 
 ### 可靠性问题
 
-虽然这篇文章里面，我只想指出Model S的设计问题，它其实也有很多可靠性的问题。
+虽然这篇文章里面，我只想指出 Model S 的设计问题，它其实也有很多可靠性的问题。
 
-最近的一些[报道](http://jalopnik.com/report-two-thirds-of-early-tesla-model-s-drivetrains-m-1747222846)指出，由于动力系统的问题，2/3以上的早期Model S，动力系统的寿命都不会超过6万英里。Consumer Reports也[报道](http://www.consumerreports.org/cars/tesla-reliability-doesnt-match-its-high-performance)，Model S的可靠性“低于平均水平”。报告指出，Model S存在各种质量问题：触摸屏崩溃，门把失灵，发动机故障，天窗漏水，各种部件嘎吱作响，等等。另外一篇Consumer Report的[文章](http://www.roadandtrack.com/new-cars/car-technology/news/a27094/consumer-reports-tesla-model-s-not-recommended-on-reliability)，对各种电动车的可靠性进行了排名，Model S名列倒数第一。
+最近的一些[报道](http://jalopnik.com/report-two-thirds-of-early-tesla-model-s-drivetrains-m-1747222846)指出，由于动力系统的问题，2/3 以上的早期 Model S，动力系统的寿命都不会超过 6 万英里。Consumer Reports 也[报道](http://www.consumerreports.org/cars/tesla-reliability-doesnt-match-its-high-performance)，Model S 的可靠性“低于平均水平”。报告指出，Model S 存在各种质量问题：触摸屏崩溃，门把失灵，发动机故障，天窗漏水，各种部件嘎吱作响，等等。另外一篇 Consumer Report 的[文章](http://www.roadandtrack.com/new-cars/car-technology/news/a27094/consumer-reports-tesla-model-s-not-recommended-on-reliability)，对各种电动车的可靠性进行了排名，Model S 名列倒数第一。
 
 ### 安全性问题
 
-2016年1月1号，在挪威的一个Tesla充电站，有一台Model S在充电的时候，莫名其妙起火燃烧（见[新闻](http://www.extremetech.com/extreme/220237-tesla-model-s-catches-fire-at-supercharger-station-in-norway)和[视频](https://www.youtube.com/watch?v=CWXN7ni4FTc)）。由于着火的材料是锂金属，消防队无法用水控制火势，只能用泡沫覆盖隔离，等待烈火把车子完全融化。最后这台车被完全烧毁，幸好没有人员伤亡。事故起因正在调查之中。
+2016年1月1号，在挪威的一个 Tesla 充电站，有一台 Model S 在充电的时候，莫名其妙起火燃烧（见[新闻](http://www.extremetech.com/extreme/220237-tesla-model-s-catches-fire-at-supercharger-station-in-norway)和[视频](https://www.youtube.com/watch?v=CWXN7ni4FTc)）。由于着火的材料是锂金属，消防队无法用水控制火势，只能用泡沫覆盖隔离，等待烈火把车子完全融化。最后这台车被完全烧毁，幸好没有人员伤亡。事故起因正在调查之中。
 
 ![](http://www.yinwang.org/images/model-s-burn.jpg)
 
-Elon Musk对此事故的反应比较让人失望，他说：“美国每年有上万辆汽车起火事故，没有人报道。为什么Tesla的车一起火，媒体就争相报道？” 不好好调查和检讨起火的原因，反倒笑别人“一百步”，这种态度是不可取的。
+Elon Musk 对此事故的反应比较让人失望，他说：“美国每年有上万辆汽车起火事故，没有人报道。为什么Tesla的车一起火，媒体就争相报道？” 不好好调查和检讨起火的原因，反倒笑别人“一百步”，这种态度是不可取的。
 
 其实媒体报道Tesla车起火，是有他们的原因的。汽油车着火，一般都是因为有人犯了严重的错误，导致严重的车祸，油箱破裂，又遇上火源或者重击。或者由于车体老化漏油，又碰上火源。而电动车起火，不需要有人犯错误，不需要有严重的车祸，莫名其妙就着火了。你有见过崭新的汽油车，在加油站加油，忽然自己着火吗？
 
-这不是第一辆起火的Model S。世界上只有3万多辆Model S，却已经出现过4起[起火事件](https://www.youtube.com/watch?v=q0kjI08n4fg)。之前的一个Model S，半路上底部被硬物撞击。屏幕提示说，电池出了问题，请停车并且撤离。幸好车主按照电脑的指示做了，结果撤离不久之后，车就开始燃烧。如果车主没有停车撤离，后果是相当可怕的。这种对生命危险缺乏明确警示信号，其实也是一种严重的设计问题。
+这不是第一辆起火的 Model S。世界上只有 3 万多辆 Model S，却已经出现过4起[起火事件](https://www.youtube.com/watch?v=q0kjI08n4fg)。之前的一个 Model S，半路上底部被硬物撞击。屏幕提示说，电池出了问题，请停车并且撤离。幸好车主按照电脑的指示做了，结果撤离不久之后，车就开始燃烧。如果车主没有停车撤离，后果是相当可怕的。这种对生命危险缺乏明确警示信号，其实也是一种严重的设计问题。
 
 锂电池起火的原因很奇怪，[波音787客机](https://en.wikipedia.org/wiki/Boeing_787_Dreamliner_battery_problems)上，出现过多次锂电池起火事故，引起了很大的关注。最后分析原因在于：
 
-1.  日本GS Yuasa公司制造的电池存在缺陷。
-2.  波音工程师，没有考虑到worse case的电池故障。
+1.  日本 GS Yuasa 公司制造的电池存在缺陷。
+2.  波音工程师，没有考虑到 worse case 的电池故障。
 3.  FAA，在认证过程中没有考虑到电池的危险性问题。
 
-既然锂电池有这么蹊跷的潜在危险，Tesla的起火事件，当然也应该受到重视。这问题不像Elon Musk说的那么可靠，那么不值一提。
+既然锂电池有这么蹊跷的潜在危险，Tesla 的起火事件，当然也应该受到重视。这问题不像Elon Musk说的那么可靠，那么不值一提。
 
-### Autopilot的事故责任问题
+### Autopilot 的事故责任问题
 
-两个月前，Tesla通过“软件更新”，使Model S具有了初级的“自动驾驶”（autopilot）功能。这个功能可以让Model S自动地，沿着有“清晰边界线”的车道行驶，根据前后车辆的速度相应的加速和减速。
+两个月前，Tesla 通过“软件更新”，使 Model S 具有了初级的“自动驾驶”（autopilot）功能。这个功能可以让 Model S 自动地，沿着有“清晰边界线”的车道行驶，根据前后车辆的速度相应的加速和减速。
 
-这貌似一个很新很酷的功能，咋一看跟Google的自动车有的一拼（其实差得天远）。然而在推出后不久，YouTube上出现了一些视频（[视频1](https://www.youtube.com/watch?v=MrwxEX8qOxA)，[视频2](https://www.youtube.com/watch?v=Lx3-epk_ztQ)，[视频3](https://www.youtube.com/watch?v=LJnYCEQwtHs)，[视频4](https://www.youtube.com/watch?v=rkZ-jhLxrVc)，[视频5](https://www.youtube.com/watch?v=mLOG1bw3vSM)）。它们显示，autopilot在某些情况下有可能进行错误的判断和操作，有些险些造成严重的迎面车祸。
+这貌似一个很新很酷的功能，咋一看跟Google的自动车有的一拼（其实差得天远）。然而在推出后不久，YouTube 上出现了一些视频（[视频1](https://www.youtube.com/watch?v=MrwxEX8qOxA)，[视频2](https://www.youtube.com/watch?v=Lx3-epk_ztQ)，[视频3](https://www.youtube.com/watch?v=LJnYCEQwtHs)，[视频4](https://www.youtube.com/watch?v=rkZ-jhLxrVc)，[视频5](https://www.youtube.com/watch?v=mLOG1bw3vSM)）。它们显示，autopilot 在某些情况下有可能进行错误的判断和操作，有些险些造成严重的迎面车祸。
 
 [![](http://www.yinwang.org/images/model-s-autopilot-frontal.png)](https://www.youtube.com/watch?v=MrwxEX8qOxA)
 
-特别是[视频1](https://www.youtube.com/watch?v=MrwxEX8qOxA)显示，在路面线条清晰，天气很好的路上，autopilot忽然向左转向迎面方向的车道，差点导致严重的对撞车祸。仔细观察autopilot转向之前的情况，是由于路面上有阳光投下来的树影。Autopilot误以为那是一个障碍物，所以把车转上了反方向的车道！
+特别是[视频1](https://www.youtube.com/watch?v=MrwxEX8qOxA)显示，在路面线条清晰，天气很好的路上，autopilot 忽然向左转向迎面方向的车道，差点导致严重的对撞车祸。仔细观察 autopilot 转向之前的情况，是由于路面上有阳光投下来的树影。Autopilot 误以为那是一个障碍物，所以把车转上了反方向的车道！
 
 从这个简单的视频我们可以看出：
 
-1.  Autopilot没有对图像进行基本的“阴影消除”，它不能区分阴影和障碍物。阳光强烈，阴影明显的时候，autopilot可能把阴影当成障碍物。阴影消除在计算机视觉已经研究挺多了，这说明Tesla有可能没有进行基础的计算机视觉研究。缺乏分辨阴影和障碍物的能力，这样的自动驾驶系统是完全不可接受的。
+1.  Autopilot 没有对图像进行基本的“阴影消除”，它不能区分阴影和障碍物。阳光强烈，阴影明显的时候，autopilot 可能把阴影当成障碍物。阴影消除在计算机视觉已经研究挺多了，这说明 Tesla 有可能没有进行基础的计算机视觉研究。缺乏分辨阴影和障碍物的能力，这样的自动驾驶系统是完全不可接受的。
 
 2.  道路中间有明显的，表示“禁止超车”的双黄线，对面有来车。Autopilot为了避开“障碍”，冒着对撞的危险，左转跨越双黄线。这表示autopilot连基本的交通规则，紧急情况下的正确操作方式都搞不清楚。或者也许这软件里面连双黄线都没有识别，甚至连这个概念都没有。
 
