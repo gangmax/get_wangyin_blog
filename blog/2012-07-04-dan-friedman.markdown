@@ -82,7 +82,7 @@ Friedman 啊，把这样一个问题作为“智力题”，真有你的！我�
 
 下面就是我的程序对于 lambda calculus 的缩减版本。我怎么也没想到，这短短 30 行代码耗费了很多人 10 年的时间才琢磨出来。
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -125,7 +125,7 @@ Friedman 啊，把这样一个问题作为“智力题”，真有你的！我�
 
 这些题目包括一些很难的问题， 比如 church numeral 的前驱 (predecessor)。这个问题，当年是 Stephen Kleene （图灵的学长） 花了三个月冥思苦想才做出来的。不幸的是我在 Cornell 就学到了 Kleene 的做法，造成了思维的定势，所以这个训练当时对我来说失去了意义。而我们班上却有一个数学系的同学，出人意料的在一个星期之内做出了一个比 Kleene 还要简单的方法。他的完整的代码（用传统的 lambda calculus 语法表示）如下：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

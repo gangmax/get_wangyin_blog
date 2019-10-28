@@ -8,7 +8,7 @@
 
     在 C/C++ 里面使用这样的表达式顺序：
 
-    <div class="highlighter-rouge">
+    <div class="language-plaintext highlighter-rouge">
 
     <div class="highlight">
 
@@ -20,7 +20,7 @@
 
     这是为了避免意外的写成：
 
-    <div class="highlighter-rouge">
+    <div class="language-plaintext highlighter-rouge">
 
     <div class="highlight">
 

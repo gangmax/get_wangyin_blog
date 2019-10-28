@@ -14,7 +14,7 @@
 
 怎么办呢？所以你想出了一个办法，把“正常人”单独放在一个列表里，其它的怪人另外处理。于是你就希望有一个办法，让别人无法把那些怪人放进这个列表里。你想要的其实就是 Java 里的“类型”，像这样：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

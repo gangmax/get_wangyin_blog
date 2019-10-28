@@ -18,7 +18,7 @@ Haskell 的社区喜欢在他们的概念里省掉“纯”这个字，把 Haske
 
 在 Haskell 里面，你不能使用通常语言里面都有的赋值语句，比如 Pascal 里的 `x:=1`，C 和 Java 里的 `x=1`，或者 Scheme 里的 `(set! x 1)`，Common Lisp 里的 `(setq x 1)`。这样一来，你就不可能保留“状态”（state）。所谓“状态”，就是指“随机数种子”那样的东西，其实本质上就是“全局变量”。比如，在 C 语言里定义 `random()` 函数，你可以这么做：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -37,7 +37,7 @@ Haskell 的社区喜欢在他们的概念里省掉“纯”这个字，把 Haske
 
 可是在 Haskell 里面情况就很不一样了。由于 Haskell 不能保留状态，所以同一个“变量”在它作用域的任何位置都具有相同的值。每一个函数只要输入相同，就会输出同样的结果。所以在 Haskell 里面，你不能轻松的表达 `random` 这样的“不纯函数”。为了让 `random` 在每次调用得到不同的输出，你必须给它“不同的输入”。那怎么才能给它不同的输入呢？Haskell 采用的办法，就是把“种子”作为输入，然后返回两个值：新的随机数和新的种子，然后想办法把这个新的种子传递给下一次的 `random` 调用。所以 Haskell 的 `random` 的“线路”看起来像这个样子：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -63,7 +63,7 @@ Haskell 的社区喜欢在他们的概念里省掉“纯”这个字，把 Haske
 
 我只举一个非常简单的例子，在 C 语言里面定义如下的函数。虽然函数体里面含有赋值语句，它却是一个真正意义上的“纯函数”：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -83,7 +83,7 @@ Haskell 的社区喜欢在他们的概念里省掉“纯”这个字，把 Haske
 
 如果你研究过编译器，就会理解其中的道理。因为这个函数里的 `y` 和 `z`，不过是函数的“数据流”里的一些“中间节点”，它们的用途是用来暂存一些“中间结果”。这些局部的赋值操作，跟函数调用时的“参数传递”没有本质的区别，它们不过都是把信息传送到指定的节点而已。如果你不相信的话，我现在就可以把这些赋值语句全都改写成函数调用：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

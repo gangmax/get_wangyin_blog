@@ -8,7 +8,7 @@
 
 它的含义是，在 C/C++ 里面使用这样的表达式顺序：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -20,7 +20,7 @@
 
 这是为了避免意外的写成：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -42,7 +42,7 @@
 
 也就是说，`theSky = "blue"` 的所有功能应该只是“赋值”这种“副作用”，副作用不应该具有“值”。即使你牵强附会说它有一个值，它的“值”也应该是 `void`（随之这个 `void` 会被类型检查所拒绝，因为它不是 `if` 所期望的 `bool`）。所以，一个良好的语言不应该允许你把 `theSky = "blue"` 放进 `if (...)` 的“条件”里面。如果你真的要赋值又要判断，它会迫使你把这拆开成两行：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -55,7 +55,7 @@
 
 更近一步。`if (theSky)` 这个写法其实也是一个先辈的罪。`theSky` 的类型是 `string`，它不应该可以直接被作为 `bool` 使用。`if (...)` 的条件应该必须是一个 `bool`。 所以这里其实应该写成：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -70,7 +70,7 @@
 
 相反，如果我们只是把 `=` 换成像 Pascal 的 `:=` 这样的赋值操作符，而保留其它的“特性”（赋值操作会返回值）的话，我们其实还是会遇到同样的问题：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

@@ -4,7 +4,7 @@
 
 Swift 1.0 试图利用 var 和 let 的区别来指定 array 成员的可变性，然而其实 var 和 let 只能指定 array reference 的可变性，而不能指定 array 成员的可变性。举个例子，Swift 1.0 试图实现这样的语义：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -17,7 +17,7 @@ Swift 1.0 试图利用 var 和 let 的区别来指定 array 成员的可变性�
 
 </div>
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -34,7 +34,7 @@ Swift 1.0 试图利用 var 和 let 的区别来指定 array 成员的可变性�
 
 var 和 let 本来是用于指定 `shoppingList` 这个 reference 是否可变，也就是决定 `shoppingList` 是否可以指向另一个 array 对象。正确的用法应该是这样：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -50,7 +50,7 @@ var 和 let 本来是用于指定 `shoppingList` 这个 reference 是否可变�
 
 </div>
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -74,7 +74,7 @@ var 和 let 一旦被用于指定 array reference 的可变性，就不再能用
 
 Swift 2.0 修正了这个问题，然而可惜的是，它的修正方式是错误的。Swift 2.0 做出了一个离谱的改动，它把 array 从 reference type 变成了所谓 value type，也就是说把整个 array 放在栈上，而不是堆上。这貌似解决了以上的问题，由于 array 成了 value type，那么 `shoppingList` 就不是 reference，而代表整个 array 本身。所以在 array 是 value type 的情况下，你确实可以用 var 和 let 来决定它的成员是否可变。
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -91,7 +91,7 @@ Swift 2.0 修正了这个问题，然而可惜的是，它的修正方式是错�
 
 这看似一个可行的解决方案，然而它却没有击中要害。这是一种削足适履的做法，它带来了另外的问题。把 array 作为 value type，使得每一次对 array 变量的赋值或者参数传递，都必须进行拷贝。你没法让两个变量指向同一个 array，也就是说 array 不再能被共享。比如：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

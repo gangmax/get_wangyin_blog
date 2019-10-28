@@ -10,7 +10,7 @@ PySonar2 的类型推导系统能够不依赖类型标记却精确地分析出 P
 
 最有意思的是那个 `render_template`。PySonar2 为它推导出来的类型是一个 intersection type：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -40,7 +40,7 @@ Sourcegraph 有一些不为人知的巧妙设计，但是由于 Quinn 和 Beyang
 
 举个例子，如果你想分析 `http://github.com/myname/myrepo` 的代码，就在浏览器输入地址：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

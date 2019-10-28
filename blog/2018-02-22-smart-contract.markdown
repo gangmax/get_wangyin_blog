@@ -12,7 +12,7 @@
 
 举一个很简单的 Hoare Logic 例子：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

@@ -40,7 +40,7 @@ Lisp （Scheme 的前身）是世界上第二老的程序语言。最老的是 F
 
 其实 Lisp 已经可以轻松地表示这种公式，比如对 `x^2` 进行微分，可以表示成
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -68,7 +68,7 @@ Lisp （Scheme 的前身）是世界上第二老的程序语言。最老的是 F
 
 最后，从美学的角度上讲，S表达式是很美观的设计。所有的符号都用括号括起来，这形成一种“流线型”的轮廓。而且由于可以自由的换行排版，你可以轻松地对齐相关的部分。在 Haskell 里，你经常会发现一些很蹩脚，很难看的地方。这是因为中缀表达式的“操作符”，经常不能对在一起。比如，如果你有像这样一个 case 表达式：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -82,7 +82,7 @@ Lisp （Scheme 的前身）是世界上第二老的程序语言。最老的是 F
 
 为了美观，很多 Haskell 程序员喜欢把那两个箭头对齐。结果就成了这样：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -98,7 +98,7 @@ Lisp （Scheme 的前身）是世界上第二老的程序语言。最老的是 F
 
 再来看看S表达式如何表达这东西：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -114,7 +114,7 @@ Lisp （Scheme 的前身）是世界上第二老的程序语言。最老的是 F
 
 其实我们还可以更进一步。因为箭头的两边全都用括号括起来了，所以其实我们并不需要那两个箭头就能区分“左”和“右”。所以我们可以把它简化为：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

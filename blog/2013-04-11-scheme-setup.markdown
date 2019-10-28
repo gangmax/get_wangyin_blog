@@ -18,7 +18,7 @@ Scheme 的配置有很多种方式，我不想介绍太多东西，免得有人�
 
 编译安装很快很方便，在 Linux 和 Mac 系统基本就是这样：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -50,7 +50,7 @@ ParEdit mode 可以在这里下载：
 
 下载之后，把它放到一个目录里，比如 ~/.emacs.d，然后打开 ~/.emacs 配置文件，加入如下设置：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -69,7 +69,7 @@ ParEdit mode 可以在这里下载：
 
 我一般就用系统自带的 Scheme 模式，叫 cmuscheme。但是为了方便，我自己写了几个函数，用于在执行 Scheme 代码的时候自动启动解释器，并且打开解释器窗口。你基本只需要把下面的代码拷贝到你的 .emacs 文件里就行：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -137,7 +137,7 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
 1.  `C-right`: 也就是按住 Ctrl 再按右箭头。它的作用是让光标右边的括号，“吞掉”下一个S表达式。
 
-    <div class="highlighter-rouge">
+    <div class="language-plaintext highlighter-rouge">
 
     <div class="highlight">
 
@@ -151,7 +151,7 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
     这在你需要去掉外层的 let 等结构的时候非常有用。比如，如果你的代码看起来是这样：
 
-    <div class="highlighter-rouge">
+    <div class="language-plaintext highlighter-rouge">
 
     <div class="highlight">
 
@@ -164,7 +164,7 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
     当你把光标放在 `(* x 2)` 的最左边，然后按 `M-r`，结果就变成了
 
-    <div class="highlighter-rouge">
+    <div class="language-plaintext highlighter-rouge">
 
     <div class="highlight">
 
@@ -188,7 +188,7 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
 
 然后在 .emacs 里面加入两行：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

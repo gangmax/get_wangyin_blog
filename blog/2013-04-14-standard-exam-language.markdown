@@ -6,7 +6,7 @@
 
 比如，选择题的格式是这样：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -21,7 +21,7 @@
 
 最有意思的是改错题。因为改错题是一个英语段落，某些行有错，但每行最多只能有一个错。所以我的设计是，在普通的段落里插入这样的记号：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -33,7 +33,7 @@
 
 用以“引入错误”。左边是正确的方式，右边是错误的。这里使用 `|` 是因为这个符号不会在普通的英语文章里出现。`|` 的左右两边都可以是空白，用以表示“插入”与“删除”。比如：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -45,7 +45,7 @@
 
 这样的题目显示出来之后是这样：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -57,7 +57,7 @@
 
 然后答案里会显示：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
