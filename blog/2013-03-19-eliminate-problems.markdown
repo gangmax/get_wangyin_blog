@@ -20,7 +20,7 @@
 
     很多问题的“存在”，其实是因为人们的“思维定势”。他们看不到问题的“根源”和因果关系，而是经常在下意识里假定某种“先决条件”（A）的存在，然后坚定不移的相信由此“导致”的问题（B）的存在，如下图：
 
-    <div class="highlighter-rouge">
+    <div class="language-plaintext highlighter-rouge">
 
     <div class="highlight">
 

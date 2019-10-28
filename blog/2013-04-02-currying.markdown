@@ -2,7 +2,7 @@
 
 很多基于 lambda calculus 的程序语言，比如 ML 和 Haskell，都习惯用一种叫做 currying 的手法来表示函数。比如，如果你在 Haskell 里面这样写一个函数：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -14,7 +14,7 @@
 
 然后你就可以这样把链表里的每个元素加上 2：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -28,7 +28,7 @@
 
 注意本来 `f` 需要两个参数才能算出结果，可是这里的 `(f 2)` 只给了 `f` 一个参数。这是因为 Haskell 的函数定义的缺省方式是“currying”。Currying 其实就是用“单参数”的函数，来模拟多参数的函数。比如，上面的 `f` 的定义在 Scheme 里面相当于：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -45,7 +45,7 @@
 
 在这个例子里面，currying 貌似一个挺有用的东西，它让程序变得“简短”。如果不用 currying，你就需要制造另一个函数，写成这个样子：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -71,7 +71,7 @@
 
 然而，currying 的问题不止在于这种“认知”的方面，有时候使用 curry 会直接带来代码复杂性的增加。比如，如果你的 f 定义不是加法，而是除法：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -85,7 +85,7 @@
 
 `map (f 2) [1, 2, 3]` 肯定不行，因为 2 是除数，而不是被除数。熟悉 Haskell 的人都知道，可以这样做：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -97,7 +97,7 @@
 
 `flip` 的作用是“交换”两个参数的位置。它可以被定义为：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -109,7 +109,7 @@
 
 但是，如果 f 有 3 个参数，而我们需要把它的第 2 个参数 `map` 到一个链表，怎么办呢？比如，如果 `f` 被定义为：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -121,7 +121,7 @@
 
 稍微动一下脑筋，你可能会想出这样的代码：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -133,7 +133,7 @@
 
 能想出这段代码说明你挺聪明，可是如果你这样写代码，那就是缺乏一些“智慧”。有时候，好的程序其实不在于显示你有多“聪明”，而在于显示你有多“笨”。现在我们就来看看笨一点的代码：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -151,7 +151,7 @@
 
 练习题：如果你还不相信，就请你用 currying 的方法（加上 `flip`）表达下面这个语句，也就是把 f 的第一个参数 map 到链表 `[1, 2, 3]`：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

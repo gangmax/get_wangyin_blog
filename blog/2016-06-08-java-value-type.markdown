@@ -10,7 +10,7 @@ Java 有值类型，原始类型 int，boolean 等是值类型，其实是长久
 
 举个简单的例子，如果我们把 int 的实现变成完全的引用，然后来看这段代码：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

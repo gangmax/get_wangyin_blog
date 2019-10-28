@@ -8,7 +8,7 @@
 
 所谓“对象思想”（区别于“面向对象”），实际上就是对这种数据访问方式的进一步抽象。一个经典的例子就是平面点的数据结构。如果你把一个点存储为：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -23,7 +23,7 @@
 
 那么你用`point.x`和`point.y`可以直接访问它的X和Y坐标。但你也可以把它存储为“极坐标”方式：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -70,7 +70,7 @@
 
 半壶水都喜欢响叮当。很多喜欢自吹为“函数式程序员”的人，往往并不真的理解函数式语言的本质。他们一旦看到过程式语言的写法就嗤之以鼻。比如以下这个C函数：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

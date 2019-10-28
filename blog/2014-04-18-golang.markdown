@@ -16,7 +16,7 @@ Go 的简单性体现在它的语法和语义的某些方面。Go 的语法比 C
 
 *   进步：Go 有语法支持一种类似 struct literal 的构造，比如你可以写这样的代码来构造一个 S struct：
 
-    <div class="highlighter-rouge">
+    <div class="language-plaintext highlighter-rouge">
 
     <div class="highlight">
 
@@ -30,7 +30,7 @@ Go 的简单性体现在它的语法和语义的某些方面。Go 的语法比 C
 
 *   倒退：类型放在变量后面，却没有分隔符。如果变量和它的类型写成像 Pascal 那样的，比如 `x : int`，那也许还好。然而 Go 的写法却是 `x int`，没有那个冒号，而且允许使用 `x, y int` 这样的写法。这种语法跟 var，函数参数组合在一起之后，就产生了扰乱视线的效果。比如你可以写一个函数是这样开头的：
 
-    <div class="highlighter-rouge">
+    <div class="language-plaintext highlighter-rouge">
 
     <div class="highlight">
 
@@ -44,7 +44,7 @@ Go 的简单性体现在它的语法和语义的某些方面。Go 的语法比 C
 
     注意 x, y, z 那个位置，其实是很混淆的。因为看见 `x` 的时候我不能立即从后面那个符号（`, y`）看到它是什么类型。所以在 Go 里面我推荐的写法是把 `x` 和 `y` 完全分开，就像 C 和 Java 那样，不过类型写在后面：
 
-    <div class="highlighter-rouge">
+    <div class="language-plaintext highlighter-rouge">
 
     <div class="highlight">
 
@@ -104,7 +104,7 @@ Go 和 Unix 系统一样，在出现的早期就已经因为不吸取前人的�
 
 很多人都觉得 Go 的多返回值设计是一个进步，然而这里面却有很多蹊跷的东西。且不说这根本不是什么新东西（Scheme 很早就有了多返回值 let-values），Go 的多返回值却被大量的用在了错误的地方—Go 利用多返回值来表示出错信息。比如 Go 代码里最常见的结构就是：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -119,7 +119,7 @@ Go 和 Unix 系统一样，在出现的早期就已经因为不吸取前人的�
 
 如果 `foo` 的调用产生了错误，那么 `err` 就不是 nil。Go 要求你在定义了变量之后必须使用它，否则报错。这样它“碰巧”避免了出现错误 `err` 而不检查的情况。否则如果你想忽略错误，就必须写成
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -156,7 +156,7 @@ Go 采用了基于接口（interface）的面向对象设计，你可以使用�
 
 想想 sort 在函数式语言里有多简单吧？比如，Scheme 和 OCaml 都可以直接这样写：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -200,7 +200,7 @@ Go 的标准库的设计里面带有浓郁的 Unix 气息。比起 Java 之类�
 
 比如你可以写这样的网页模板：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 

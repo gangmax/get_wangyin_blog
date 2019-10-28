@@ -8,7 +8,7 @@
 
 Scheme 对 Lisp 的这种混乱做法采取了一定的改进，所以在 Scheme 里面，空链表 `'()` 和逻辑“假”值 `#f` 被划分开来。这是很显然的事情，一个是链表，一个是 `bool`，怎么能混为一谈。Lisp 的这个错误影响到了很多其它的语言，比如 C 语言。C 语言把 0 作为“假”，而把不是 0 的值全都作为“真”。所以你就看到有些自作聪明的 C 程序员写出这样的代码：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -23,7 +23,7 @@ Scheme 对 Lisp 的这种混乱做法采取了一定的改进，所以在 Scheme
 
 Scheme 停止把 `nil` 作为“假”，却仍然把不是 `#f` 的值全都作为“真”。Scheme 的崇拜者一般都告诉你，这样做的好处是，你可以使用
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -35,7 +35,7 @@ Scheme 停止把 `nil` 作为“假”，却仍然把不是 `#f` 的值全都作
 
 这样的表达式，如果其中有一个不是 `#f`，那么这个表达式会直接返回它实际的值，而不只是 `#t`。然后你就可以写这样的代码：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
@@ -50,7 +50,7 @@ Scheme 停止把 `nil` 作为“假”，却仍然把不是 `#f` 的值全都作
 
 而不是：
 
-<div class="highlighter-rouge">
+<div class="language-plaintext highlighter-rouge">
 
 <div class="highlight">
 
