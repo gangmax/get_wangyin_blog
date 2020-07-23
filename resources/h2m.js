@@ -6,8 +6,8 @@
  * using:
  *
  * node.js: 6.0.0
- * to-markdown: 3.0.0
- * request: 2.72.0
+ * to-markdown: 3.1.1
+ * got: 11.5.1
  *
  * This script is used to convert an HTML file into a markdown format string
  * which is based on:
@@ -23,8 +23,8 @@
  * Created by Max Huang.
  */
 
-const request = require('request');
 const toMarkdown = require('to-markdown');
+const got = require('got');
 
 // 1. Get the parameters.
 var url = process.argv[2];
@@ -32,22 +32,22 @@ var startToken = process.argv[3];
 var endToken = process.argv[4];
 
 // 2. Read the HTML file content.
-request(
-  {uri: url, gzip: true},
-  function(error, response, body){
-    if(!error) {
-      var fromIndex = body.indexOf(startToken);
-      var toIndex = body.indexOf(endToken);
-      if (fromIndex >= 0 && fromIndex < toIndex) {
-        // 2. Convert the HTML content to markdown format.
-        var content = body.substring(fromIndex + startToken.length, toIndex);
-        // console.log(content);
-        var md = toMarkdown(content.toString());
-        // 3. Write the markdown content.
-        // console.log("This is the MD content:");
-        console.log(md);
-      }
-    } else {
-      console.error(error);
+(async () => {
+    try {
+        const response = await got(url);
+        let fromIndex = response.body.indexOf(startToken);
+        let toIndex = response.body.indexOf(endToken);
+        if (fromIndex >= 0 && fromIndex < toIndex) {
+            // 2. Convert the HTML content to markdown format.
+            let content = response.body.substring(fromIndex + startToken.length, toIndex);
+            // console.log(content);
+            let md = toMarkdown(content.toString());
+            // 3. Write the markdown content.
+            // console.log("This is the MD content:");
+            console.log(md);
+        }
+    } catch (error) {
+        console.log(error.response.body);
     }
-  });
+})();
+

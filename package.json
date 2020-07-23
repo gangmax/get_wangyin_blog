@@ -8,8 +8,8 @@
     "test": "test"
   },
   "dependencies": {
-    "request": "^2.72.0",
-    "to-markdown": "^3.1.1"
+    "to-markdown": "^3.1.1",
+    "got": "^11.5.1"
   },
   "devDependencies": {},
   "scripts": {
