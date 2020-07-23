@@ -15,7 +15,7 @@
  *   https://github.com/domchristie/to-markdown/
  *
  * Usage 1(WangYin's blog):
- *   ./h2m.js 'http://www.yinwang.org/blog-cn/2018/10/14/update' '<div class="inner">' '</body>'
+ *   ./h2m.js 'http://www.yinwang.org/blog-cn/2020/06/10/new-ugly-chinese' '<div class="inner">' '</body>'
  *
  * Usage 2(1bypte blog):
  *  ./h2m.js 'https://1byte.io/leancloud-story-avos/' '<article>' '</article>'
@@ -23,8 +23,8 @@
  * Created by Max Huang.
  */
 
-var request = require('request');
-var toMarkdown = require('to-markdown');
+const request = require('request');
+const toMarkdown = require('to-markdown');
 
 // 1. Get the parameters.
 var url = process.argv[2];
