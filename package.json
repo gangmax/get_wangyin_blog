@@ -20,7 +20,7 @@
     "url": "git+https://github.com/gangmax/get_wangyin_blog.git"
   },
   "author": "Max Huang",
-  "license": "ISC",
+  "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/gangmax/get_wangyin_blog/issues"
   },
