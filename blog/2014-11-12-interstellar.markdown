@@ -1,6 +1,6 @@
 ## 恶评《星际穿越》
 
-<img src=”http://www.yinwang.org/images/interstellar.png” height=400>
+![](http://www.yinwang.org/images/interstellar.png)
 
 （Spoiler 警告，本文含有大量具体情节！）
 

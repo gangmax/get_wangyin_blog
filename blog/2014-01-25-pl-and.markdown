@@ -63,7 +63,7 @@
 
 ### 程序语言与音乐
 
-<img src=”http://www.yinwang.org/images/goldberg.png” width=200>
+![](http://www.yinwang.org/images/goldberg.png)
 
 程序语言就像音乐。当听过很好的音乐之后，你会自然而然的厌倦以前曾经喜欢过，为之疯狂过的那些，觉得它们很无趣，甚至很惊讶自己以前怎么会喜欢它们。当有人问你为什么不喜欢他们推荐给你的音乐，你却说不出来。你只是自然而然觉得太单调，不入耳，不对劲，甚至扰乱你美好的心情。你的判断完全是依靠声波对鼓膜的震动而引起的脑电波的起伏，而不带有任何的成见。完全根据这音乐自己，而不需要知道它的作者是谁。就像玩过像《Braid》之类的游戏之后，你再也不想玩像《生化危机》那种搞不清楚到底是自己在玩游戏还是游戏在玩自己的。你的脑子里有一种对“趣味”的新定义，但是你却说不出来它到底是怎么回事。
 
@@ -75,7 +75,7 @@
 
 ### 程序语言与武器
 
-[<img src=”http://www.yinwang.org/images/AK-47.png” width=400>](http://weaponsman.com/?p=12534)
+[![](http://www.yinwang.org/images/AK-47.png)](http://weaponsman.com/?p=12534)
 
 前段时间 AK-47 的设计者 [Kalashnikov](http://en.wikipedia.org/wiki/Mikhail_Kalashnikov) 去世的时候，我从一篇文章了解到他设计 [AK-47 的故事](http://weaponsman.com/?p=12534)，发现 AK 跟我喜欢的程序语言设计有异曲同工之妙。
 
@@ -93,7 +93,7 @@
 
 > AK 只有一个复杂一点的部件，那就是它的弹夹。弹夹的设计很大程度上影响到枪的整体性能，所以 Kalashnikov 在上面花了很多设计时间。
 
-<img src=”http://www.yinwang.org/images/ak-magazine.png” width=300>
+![](http://www.yinwang.org/images/ak-magazine.png)
 
 这个工程经验其实对于程序语言的设计者有启发意义，因为弹夹与枪主体的接口，和程序语言的函数接口很类似。Tony Hoare 在他的《[给程序语言设计的建议](https://www.cs.berkeley.edu/~necula/cs263_sp14/handouts/hoarehints.pdf)》中也提到，函数的调用必须简单而且快速，因为调用的开销会累积起来形成很大的性能问题。可惜的是很多语言没有注意到这个问题，函数调用时总是有一堆的动态检查和重载要做，很大程度的影响了它们的性能。
 
