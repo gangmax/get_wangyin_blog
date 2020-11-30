@@ -20,6 +20,9 @@
  * Usage 2(1bypte blog):
  *  ./h2m.js 'https://1byte.io/leancloud-story-avos/' '<article>' '</article>'
  *
+ * Usage 3(Wangyin's WP):
+ *  ./h2m.js 'https://yinwang1.wordpress.com/2020/09/13/chinese-characteristics-1/' '<div class="post-content clear">' '<div id="atatags-370373'
+ *
  * Created by Max Huang.
  */
 
@@ -45,9 +48,12 @@ var endToken = process.argv[4];
             // 3. Write the markdown content.
             // console.log("This is the MD content:");
             console.log(md);
-        }
+        } else {
+            let md = toMarkdown(response.body.toString(0));
+	    console.log(md);
+	}
     } catch (error) {
-        console.log(error.response.body);
+        console.error(error);
     }
 })();
 
