@@ -1,0 +1,21 @@
+前段时间跟一个在美国认识的 PL 专家通信，才发现他现在在日本仙台的“东北大学”（Tohoku University）。这人本是俄国人，美国籍，在美国海军的气象研究所工作，却一直酷爱日本。每次聊天不免炫耀一下自己刚学到的日语。
+
+他是 Kanren 语言的作者，也是『The Reasoned Schemer』的第三作者。Kanren 就是 miniKanren 的前身。其实 Kanren 是原创，是用 Haskell 实现的。Friedman 偶然看见 Kanren，很喜欢，却不喜欢 Haskell，就拿 Scheme 山寨了一个小号的，叫 miniKanren。
+
+这语言为什么叫 Kanren 呢？因为「逻辑编程」也叫「关系式编程」，它是以“关系”的形式来表达程序。「关系式」（relational）在日语里就是「関連」(kanren）。因为他如此热爱日本，所以就以日语给自己的语言命名了。
+
+我以为他要在美国吃一辈子铁饭碗了。没想到过了几年，他跑到日本教书去了。
+
+话说这东北大学，合并了仙台医科大学，而鲁迅之前就是仙台医科大学的学生。他还写过关于他的老师「藤野先生」http://t.cn/zORPvfd。所以我就自然问起鲁迅来。
+
+本以为他需要搜索一阵才知道鲁迅是谁。没想到立马回信说，鲁迅在仙台很出名，这城里有他的雕像http://t.cn/A6LAzrPs，有故居，还有个讲堂以鲁迅的名字命名http://t.cn/A6LAz8Er。
+
+讲堂的介绍里写着：这个讲堂建于 1904 年，以学者和文学巨匠鲁迅的名字命名。经常被认为是现代中国文学之父，鲁迅在这个讲堂里学习，当时还是仙台医科大学的一部分，后来并入东北大学。
+
+这古老的木头校舍，经历了二战的空袭和 2011 年的大地震，存留了下来……
+
+The lecture hall was built in 1904 and is named after the scholar and literary giant Lu Xun, who studied there. Often referred to as the father of modern Chinese literature, Lu Xun studied in the hall when it was part of the Sendai Medical College before being integrated into Tohoku University.
+
+The old wooden school house has survived World War 2 air raids and the 2011 Tohoku earthquake. It is a popular destination for Chinese visitors and serves as a symbol of Tohoku university’s century-old ties with Chinese students.
+
+对比一下现在的中国，谁还知道鲁迅是谁，他写过什么？
