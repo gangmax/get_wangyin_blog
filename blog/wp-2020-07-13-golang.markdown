@@ -1,0 +1,256 @@
+[跳转到内容](#content)
+
+<header class="header section small-padding bg-dark bg-image" style="background-image: url(https://defaultcustomheadersdata.files.wordpress.com/2016/07/beach1.jpg?resize=1440,221);" role="banner">[](https://yinwang1.wordpress.com/)[搜索](#search-container)
+
+<div class="header-search-block bg-graphite hidden" id="search-container">
+
+<form role="search" method="get" class="search-form" action="https://yinwang1.wordpress.com/"><label><span class="screen-reader-text">搜索：</span> <input type="search" class="search-field" placeholder="搜索…" value="" name="s"> </label> <input type="submit" class="search-submit" value="搜索"></form>
+
+</div>
+
+<div class="header-inner section-inner">
+
+[正常人类收容所](https://yinwang1.wordpress.com/)
+
+</div>
+
+</header>
+
+<div class="navigation section no-padding bg-dark">
+
+<nav id="site-navigation" class="navigation-inner section-inner clear" role="navigation"><button class="nav-toggle fleft" aria-controls="primary-menu" aria-expanded="false">选单</button>[打开“搜索”](#)</nav>
+
+</div>
+
+<div class="wrapper section medium-padding">
+
+<main class="section-inner clear" role="main">
+
+<div class="content clear fleft" id="content">
+
+<article id="post-222" class="post-222 post type-post status-publish format-standard hentry category-7606 clear">
+
+<header class="post-header">
+
+# [golang](https://yinwang1.wordpress.com/2020/07/13/golang/)
+
+</header>
+
+<div class="post-content clear">
+
+某人：你对 golang 什么看法？
+
+我：垃圾。
+
+某人：可是不知道怎么就火了。
+
+我：傻的人多了，自然就火了。
+
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled">
+
+<div class="sharedaddy sd-sharing-enabled">
+
+<div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing">
+
+### Share this:
+
+<div class="sd-content">
+
+*   [<span>Twitter</span>](https://yinwang1.wordpress.com/2020/07/13/golang/?share=twitter "点击以在 Twitter 上共享")
+*   [<span>Facebook</span>](https://yinwang1.wordpress.com/2020/07/13/golang/?share=facebook "点击以在 Facebook 上共享")
+
+</div>
+
+</div>
+
+</div>
+
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-23586156-222-5fc4d54ec9d71" data-src="//widgets.wp.com/likes/index.html?ver=20200826#blog_id=23586156&amp;post_id=222&amp;origin=yinwang1.wordpress.com&amp;obj_id=23586156-222-5fc4d54ec9d71" data-name="like-post-frame-23586156-222-5fc4d54ec9d71">
+
+### 赞过：
+
+<div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px;"><span class="button"><span>赞</span></span> <span class="loading">正在加载……</span></div>
+
+<span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+
+</div>
+
+</div>
+
+<footer class="post-meta-container clear">
+
+<div class="entry-author author-avatar-show">
+
+<div class="author-avatar">![](https://1.gravatar.com/avatar/43ec631d6fda6a1cf42aaf875d784597?s=90&d=identicon&r=G)</div>
+
+<div class="author-heading">
+
+## 发布者：<span class="author-name">Yin Wang</span>
+
+</div>
+
+[查看 Yin Wang 发布的所有文章](https://yinwang1.wordpress.com/author/yinwang0/)
+
+</div>
+
+<div class="post-meta clear"><time class="post-date updated" datetime="2020-07-13">七月 13, 2020</time>
+
+[杂谈](https://yinwang1.wordpress.com/category/%e6%9d%82%e8%b0%88/)
+
+<nav class="navigation post-navigation" role="navigation" aria-label="文章">
+
+## 文章导航
+
+<div class="nav-links">
+
+<div class="nav-previous">[脱离低级趣味的方法](https://yinwang1.wordpress.com/2020/07/11/low-level-interest/)</div>
+
+<div class="nav-next">[网球天才王垠](https://yinwang1.wordpress.com/2020/07/17/talent/)</div>
+
+</div>
+
+</nav>
+
+</div>
+
+</footer>
+
+评论已关闭。
+
+</article>
+
+</div>
+
+<aside class="sidebar fright" role="complementary">
+
+<div id="search-2" class="widget widget_search">
+
+<div class="widget-content clear">
+
+<form role="search" method="get" class="search-form" action="https://yinwang1.wordpress.com/"><label><span class="screen-reader-text">搜索：</span> <input type="search" class="search-field" placeholder="搜索…" value="" name="s"> </label> <input type="submit" class="search-submit" value="搜索"></form>
+
+</div>
+
+</div>
+
+<div id="recent-posts-2" class="widget widget_recent_entries">
+
+<div class="widget-content clear">
+
+### 最新日志
+
+*   [iOS 新的睡眠闹钟设计问题](https://yinwang1.wordpress.com/2020/11/22/ios-%e6%96%b0%e7%9a%84%e7%9d%a1%e7%9c%a0%e9%97%b9%e9%92%9f%e8%ae%be%e8%ae%a1%e9%97%ae%e9%a2%98/)
+*   [中国的审美问题](https://yinwang1.wordpress.com/2020/11/12/%e4%b8%ad%e5%9b%bd%e7%9a%84%e5%ae%a1%e7%be%8e%e6%b0%b4%e5%b9%b3%e9%97%ae%e9%a2%98/)
+*   [我的一个典型的清晨](https://yinwang1.wordpress.com/2020/11/11/%e5%bf%83%e7%90%86%e8%8a%82%e5%a5%8f%e7%9a%84%e4%bc%a0%e6%9f%93%e6%80%a7/)
+*   [不看翻译的作品](https://yinwang1.wordpress.com/2020/11/09/%e4%b8%8d%e7%9c%8b%e7%bf%bb%e8%af%91%e7%9a%84%e4%bd%9c%e5%93%81/)
+*   [伊豆的小卡车](https://yinwang1.wordpress.com/2020/11/07/%e4%bc%8a%e8%b1%86%e7%9a%84%e5%b0%8f%e5%8d%a1%e8%bd%a6/)
+
+</div>
+
+</div>
+
+<div id="recent-comments-2" class="widget widget_recent_comments">
+
+<div class="widget-content clear">
+
+### 近期评论
+
+</div>
+
+</div>
+
+<div id="archives-2" class="widget widget_archive">
+
+<div class="widget-content clear">
+
+### 归档
+
+*   [2020年十一月](https://yinwang1.wordpress.com/2020/11/)
+*   [2020年十月](https://yinwang1.wordpress.com/2020/10/)
+*   [2020年九月](https://yinwang1.wordpress.com/2020/09/)
+*   [2020年八月](https://yinwang1.wordpress.com/2020/08/)
+*   [2020年七月](https://yinwang1.wordpress.com/2020/07/)
+*   [2020年六月](https://yinwang1.wordpress.com/2020/06/)
+*   [2020年五月](https://yinwang1.wordpress.com/2020/05/)
+
+</div>
+
+</div>
+
+<div id="categories-2" class="widget widget_categories">
+
+<div class="widget-content clear">
+
+### 分类
+
+*   [社会](https://yinwang1.wordpress.com/category/%e7%a4%be%e4%bc%9a/)
+*   [自然语言](https://yinwang1.wordpress.com/category/%e8%87%aa%e7%84%b6%e8%af%ad%e8%a8%80/)
+*   [艺术](https://yinwang1.wordpress.com/category/%e8%89%ba%e6%9c%af/)
+*   [技术](https://yinwang1.wordpress.com/category/%e6%8a%80%e6%9c%af/)
+*   [文化](https://yinwang1.wordpress.com/category/%e6%96%87%e5%8c%96/)
+*   [杂谈](https://yinwang1.wordpress.com/category/%e6%9d%82%e8%b0%88/)
+
+</div>
+
+</div>
+
+<div id="meta-2" class="widget widget_meta">
+
+<div class="widget-content clear">
+
+### 功能
+
+*   [注册](https://wordpress.com/start/zh-cn?ref=wplogin)
+*   [登录](https://yinwang1.wordpress.com/wp-login.php)
+*   [项目feed](https://yinwang1.wordpress.com/feed/)
+*   [评论feed](https://yinwang1.wordpress.com/comments/feed/)
+*   [WordPress.com](https://wordpress.com/ "基于WordPress，一个优美、先进的个人信息发布平台。")
+
+</div>
+
+</div>
+
+<script>__ATA.cmd.push(function() { __ATA.initDynamicSlot({ id: 'atatags-286348-5fc4d54ecbf15', location: 140, formFactor: '003', label: { text: '广告', }, creative: { reportAd: { text: '举报此广告', }, privacySettings: { text: '隐私设置', } } }); });</script></aside>
+
+</main>
+
+</div>
+
+<div class="credits section bg-dark small-padding">
+
+<div class="credits-inner section-inner clear">
+
+[通过访问 WordPress.com 创建免费网站或博客.](https://wordpress.com/?ref=footer_website)
+
+[向上 ↑](# "回顶部")
+
+</div>
+
+</div>
+
+<script id="wpgroho-js-extra">var WPGroHo = {"my_hash":""};</script> <script>//initialize and attach hovercards to all gravatars jQuery( document ).ready( function( $ ) { if (typeof Gravatar === "undefined"){ return; } if ( typeof Gravatar.init !== "function" ) { return; } Gravatar.profile_cb = function( hash, id ) { WPGroHo.syncProfileData( hash, id ); }; Gravatar.my_hash = WPGroHo.my_hash; Gravatar.init( 'body', '#wp-admin-bar-my-account' ); });</script><script type="text/javascript">( function () { var setupPrivacy = function() { document.addEventListener( 'DOMContentLoaded', function() { // Minimal Mozilla Cookie library // https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie/Simple_document.cookie_framework var cookieLib = window.cookieLib = {getItem:function(e){return e&&decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*"+encodeURIComponent(e).replace(/[\-\.\+\*]/g,"\\><")+"\\s*\\=\\s*([^;]*).*$)|^.*$"),"$1"))||null},setItem:function(e,o,n,t,r,i){if(!e||/^(?:expires|max\-age|path|domain|secure)$/i.test(e))return!1;var c="";if(n)switch(n.constructor){case Number:c=n===1/0?"; expires=Fri, 31 Dec 9999 23:59:59 GMT":"; max-age="+n;break;case String:c="; expires="+n;break;case Date:c="; expires="+n.toUTCString()}return"rootDomain"!==r&&".rootDomain"!==r||(r=(".rootDomain"===r?".":"")+document.location.hostname.split(".").slice(-2).join(".")),document.cookie=encodeURIComponent(e)+"="+encodeURIComponent(o)+c+(r?"; domain="+r:"")+(t?"; path="+t:"")+(i?"; secure":""),!0}}; var setDefaultOptInCookie = function() { var value = '1YNN'; var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname; cookieLib.setItem( 'usprivacy', value, 365 * 24 * 60 * 60, '/', domain ); }; var setCcpaAppliesCookie = function( value ) { var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname; cookieLib.setItem( 'ccpa_applies', value, 24 * 60 * 60, '/', domain ); } var maybeCallDoNotSellCallback = function() { if ( 'function' === typeof window.doNotSellCallback ) { return window.doNotSellCallback(); } return false; } var usprivacyCookie = cookieLib.getItem( 'usprivacy' ); if ( null !== usprivacyCookie ) { maybeCallDoNotSellCallback(); return; } var ccpaCookie = cookieLib.getItem( 'ccpa_applies' ); if ( null === ccpaCookie ) { var request = new XMLHttpRequest(); request.open( 'GET', 'https://public-api.wordpress.com/geo/', true ); request.onreadystatechange = function () { if ( 4 === this.readyState ) { if ( 200 === this.status ) { var data = JSON.parse( this.response ); var ccpa_applies = data['region'] && data['region'].toLowerCase() === 'california'; setCcpaAppliesCookie( ccpa_applies ); if ( ccpa_applies ) { if ( maybeCallDoNotSellCallback() ) { setDefaultOptInCookie(); } } } else { setCcpaAppliesCookie( true ); if ( maybeCallDoNotSellCallback() ) { setDefaultOptInCookie(); } } } }; request.send(); } else { if ( ccpaCookie === 'true' ) { if ( maybeCallDoNotSellCallback() ) { setDefaultOptInCookie(); } } } } ); }; if ( window.defQueue && defQueue.isLOHP && defQueue.isLOHP === 2020 ) { defQueue.items.push( setupPrivacy ); } else { setupPrivacy(); } } )();</script> <script type="text/javascript">( function( $ ) { $( document.body ).on( 'post-load', function () { if ( typeof __ATA.insertInlineAds === 'function' ) { __ATA.insertInlineAds(); } } ); } )( jQuery );</script> <script>window.addEventListener( "load", function( event ) { var link = document.createElement( "link" ); link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20201002"; link.type = "text/css"; link.rel = "stylesheet"; document.head.appendChild( link ); var script = document.createElement( "script" ); script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20201002"; script.defer = true; document.body.appendChild( script ); } );</script> <script type="text/javascript">window.WPCOM_sharing_counts = {"https:\/\/yinwang1.wordpress.com\/2020\/07\/13\/golang\/":222};</script>
+
+<div class="widget widget_eu_cookie_law_widget">
+
+<div class="hide-on-button ads-active" data-hide-timeout="30" data-consent-expiration="180" id="eu-cookie-law">
+
+<form method="post"><input type="submit" value="关闭和接受" class="accept"> 隐私和 Cookie：此站点使用 Cookie。继续使用此网站，即表示您同意其使用 Cookie。  
+要了解包括如何管控 Cookie 在内的更多信息，请参阅此处： [Cookie 政策](https://automattic.com/cookies)</form>
+
+</div>
+
+</div>
+
+<script id="sharing-js-js-extra">var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};</script> <script type="text/javascript">var windowOpen; document.body.addEventListener( 'click', function ( event ) { if ( event.target && ( event.target.matches && event.target.matches( 'a.share-twitter' ) ) || ( event.target.msMatchesSelector && event.target.msMatchesSelector( 'a.share-twitter' ) ) ) { // If there's another sharing window open, close it. if ( typeof windowOpen !== 'undefined' ) { windowOpen.close(); } windowOpen = window.open( event.target.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' ); return false; } } ); var windowOpen; document.body.addEventListener( 'click', function ( event ) { if ( event.target && ( event.target.matches && event.target.matches( 'a.share-facebook' ) ) || ( event.target.msMatchesSelector && event.target.msMatchesSelector( 'a.share-facebook' ) ) ) { // If there's another sharing window open, close it. if ( typeof windowOpen !== 'undefined' ) { windowOpen.close(); } windowOpen = window.open( event.target.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' ); return false; } } );</script> <script type="text/javascript">// <![CDATA[ (function() { try{ if ( window.external &&'msIsSiteMode' in window.external) { if (window.external.msIsSiteMode()) { var jl = document.createElement('script'); jl.type='text/javascript'; jl.async=true; jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(jl, s); } } }catch(e){} })(); // ]]></script><iframe src="https://widgets.wp.com/likes/master.html?ver=20200826#ver=20200826&amp;lang=zh-cn" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+
+<div id="likes-other-gravatars">
+
+<div class="likes-text"><span>%d</span> 博主赞过：</div>
+
+</div>
+
+<script type="text/javascript">_tkq = window._tkq || []; _stq = window._stq || []; _tkq.push(['storeContext', {'blog_id':'23586156','blog_tz':'8','user_lang':'zh-cn','blog_lang':'zh-cn','user_id':'0'}]); _stq.push(['view', {'blog':'23586156','v':'wpcom','tz':'8','user_id':'0','post':'222','subd':'yinwang1'}]); _stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdTdvUG14Q2VDQTR4LlUsLi82dU1mai9BMmcxPytqWkpxbS9HNTZzdFBReGZKSHpieiw/bUN0Nz9JMTNGZ2x0YkM0ZHJxJjFMS3Jzdj1faURdaXhdfmJPZVl0c2o3ZWh+YzV+TFBwLmE1XThJLjZ6bi5XZWNmYUZVUS45SmNEUWFIJUEuSEZIQTVYLVZKSTRvW01wSXhbW3VFbm5ORUVuQnE3dVJ+fmUxSTUwQz18K0xDd0NhamJFOCV1X353bCs2RkhGcDJ3RFljP0NMaDJPL2dDd3poL2dGQkh6JWVHbVYrVVV3dmRvW2wrTj0teHhmV1EwM3Ftblh5eFFDc29oK2lfeWd+ZXlfU0UvaW0wWnx4fCVXZkdfZnYsMXlKWFI='}]); _stq.push([ 'clickTrackerInit', '23586156', '222' ]);</script>
+
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+
+<script>if ( 'object' === typeof wpcom_mobile_user_agent_info ) { wpcom_mobile_user_agent_info.init(); var mobileStatsQueryString = ""; if( false !== wpcom_mobile_user_agent_info.matchedPlatformName ) mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName; if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName ) mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName; if( wpcom_mobile_user_agent_info.isIPad() ) mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views'; if( "" != mobileStatsQueryString ) { new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random(); } }</script>
