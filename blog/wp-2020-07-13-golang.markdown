@@ -65,7 +65,7 @@
 
 </div>
 
-<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-23586156-222-5fc4d54ec9d71" data-src="//widgets.wp.com/likes/index.html?ver=20200826#blog_id=23586156&amp;post_id=222&amp;origin=yinwang1.wordpress.com&amp;obj_id=23586156-222-5fc4d54ec9d71" data-name="like-post-frame-23586156-222-5fc4d54ec9d71">
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-23586156-222-5fcd88d940549" data-src="//widgets.wp.com/likes/index.html?ver=20200826#blog_id=23586156&amp;post_id=222&amp;origin=yinwang1.wordpress.com&amp;obj_id=23586156-222-5fcd88d940549" data-name="like-post-frame-23586156-222-5fcd88d940549">
 
 ### 赞过：
 
@@ -139,11 +139,11 @@
 
 ### 最新日志
 
+*   [从音乐理论想到的](https://yinwang1.wordpress.com/2020/12/01/%e4%bb%8e%e9%9f%b3%e4%b9%90%e7%90%86%e8%ae%ba%e6%83%b3%e5%88%b0%e7%9a%84/)
+*   [素描与机器视觉](https://yinwang1.wordpress.com/2020/11/24/%e7%b4%a0%e6%8f%8f%e4%b8%8e%e6%9c%ba%e5%99%a8%e8%a7%86%e8%a7%89/)
 *   [iOS 新的睡眠闹钟设计问题](https://yinwang1.wordpress.com/2020/11/22/ios-%e6%96%b0%e7%9a%84%e7%9d%a1%e7%9c%a0%e9%97%b9%e9%92%9f%e8%ae%be%e8%ae%a1%e9%97%ae%e9%a2%98/)
 *   [中国的审美问题](https://yinwang1.wordpress.com/2020/11/12/%e4%b8%ad%e5%9b%bd%e7%9a%84%e5%ae%a1%e7%be%8e%e6%b0%b4%e5%b9%b3%e9%97%ae%e9%a2%98/)
 *   [我的一个典型的清晨](https://yinwang1.wordpress.com/2020/11/11/%e5%bf%83%e7%90%86%e8%8a%82%e5%a5%8f%e7%9a%84%e4%bc%a0%e6%9f%93%e6%80%a7/)
-*   [不看翻译的作品](https://yinwang1.wordpress.com/2020/11/09/%e4%b8%8d%e7%9c%8b%e7%bf%bb%e8%af%91%e7%9a%84%e4%bd%9c%e5%93%81/)
-*   [伊豆的小卡车](https://yinwang1.wordpress.com/2020/11/07/%e4%bc%8a%e8%b1%86%e7%9a%84%e5%b0%8f%e5%8d%a1%e8%bd%a6/)
 
 </div>
 
@@ -165,6 +165,7 @@
 
 ### 归档
 
+*   [2020年十二月](https://yinwang1.wordpress.com/2020/12/)
 *   [2020年十一月](https://yinwang1.wordpress.com/2020/11/)
 *   [2020年十月](https://yinwang1.wordpress.com/2020/10/)
 *   [2020年九月](https://yinwang1.wordpress.com/2020/09/)
@@ -210,7 +211,7 @@
 
 </div>
 
-<script>__ATA.cmd.push(function() { __ATA.initDynamicSlot({ id: 'atatags-286348-5fc4d54ecbf15', location: 140, formFactor: '003', label: { text: '广告', }, creative: { reportAd: { text: '举报此广告', }, privacySettings: { text: '隐私设置', } } }); });</script></aside>
+<script>__ATA.cmd.push(function() { __ATA.initDynamicSlot({ id: 'atatags-286348-5fcd88d942c8f', location: 140, formFactor: '003', label: { text: '广告', }, creative: { reportAd: { text: '举报此广告', }, privacySettings: { text: '隐私设置', } } }); });</script></aside>
 
 </main>
 
@@ -220,7 +221,7 @@
 
 <div class="credits-inner section-inner clear">
 
-[通过访问 WordPress.com 创建免费网站或博客.](https://wordpress.com/?ref=footer_website)
+[在WordPress.com的博客.](https://wordpress.com/?ref=footer_blog)
 
 [向上 ↑](# "回顶部")
 
@@ -249,7 +250,7 @@
 
 </div>
 
-<script type="text/javascript">_tkq = window._tkq || []; _stq = window._stq || []; _tkq.push(['storeContext', {'blog_id':'23586156','blog_tz':'8','user_lang':'zh-cn','blog_lang':'zh-cn','user_id':'0'}]); _stq.push(['view', {'blog':'23586156','v':'wpcom','tz':'8','user_id':'0','post':'222','subd':'yinwang1'}]); _stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdTdvUG14Q2VDQTR4LlUsLi82dU1mai9BMmcxPytqWkpxbS9HNTZzdFBReGZKSHpieiw/bUN0Nz9JMTNGZ2x0YkM0ZHJxJjFMS3Jzdj1faURdaXhdfmJPZVl0c2o3ZWh+YzV+TFBwLmE1XThJLjZ6bi5XZWNmYUZVUS45SmNEUWFIJUEuSEZIQTVYLVZKSTRvW01wSXhbW3VFbm5ORUVuQnE3dVJ+fmUxSTUwQz18K0xDd0NhamJFOCV1X353bCs2RkhGcDJ3RFljP0NMaDJPL2dDd3poL2dGQkh6JWVHbVYrVVV3dmRvW2wrTj0teHhmV1EwM3Ftblh5eFFDc29oK2lfeWd+ZXlfU0UvaW0wWnx4fCVXZkdfZnYsMXlKWFI='}]); _stq.push([ 'clickTrackerInit', '23586156', '222' ]);</script>
+<script type="text/javascript">_tkq = window._tkq || []; _stq = window._stq || []; _tkq.push(['storeContext', {'blog_id':'23586156','blog_tz':'8','user_lang':'zh-cn','blog_lang':'zh-cn','user_id':'0'}]); _stq.push(['view', {'blog':'23586156','v':'wpcom','tz':'8','user_id':'0','post':'222','subd':'yinwang1'}]); _stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdTdvUG14Q2VDQTR4LlUsLi82dU1mai9BMmcxPytqWkpxbS9HNTZzdFBReGZKSHpieiw/bUN0Nz9JMTNGZ2x0YkM0ZHJxJjFMS3Jzdj1faURdaXhdfmJPZVl0c2o3ZWh+YzV+TFBwLmFidmlOLWh+LzQ0TEpEaHh8P3BJUDlYb2hFS3JjdHViJUxwY2U3OEJbS3NRQ1JhQkkua35Uemt6d2hpaFpDRlRxM1hMel1SVUUuWmllRkFuQVs/SyZlRWElUkljJVJpMGZbWCZBVFBFbW0yWXBDd0JfbStzRnd0TFdCfm10fnc/NT9jdzBXdSYmfDFwP2hvQ1kmST8waVplYTZEV3BNRzR4fG9xZ29rdEJEdnFPNnUreGRrUEVfUw=='}]); _stq.push([ 'clickTrackerInit', '23586156', '222' ]);</script>
 
 <noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
 
