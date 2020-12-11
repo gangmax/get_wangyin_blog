@@ -33,6 +33,7 @@ const got = require('got');
 var url = process.argv[2];
 var startToken = process.argv[3];
 var endToken = process.argv[4];
+var backupEndToken = process.argv[5];
 
 // 2. Read the HTML file content.
 (async () => {
@@ -40,6 +41,9 @@ var endToken = process.argv[4];
         const response = await got(url);
         let fromIndex = response.body.indexOf(startToken);
         let toIndex = response.body.indexOf(endToken);
+        if (toIndex < 0) {
+            toIndex = response.body.indexOf(backupEndToken);
+        }
         if (fromIndex >= 0 && fromIndex < toIndex) {
             // 2. Convert the HTML content to markdown format.
             let content = response.body.substring(fromIndex + startToken.length, toIndex);
@@ -49,11 +53,10 @@ var endToken = process.argv[4];
             // console.log("This is the MD content:");
             console.log(md);
         } else {
-            let md = toMarkdown(response.body.toString(0));
+            let md = toMarkdown(response.body.toString());
 	    console.log(md);
 	}
     } catch (error) {
         console.error(error);
     }
 })();
-
