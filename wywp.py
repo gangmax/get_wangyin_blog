@@ -74,5 +74,5 @@ if __name__ == '__main__':
         filename = get_filename(item)
         content = parse_page_to_post(item['original_url'])
         write_post(content, filename, target_dir)
-        print('Finish writing the "{}/{}" file...'.format(target_dir, filename))
+        print('Finish getting the "{}/{}" post...'.format(target_dir, filename))
     print('Done.')
