@@ -5,7 +5,8 @@
 #
 # https://yinwang1.wordpress.com/
 #
-# How to use this script:
+# To run this scirpt, first please make sure you have all the dependencies
+# in the "requirements.txt" file installed, and the execute:
 #
 #   ./wywp.py
 
@@ -25,6 +26,7 @@ INDEX_POST_DATA = {
 INDEX_DATE_TITLE_REGEX = r'(\d{4})/(\d{2})/(\d{2})/(.*)/$'
 PAGE_CONTENT_START_TAG = '<div class="post-content clear">'
 PAGE_CONTENT_END_TAG = '<div id="atatags-370373'
+PAGE_CONTENT_BACKUP_END_TAG = '<div id="jp-post-flair"'
 BASE_BLOG_PATH = "./blog"
 
 def parse_index(index_url = INDEX_URL, post_data = INDEX_POST_DATA,
@@ -51,12 +53,13 @@ def parse_index(index_url = INDEX_URL, post_data = INDEX_POST_DATA,
     return result_urls
 
 def parse_page_to_post(page_url, start_tag = PAGE_CONTENT_START_TAG,
-    end_tag = PAGE_CONTENT_END_TAG):
+    end_tag = PAGE_CONTENT_END_TAG,
+    backup_end_tag = PAGE_CONTENT_BACKUP_END_TAG):
     '''
     Return a string which contains the post content in markdown format.
     '''
-    stream = os.popen("./resources/h2m.js '{}' '{}' '{}'".format(
-        page_url, start_tag, end_tag))
+    stream = os.popen("./resources/h2m.js '{}' '{}' '{}' '{}'".format(
+        page_url, start_tag, end_tag, backup_end_tag))
     return stream.read()
 
 def write_post(content, target_filename, target_dir):
