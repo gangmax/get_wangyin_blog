@@ -1,6 +1,10 @@
-# get_wangyin_blog
+This project contains some programs that download WangYin's blogging posts from his websites [here](http://www.yinwang.org/) and [here](https://yinwang1.wordpress.com/),  and convert them into text files in the [markdown](https://en.wikipedia.org/wiki/Markdown) format.
 
-A Clojure program to download [WangYin's blog](http://www.yinwang.org/) articles and convert them into the [markdown](https://en.wikipedia.org/wiki/Markdown) format.
+Distributed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt).
+
+---
+
+## The Clojure part for "http://www.yinwang.org/"
 
 Before running please make sure you have "Java/Leiningen/node.js" installed. The versions I'm using are:
 
@@ -18,14 +22,24 @@ npm install
 
 Now you're good to go:
 
-## Usage
 
 ```bash
 lein run
 ```
 
-## License
+---
 
-Copyright © 2014 Max Huang
+## The Python part for "https://yinwang1.wordpress.com/"
 
-Distributed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt).
+Setup the "node.js" environment as above, and make sure you have Python3 installed. Install the Python libraries first:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the program:
+
+```bash
+./wywp.py
+```
+
