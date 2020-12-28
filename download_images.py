@@ -27,7 +27,10 @@ import os
 import re
 import urllib.request
 
-IMAGE_URL_REGEX = '\(http[s]{0,1}:\/\/www.yinwang.org\/images\/.+?g\)'
+IMAGE_URL_PATTERNS = [
+    '\(http[s]{0,1}:\/\/www.yinwang.org\/images\/.+?g\)',
+    '\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/img_.+\)'
+]
 
 def get_imagelinks(blog_path):
     imagelinks = []
@@ -36,9 +39,10 @@ def get_imagelinks(blog_path):
         with open(blog_path + '/' + fname) as f:
             fcontent = f.readlines()
         for line in fcontent:
-            matched = re.findall(IMAGE_URL_REGEX, line)
-            for x in matched:
-                imagelinks.append(x[1:-1])
+            for exp in IMAGE_URL_PATTERNS:
+                matched = re.findall(exp, line)
+                for x in matched:
+                    imagelinks.append(x[1:-1])
     print(imagelinks)
     return imagelinks
 
