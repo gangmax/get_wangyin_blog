@@ -23,13 +23,23 @@
 5.  “居然还是不对，那我最后猜它是汽车！”
 '''
 
+'''
+2020-12-29: Update regex for the following missing image URL:
+
+    (https://yinwang1.files.wordpress.com/2020/09/album_temp_1601205394.jpg?w=945&h=1552&zoom=2)
+
+'''
+
+
+
 import os
 import re
 import urllib.request
 
 IMAGE_URL_PATTERNS = [
-    '\(http[s]{0,1}:\/\/www.yinwang.org\/images\/.+?g\)',
-    '\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/img_.+\)'
+    '(\(http[s]{0,1}:\/\/www.yinwang.org\/images\/.+?g\))',
+    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[A-Za-z0-9_-]+\.\w+g\?w=\d+&h=\d+\))',
+    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[A-Za-z0-9_-]+\.\w+g\?w=\d+\))'
 ]
 
 def get_imagelinks(blog_path):
@@ -47,7 +57,11 @@ def get_imagelinks(blog_path):
     return imagelinks
 
 def get_filename(url):
-    return url.split('/')[-1]
+    file_name = url.split('/')[-1]
+    if '?' in file_name:
+        # Handle the situation like "album_temp_1601205394.jpg?w=945&h=1552&zoom=2".
+        file_name = file_name.split('?')[0]
+    return file_name
 
 def download_image(url, image_path):
     urllib.request.urlretrieve(url, image_path + '/' + get_filename(url))
@@ -60,3 +74,4 @@ if __name__ == '__main__':
         print('Downloading {0}...'.format(url))
         download_image(url, image_path)
     print('Done.')
+
