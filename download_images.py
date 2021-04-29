@@ -70,8 +70,11 @@ if __name__ == '__main__':
     blog_path = './blog'
     image_path = './image'
     imagelinks = get_imagelinks(blog_path)
+    print('\nFind {} image links...\n'.format(len(imagelinks)))
+    count = 0
     for url in imagelinks:
         print('Downloading {0}...'.format(url))
         download_image(url, image_path)
-    print('Done.')
+        count = count + 1
+    print('Done({}).'.format(count))
 
