@@ -38,8 +38,8 @@ import urllib.request
 
 IMAGE_URL_PATTERNS = [
     '(\(http[s]{0,1}:\/\/www.yinwang.org\/images\/.+?g\))',
-    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[A-Za-z0-9_-]+\.\w+g\?w=\d+&h=\d+\))',
-    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[A-Za-z0-9_-]+\.\w+g\?w=\d+\))'
+    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[.A-Za-z0-9_-]+\.\w+g\?w=\d+&h=\d+\))',
+    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[.A-Za-z0-9_-]+\.\w+g\?w=\d+\))'
 ]
 
 def get_imagelinks(blog_path):
