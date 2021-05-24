@@ -44,7 +44,8 @@ IMAGE_URL_PATTERNS = [
 
 def get_imagelinks(blog_path):
     imagelinks = []
-    filenames = os.listdir(blog_path)
+    # Filter files with extension: https://stackoverflow.com/a/3964696
+    filenames = [f for f in os.listdir(blog_path) if f.endswith('.markdown') or f.endswith('.md')]
     for fname in filenames:
         with open(blog_path + '/' + fname) as f:
             fcontent = f.readlines()
