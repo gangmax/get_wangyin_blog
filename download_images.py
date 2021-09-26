@@ -39,13 +39,14 @@ import urllib.request
 IMAGE_URL_PATTERNS = [
     '(\(http[s]{0,1}:\/\/www.yinwang.org\/images\/.+?g\))',
     '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[.A-Za-z0-9_-]+\.\w+g\?w=\d+&h=\d+\))',
-    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[.A-Za-z0-9_-]+\.\w+g\?w=\d+\))'
+    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[.A-Za-z0-9_-]+\.\w+g\?w=\d+\))',
+    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[.A-Za-z0-9_-]+\.\w+g\))'
 ]
 
 def get_imagelinks(blog_path):
     imagelinks = []
     # Filter files with extension: https://stackoverflow.com/a/3964696
-    filenames = [f for f in os.listdir(blog_path) if f.endswith('.markdown') or f.endswith('.md')]
+    filenames = [f for f in sorted(os.listdir(blog_path)) if f.endswith('.markdown') or f.endswith('.md')]
     for fname in filenames:
         with open(blog_path + '/' + fname) as f:
             fcontent = f.readlines()
@@ -54,6 +55,7 @@ def get_imagelinks(blog_path):
                 matched = re.findall(exp, line)
                 for x in matched:
                     imagelinks.append(x[1:-1])
+    imagelinks.reverse()
     print(imagelinks)
     return imagelinks
 
