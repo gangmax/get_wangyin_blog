@@ -40,11 +40,11 @@ Scheme 的配置有很多种方式，我不想介绍太多东西，免得有人�
 
 安装应该很容易。Ubuntu 也自带了 Racket，所以可以直接让系统安装它。
 
-### 设置 ParEdit mode
+### 设置 Paredit mode
 
-我编辑 Scheme 的时候都用 Emacs。我使用一个叫做 ParEdit mode 的插件。它可以让你“半结构化”式的编辑 Scheme 和其它的 Lisp 文件。开头你可能会有点不习惯，可是一旦习惯了，你就再也离不开它。
+我编辑 Scheme 的时候都用 Emacs。我使用一个叫做 Paredit mode 的插件。它可以让你“半结构化”式的编辑 Scheme 和其它的 Lisp 文件。开头你可能会有点不习惯，可是一旦习惯了，你就再也离不开它。
 
-ParEdit mode 可以在这里下载：
+Paredit mode 可以在这里下载：
 
 [http://mumble.net/~campbell/emacs/paredit.el](http://mumble.net/~campbell/emacs/paredit.el)
 
@@ -78,15 +78,12 @@ ParEdit mode 可以在这里下载：
     ;;;;;;;;;;;;
 
     (require 'cmuscheme)
-    (setq scheme-program-name "racket")         ;; 如果用 Petite 就改成 "petite"
 
-</div>
+    ;; push scheme interpreter path to exec-path
+    (push "/Applications/Racket/bin" exec-path)
 
-</div>
-
-<div class="language-lisp highlighter-rouge">
-
-<div class="highlight">
+    ;; scheme interpreter name
+    (setq scheme-program-name "racket")
 
     ;; bypass the interactive question and start the default interpreter
     (defun scheme-proc ()
@@ -99,50 +96,26 @@ ParEdit mode 可以在这里下载：
       (or (scheme-get-process)
           (error "No current process. See variable `scheme-buffer'")))
 
-</div>
-
-</div>
-
-<div class="language-lisp highlighter-rouge">
-
-<div class="highlight">
+    (defun switch-other-window-to-buffer (name)
+        (other-window 1)
+        (switch-to-buffer name)
+        (other-window 1))
 
     (defun scheme-split-window ()
       (cond
        ((= 1 (count-windows))
-        (delete-other-windows)
         (split-window-vertically (floor (* 0.68 (window-height))))
-        (other-window 1)
-        (switch-to-buffer "*scheme*")
-        (other-window 1))
-       ((not (find "*scheme*"
+        ;; (split-window-horizontally (floor (* 0.5 (window-width))))
+        (switch-other-window-to-buffer "*scheme*"))
+       ((not (member "*scheme*"
                    (mapcar (lambda (w) (buffer-name (window-buffer w)))
-                           (window-list))
-                   :test 'equal))
-        (other-window 1)
-        (switch-to-buffer "*scheme*")
-        (other-window -1))))
-
-</div>
-
-</div>
-
-<div class="language-lisp highlighter-rouge">
-
-<div class="highlight">
+                           (window-list))))
+        (switch-other-window-to-buffer "*scheme*"))))
 
     (defun scheme-send-last-sexp-split-window ()
       (interactive)
       (scheme-split-window)
       (scheme-send-last-sexp))
-
-</div>
-
-</div>
-
-<div class="language-lisp highlighter-rouge">
-
-<div class="highlight">
 
     (defun scheme-send-definition-split-window ()
       (interactive)
@@ -159,13 +132,13 @@ ParEdit mode 可以在这里下载：
 
 </div>
 
-我的配置会在加载 Scheme 文件的时候自动载入 ParEdit mode，并且把 F5 键绑定到“执行前面的S表达式”。这样设置的目的是，我只要把光标移动到一个S表达式之后，然后用一根手指头按 F5，就可以执行程序。够懒吧。
+我的配置会在加载 Scheme 文件的时候自动载入 Paredit mode，并且把 F5 键绑定到“执行前面的S表达式”。这样设置的目的是，我只要把光标移动到一个S表达式之后，然后用一根手指头按 F5，就可以执行程序。够懒吧。
 
-### ParEdit mode 的简单使用方法
+### Paredit mode 的简单使用方法
 
-ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直接修改括号。这样所有的括号都保持完整的匹配，不可能出现语法错误。但是这样有一个问题，如果你要把一块代码放进另一块代码，或者从里面拿出来，就不是很方便了。
+Paredit mode 是一个很特殊的模式。它起作用的时候，你不能直接修改括号。这样所有的括号都保持完整的匹配，不可能出现语法错误。但是这样有一个问题，如果你要把一块代码放进另一块代码，或者从里面拿出来，就不是很方便了。
 
-为此，ParEdit mode 提供了几个非常高效的编辑方式。我平时只使用两个：
+为此，Paredit mode 提供了几个非常高效的编辑方式。我平时只使用两个：
 
 1.  `C-right`: 也就是按住 Ctrl 再按右箭头。它的作用是让光标右边的括号，“吞掉”下一个S表达式。
 
@@ -188,7 +161,7 @@ ParEdit mode 是一个很特殊的模式。它起作用的时候，你不能直�
     <div class="highlight">
 
         (let ([x 10])
-          (* x 2))
+         (* x 2))
 
     </div>
 
