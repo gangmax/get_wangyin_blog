@@ -16,6 +16,7 @@ import os
 import re
 import sys
 import requests
+from functools import partial
 from slugify import slugify
 
 INDEX_URL = 'https://yinwang1.substack.com/api/v1/archive?sort=new&limit=12&offset=0'
@@ -55,16 +56,20 @@ def parse_page_to_post(page_url, start_tag = PAGE_CONTENT_START_TAG,
         page_url, start_tag, end_tag))
     return stream.read()
 
+def convert_others(threshold: int, content: str) -> str:
+    return '' if len(content) <= threshold else content
+
 def convert_image_tag(content: str) -> str:
     m = re.search(r'\!\[.*\]\((.+)\)\<\/picture\>', content)
     return '![]({})'.format(m.group(1))
 
 CONVERTING_FUNCTION_MAP = {
+    '[<div clas': convert_image_tag,
     '<figure> [': convert_image_tag,
-    '<figure>': lambda x: "",
-    '</figure>': lambda x: "",
-    '<div class': lambda x: "",
-    '</div>': lambda x: "",
+    '<figure>': partial(convert_others, 8),
+    '</figure>': partial(convert_others, 9),
+    '<div class': partial(convert_others, 10),
+    '</div>': partial(convert_others, 6),
 }
 
 def optimize_content(raw: str) -> str:
@@ -75,6 +80,7 @@ def optimize_content(raw: str) -> str:
     '''
     result = ''
     for line in raw.splitlines():
+        line = line.strip()
         if line[0:10] in CONVERTING_FUNCTION_MAP.keys():
             converted = CONVERTING_FUNCTION_MAP[line[0:10]](line)
             if len(converted) > 0:
