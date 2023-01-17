@@ -1,0 +1,29 @@
+仔细一看才发现，人类知识的各个领域都充满了由于历史遗留的语言设计问题，违反认知规律的语言教学而引起的理解问题。计算机，逻辑，数学，语言文学，视觉艺术，现在看到音乐，都是差不多的问题。
+
+Amazon 销量第一的音乐理论书《Music Theory: From Beginner to Expert》，内容基本可以说是被混淆的逻辑，错误的英语，未定义的术语复杂化之后的小学数学，叫《Music Theory: 从入门到放弃》还差不多。放弃之后，再看网络上其它一些混淆不堪的讲解，不禁感叹：人类的知识到哪里去了，时间都用到哪里去了？
+
+设计有问题，容易混淆，难以理解的语言让人们忘记了他们是要做什么，是要学什么，绝大部分时间花在了理解那个语言，由于它的问题而制造出来的奇怪术语。但由于符号的曲线画得好看，或者里面放点希腊字母，它们都被叫做“优美”的语言，似乎神圣不可改变，以至于没人敢质疑它们的问题，反而把奇技淫巧当成是“知识”。
+
+如果这些领域的语言改进到人人都能理解，世界将会怎样？我们也许可以从《圣经》里面找到答案：
+
+--------- 創世紀 11 ---------
+
+1\. 那時，天下人的口音、言語都是一樣。
+
+2\. 他們往東邊遷移的時候，在示拿地遇見一片平原，就住在那裡。
+
+3\. 他們彼此商量說：來吧！我們要做磚，把磚燒透了。他們就拿磚當石頭，又拿石漆當灰泥。
+
+4\. 他們說：來吧！我們要建造一座城和一座塔，塔頂通天，為要傳揚我們的名，免得我們分散在全地上。
+
+5\. 耶和華降臨，要看看世人所建造的城和塔。
+
+6\. 耶和華說：看哪，他們成為一樣的人民，都是一樣的言語，如今既做起這事來，以後他們所要做的事就沒有不成就的了。
+
+7\. 我們下去，在那裡變亂他們的口音，使他們的言語彼此不通。
+
+8\. 於是耶和華使他們從那裡分散在全地上；他們就停工，不造那城了。
+
+9\. 因為耶和華在那裡變亂天下人的言語，使眾人分散在全地上，所以那城名叫巴別【就是變亂的意思】。
+
+ [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06dddbce-64e4-45ec-9148-dda256f73604_880x880.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06dddbce-64e4-45ec-9148-dda256f73604_880x880.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06dddbce-64e4-45ec-9148-dda256f73604_880x880.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06dddbce-64e4-45ec-9148-dda256f73604_880x880.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06dddbce-64e4-45ec-9148-dda256f73604_880x880.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06dddbce-64e4-45ec-9148-dda256f73604_880x880.jpeg)  [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F562ad117-560c-4263-988a-99c2dd1b750d_1125x2330.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F562ad117-560c-4263-988a-99c2dd1b750d_1125x2330.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F562ad117-560c-4263-988a-99c2dd1b750d_1125x2330.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F562ad117-560c-4263-988a-99c2dd1b750d_1125x2330.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F562ad117-560c-4263-988a-99c2dd1b750d_1125x2330.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F562ad117-560c-4263-988a-99c2dd1b750d_1125x2330.jpeg)

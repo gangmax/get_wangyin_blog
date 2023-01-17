@@ -1,0 +1,33 @@
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F85bbf80e-4b21-4027-b982-6227ce5d654d_827x554.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F85bbf80e-4b21-4027-b982-6227ce5d654d_827x554.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F85bbf80e-4b21-4027-b982-6227ce5d654d_827x554.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F85bbf80e-4b21-4027-b982-6227ce5d654d_827x554.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F85bbf80e-4b21-4027-b982-6227ce5d654d_827x554.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F85bbf80e-4b21-4027-b982-6227ce5d654d_827x554.jpeg) </figure>
+
+</div>
+
+如果你跟上了我最近的这批微博和 substack，就会发现我已经可以放心地认为：
+
+**<span>病毒从来没有被科学地证明存在过</span>  
+<span>病毒从来没有被科学地证明存在过</span>  
+<span>病毒从来没有被科学地证明存在过</span>**
+
+重要的事情说三遍。这是一个巨大的世界观突破，它意味着我从小以来知道的很大一部分信息都是错误的，甚至感冒都不是由“感冒病毒”引起的。
+
+现在我想用自己的亲身经历来印证一下这个新的观点。最直接的经历，当然就是普通的感冒了。我们总是听说感冒是由“感冒病毒”引起的，可是谁真的看见过“感冒病毒”，谁证明过它的存在？
+
+还记得感冒发生之前，你一般是什么样的状态吗？我记得。感冒之前，我一般会有一段时间比较累，比较紧张，没有休息好，或者没注意保暖，或者吹了冷风“着凉”了。也许有人要说，“对啊你抵抗力降低了，所以感冒病毒就入侵了。”
+
+可是，你看见过“感冒病毒”吗？有人科学地证明过它的存在吗？你确信感冒会传染吗？经常的情况是，家里有一个人感冒了，不停地咳嗽，打喷嚏，家人虽然很近距离地照顾他，也没有戴口罩什么的，却完全没有被传染的迹象，都好好的。然后就有人说，那是因为别人抵抗力强，所以“病毒”攻不进去。
+
+你不觉得这一切都是传说吗？为什么我们不认为感冒就是由于身体劳累，虚弱，着凉而直接引起的身体系统紊乱，所以产生的症状呢？你发现所有的“感冒药”其实都无法治好它吗？大部分只是压制一下症状，让你喷嚏咳嗽没那么厉害，可你总要一个星期才会好，如果一周之内停药，马上就会“反弹”。
+
+其实根本不需要吃感冒药。一旦注意休息，保暖，营养，自己就恢复了，然后他们就说“感冒病毒一般一周就被免疫系统消灭”。为什么不说那是因为之前被扰乱的系统现在恢复了正常工作，所以症状就消失了呢？
+
+为什么一定要加上“感冒病毒”这个故事呢？你不觉得这一切都是童话吗？
+
+这个童话的名字就叫做《皇帝的新装》。
+
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7a4112b6-b279-4f1f-8f3c-88ed2e156d22_474x233.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7a4112b6-b279-4f1f-8f3c-88ed2e156d22_474x233.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7a4112b6-b279-4f1f-8f3c-88ed2e156d22_474x233.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7a4112b6-b279-4f1f-8f3c-88ed2e156d22_474x233.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7a4112b6-b279-4f1f-8f3c-88ed2e156d22_474x233.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7a4112b6-b279-4f1f-8f3c-88ed2e156d22_474x233.jpeg) </figure>
+
+</div>

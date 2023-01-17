@@ -1,0 +1,23 @@
+疫情刚开始的时候，我和前女友在日本旅游。多么美好的旅行，可是疫情突然爆发了，于是她一直关注着国内的“新闻”，给我看那些恐慌的视频。我都觉得那些视频是假的，觉得很好笑。我心想，人类发展到了今天，怎么会突然出现如此可怕的病毒，搞得好像世界末日一样，显然是某些人演出来吓唬人的。我在等着官方来辟谣，可是没想到，官方确认了这是“真”的。
+
+我仍然不害怕那个病毒，甚至不戴口罩，我没有着急去买口罩带回国。过了两天想要买盒口罩带回去的时候，我发现药妆店里的口罩已经被国人抢购一空，我已经买不到口罩了……
+
+当时我还相信疫情是存在的，我以为过一段时间国内平息了，应该就没事了。可是没想到两个月之后，它居然在国外爆发了。于是我才听说，国外有一种人叫“反苗主义者”（anti-vaxxer）。他们游行示威，高呼“人权”和“自由”，拒绝疫苗和封控，甚至拒绝戴口罩。我心想，世界上怎么会有这样的傻子，不懂科学。你们所谓的“人权”和“自由”，面对这样的危机，还是应该忍一忍的吧？
+
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg 1456w" sizes="100vw">![图像.jpeg](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg "图像.jpeg")</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg) </figure>
+
+</div>
+
+<span>就这样过了一年半。去年 7 月的时候因为好奇，我开始研究关于“疫情真相”的信息，才发现网上有“伦敦自由大游行”（London Freedom March 2021）的演讲视频。看了两个</span>[演讲](https://odysee.com/@WhatIsTruth_WasIstWahrheit_2:f/DR.-ANDREW-KAUFMANS-SPEECH-AT-LONDON-FREEDOM-PROTEST-JULY-24TH,-2021:2)<span>之后，我才忽然发现疫情原来是那么回事。就像我最初的直觉一样，它很可能是假的。经过多方面的考察，参考网络上被封禁的医学专家的看法，通过自己的对比和思考，我发现他们是对的。这些曾经被我认为是“傻子”，“不懂科学”的反苗人士，他们居然是对的。</span>
+
+通过他们，我才真正理解了“人权”和“自由”的意义。为什么《宪法》规定只有犯罪的人才能被剥夺和限制人身自由，而疫情和其它灾难都不能作为限制人身自由的理由？因为这一切都是可以造假的。通过所谓的“科学结论”，在数字上做文章，通过媒体制造幻觉，就能制造出任何灾难的假象，然后就能以“保护公众健康安全”为借口，施行任意的政策了。
+
+一百多年来，人们相信着“科学”，以为疫苗是在保护他们不受那些可怕的“病毒”侵害。可是他们怎么也没想到，这一切都可能是骗局。制造疫情的假象，利用错误的“科学结论”，居心叵测的人就可以操纵所有人去打疫苗，甚至进行强制接种，可以任意地剥夺他们的人身自由。
+
+医学已经发展到了如此“先进”的地步，可是为什么现代人有那么多奇怪的疾病，而且越来越多，越来越难治？癌症，白血病，心脏病，糖尿病…… 想想吧，大自然会给我们如此糟糕的身体吗？去看看老照片，看看一百年前的人长什么样吧。他们比现在的人看起来都要健康，而且好看，充满了自然的美感。
+
+我们和前人的差别是什么呢？我们放任那些“科学”制造出来的，非自然的化学物质进入自己的身体，甚至从小就被注射那些东西，而以前没有那么多此类物质……
+
+到今天看过了这么多的戏，相信“科学”还是相信自然，我想我的心已经做出了选择。

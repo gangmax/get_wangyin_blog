@@ -1,0 +1,17 @@
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9135a546-71fe-4664-b348-d7b4b82871d6_1838x2850.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9135a546-71fe-4664-b348-d7b4b82871d6_1838x2850.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9135a546-71fe-4664-b348-d7b4b82871d6_1838x2850.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9135a546-71fe-4664-b348-d7b4b82871d6_1838x2850.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9135a546-71fe-4664-b348-d7b4b82871d6_1838x2850.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9135a546-71fe-4664-b348-d7b4b82871d6_1838x2850.jpeg) </figure>
+
+</div>
+
+在这个科学界已经混乱到不明白什么是“因果关系”，如何才能正确得到因果关系的年代，我觉得这本 Judea Pearl 的书《The Book of Why》更加值得推荐了。很多科学家都不能分辨“因果关系”和“相关性”，所以他们看似做了实验，得出的结论却很多是错的。
+
+当年我就是碰巧看了这本书，才发现逻辑学和计算机科学的理论对于自然科学是如此重要。医学所谓的“双盲实验”，原理其实就来自于这些逻辑理论。这本书也会讲到医学实验的原理，以及为什么必须那样做实验才能得出因果关系，而不只是“相关性”。
+
+“因果关系”和“相关性”的差别，和传染病的分析也很有关系。很多人发现一家人都得了病，或者见了某个人之后两个人都得了病，就以为是传染的（因果关系）。但也有可能是因为共同的起因，比如空气污染，同时吸入了有毒物质（相关性），而并不是传染的。
+
+“传染”就是一种因果关系。很多时候人们以为一个病是传染的，却没有经过科学的分析，就与“相关性”混淆起来。如果有同样的起因（比如空气污染）导致了一些人同时发病（相关性），他们就盲目地以为是传染了（因果关系），而其实可能并不是传染的。
+
+所谓“病毒潜伏期”这个概念，就更加让人容易混淆这两种情况。A 和 B 见了面，A 马上发病了。过了一周，B 也病了。他们就以为是 A 传染了 B。但也有可能是 A 先接触了有毒的 C 物质，病了。过了一周，B 在另一个地方也接触了 C 物质，所以也病了。但按照“病毒潜伏期”的理论，就容易理解为 A 见面的时候传染了 B，但是这病毒的潜伏期是一周，所以过了一周之后 B 也病了。
+
+那种传说有几年甚至几十年潜伏期的“病毒”，就更是难以确定了。这么长的时间发生了多少事情，有多少可能的起因，为何就那么确定是因为传染了那病毒？一旦你遇上这个病真正的起因（有毒物质，生活方式等），病了，然后他们就说那是因为你多年前传染了病毒的原因，而这病真正的起因就始终未能发现。

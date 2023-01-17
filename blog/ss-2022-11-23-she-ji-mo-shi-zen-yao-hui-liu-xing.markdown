@@ -1,0 +1,19 @@
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F09d0aa8d-a8c8-4f21-8cae-b974e5918acd_420x648.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F09d0aa8d-a8c8-4f21-8cae-b974e5918acd_420x648.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F09d0aa8d-a8c8-4f21-8cae-b974e5918acd_420x648.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F09d0aa8d-a8c8-4f21-8cae-b974e5918acd_420x648.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F09d0aa8d-a8c8-4f21-8cae-b974e5918acd_420x648.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F09d0aa8d-a8c8-4f21-8cae-b974e5918acd_420x648.jpeg) </figure>
+
+</div>
+
+<span>30 年后，人们终于开始庆祝《Design Patterns》的逐渐灭亡。这本书曾经在 Google 公司的每一个书架上，被奉为经典。十多年前我第一次看到这本书，就发现它完全是无稽之谈，但没想到它会成为如此大的祸害，需要高明的程序员们经过这么多年的不懈抗争，才开始扭转局面。世界上这么多的聪明人，为什么他们需要做这样的事情？纪念我的《</span>[解密“设计模式”](http://www.yinwang.org/blog-cn/2013/03/07/design-patterns)<span>》写作将近十周年。</span>
+
+GOF《设计模式》这种烂书提出的愚蠢的概念，是怎么流行起来，是怎么占据了 Google 这样的公司的每一个书架，甚至成为了很多公司工作面试的常见考题，导致很多人不得不学它？这个事情是细思极恐的，因为它的背后似乎隐藏着很高明的精神控制技术，类似于一种邪教。
+
+不只是函数式语言程序员厌恶设计模式，而且传统的 C，C++ 程序员也厌恶它。设计模式严重妨碍了程序员简单而正常的思考，制造出一层层毫无意义的“抽象”和“重用”，最后没有几行代码在做实事，也没人真能看懂和重用这些代码。实际上大部分函数式程序员，高级的 C 程序员写“可重用代码”的能力，都大大高于学习过设计模式的程序员，甚至轻松超过 GOF《设计模式》的四个作者。这些程序员是不可能接受设计模式的。
+
+最早的时候，大家用 C 语言，用 C++ 这样的面向对象语言，其实都是没有设计模式这个概念的，人们之间用传统的计算机术语交流，完全没有问题。《设计模式》这书却忽然冒出来，给人们提供了一套全新的，过度复杂，毫无意义的“模式语言”，来表达他们本来就能简单表达的概念，最后导致人们不得不用他们设计的这个语言来交流，一代代的传下去，然后就再也难以摆脱他们的控制。
+
+如果书架上摆的是 Knuth 的 TAOCP，虽然没人真的看了，还说得过去。至少 Knuth 自己能写出很高明的程序，他的书没人看懂，摆在那里作为装饰，也没什么害处。如果你没听说过 Dan Friedman，Kent Dybvig，去学习 Dennis Ritchie，Linus Torvalds，看他们写的文字和代码，我都没有这么大的意见，因为他们至少真写出过具有世界级的影响力的高明代码。然而某些公司每个书架上都摆着《Design Patterns》，害处就大了。我觉得应该把这本书作为邪教的教义来对待。
+
+几个之前从未听说过名字的作者，来历不明，没有深厚的学术背景，没有拿得出手的工业成果，没有高明的开源代码，写出来的书就像会被打回去重做的学生论文，只能叫做 nonsense，为何能流行起来，对如此广泛的人群达到这样强的精神控制效果？
+
+光靠作者自己的名声，学识，书的内容，我觉得是不可能达到这样的效果的。这书如果只是放在那里，肯定是没人看，没人学的。是否有什么背后的力量在推动和操纵这一切，故意制造复杂和混乱？我觉得是一个值得思考的问题。

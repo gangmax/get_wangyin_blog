@@ -1,0 +1,29 @@
+（1）
+
+路过一个商场门口，发现新装的“盲道”。以非常不美观的角度，斜穿过整个广场。看材质和施工，我觉得很快就会坏掉。与地砖之间无法贴合的缝隙，露出来的胶，给人丑陋和低劣的感觉。旁边的人行道地砖还被钻错了几个孔，已经有烟头和垃圾在里面。因为被钻了孔，这些地砖会随着盲道一起损坏。
+
+我真的不明白这么宽敞的地方，装盲道有什么意义。这个地方之前是没有盲道的。大概是某条规章制度，或者某人说这里得有盲道吧，所以就找了不知道什么施工队给贴上。
+
+每次看到不合理的盲道，我都在疑惑，真的有盲人用这个吗？这看起来是一种形式主义，显示我们很爱护残疾人，但残疾人真的获益了吗？本来盲人用一块砖宽度的盲道就足够了，中国有些道路的盲道可以宽到两三块砖，有必要吗？
+
+为什么美国大部分人行道根本就没有盲道，盲人还是过得好好的？日本的盲道是怎么做的？什么地方有，什么地方没有，有的地方是怎么安装的，用的什么材料？去考察一下吧。
+
+ [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9e39e195-5f30-41a5-b562-80d9aab102e6_690x920.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9e39e195-5f30-41a5-b562-80d9aab102e6_690x920.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9e39e195-5f30-41a5-b562-80d9aab102e6_690x920.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9e39e195-5f30-41a5-b562-80d9aab102e6_690x920.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9e39e195-5f30-41a5-b562-80d9aab102e6_690x920.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9e39e195-5f30-41a5-b562-80d9aab102e6_690x920.jpeg) 
+
+（2）
+
+我总觉得人行道的品质，可以体现一个国家的生活品质，因为人行道的施工水平，体现了人们对待城市建设的态度。人行道的干净整洁程度，体现了人的素质。人行道是给人走路用的，而生活的很大一部分乐趣，就是在走路。
+
+每次去其它国家旅游，我都不会忘了观察他们的大街小巷里，人行道是什么材料做的，是怎么施工的。真的，不要说日本韩国了，恐怕很多东南亚小国的人行道都比中国的舒服。很多中国人996 从早忙到晚，出来还要走过糟心的路，挤上糟心的车，回家走进破烂的楼道，一大早就被楼上的装修声吵醒。这样的生活还有意义吗？
+
+从拍回来的照片里，我可以比较简单的发现盲道应该装在什么地方，用什么材料，如何施工。我不明白这么大一个国家，为什么连人行道都做不好。
+
+如图，对比日本和韩国的人行道建设，材质和施工是跟中国很不一样的。可惜很多中国人去过，却没能发现有什么不一样。
+
+ [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a6a097b-5b56-4dcd-a2df-66009e406cdd_690x920.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a6a097b-5b56-4dcd-a2df-66009e406cdd_690x920.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a6a097b-5b56-4dcd-a2df-66009e406cdd_690x920.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a6a097b-5b56-4dcd-a2df-66009e406cdd_690x920.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a6a097b-5b56-4dcd-a2df-66009e406cdd_690x920.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a6a097b-5b56-4dcd-a2df-66009e406cdd_690x920.jpeg) 
+
+（3）
+
+几天后。我的预言总是很准……
+
+ [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf77b31f-7894-4de4-a35d-5282a405c077_690x920.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf77b31f-7894-4de4-a35d-5282a405c077_690x920.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf77b31f-7894-4de4-a35d-5282a405c077_690x920.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf77b31f-7894-4de4-a35d-5282a405c077_690x920.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf77b31f-7894-4de4-a35d-5282a405c077_690x920.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf77b31f-7894-4de4-a35d-5282a405c077_690x920.jpeg)

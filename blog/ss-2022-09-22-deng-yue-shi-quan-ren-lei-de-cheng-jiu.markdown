@@ -1,0 +1,13 @@
+当我对一个朋友说，阿波罗登月是假的，所有的“航天”都是假的，她很吃惊地说：“我们真有那么差啊？……” 听到这话，我的第一反应是发现她用了“我们”这个词，所以显然，她把航天的事情作为了自己的“成就”和“荣誉”，而不只是某些其他人的事情。
+
+前几天看了阿波罗宇航员 Buzz Aldrin 的这个采访。8:40 的时候，他提到回到地球之后，他们全世界的巡游演讲，标语上都写着“我们做到了！” 这里的“我们”不只是指美国人，而是全世界的人，这样全世界的人都觉得他们是其中的一员…… 我才发现这里面的心理技巧有多深。
+
+<div id="youtube2-Y4UP6nRMuGs" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;Y4UP6nRMuGs&quot;,&quot;startTime&quot;:&quot;519&quot;,&quot;endTime&quot;:null}">
+
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/Y4UP6nRMuGs?start=519&amp;rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
+
+</div>
+
+把一个事情说成是“全人类的成就”，这样就能充分利用人们的自尊心和虚荣心。当他们听到对此的质疑，就会自动地从心理上发生抵触，难以接受现实：“什么？你说我们没上过月球？” 这样谎言和假象就自动得到了保护。
+
+《皇帝的新装》真是不朽的经典。

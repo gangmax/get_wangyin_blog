@@ -1,0 +1,27 @@
+科学界的“皇帝的新装”故事，已经可以说是无处不在了。去年的时候我推荐过这个物理学家 Alexander Unzicker 的频道，他揭露了不少物理学界的秘密，比如 Higgs boson 的骗局。
+
+今天我又看了他一个视频：
+
+<div id="youtube2-y21KWiurLSc" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;y21KWiurLSc&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
+
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/y21KWiurLSc?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
+
+</div>
+
+他指出 LIGO 所谓的“探测重力波”的实验是有根本性错误的，错误就在于他们处理数据的方式，所以他们并没能证明重力波的存在。
+
+他的另一个视频也值得推荐，是指出“粒子物理”为什么走进了死胡同。
+
+<div id="youtube2-0NOaYu-AxsI" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;0NOaYu-AxsI&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
+
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/0NOaYu-AxsI?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
+
+</div>
+
+具体的细节我就不说了，可以自己去看看。我想指出的问题是，似乎越来越多的“科学”开始使用“大数据”的方式来进行实验。采集很多数据，然后用计算机模型进行复杂的分析，最后告诉大家“结论成立”。然而这些数据的采集和分析过程中，都是可以隐藏很多猫腻的，可以任意的扭曲数据，得到错误的结论。
+
+经常有人说：“科学不就是不断地犯错误，然后改正错误吗？” 然而我认为这是在找借口掩盖科学界严重的道德问题。“犯错”和“改正”这样的词，只能用在动机良好的，诚实的人身上，不能用在不诚实的骗子身上。“犯错”和“欺骗”完全是两码事。错误是可以改正的，而骗局是无法通过“改正”来弥补的。“一朝是骗子，永远是骗子”，这句话是有道理的。
+
+我觉得很多所谓“科学”领域早已跨越了重要的界限，他们不是在犯错，而是在欺骗，所以已经成为了实际意义上的伪科学。
+
+有人说过：“世界最后不是毁在疯子手上，就是毁在科学家手上。” 现在我相信这句话了，世界是要毁于疯子和科学家的手上。但世界不是毁于科学家发明出来的先进技术，而是毁于他们制造出来的虚假骗局。 ​​​

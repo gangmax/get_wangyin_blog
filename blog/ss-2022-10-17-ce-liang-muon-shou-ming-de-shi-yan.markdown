@@ -1,0 +1,21 @@
+昨天的 muon 文章看起来没有对，因为他们其实是把 muon 弄停下来之后测的寿命，所以并没有使用相对论公式去转换时间，测出来的就是”静止的 muon 参考系时间“。但这并不等于 muon 的事就证明了相对论，因为也许有其它原因导致了这些被测的 muon 寿命缩短，或者是因为我们不能准确地知道它们产生的高度。
+
+<div id="youtube2-l2-4gvZw4s4" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;l2-4gvZw4s4&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
+
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/l2-4gvZw4s4?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
+
+</div>
+
+我研究了一下这种测 muon 寿命的实验，它们都需要用一种叫 scintillator 的装置，里面装着特殊的液体，受到高能粒子冲击的时候就会发光。muon 首次撞击液体的时候会发一次光，接着它可能会在液体里面停下来，分解的时候又会发一次光，然后他们就用这两次发光的时间，统计之后计算 muon 的寿命。因为 muon 在液体里停下来了，所以按照相对论，它的时间就和静止的人的时间一样了。
+
+我觉得这种实验可能有以下问题：
+
+想想 scintillator 的液体和空气有什么不同呢？muon 在空气中不会发光也不会停下。它的穿透力比 X 射线和Gamma 射线还要强很多，不但可以穿透铅板，而且显然可以穿透巨大的钢筋混凝土建筑物，一直到达实验设备。可是进到这小小的 scintillator 的液体之后，它会引起发光，而且居然会停下来。这说明 scintillator 的液体是很特殊的物质，它和空气和普通物体都很不一样，它对 muon 的“阻力”似乎大大高于空气和其它物体。
+
+所以我猜，高速撞击 scintillator 的液体，会不会导致了巨大的能量变化或结构破坏，导致 muon 加速分解？这就像飞机栽到海里，撞击对它产生了结构性的破坏，当然很快就分解了。别忘了，muon 本身就是因为宇宙射线粒子与空气分子相撞分解产生的。为什么做这个实验的时候就不考虑 muon 和液体分子之间的撞击可能导致的分解？
+
+另外，从空气进入液体，muon 的环境发生了改变，会不会影响它的寿命？想想一只鸟掉进水里，它很快就死了。scintillator 的液体显然是非常特殊的，因为它能让 muon 停下来。muon 会不会因为和这种液体发生某种反应或者能量交换，所以才分解的？
+
+也许这就是为什么 muon 可以在空气中跑很远，一直穿过大气层到达地面，也许它们在没有受到冲击和阻碍的时候本来就是那样，而不是因为相对论。当然，也有可能 scintillator 液体并不影响 muon 的寿命，但似乎没人考虑和排除过这个可能性，大家都假设了 muon 在 scintillator 液体中和空气中是一样的寿命。
+
+另外需要注意的是，有的 muon 会在 scintillator 中停下来，有的可能不停。实验采集的全都是那些停下来的muon 的数据，而没有考虑那些没有停下，而是直接穿过去的。这种实验设备都设置了“最长时间间隔”（比如10 微秒），超过这个间隔长度的闪光都不记录的。这使得实验具有主观偏向。也许那些停下来的 muon 本来就是寿命短的那些呢？也许穿过去的那些 muon 寿命长很多呢？

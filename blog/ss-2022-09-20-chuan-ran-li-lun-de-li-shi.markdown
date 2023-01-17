@@ -1,0 +1,17 @@
+曾经推荐过这个 Stefan Lanka 博士关于“传染理论历史”的演讲。他指出所谓“病毒”其实是不存在的，医学界一直在弄虚作假，让人以为“病毒”这东西存在。历史上所有的“疫情”都是制造出来的骗局，用于政治目的。
+
+<div id="youtube2-3cnlynJZLtM" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;3cnlynJZLtM&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
+
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/3cnlynJZLtM?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
+
+</div>
+
+对于 Lanka 博士的说法，我并不是全盘接受的。关于“病毒是否存在”这个问题，他的论据里面似乎有一些纰漏，所以我还未能完全确信。但通过“犯罪心理”的分析，我觉得病毒可能确实是不存在的，它很有可能是一个骗局。
+
+我感觉这是《皇帝的新装》在上演。这些皇帝请来的“织布工”，告诉大家有一种肉眼看不见，连光学显微镜都看不见的东西，叫做“病毒”，它导致了各种疾病，而且它会繁殖并传染给其他人。只有电子显微镜可以看见它，然而电子显微镜是看不见活物的。我们看到的那些彩色的“病毒动画”，其实都是电脑合成出来的。真正的电子显微镜照片，都是不会动的。
+
+你得先用有毒的抗生素把试管里的所有东西杀死，加入荧光显色剂，才能用电子显微镜看到它们。可是到了那个时候，所有东西都已经死了，所以你无法看到“作案过程”，也就无法确认它是不是“罪犯”了。也许那东西就是无辜的路人，也许是细胞或细菌死亡的时候产生的残骸…… 有许多其它的可能性，你怎么就确定它是“病毒”呢？
+
+这个所谓的“病毒”，它的结构和细菌不一样，它没有线粒体，没有自己的能量来源，它甚至不能叫做“生命体”。一个没有生命的东西，它有什么“动机”要传染其它生物，进行繁殖和传播呢？
+
+不能直接看到，所以只能通过其它推理得到结论，然而其它的推理也是有纰漏的。这些我都看过，但不想在这里细说了，有兴趣的人可以自己去研究一下。

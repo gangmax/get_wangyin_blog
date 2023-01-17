@@ -1,0 +1,15 @@
+前段时间发现的各种问题，大概率地说明爱因斯坦的相对论是基于错误的，未经实验证实的前提：相对光速不变。相对论支持者们刻意选择了那些能支持相对论的实验结果，而忽视所有与之不符的实验（Miller, Sagnac, Munera 等），用各种借口忽略它们。这不是科学。
+
+<span>我之前在博客发布的那篇《</span>[相对论推导练习](http://www.yinwang.org/blog-cn/2022/10/09/relativity)<span>》，其实就是基于这个更新后的认识。如果相对光速并不是不变的，而是和牛顿力学的相对速度原则一致，会随着观察者的运动而改变，那么接近光速的物体应该产生什么样的现象？有些聪明的物理专业人士可能已经发现了，我提供的练习最后推导出来的公式，和「多普勒公式」一模一样。</span>
+
+根据这个“新相对论公式”，我阅读并重新推导了爱因斯坦的 E = mc^2 论文。
+
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg) </figure>
+
+</div>
+
+因为这篇论文的前提是错误的相对论，所以它应该也是错的，E ≠ mc^2。那么 E 应该等于多少呢？使用“新相对论公式”，我得到的结果让人惊讶：E = E。
+
+也就是说，能量和质量并没有关系。物体有多少能量，它就有多少能量，你不能把很少的质量转换为巨大的能量。这意味着什么呢？自己去想 ;=)

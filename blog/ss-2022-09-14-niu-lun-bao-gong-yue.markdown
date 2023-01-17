@@ -1,0 +1,33 @@
+<span>每个人都应该了解一下什么是“</span>[纽伦堡公约](https://en.wikipedia.org/wiki/Nuremberg_Code)<span>”（Nuremberg Code）。我去年研究新冠疫情的时候就知道这个东西了。又过了一年，可能大部分人仍然不知道。现在知道也许还不算太晚。</span>
+
+“纽伦堡公约是一套人体试验之准则，是成于第二次世界大战之后的纽伦堡审判的结果。具体地说，其准则是顶著由于纳粹于战时对人类进行不人道的实验而来，如约瑟夫·门格勒之类的人所进行的实验。”
+
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fac6b65e8-25cc-49a5-ae3a-4272f050efc8_400x599.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fac6b65e8-25cc-49a5-ae3a-4272f050efc8_400x599.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fac6b65e8-25cc-49a5-ae3a-4272f050efc8_400x599.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fac6b65e8-25cc-49a5-ae3a-4272f050efc8_400x599.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fac6b65e8-25cc-49a5-ae3a-4272f050efc8_400x599.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fac6b65e8-25cc-49a5-ae3a-4272f050efc8_400x599.jpeg) </figure>
+
+</div>
+
+我发现中文版的“纽伦堡公约”的说明里面，几乎全都没有细则。这个现象比较有意思。但知乎上有一个帖子，里面有翻译的细则 https://zhuanlan.zhihu.com/p/401641353。我只把重点内容拷贝如下，建议大家去看原文。
+
+紐倫堡公約(The Nuremberg Code)
+
+一、受試者的自願同意是絕對必要的。
+
+二、試驗的目的必須能為社會帶來福祉，且無法以試驗以外的方式獲得。試驗不可是隨機或不必要的。
+
+三、試驗的設計，必須基於動物實驗的結果，以及對疾病自然發展的知識，或是預期的結果將可證明試驗的合理性。
+
+四、試驗過程應避免所有不必要的身體或心智的痛苦和傷害。
+
+五、任何預知可能造成死亡或傷害的試驗，绝不可進行。唯一可能的例外，是進行試驗的醫師本身也是受試者。
+
+六、受試者的風險必須低於試驗可能帶來的益處。
+
+七、對受試者可能造成的傷害、失能或死亡都應提供適切的保護。
+
+八、試驗必須由適任的人員主導。試驗的所有階段都應以最高的技術進行，並提供受試者最好的照護。
+
+九、受試者可以在試驗的任何階段退出試驗。
+
+十、試驗進行期間，若發現有任何可能導致受試者傷害、失能或死亡的情況時，應立即停止試驗。

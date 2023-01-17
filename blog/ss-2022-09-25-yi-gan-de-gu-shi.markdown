@@ -1,0 +1,17 @@
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F10908853-92e7-4a78-8fcd-962f2f3dd06e_550x555.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F10908853-92e7-4a78-8fcd-962f2f3dd06e_550x555.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F10908853-92e7-4a78-8fcd-962f2f3dd06e_550x555.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F10908853-92e7-4a78-8fcd-962f2f3dd06e_550x555.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F10908853-92e7-4a78-8fcd-962f2f3dd06e_550x555.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F10908853-92e7-4a78-8fcd-962f2f3dd06e_550x555.jpeg) </figure>
+
+</div>
+
+另一个能说明“病毒不存在”的直接经历，就是“乙肝”了。
+
+乙肝之前一直被认为是由“乙肝病毒”引起的。我的一个表妹有乙肝，她的父亲也有。我也不知道乙肝给他们带来了什么痛苦，他们看起来跟普通人没什么两样。不过之前每次吃年夜饭，她都得自己用一双公筷夹菜，其他人也小心翼翼的，都怕被传染。
+
+因为对乙肝的恐惧，我们家的人之前都不怎么敢在外面吃饭，生怕饭店的碗筷没洗干净传染乙肝。出去吃饭总是用一次性的筷子，甚至碗还要让服务员用开水再烫一下。
+
+后来忽然有一天，表妹跟我们吃饭不再用公筷了。我很纳闷，有点害怕。结果亲戚们跟我说，“乙肝其实不通过吃饭传染的。” 我问那是怎么传染的呢？他们没有说话。
+
+后来回家我才知道，现在乙肝被认为是“性传播”或者“血液传播”的，就像艾滋病一样。可是表妹的父亲有乙肝，这么多年了，她母亲却没有乙肝。这怎么解释呢？一会说是这样，一会说是那样，差距如此之大。医学真的理解乙肝是怎么回事吗？他们真的做过研究吗？
+
+现在明白了病毒学的花招，我终于明白了，乙肝也许根本就不是传染的，“乙肝病毒”也是皇帝的新装，是不存在的。表妹的父亲很爱抽烟，身体瘦弱，她自己的生活方式好像也不是很健康。也许就是长期的不健康生活方式引起了这个病，或许也有点“遗传”的因素吧，而不是“乙肝病毒”在传染。

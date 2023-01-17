@@ -1,0 +1,17 @@
+医学给人们从小灌输的其中一个错误思想，就是细菌是有害的。给细菌造出一些狰狞邪恶的漫画形象，从小吓唬小孩子，把恐惧深深地植入他们的头脑里。世界很危险，只有医学能救你。告诉他们手上有无数的细菌，告诫他们要勤洗手，用杀菌洗手液洗手，用酒精擦东西，杀灭细菌。结果有些人就养成了洁癖，回家总要拿酒精擦手机之类的，以为不这样做就会发生什么可怕的事情。
+
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg) </figure>
+
+</div>
+
+自然创造出细菌这种东西，是用来做什么的？当然不是为了害人，而是为了维持生态平衡。细菌是自然界的垃圾清运工。死了的动植物都需要细菌把它们分解，转化成肥料，供给活着的植物生存所需。那为什么细菌有时候好像会“侵入”人体呢？那是因为有人长期不运动，让那部分身体看起来像是死肉，或者受伤了，伤口附近有死掉的细胞，所以细菌们就来帮忙打扫了。所以想防止出现这种事情，就要保持各部分的活力，别让细菌误解为死肉，如果出现伤口，要注意伤口附近的卫生，就行了。
+
+我们肠道里也有很多细菌，帮我们分解食物。我们甚至可以让它们到体外来，帮我们发酵食物，这样就更容易吸收。酱油，醋，酒，酸奶，泡菜，纳豆，面包，巧克力，都是这么来的。特别是做酱油的时候，大豆发酵是会发霉的，各种霉菌真菌都长出来，就那样龌龊地放好几个月，但它就是那么做出来的，非但无害，而且有益又美味。知道了这些，对细菌的认识和态度就可以转变了。它们其实是可爱的朋友，而不是敌人。就算它们偶尔犯错误，也不会很危险。
+
+我家里已经很久不用酒精或其他消毒液，消毒湿巾一类的了。我不买特别强调“杀菌”功能的洗涤产品。我洗手几乎都不用洗手液，大部分时候只用清水。每次在店里，服务员拿来酒精或消毒液，想要喷擦桌子，我都会制止他，让他用清水擦就行了。我觉得那些化工产品吸入呼吸道的危害，比细菌的害处大多了。要知道，用来消毒用的工业酒精是有毒的，吃进去是会死人的。这种酒精进入呼吸道当然也是有毒的。
+
+即使在疫情封控最严重的时候，我也没有用过任何消毒产品。我看到防疫人员喷酒精“消杀”，都觉得可笑。酒精是用来杀细菌的，它能杀“病毒”吗？病毒真的存在吗？如果存在的话，它有生命吗？一种连线粒体都没有，可以说没有生命的东西，酒精能杀得“死”它吗？我觉得这些戏剧性的表演，都是利用人们从小被植入的“细菌有害，酒精能杀菌”的概念，发展而来。
+
+有人也许会问，不是有“结核杆菌”，“沙门氏菌”那些很危险的细菌吗？如果你真去查了，会发现那些都是传说而已。

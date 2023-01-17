@@ -1,0 +1,25 @@
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6adcf916-8c66-4df5-ac50-195017bed55d_1100x500.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6adcf916-8c66-4df5-ac50-195017bed55d_1100x500.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6adcf916-8c66-4df5-ac50-195017bed55d_1100x500.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6adcf916-8c66-4df5-ac50-195017bed55d_1100x500.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6adcf916-8c66-4df5-ac50-195017bed55d_1100x500.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6adcf916-8c66-4df5-ac50-195017bed55d_1100x500.jpeg) </figure>
+
+</div>
+
+我觉得想出了 twin paradox 的真正答案，它和我见过的任何答案都不一样。但我想先卖一个关子，我想先提出一个对 twin paradox 的改良方案，让它变得似乎无懈可击，更刁钻更难一些，然后再按照相对论来解决它。我的答案稍后再写，大家可以先思考一下这个问题。
+
+之所以改进这个问题，是因为总有人用“惯性系”来解释 twin paradox，说因为坐飞船的 B 启动和折返都有加速度，所以不是惯性系，所以不能把 B 作为静止参考系，认为 A 是运动的那一个。按照惯性系的定义，确实不能这样切换视角。然而其实这不影响结果，因为这个加速度并没有造成看得见的效果，把加速度从故事里去掉也一样。
+
+爱因斯坦论文里的例子确实是匀速运动的，然而你仔细看他的数学推导，就会发现它只跟速度有关系，是否匀速运动并不影响结论的性质。他使用匀速运动只是为了计算简单一些，不至于被加速度干扰思路。但其实如果中途加速了也是一回事，只不过距离就得积分了，最后的公式会复杂一些。所以匀速运动并不是相对论的“必要前提”，而只是为了推导方便。但我觉得很多人可能难以理解这个事，他们只会照搬前提和结论，而不关心它们是怎么来的，所以我干脆改进一下 twin paradox，去掉加速度的问题。
+
+Twin paradox 可以被这样简化一下，它的效果不会变：
+
+故事开始的时候，这对双胞胎在太空中，他们的时间最开头是同步的，A 静止不动，B 一直在向右匀速运动，没有加速度发生，B 也不折返回来，旁边也没有地球或任何其它物体。
+
+这样他们就完全是在惯性系里，就成了 Herbert Dingle 改良后的那个问题了。如果你看了爱因斯坦的论文，会发现这就是论文里的原版例子。爱因斯坦就是用这样的例子推出相对论公式的，所以它肯定是惯性系，没人再能挑出它的刺了。
+
+因为都是惯性系，那我是否就可以认为 A 才是运动的那一个，B 是静止的那一个，所以 A 后来会年轻一些呢？
+
+如果爱因斯坦的相对论是正确的，那么答案仍然是“不”，B 仍然会是更年轻的那一个。虽然按照伽利略的“运动相对性”，我可以认为 A 是运动的那一个，但 A 最后却不会更年轻一些。奇怪不？
+
+所以就算去掉惯性系和加速度这些麻烦事，让它变成和 Herbert Dingle 的问题一样刁钻，变成爱因斯坦的原版问题，似乎无懈可击，却同样无法以此否定相对论。
+
+想想这是为什么呢？

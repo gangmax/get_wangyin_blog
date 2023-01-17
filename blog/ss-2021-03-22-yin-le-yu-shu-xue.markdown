@@ -1,0 +1,35 @@
+当我跟别人说这两个月研究过乐理，他们都想不到我所谓的“乐理”是什么，还以为是一些初级的，刚够用来演奏乐器的内容——音阶，和弦的名字一类的。
+
+其实我所理解的乐理不只是拿来看懂乐谱，弹奏乐器，而是可以用来理解音乐的本质，可以用来作曲，用来理解为什么要那样作曲。当然，它们也可以帮助征服所有的乐器，甚至设计出新的乐器来。
+
+为了这些目的，对乐理的理解必须深入到数学，物理（声学），生理学（人的听觉系统）。
+
+这里我想举一个例子。比如这幅图，是我在探索过程中用 Mathematica 数学软件分析十二平均律（equal temperament）与托勒密音阶（Ptolemy scale, 是一种 Just intonation），关于 major 和弦（major triad）的声音波形的对比。用数学函数画出声音的波形，可以直观地看到它们的差别。上图是托勒密音阶的 major triad 波形，下图是平均律的 major triad 波形。
+
+ [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7975cede-e674-4963-97f3-3f216e958477_1494x1654.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7975cede-e674-4963-97f3-3f216e958477_1494x1654.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7975cede-e674-4963-97f3-3f216e958477_1494x1654.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7975cede-e674-4963-97f3-3f216e958477_1494x1654.png 1456w" sizes="100vw">![Screen Shot 2021-04-04 at 3.35.43 PM](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7975cede-e674-4963-97f3-3f216e958477_1494x1654.png "Screen Shot 2021-04-04 at 3.35.43 PM")</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7975cede-e674-4963-97f3-3f216e958477_1494x1654.png) 
+
+（之前这个分析里面的 ET 公式不小心写错了，现在更正了一下。）
+
+可以直观地从波形看出来，Just intonation 的 major triad 是很规则的，周期性的，而平均律的 major triad 则不大规则，看不出来周期在哪里。其实由于平均律是无理数算出来的，所以它的周期可以说是无穷大。
+
+如果你把这个波形继续往后画，会发现 Just intonation 一直是那个样子，不断地重复，而平均律一直在变化，每一个阶段都不一样，所以托勒密音阶看起来是更和谐的。
+
+ [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5c0c1cb0-0991-4921-b371-6e3d4c402c5a_1734x1654.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5c0c1cb0-0991-4921-b371-6e3d4c402c5a_1734x1654.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5c0c1cb0-0991-4921-b371-6e3d4c402c5a_1734x1654.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5c0c1cb0-0991-4921-b371-6e3d4c402c5a_1734x1654.png 1456w" sizes="100vw">![Screen Shot 2021-04-04 at 3.48.38 PM](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5c0c1cb0-0991-4921-b371-6e3d4c402c5a_1734x1654.png "Screen Shot 2021-04-04 at 3.48.38 PM")</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5c0c1cb0-0991-4921-b371-6e3d4c402c5a_1734x1654.png) 
+
+哦对了，这个托勒密（Ptolemy）就是那个创建了“地心说”的古罗马天文学家，总是在科学课程里作为哥白尼的反面人物，导致布鲁诺被烧死的那个人。公元前 100 年的古人了，导致 1500 年后一个不信他的人被烧死。但托勒密其实也遭到同样的待遇，因为他改进和简化了毕达哥拉斯的音阶，使得它更和谐，以至于被毕达哥拉斯的信徒们封杀 1200 年。才一抬头，结果在 1324 年教皇 John XXII 又颁布一个命令，禁止在教堂里使用托勒密音阶，原因是它“太性感”[坏笑]
+
+曾经有学作曲的人跟我说，作曲 20 多年了，不知道为什么某些和弦好听，也许并没有“为什么”。我觉得肯定能知道“为什么”，只是他们没有很好地利用数学，物理和生理学而已。利用数学，我可以算出来在同一个音阶里，为什么某个和弦比另一个更和谐。我也可以算出来，托勒密音阶比十二平均律和毕达哥拉斯音阶都要更和谐。
+
+至于听起来到底好了多少，就比较主观了。对于我的耳朵来说，是听不出来的😅 但很多大提琴家都知道，拉双音的时候，手指的位置是需要稍微变动的，不然和音不会很好听。有经验的吉他手也会在某些和弦的时候把某些弦使劲按下去一些，或者往侧面拉一点，这样音会提高一点，和弦就更好听。所以他们其实不知不觉在用 Just intonation。
+
+Just intonation 在和音方面当然更好，但那并不等于全部。就算用了很好的 intonation，如果旋律和节奏不对也等于零。在 Just intonation 方面深究的某些学者和音乐家，最后好像也没做出很好的音乐。有一个大提琴家完全用 Just intonation 拉巴赫大提琴曲，结果我听了发现其实不如 Pablo Casals 用毕达哥拉斯音阶拉出来的，因为他的节奏和轻重没有表现出那种感觉。节奏太均匀，比较像个机器，完全按乐谱来的，重音也不够突出。
+
+Just intonation 在中文里叫「纯律」。这有点像「纯函数式语言」，有些人以为用了纯函数式语言，他就是高明的程序员了，结果写出来的代码简直不能用，还没人看得懂。结果别的人用不纯的语言，在合适的时候使用纯函数的思路，反而做出了很好的东西，开发效率还很高。所以不管是音乐还是编程，“灵感”都是很重要的。完全按照教条和规则来，往往做不出好东西。
+
+总是有人说音乐和数学是密切相关的，然而很少有人真的把数学落到实处。很多乐理学家把“数学”作为幌子，挂着羊头卖狗肉。乐理书我看了五六本了，没有在任何一本里面看到过这样的数学曲线，也没有一本真的解释了为什么某些和弦比其它的好听。
+
+有一本很数学的乐理书，开头还好，后来就开始罗列一大堆根本没用上的物理公式，而且动能的公式都写错了。有好几个章节像是劣质的物理教材。我觉得他并不是想用这些物理知识来帮助人们理解音乐，而只是在告诉人们：“看，我懂物理！” "你要懂了牛顿力学才能……" 这样就可以把人吓倒了。其它科普人士泛泛而谈的就更多了，常见的口气都是模仿别人：“当一个学科能够运用数学，它才……” 而其实一个具体的例子都说不出来。
+
+为了这些曲线，我特地买了一份 Mathematica Home 版。二十多年以来在各种场景得到这个软件的好处，第一次作为个人付费购买。我觉得这个软件是值得拥有的，它将帮助我继续探索数学的奥秘。
+
+很多人不知道，Mathematica 的内核是受到 Lisp 思想的启发设计的。

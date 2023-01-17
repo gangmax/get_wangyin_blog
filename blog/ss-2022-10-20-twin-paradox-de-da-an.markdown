@@ -1,0 +1,35 @@
+<span>之前的一篇文章里，我提出了一个</span> [Twin Paradox 的改进方案](https://yinwang0.substack.com/p/twin-paradox-7e4)<span>，使它完全成为了爱因斯坦论文里的那个匀速运动的思维实验。这样不再能用加速度和惯性系作为理由来区分 A 和 B，以至于根据伽利略的“相对性原理”，我可以自由地转换视角，把他们任何一个看作是“静止”的那一个，那运动的那一个就会年轻一些，导致难以解释的矛盾。</span>
+
+这个看似不可解决的悖论是否可以用来否定相对论呢？其实是不可以的。虽然看起来不可解决，然而它其实是有答案的。虽然两个 twin 都在惯性系里，按照相对性原理，他们都可以被看作是静止的那一个，然而相对性原理在这里其实是不适用的。因为一旦问题和光速有直接关系，就不能使用相对性原理。
+
+为什么呢？因为所有的光（或其它电磁波）都在一个特殊的空间里运动。这个光存在和运动的空间（以下称“光的空间”），其实是独立于任何参考系的。即使 B 在匀速运动，我们也不可以把 B 看作是静止的那一个，因为“光的空间”并没有随着 B 一起运动，而是和 A 在一起的。这里我们需要考虑光的运动，所以 A 一定要被看作是静止的，B 一定要被看作运动的，否则对光的分析就会出现错误。
+
+爱因斯坦论文的整个推导，其实都假定了 A 相对于“光的空间”是静止的。如果你要把 B 看作是静止的那一个，就得把“光的空间”和 A 一起看作是运动的，后面的数学才会正确。
+
+这是不是说存在一个“绝对参考系”呢？是的。上面说的那个“光的空间”其实就是所谓“绝对参考系”，所有的光都在这个参考系里运动，它独立于任何其它参考系。
+
+然而爱因斯坦的论文整个第一页都在否定绝对参考系的存在，现在我说“绝对参考系存在”，这不是违反了相对论的宗旨吗？是的。但是你仔细看看爱因斯坦的论文，就会发现他前后是自相矛盾的。他在第一页否定了绝对参考系，可是他后面的数学推导其实全都依靠一个绝对参考系。
+
+<span>爱因斯坦论文里那个静止的参考系 K 就是“绝对参考系”，所有的光都在那个参考系里运动，所以他才可以使用</span> _c-v_ <span>和</span> _c-v_ <span>这样的表达式来表示光在运动参考系 k 里的速度。如果我们认为 K 是“运动”的那一个，那么所有的光也会随着 K 一起叠加运动，后面的数学推导会完全不变，结果 k 虽然被认为是“静止”的，它的时间却仍会变慢，不会导致矛盾。</span>
+
+<span>所以 twin paradox 的解决方案非常简单，那就是</span>**接受绝对参考系的存在**<span>。我知道这有点难以接受，因为相对论支持者都排斥绝对参考系存在的可能性，坚信一切都是相对的。然而绝对参考系的存在和相对论其实并不矛盾，它们是可以共存的。爱因斯坦的论文推导一直都在用绝对参考系，就是一个直接的证据。绝对参考系甚至可以帮助相对论完美地解决 twin paradox，它们怎么会是矛盾的呢？</span>
+
+如果你不能相信世界上存在这么一个绝对参考系，可以思考下面这个场景：
+
+有一个高速飞行中的飞船，在 0 秒的时候瞬间朝斜方向发出一束激光。注意，这光是瞬间的脉冲，而不是持续发光的。5 秒钟后，光和飞船的位置都变了。现在假想你沿着光经过的轨迹找回去，是否会找到飞船在 0 秒时的位置呢？
+
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg) </figure>
+
+</div>
+
+如果你的答案是“是的”，这就证明了绝对参考系的存在。为什么呢？如果你在飞船外面画一个框，把它作为飞船的参考系，就会发现光的运动并没有随着飞船的参考系的运动而改变，它不像一颗子弹。如果是子弹的话，沿着子弹的路径找回去，你会找到飞船“现在”的位置，而不是 0 秒时的位置，所以子弹是在飞船的参考系里。而光的运动是完全独立于飞船的，它是在光自己的参考系里。
+
+光的运动是独立于任何参考系的，一旦光子发出来，它的“出发点”在空间中就固定了，永远不会改变，就算光源移动了位置也一样。因为光源再发光的时候，出来的是新的光子，这些新的光子有新的出发点，它们不会影响已经发出来的光子。所有的光都在同一个参考系中运动，它独立于任何其它参考系，它就是绝对参考系。
+
+这个绝对参考系是否就是“以太”（ether）呢？它并不是以太。以太被认为是一种物质的介质，但光的传播是不需要介质的。所以这个绝对参考系其实就是真空，里面没有任何物质，它可以被看作是一个“绝对静止”的空间。当然你也可以认为它在匀速运动，所有的光都随着它在动。它是一个最大的惯性系，宇宙中的一切物质和电磁波都在它里面，它是所有惯性系之母。
+
+这样我就完美的解决了 twin paradox，不依赖于加速度和惯性系的说法。就算是惯性系里的匀速运动，只要 A 和 B 相对于绝对参考系的速度（绝对速度）是不一样的，那么根据相对论，绝对速度较大的那一个 twin 的时间会走得慢一些。所以如果 A 相对于绝对参考系是不动的，那么 B 仍然会是更年轻的那一个。这个结果不以加速度或者引力而改变，它只和绝对速度有关系。
+
+这是否证明了相对论是正确的呢？不。注意以上的结论的前提都是“如果相对论是正确的”或者“根据相对论”。如果相对论是错误的，那么结论也就不成立了。那么相对论是不是正确的呢？那可能要取决于相对光速是否总是 c，然而到目前为止，我们对此没有任何实验证据。

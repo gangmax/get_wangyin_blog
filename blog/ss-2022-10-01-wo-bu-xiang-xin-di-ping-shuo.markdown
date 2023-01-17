@@ -1,0 +1,13 @@
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa21a1f22-09f7-4791-b617-f83da94d82ff_6240x4160.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa21a1f22-09f7-4791-b617-f83da94d82ff_6240x4160.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa21a1f22-09f7-4791-b617-f83da94d82ff_6240x4160.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa21a1f22-09f7-4791-b617-f83da94d82ff_6240x4160.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa21a1f22-09f7-4791-b617-f83da94d82ff_6240x4160.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa21a1f22-09f7-4791-b617-f83da94d82ff_6240x4160.jpeg) </figure>
+
+</div>
+
+在这个奇妙的时代，如果你质疑登月或其它太空计划的真实性，会很容易被认为是“地平说者”（Flat Earther）。所以有人在猜，我指出了这么多太空计划的虚假，会不会到时候忽然开始支持地平说，那就好玩了。但这是不会发生的，我不会相信地平说。
+
+我只是通过自己的观察发现了问题。太空中从来看不到星星，这是不可能的。同样通过自己的观察，我知道月亮确实是一个球，而且地球也不是平的。海上的日落就是最好的证明。地平说者会给你看一些模糊的视频，说海上的船其实没有到地平线下面去，只是“近大远小”而已。船看不大清楚，比较好忽悠，可是看日落就很清楚了。海上日落的时候，太阳有一半到了地平线下面，只看见最上面一点圆弧。如果只是缩小了，它应该仍然是一个完整的圆，所以它不只是缩小了，而是下去了。这个地平说是没有合理的解释的。
+
+我早就说过，地平说是一个“心理烟幕弹”，是故意造出来混淆视听的。这些“地平说者”总是用一些复杂混淆，破绽百出的说法来揭露“登月骗局”，然后就开始宣传地平说，各种异想天开，胡说八道。这样他们就在“质疑登月”和“地平说”之间建立了心理关联，然后就可以给质疑登月的人都扣上“地平说者”的帽子。这样就可以利用人的心理，避免正面的，科学的辩论，谎言就可以得以继续。这是非常高明的诡辩术，极少有人可以不落入这个圈套。
+
+我认为航天是假的，我认为地平说也是假的。他们很可能就是一家人。

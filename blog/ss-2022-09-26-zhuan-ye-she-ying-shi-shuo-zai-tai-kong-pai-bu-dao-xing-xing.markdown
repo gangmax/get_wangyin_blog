@@ -1,0 +1,25 @@
+前几天看了一个专业摄影师揭露阿波罗登月的视频，巴拉巴拉说了大堆很复杂，技术性很强，难以验证的细节，却没指出天上没有星星这么明显的事。于是我写 email 告诉他天上少了星星，告诉他国际空间站拍的照片里也没有星星。
+
+他回信说，这取决于相机的设置。曝光时间长的话就能拍到星星，但前景就会过度曝光。还说国际空间站和其它卫星可能没有专门去拍星星，所以照片上没有……
+
+看了这个回答我才发现，原来专业摄影师也会这么认为。也不知道他们是从自己的经验得知，还是只是看了网络上的“科普”。他们似乎忽然忘记了自己拍过的照片，虽然前景清晰，没有过度曝光，却仍然能拍到远处斑斓的灯光或星空作为背景。
+
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c6d4396-c8f7-46fe-9af4-e4ed246760d3_1600x1000.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c6d4396-c8f7-46fe-9af4-e4ed246760d3_1600x1000.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c6d4396-c8f7-46fe-9af4-e4ed246760d3_1600x1000.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c6d4396-c8f7-46fe-9af4-e4ed246760d3_1600x1000.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c6d4396-c8f7-46fe-9af4-e4ed246760d3_1600x1000.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c6d4396-c8f7-46fe-9af4-e4ed246760d3_1600x1000.jpeg) </figure>
+
+</div>
+
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2ae0360d-ef07-4282-a2e1-8aeeaf5a9517_1200x797.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2ae0360d-ef07-4282-a2e1-8aeeaf5a9517_1200x797.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2ae0360d-ef07-4282-a2e1-8aeeaf5a9517_1200x797.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2ae0360d-ef07-4282-a2e1-8aeeaf5a9517_1200x797.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2ae0360d-ef07-4282-a2e1-8aeeaf5a9517_1200x797.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2ae0360d-ef07-4282-a2e1-8aeeaf5a9517_1200x797.jpeg) </figure>
+
+</div>
+
+其实拿起相机就能做这个实验，可他们就是不会去做。我是亲自实验了的。至少你可以在网络上看看其他人拍的照片吧？
+
+很简单的物理原理：星星（恒星）是一个光源，它的光没有被阻挡，通过了相机的镜头，底片的某个地方就会曝光。也许没有聚焦到一点，但它还是会造成一个光斑。宇宙里这么多星星，所以天上不至于是全黑的。
+
+试想，要是有人历尽艰辛，背着很好的相机登上了比珠穆朗玛峰还要高很多倍的地方，看到罕见的绚丽星空，却决定一张星空照片也不拍…… 你不觉得这很奇怪吗？如果空间站是真的，他们肯定早已经拍过好些“宇航员带你看星星”的视频。可是我们至今没有看到。
+
+人类的观察力和理解力真是难以置信。一旦他们相信了某个事情是“事实”，就会想方设法自圆其说，就算完全违反了经验，常理和科学规律也在所不惜。我只有为他们默哀。

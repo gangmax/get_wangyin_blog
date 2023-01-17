@@ -1,0 +1,13 @@
+想要严肃地学习任何领域，都应该首先选择质量过关的装备。如果贪便宜选择太次的，很可能因为体验太差而放弃学习。
+
+我的经验就是，如果单价不贵，就把已知最高端最专业的装备，买很少量来试试。比如，你可以把世界上最好的铅笔买一两支来，而不是一次就买一盒。这样不会花很多钱，却明白了正确的学习体验是什么样的。
+
+之后如果觉得贵，消耗量又大，就换便宜点的其它型号试试。如果发现低端产品难以忍受，那么就一直用最好的。这个质量落差，意味着你做出了正确的选择，而且它的品质已经融入进了你的内心。如果其实差别不大，那就可以用便宜点的也无妨。
+
+有些人学画画，以为要用掉好多纸和笔，所以一开头买的纸很便宜，铅笔也是从最便宜的买起，一买就是好几盒。结果因为纸太差，涂一会就掉渣了，而且颜色跟吸血鬼似的。差的铅笔里面可能有添加剂，虽然似乎黑得比好铅笔还快，却会把纸腻住，最后效果不好。
+
+体验不好，可能不久就放弃了。这样一来，好点的装备都没机会体验，而其实好的装备带来的学习效果，可能完全改变学习的兴趣。他们没想到的是，学画画如果方法恰当，并不会用掉很多纸和铅笔。以为需要“大量的练习”才能学好，却不用心思考和分析，可能是一个误区。
+
+有些人买杯咖啡30多块钱，半个小时就喝完了。一幅画要画好几个小时甚至好几天的，却舍不得用 1 块多钱一张的好纸，4 块钱一支的好铅笔来画。一只铅笔可以用挺久，画好几副画。节约虽然是美德，还是先算笔账吧。
+
+ [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg)

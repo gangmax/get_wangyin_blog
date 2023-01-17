@@ -1,0 +1,19 @@
+[上篇文章](https://yinwang0.substack.com/p/4d5)<span>推荐了几个关于杨氏双缝实验的视频，它们非常的细致，具有很高的参考和启发价值，但它们并没有解释清楚为什么会出现那些现象。通常对杨氏双缝实验的解释都是通过量子力学，但我并不觉得量子力学接近了事实。我觉得量子力学只是停止了对物理事实的探索，沉迷于脱离现实的数学中。</span>
+
+但我最近看到一个人的说法，觉得很有可能接近了事实。他说人们都只关心光去了，却没人注意到那两条缝里面可能有秘密。干涉条纹可能就是那两条缝自己的电磁辐射产生的。还没有光子通过的时候，一种很小规模的干涉电磁场早就已经存在于双缝附近了，只是我们看不见。光子过去的时候就会受到这个电磁场的影响，根据它的干涉模式偏离航向，最后形成可见的干涉条纹。
+
+我想了一下，好像是啊。为什么这个实验一定要有两条缝，而且它们必须距离很近呢？物体的每一个原子都在不停地发出电磁辐射。要是没有缝，电磁辐射就是随机均匀分布的，不会发生干涉。有了缝之后，电磁辐射受到缝的影响，发生聚集和扭曲，而且缝的距离很近，就发生干涉了。由于缝导致的电磁场扭曲很小，要是距离远了，也不会发生干涉，所以缝的距离必须很近。这样从双缝被造出来的那个时候开始，干涉就一直存在于缝的附近了。
+
+这个理论可以简单地解释为什么“单光子”的实验也会出现干涉，包括今天看的这个“绕道走”的单光子干涉，也能很好的解释。这里并没有什么“分身术”。因为双缝形成的干涉电磁场一直在那里，所以不管光子是一拥而上，还是一个一个地打过去，最后累积起来的结果都差不多。而且这还可以解释为什么电子（甚至某些分子）打过去也会出现干涉条纹，因为干涉根本就是双缝自己产生的，所以不管打什么粒子过去都会有差不多的现象。
+
+当你放两个探测器在缝后面，想知道光子到底走的哪一边，探测器就对缝的电磁场产生了影响，干涉就消失了，光子过去就走直线了。这就是量子力学所谓的“波函数坍塌”，“你看了，它就变回粒子的行为”。
+
+知道了这个理论之后，我发现我不再能接受量子力学的解释。量子力学其实不是力学，它甚至不是物理。量子力学是伪装成物理的脱离现实的数学，用一堆的概率，叠加，分身术，波函数，坍塌，死猫活猫一类的说法来凑答案，蒙混过关，弄得神乎其神，而不努力寻求真正的力学解释。不但自己蒙混过关，还让人们相信这些现象都“测不准”甚至“不可理解”，这样就可以任由他们胡说八道了。
+
+具体的情况不一定就是这样，但我们至少应该考虑那两条缝可能对光产生什么样的作用。杨式双缝实验已经过去 220 年，为什么从来没有人考虑过缝的问题，全都假设光子的运动不受缝的影响，只是简单地穿过去？托马斯·杨笑了。
+
+<div class="captioned-image-container">
+
+<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0282aea7-a21b-499d-9ff5-c7556185ffee_2352x2979.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0282aea7-a21b-499d-9ff5-c7556185ffee_2352x2979.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0282aea7-a21b-499d-9ff5-c7556185ffee_2352x2979.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0282aea7-a21b-499d-9ff5-c7556185ffee_2352x2979.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0282aea7-a21b-499d-9ff5-c7556185ffee_2352x2979.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0282aea7-a21b-499d-9ff5-c7556185ffee_2352x2979.jpeg) </figure>
+
+</div>

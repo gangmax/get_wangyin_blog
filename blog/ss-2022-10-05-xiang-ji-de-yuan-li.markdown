@@ -1,0 +1,19 @@
+<div id="youtube2-tVSWH0R0kj0" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;tVSWH0R0kj0&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
+
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/tVSWH0R0kj0?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
+
+</div>
+
+花了几分钟看了一个视频，学习了一下怎么使用相机，才真实地理解了「快门时间」，「光圈大小」，ISO（底片灵敏度）之间的关系。我的理解基本是这样：
+
+**快门时间 * 光圈大小 * ISO = 曝光程度**
+
+前面的“快门时间 * 光圈大小”，如果再乘以光速，就是进入镜头的那段“光柱”的体积，小学几何知识。再乘以“光子密度”，就是打到底片上的光子的数量。差不多可以这么理解。
+
+如此简单的事情，我为什么一直没有掌握呢？为什么很多人都不理解呢？我觉得都是因为懒。相机买了几年了，一直没认真用过。这事情逼我把它学会了，还真是好事。
+
+所以《American Moon》的“世界级摄影师”说“1/250 的快门肯定拍不到星星”，明显就是欺负大家不懂相机原理。光说快门速度，是不能决定星星能否在底片上曝光的，因为光圈和 ISO 都是可以改变的。而且我已经证明了，就算是 1/250 的快门，普通大小的光圈，普通的 ISO，也应该能拍到星星。因为星星是光源，如果拍不到星星，暗部就会一片漆黑。
+
+摄影和电影制作知识，俨然已经成为了未来世界的关键知识，因为如果不理解它，就难以看穿新闻照片和视频做假。摄影师即将成为敏感专业。
+
+世界上太多这类有用的知识，只需要几分钟就能掌握，为什么很多人（包括我自己）一生都没有弄明白？
