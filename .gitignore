@@ -8,4 +8,6 @@ pom.xml.asc
 /.lein-*
 /.nrepl-port
 /node_modules
+/.clj-kondo/
+.lsp/
 package-lock.json
