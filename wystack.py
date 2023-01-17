@@ -56,7 +56,7 @@ def parse_page_to_post(page_url, start_tag = PAGE_CONTENT_START_TAG,
     return stream.read()
 
 def convert_image_tag(content: str) -> str:
-    m = re.search(r'\!\[\]\((.+)\)\<\/picture\>', content)
+    m = re.search(r'\!\[.*\]\((.+)\)\<\/picture\>', content)
     return '![]({})'.format(m.group(1))
 
 CONVERTING_FUNCTION_MAP = {
@@ -94,7 +94,7 @@ if __name__ == '__main__':
         target_dir = BASE_BLOG_PATH
         filename = get_filename(item)
         raw_content = parse_page_to_post(item['url'])
-        optimize_content = optimize_content(raw_content)
-        write_post(optimize_content, filename, target_dir)
+        result_content = optimize_content(raw_content)
+        write_post(result_content, filename, target_dir)
         print('Finish getting the "{}/{}" post...'.format(target_dir, filename))
     print('Done.')
