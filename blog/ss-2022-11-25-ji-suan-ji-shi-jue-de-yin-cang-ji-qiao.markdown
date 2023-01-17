@@ -6,6 +6,7 @@ AI 领域还有一个隐藏很深的技巧，用于让人们相信计算机视�
 
 再说了，说出一只狗的具体品种，这种事真的能衡量视觉能力吗？这只是在玩文字游戏。很少有人见过所有品种的狗，但是他们看到一只未知品种的狗，却都能比较准确地知道那是狗。计算机就没有这种能力，要是有一只很特别，图片库里从来没出现过的狗，它是很难知道那是一只狗的。人还能识别抽象的艺术作品或者装饰品里面是狗，三岁小孩都能知道。然而这对于计算机来说却几乎是不可能的。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcc459db-df4b-4b86-94eb-c799de731143_550x412.jpeg "IMG_8933.jpeg")
 

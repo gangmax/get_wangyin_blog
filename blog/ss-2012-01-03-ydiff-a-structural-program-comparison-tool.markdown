@@ -1,4 +1,4 @@
- [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5513dc54-bcb5-4a81-9d9a-a46c899e36db_300x210.gif 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5513dc54-bcb5-4a81-9d9a-a46c899e36db_300x210.gif 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5513dc54-bcb5-4a81-9d9a-a46c899e36db_300x210.gif 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5513dc54-bcb5-4a81-9d9a-a46c899e36db_300x210.gif 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5513dc54-bcb5-4a81-9d9a-a46c899e36db_300x210.gif)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5513dc54-bcb5-4a81-9d9a-a46c899e36db_300x210.gif) 
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5513dc54-bcb5-4a81-9d9a-a46c899e36db_300x210.gif)
 
 (Click on the above picture to see it in action. See the end of the post for more demos)
 
@@ -44,12 +44,12 @@ Okay, here are the demos.
 
 *   [C++ demo1](http://www.yinwang.org/resources/d8-3404-d8-8424.html) <span>and</span> [C++ demo2](http://www.yinwang.org/resources/simulator-mips-simulator-arm.html)<span>. There are two demos for C++. The first demo compares two versions of the d8 Javascript debugger from the</span> [V8 project](http://v8.googlecode.com)<span>(v3404 from 2009 and v8424 from 2011). The second demo compares V8's simulators for two different processors (MIPS and ARM).The d8 demo is especially interesting because by clicking on the lines of the method</span> `Shell::Initialize`<span>in the old version, it can be clearly observed that its body has been distributed into several procedures in the new version:</span>
 
-        Shell::Initialize
-        Shell::CreateGlobalTemplate
-        Shell::RenewEvaluationContext
-        Shell::InstallUtilityScript
+Shell::Initialize
+Shell::CreateGlobalTemplate
+Shell::RenewEvaluationContext
+Shell::InstallUtilityScript
 
-    <span>Also the major part of</span> `Shell::Main` <span>is moved into the helper</span> `Shell::RunMain`<span>.</span>
+<span>Also the major part of</span> `Shell::Main` <span>is moved into the helper</span> `Shell::RunMain`<span>.</span>
 
 ## Get the code
 

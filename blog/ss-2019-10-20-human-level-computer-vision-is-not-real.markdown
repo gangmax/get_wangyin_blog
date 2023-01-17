@@ -1,3 +1,4 @@
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0feae420-b914-442e-9ad6-68a1a0c2ba87_500x300.jpeg "Image result for car")
 
@@ -20,6 +21,7 @@ What is this? It is a car. You will say so immediately without hesitance. But if
 
 <span>But the problem is, do we get five chances to recognize an object? What if there is only one chance? This is called</span> _top-1 accuracy_<span>. Using top-1 accuracy, ResNet's error rate was 19.38%.</span>
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb65ffae7-4114-4eb0-adad-bf0f00eddf5b_800x585.jpeg "vision-accuracy")
 
@@ -36,6 +38,7 @@ Can you afford to recognize the thing in front you as "pancake / poop / knife / 
 
 Can you afford to recognize the thing in front of your car as "notebook / truck / cell phone / whiteboard / bucket"?
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7498b87-973d-47c4-ad8f-7f42c95667a3_800x404.jpeg)
 
@@ -46,12 +49,14 @@ So you see the problem. Very often we only get one chance to recognize an object
 
 The first deep learning model claiming to achieve human-level performance was ResNet, developed by Microsoft Research. Soon afterwards, a few other "superhuman" vision models were developed, all based on similar methodology and the same measuring standard, top-5.
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f20667-5c40-4019-958d-541e786c3f93_300x147.jpeg)
 
 
 Very few people would question how the error rates were measured. They never ask what "top-5" means. Often they were not even told about top-5 at all. Most outsiders took for granted that there was only one chance to get the answer (top-1). With top-5, computer vision appears to have dramatic improvements over recent years. Many people even believe they can be used to drive cars.
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F14fe86f1-1755-4b96-8cfe-023923c8b844_800x647.jpeg)
 

@@ -4,6 +4,7 @@
 
 <div id="youtube2-BI_ZehPOMwI" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;BI_ZehPOMwI&quot;,&quot;startTime&quot;:&quot;2902&quot;,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/BI_ZehPOMwI?start=2902&amp;rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 讲话者为宇航员阿姆斯特朗（Neil Armstrong），第一个踏上月球表面的人类。他正在回答记者的提问：“你看向天空的时候，能看见星星吗？”
@@ -27,6 +28,7 @@
 
 卖了一天关子，也只有播放量 0.2% 的点赞量，说明极少有人看明白了。这实在太简单了，我就直接揭秘吧——如图。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42675ee8-b29b-4ea8-ad3c-6b42b4c0bdaa_2205x1668.jpeg)
 

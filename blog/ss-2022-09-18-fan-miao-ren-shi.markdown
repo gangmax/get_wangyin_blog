@@ -4,6 +4,7 @@
 
 当时我还相信疫情是存在的，我以为过一段时间国内平息了，应该就没事了。可是没想到两个月之后，它居然在国外爆发了。于是我才听说，国外有一种人叫“反苗主义者”（anti-vaxxer）。他们游行示威，高呼“人权”和“自由”，拒绝疫苗和封控，甚至拒绝戴口罩。我心想，世界上怎么会有这样的傻子，不懂科学。你们所谓的“人权”和“自由”，面对这样的危机，还是应该忍一忍的吧？
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg "图像.jpeg")
 

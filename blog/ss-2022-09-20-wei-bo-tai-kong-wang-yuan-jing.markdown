@@ -1,3 +1,4 @@
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98bc004e-82fb-47da-aef3-dffebc863e4f_2388x1344.jpeg)
 
@@ -10,6 +11,7 @@
 
 <div id="youtube2-xgbUbdC6kbo" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;xgbUbdC6kbo&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/xgbUbdC6kbo?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 ，纯黑的天空中没有一颗星星。在摄影棚里装模作样摆弄一个模型而已。韦伯望远镜和哈勃望远镜应该都是假的。“照片”很容易用电脑画出来，“实物”也只是一个模型和摆设。
@@ -18,6 +20,7 @@
 
 <div id="youtube2-d0Zjc9WYZNA" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;d0Zjc9WYZNA&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/d0Zjc9WYZNA?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 我觉得霍金是个骗子。

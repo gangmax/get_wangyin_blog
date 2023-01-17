@@ -6,6 +6,7 @@
 
 [https://www.researchgate.net/publication/261948355_Inventing_the_AIDS_Virus](https://www.researchgate.net/publication/261948355_Inventing_the_AIDS_Virus)
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fafb0dc98-7171-43cb-a3e2-3e040c8d5793_796x1307.jpeg)
 

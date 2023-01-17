@@ -4,6 +4,7 @@ It might indeed be easier for a computer to know a thing’s name if there are t
 
 Besides, is naming a dog's specific breed really a measure of visual ability? This is just playing with words, and computers are really better than humans at this. Few people have seen dogs of all breeds, but they can see a dog of an unknown breed and know it is a dog with relative accuracy. Computers don't have this ability, and if there is a special dog that has never appeared in the picture library, it will be difficult for it to know that it is a dog. Humans can also recognize dogs in abstract works of art or decorations. Even a three-year-old can do this. However, this is almost impossible for computers.
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F44b49ba5-291a-4f8d-8dce-772f85e1053b_550x412.png)
 

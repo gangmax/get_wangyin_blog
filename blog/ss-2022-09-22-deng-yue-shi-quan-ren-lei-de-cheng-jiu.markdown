@@ -4,6 +4,7 @@
 
 <div id="youtube2-Y4UP6nRMuGs" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;Y4UP6nRMuGs&quot;,&quot;startTime&quot;:&quot;519&quot;,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/Y4UP6nRMuGs?start=519&amp;rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 把一个事情说成是“全人类的成就”，这样就能充分利用人们的自尊心和虚荣心。当他们听到对此的质疑，就会自动地从心理上发生抵触，难以接受现实：“什么？你说我们没上过月球？” 这样谎言和假象就自动得到了保护。

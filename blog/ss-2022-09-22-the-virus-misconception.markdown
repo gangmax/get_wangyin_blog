@@ -1,5 +1,6 @@
 <span>推荐每个人都看看 Stefan Lanka 博士的这篇《</span>[The Virus Misconception](https://wissenschafftplus.de/uploads/article/wissenschafftplus-the-virus-misconception-part-1.pdf)<span>》。</span>
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe160df6-1fbc-47dd-9104-582a2c73f6f0_994x820.jpeg)
 

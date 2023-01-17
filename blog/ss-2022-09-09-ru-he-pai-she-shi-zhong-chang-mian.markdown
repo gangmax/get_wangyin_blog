@@ -1,5 +1,6 @@
 <span>可能有人好奇，要是“航天”都是假的，没人离开过地球，那些“失重”的镜头要怎么拍出来？我曾经猜想是用了</span>[Zero G](https://www.gozerog.com/) <span>那样的飞机，但 Zero G 的失重时间一次最多只能有 20 多秒，如果要拍比较长的时间，那也太麻烦了，而且不能连贯。</span>
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4dde61ee-722a-4d65-be56-d9197393133b_1639x731.jpeg)
 
@@ -10,6 +11,7 @@
 
 <div id="youtube2-jMC-f0AUr6s" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;jMC-f0AUr6s&quot;,&quot;startTime&quot;:&quot;63&quot;,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/jMC-f0AUr6s?start=63&amp;rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 背后放上绿幕，装置涂成绿色，操作人员穿上绿衣服绿头套，这样后期软件就能自动处理，把它们消去，替换成背景了。
@@ -18,4 +20,5 @@
 
 <div id="youtube2-SGP6Y0Pnhe4" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;SGP6Y0Pnhe4&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/SGP6Y0Pnhe4?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 

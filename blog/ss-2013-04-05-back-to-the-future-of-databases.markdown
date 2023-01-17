@@ -4,18 +4,21 @@ Why do we need databases? What a stupid question. I already heard some people sa
 
 [IBM System/38](http://en.wikipedia.org/wiki/IBM_System/38)
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a93a378-7287-4073-897a-93f539095687_200x150.jpeg "system-38")
 
 
 [Lisp Machine](http://en.wikipedia.org/wiki/Lisp_machine)
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5241935-c588-466a-8e2d-696cf8a9ce5c_160x211.jpeg "lisp-machine")
 
 
 [Oberon](http://www.ics.uci.edu/~franz/Site/pubs-pdf/BC03.pdf)
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c88c323-26de-4453-9027-986f2438d2d4_200x151.png "Oberon")
 
@@ -44,21 +47,21 @@ You create the problem, and then you solve it. And you call this two inventions.
 
 <span>A database "</span>_schema_<span>" is in essence a "structure type", like the struct definition in C. For example, the schema created by the following SQL statement</span>
 
-    CREATE TABLE Students ( sid CHAR(20),
-                            name CHAR(20),
-                            login CHAR(20),
-                            age INTEGER,
-                            gpa REAL )
+CREATE TABLE Students ( sid CHAR(20),
+name CHAR(20),
+login CHAR(20),
+age INTEGER,
+gpa REAL )
 
 is equivalent to the C struct
 
-    struct student {
-      char* sid;
-      char* name;
-      char* login;
-      int age;
-      double gpa;
-    }
+struct student {
+char* sid;
+char* name;
+char* login;
+int age;
+double gpa;
+}
 
 (Note that I use a SQL declaration here just because I don't want to draw a picture of the schema. This equivalence of a relational schema with a structure type has nothing to do with SQL.)
 
@@ -70,14 +73,14 @@ If you really want to learn SQL, here is the cheat sheet for it:
 
 The query
 
-    SELECT Book.title
-     FROM Book
-     WHERE price > 100
+SELECT Book.title
+FROM Book
+WHERE price > 100
 
 is equivalent to the Lisp expression
 
-    (map (lambda (b) b.title)
-         (filter (lambda (p) (> p 100)) Book)
+(map (lambda (b) b.title)
+(filter (lambda (p) (> p 100)) Book)
 
 This program is then sent to the "database engine" for execution. That is, we move the program to the data, instead of loading the data to the program. And that's also the principle behind MapReduce. Have you noticed how easy this can be done with Lisp? You just send the code to the interpreters running on remote machines!
 

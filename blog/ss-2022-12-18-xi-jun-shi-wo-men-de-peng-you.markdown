@@ -1,5 +1,6 @@
 医学给人们从小灌输的其中一个错误思想，就是细菌是有害的。给细菌造出一些狰狞邪恶的漫画形象，从小吓唬小孩子，把恐惧深深地植入他们的头脑里。世界很危险，只有医学能救你。告诉他们手上有无数的细菌，告诫他们要勤洗手，用杀菌洗手液洗手，用酒精擦东西，杀灭细菌。结果有些人就养成了洁癖，回家总要拿酒精擦手机之类的，以为不这样做就会发生什么可怕的事情。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg)
 

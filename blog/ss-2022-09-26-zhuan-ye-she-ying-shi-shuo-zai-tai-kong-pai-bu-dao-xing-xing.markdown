@@ -4,10 +4,12 @@
 
 看了这个回答我才发现，原来专业摄影师也会这么认为。也不知道他们是从自己的经验得知，还是只是看了网络上的“科普”。他们似乎忽然忘记了自己拍过的照片，虽然前景清晰，没有过度曝光，却仍然能拍到远处斑斓的灯光或星空作为背景。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c6d4396-c8f7-46fe-9af4-e4ed246760d3_1600x1000.jpeg)
 
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2ae0360d-ef07-4282-a2e1-8aeeaf5a9517_1200x797.jpeg)
 

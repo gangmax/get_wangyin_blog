@@ -2,18 +2,21 @@
 
 <span>我这两天研究了几个用电子和分子做的“单粒子双缝实验”，最早是 1973 年 Donati 等人的《</span>[An Experiment on Electron Interference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617474，https://aapt.scitation.org/doi/10.1119/1.1987321)<span>》。那次他们用的是一个电场形成的“电子双棱镜”，把电子的路径分成两半，让电子一个一个的打过去，结论是产生了“双缝干涉条纹”。</span>
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fef401928-dae6-4c5b-a8b0-f948bf207d07_1666x1000.jpeg)
 
 
 <span>他们后来又在 2007 年用电子显微镜</span>[另外做了一个实验](http://www.researchgate.net/publication/243492785_Young's_double-slit_interference_experiment_with_electrons)<span>，使用了简单的不带电的双缝，产生了差不多的条纹。</span>
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0876446-8925-461c-881c-c94de1df7f16_1055x1000.jpeg)
 
 
 但我发现所有这些实验最后的“双缝干涉条纹”，其实和光通过单缝产生的”衍射条纹”是一样的。如果你仔细研究过双缝实验，就会发现光通过双缝之后产生的干涉条纹，是和单缝衍射不同的。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1b38471-6e6c-40dd-991f-3d56f72e1cb1_1323x1000.jpeg)
 
@@ -22,6 +25,7 @@
 
 <span>我仔细看了几个用电子和分子做的“单粒子双缝实验”的条纹，发现它们其实都是和光的单缝衍射条纹一样的。另外，之前介绍的那个视频里的“</span>[单光子双缝实验](https://youtu.be/xHrh4iCvO3Y)<span>”，做出的条纹其实也是单缝衍射条纹，并不具有双缝干涉条纹的特征。</span>
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4a4fb31a-3270-44ab-a14d-7cb997c2a43e_2388x1668.jpeg)
 

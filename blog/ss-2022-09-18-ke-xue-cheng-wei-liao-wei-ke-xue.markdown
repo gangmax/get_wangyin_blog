@@ -4,6 +4,7 @@
 
 <div id="youtube2-y21KWiurLSc" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;y21KWiurLSc&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/y21KWiurLSc?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 他指出 LIGO 所谓的“探测重力波”的实验是有根本性错误的，错误就在于他们处理数据的方式，所以他们并没能证明重力波的存在。
@@ -12,6 +13,7 @@
 
 <div id="youtube2-0NOaYu-AxsI" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;0NOaYu-AxsI&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/0NOaYu-AxsI?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 具体的细节我就不说了，可以自己去看看。我想指出的问题是，似乎越来越多的“科学”开始使用“大数据”的方式来进行实验。采集很多数据，然后用计算机模型进行复杂的分析，最后告诉大家“结论成立”。然而这些数据的采集和分析过程中，都是可以隐藏很多猫腻的，可以任意的扭曲数据，得到错误的结论。

@@ -6,6 +6,7 @@
 
 <div id="youtube2-UDY5COg2P2c" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;UDY5COg2P2c&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/UDY5COg2P2c?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 观察一下他们是如何制造这些恐怖景象的。我们看到的不过是一堆照片和数字，还有一些无法证实的谣传。

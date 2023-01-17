@@ -2,6 +2,7 @@
 
 <div id="youtube2-l2-4gvZw4s4" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;l2-4gvZw4s4&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/l2-4gvZw4s4?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 我研究了一下这种测 muon 寿命的实验，它们都需要用一种叫 scintillator 的装置，里面装着特殊的液体，受到高能粒子冲击的时候就会发光。muon 首次撞击液体的时候会发一次光，接着它可能会在液体里面停下来，分解的时候又会发一次光，然后他们就用这两次发光的时间，统计之后计算 muon 的寿命。因为 muon 在液体里停下来了，所以按照相对论，它的时间就和静止的人的时间一样了。

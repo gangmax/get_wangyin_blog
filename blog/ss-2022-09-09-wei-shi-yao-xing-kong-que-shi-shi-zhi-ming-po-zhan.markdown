@@ -4,6 +4,7 @@
 
 <div id="youtube2-BI_ZehPOMwI" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;BI_ZehPOMwI&quot;,&quot;startTime&quot;:&quot;2902s&quot;,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/BI_ZehPOMwI?start=2902s&amp;rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 我还需要多说什么吗？
@@ -12,28 +13,32 @@
 
 总之，没有拍到星空是致命的破绽，没有任何其他说法可以绕过它。我没必要争论这个问题。照片上一颗星星也没有，这事如此的简单明显，小孩子都看得出来。再看不到的话，我只能认为他们眼瞎了，或者有什么奇怪的东西扭曲了他们的认知。我不会再相信任何人去过太空，除非他让我看到真实的，太空规模的星空。
 
-<span>大家多看看以下的视频，看看地球上能拍到什么样的星空。太空中能拍到的，一定会更加浩瀚和壮丽。拍不到的话，那就说明是假的。</span>  
+<span>大家多看看以下的视频，看看地球上能拍到什么样的星空。太空中能拍到的，一定会更加浩瀚和壮丽。拍不到的话，那就说明是假的。</span>
 
 <span>北爱尔兰：</span>
 
 <div id="youtube2-qmSXwGkvU4M" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;qmSXwGkvU4M&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/qmSXwGkvU4M?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 <span>Atacama 沙漠（南美洲）：</span>
 
 <div id="youtube2-x2D7jHfitzk" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;x2D7jHfitzk&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/x2D7jHfitzk?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 <span>珠穆朗玛峰：</span>
 
 <div id="youtube2-X1s3ngqYKTk" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;X1s3ngqYKTk&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/X1s3ngqYKTk?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 <span>南极：</span>
 
 <div id="youtube2-t57DPnH06V0" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;t57DPnH06V0&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/t57DPnH06V0?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 

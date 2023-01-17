@@ -6,6 +6,7 @@
 
 其他人也做过类似的实验，结果也类似。由于方法不同，不同的实验测出的地球绝对速度在 200-500 km/s 不等，但 1970 年代以后的实验数值差不多都在 365-400 km/s 之间，趋近一致。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2da3043f-e60f-4e55-ae5f-07fe33319567_1037x659.jpeg)
 

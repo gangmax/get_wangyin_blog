@@ -2,6 +2,7 @@
 
 <div id="youtube2-DxW__ZtZApo" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;DxW__ZtZApo&quot;,&quot;startTime&quot;:&quot;1987&quot;,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/DxW__ZtZApo?start=1987&amp;rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 其实也就是通常人们看到的解释，说人的眼睛瞳孔会因为月球表面反射的强光而缩小，所以就看不到星星了。我觉得大部分人看了这个解释可能就信了，也不会自己去观察和实验。这是比较悲哀的事情。

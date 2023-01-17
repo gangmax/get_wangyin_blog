@@ -4,12 +4,14 @@
 
 我为什么会想起这个游戏呢？因为我想，双缝也许就是形成了类似这样的“电磁场阵”。当光子一个个地通过的时候，它们就被随机地导向到不同的方向，最后形成干涉条纹…… 于是我猛地爬起来，就开始搜索这个游戏叫什么名字，发现它叫 Galton Board。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf53c157-07e7-4453-aedc-28b136e83420_2388x1668.png)
 
 
 仔细看水波相遇时的干涉图样，波峰的位置不就对应着 Galton Board 的钉子吗？双缝的原子要是产生如此的干涉，就会形成一个电磁场版本的 Galton Board，这样光子过去的时候就能形成干涉条纹了。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F93e35143-2be7-4954-be5f-6348615ae375_641x458.jpeg)
 
@@ -18,12 +20,14 @@
 
 <span>后来就搜索了一下 “galton board double slit experiment”，找到了这篇希腊大学里的人写的</span>[文章](https://www.researchgate.net/profile/Emmanouil-Markoulakis/publication/360137884_Galton_Board_Double_Slit_Experiment/links/6265a6febca601538b6525eb/Galton-Board-Double-Slit-Experiment.pdf?origin=publication_detail)<span>，正好说的是这个事，而且里面带有一个视频的链接。在这个视频里，作者把普通的 Galton Board 去掉了两颗钉子，模拟了双缝，结果果然出现了干涉条纹。</span>
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F01e7a67b-08c5-4976-9de6-7612f4f03c7b_2388x1668.png)
 
 
 <div id="youtube2-l-E70sq0D00" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;l-E70sq0D00&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
+<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/l-E70sq0D00?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
 
 这个实验对设备要求很低，建议有兴趣的人都自己做了核实一下。虽然上面介绍的文章作者和视频作者自己认为这表示“经典和量子力学之间有着神秘的相似性”，我的理解却是杨氏双缝实验里面可能本来就只有经典力学。量子力学只是一种误解，因为他们从来没考虑过双缝附近会不会有什么看不见的东西，改变了光子的路线，所以才理解得这么神乎其神。

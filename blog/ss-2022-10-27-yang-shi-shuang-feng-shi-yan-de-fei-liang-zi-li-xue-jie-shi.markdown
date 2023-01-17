@@ -12,6 +12,7 @@
 
 具体的情况不一定就是这样，但我们至少应该考虑那两条缝可能对光产生什么样的作用。杨式双缝实验已经过去 220 年，为什么从来没有人考虑过缝的问题，全都假设光子的运动不受缝的影响，只是简单地穿过去？托马斯·杨笑了。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0282aea7-a21b-499d-9ff5-c7556185ffee_2352x2979.jpeg)
 

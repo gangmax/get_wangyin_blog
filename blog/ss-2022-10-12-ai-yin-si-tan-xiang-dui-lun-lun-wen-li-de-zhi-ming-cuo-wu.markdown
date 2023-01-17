@@ -10,12 +10,12 @@
 
 （以下是原文）
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F401970a2-6766-421e-b5e8-969fd82d35ed_1288x966.jpeg)
 
 <figcaption class="image-caption"></figcaption>
 
-</figure>
 
 
 <span>经过又一天对爱因斯坦的（狭义）相对论论文《</span>[On the Electrodynamics of Moving Bodies](https://www.physics.umd.edu/courses/Phys606/spring_2011/einstein_electrodynamics_of_moving_bodies.pdf)<span>》（1905）的分析，彻底分析了他的数学推导，自己又按照他的思路用另外一种方式推导了一遍，独立得出了跟他几乎完全一致的结果。通过自己的推导，我完全掌握了他的思路和动机，推敲了每一个环节。我发现这篇论文的问题已经很明显了。</span>

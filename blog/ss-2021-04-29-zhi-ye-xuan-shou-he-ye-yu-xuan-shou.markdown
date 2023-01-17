@@ -1,3 +1,4 @@
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0bb44e4e-1322-4ec9-b3e1-dfb05b62df7d_300x168.jpeg)
 
@@ -10,16 +11,19 @@
 
 回想起来，我为什么要练 kickflip 呢？就因为别人都说那是滑板的“必修课”吗？跳起来，板子在脚下翻一圈，除了很炫之外，好像也没什么意思。滑板的轮子应该是在地上滚的，出现轮子朝天的状态，似乎并不具有美感。对高难动作的追求，让很多人忽略了简单动作的流线美感。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F049dfef0-3015-4726-a3c3-6d113118ca4c_300x168.jpeg)
 
 
 滑板能在路上跑，可以拐弯，其实就已经很好玩了。我还能 ollie 上两三个台阶，应该知足了。所以除了 ollie 之外，我练的基本是“自由式”动作，比如 wheelie（也叫 manual，但我不喜欢 manual 这个名字），就是只用后面两个轮子，或者只用前面两个轮子滑。别人追求的是难度，我追求的是美感。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9b1342c-736e-4175-af8b-31ade596eb47_300x168.jpeg)
 
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F48c42bf9-3df8-453b-b6d3-aacccf623e54_300x168.jpeg)
 
@@ -32,6 +36,7 @@
 
 最近这段时间折腾大提琴，不但练习花了工夫，而且对琴本身也做了一些研究。很多人喜欢说“装备不重要，自己把技术练好就行”，我并不赞同这说法。要是一个乐器发不出好的声音，我为什么要学它呢？为了折磨自己吗？光是用它来练技术，这种想法其实是很功利的，所以乐器肯定不能买太差的。好的乐器，就算你不能用它演奏复杂的乐曲，能发出一两个好听的声音，就已经很满足了。在决定学大提琴之前，我考虑的乐器其实是颂钵。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3f4d3d07-c326-4a6a-8b69-25ed002b0466_300x200.jpeg)
 
@@ -44,6 +49,7 @@
 
 看见某些专业大提琴演奏者说，琴盒里必备品之一是强力胶（super glue）。以为他是用来粘琴的，结果是用来粘手的。因为皮肤遇到强力胶会形成硬的痂，手指的茧破了的时候，涂上强力胶变硬了，就不会痛了。还记得曾经有一次不小心把强力胶弄到手上，所以我知道那是什么效果，那种气味，那种感觉…… 我有点吃惊，人类的身体原来可以这么用。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7e627aa-5cfa-41d6-a4af-d29f1cc1998b_300x168.jpeg)
 
@@ -56,12 +62,14 @@
 
 但这些高频泛音使得自己在演奏时无法享受音乐，因为听起来是刺耳的，只有穿透很厚的空气之后才可以好听。大提琴音量如此之大，演奏者自己靠得这么近，如果用正常力度，其实是难以享受的。这些做法感觉就像是职业运动员用兴奋剂一样。这一切的设计都是为了“职业”，说白了，是为了钱，为了生存。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1e906dc6-e683-436c-ac6b-2740ed712df7_247x300.jpeg)
 
 
 观察巴洛克式的大提琴，它们的指板角度比现代大提琴小，琴桥高度很矮，用的羊肠弦张力很小，所以演奏起来非常轻松，可就是音量和穿透力无法满足现代大型音乐厅的需求。我猜想，在巴洛克时代，很多大提琴都是业余爱好者在用，朋友聚会大家一起奏乐玩的，音量大了反而嫌太吵。职业的演奏者肯定有，但他们的演出场地也不会很大。因为到处都有现场演出，甚至是免费的，所以不会有那么多人同时去一个地方。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7b3d415d-97e4-4e57-be55-b2bcc9c0e77e_1000x788.jpeg)
 

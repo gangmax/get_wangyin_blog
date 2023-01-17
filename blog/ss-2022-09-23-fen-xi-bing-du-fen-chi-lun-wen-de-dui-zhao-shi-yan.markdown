@@ -14,6 +14,7 @@
 
 ### 实验过程
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd914879b-d252-4e23-8889-7c6fde727358_725x480.jpeg)
 
@@ -30,12 +31,12 @@
 
 5.  对分离后的液体进行基因测序。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc861ef6d-f7c2-49f6-97ac-8a214e1a402f_1621x1533.jpeg)
 
 <figcaption class="image-caption"></figcaption>
 
-</figure>
 
 
 ### 对照试验
@@ -44,12 +45,14 @@
 
 下面是第一篇论文的对照试验。它的对照组叫做“uninfected”，似乎完全没加东西进去，所以并不完全和“感染组”的方法对等。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06cfcf5c-53fe-48a8-afbc-54be26a0dfc0_974x1513.jpeg)
 
 
 下面是第二篇论文的对照试验。他们使用了“mock-infected”的说法，所以按照定义应该是对等的。也就是说，对“感染组”做了什么，对于“对照组”就做完全一样的事，只是不加病毒进去。但这篇论文里只用了 mock-infected 这个词一次，并没有描述他们是如何进行这个 mock，所以不能确定他们的 mock 里面放了什么。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fafdbc8b4-3c5b-4fdf-9532-46fb0317df3b_1753x1195.jpeg)
 
@@ -74,11 +77,10 @@
 
 2.  <span>根据第一篇论文</span>[补充材料](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7228321/bin/MJA2-212-459-s001.pdf)<span>的描述，加入病人体液之后，细胞培养的养料（牛胚胎液，FBS）的浓度被从 7% 降低到了 2%。降低养料浓度，可能会导致细胞因为缺乏养分而死亡，导致观察到错误的 CPE 现象。Stefan Lanka 在他的文章里也说过这个事。病毒学家对此的通常说法是，降低养分可以使细胞“饥饿”，这样它们更容易吸收放进去的病毒。但从另一个角度，我也可以说是因为降低了养分，所以细胞因为缺乏营养而死，所以看起来它们就好像是“吸收了病毒”。</span>
 
-    <div class="captioned-image-container">
+<div class="captioned-image-container">
 
-    <figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3e02c7bb-75a2-49c5-9c37-4280d7df402c_1507x1230.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3e02c7bb-75a2-49c5-9c37-4280d7df402c_1507x1230.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3e02c7bb-75a2-49c5-9c37-4280d7df402c_1507x1230.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3e02c7bb-75a2-49c5-9c37-4280d7df402c_1507x1230.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3e02c7bb-75a2-49c5-9c37-4280d7df402c_1507x1230.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3e02c7bb-75a2-49c5-9c37-4280d7df402c_1507x1230.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3e02c7bb-75a2-49c5-9c37-4280d7df402c_1507x1230.jpeg)
 
-    </div>
 
 3.  根据第一篇论文描述，他们试图观察新冠病毒的特征刺突蛋白，失败了几次。后来他们加入了胰蛋白酶（trypsin），才看到了新冠病毒特有的刺突蛋白。看不到就看不到，也许说明这不是新冠病毒，为什么要加入胰蛋白酶呢？这样加入其它物质，会不会导致错误的现象发生，误以为是新冠病毒呢？
 
@@ -92,6 +94,7 @@ Stefan Lanka 说他们都没做对照试验，这个是不属实的，至少表�
 
 <span>刚写完这篇文章就发现 Sam Bailey 医生几天前的</span>[这个视频](https://odysee.com/@drsambailey:c/Secrets-of-Virology-Control-Experiments:e)<span>，专门讲病毒学“对照实验”的问题，正好跟我发现的问题一模一样。</span>
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F65d3f526-cc11-4d39-b774-ed7cebccd8de_521x385.jpeg)
 
@@ -102,6 +105,7 @@ Stefan Lanka 说他们都没做对照试验，这个是不属实的，至少表�
 
 很多论文光是写了“control”或者“mock-infected”这样的字样，却没有描述对照组的具体做法。这是不符合科学发表的要求的。经过 Bailey 医生的 email 询问，论文作者承认了他们并没有用棉签取得健康人的体液进行“对照试验”，所以他们的做法是错误的，不能证明病毒的存在。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cfd04ff-bcdd-4a99-b3d3-5708bf2f77c9_2388x1339.jpeg)
 

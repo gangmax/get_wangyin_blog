@@ -1,3 +1,4 @@
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58b09a3b-dd74-4969-b133-59fc0145251f_1440x1080.png)
 
@@ -6,6 +7,7 @@
 
 <span>根据 Michelson 的</span>[原版论文](https://zenodo.org/record/1450060/files/article.pdf)<span>，这个仪器是如此的敏感不抗干扰，以至于他们不能在热闹的柏林做这个实验。最后把它搬到了 Potsdam 一个天文台，地面上居然还不行，得放进地下室里。</span>
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8d003ce2-c8c8-434b-9df3-092ad1c7a532_1009x1185.jpeg)
 

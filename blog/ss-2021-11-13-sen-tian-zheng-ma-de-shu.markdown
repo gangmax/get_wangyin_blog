@@ -1,9 +1,11 @@
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F49fd386a-709c-4bdd-bac0-603b878cc07f_300x225.jpeg)
 
 
 在之前一篇文章，我通过实际经验指出：有洁癖的人，往往也是邋遢的人。最近终于发现第二个人发现了这个规律，他就是“森田疗法”的提出者，日本医生森田正马（1874-1938）。在《神经衰弱和强迫观念的根治法》一书中，他提到：
 
+<div class="captioned-image-container">
 
 
 > 不洁恐怖患者越来越不洁，赤面恐怖患者慢慢变成不知耻的人，疾病恐怖患者变得不注意卫生健康，吉凶恐饰患者反倒对牺牲自己的好运和幸福也毫不顾惜。这些都是由于思想矛盾的缘故，致使个人所想与实际情况恰恰相反。

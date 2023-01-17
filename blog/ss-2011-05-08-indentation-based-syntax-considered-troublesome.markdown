@@ -10,7 +10,7 @@ In most languages a program's format is determined by its meaning, but in a lang
 >             if x == y:
 >                 return True
 >         return False         # correct indentation
-> 
+>
 >     # incorrect definition
 >     def member(x, ls):
 >         for y in ls:
@@ -39,9 +39,9 @@ Given the correct definition, can you imagine how you could reproduce the bug wi
 
 2.  <span>It takes at least</span> _two edits_ <span>and</span> _one movement_ <span>in the editor to move the return statement into the loop. There are two alternatives to choose from:</span>
 
-    *   <span>Cut</span> `return False`<span>. Move the cursor into the closing curly brace of the for-loop. Paste.</span>
+*   <span>Cut</span> `return False`<span>. Move the cursor into the closing curly brace of the for-loop. Paste.</span>
 
-    *   <span>Delete the closing curly brace of the for-loop. Move the cursor beyond</span> `return False`<span>. Insert an closing curly brace.</span>
+*   <span>Delete the closing curly brace of the for-loop. Move the cursor beyond</span> `return False`<span>. Insert an closing curly brace.</span>
 
 <span>Either way, you must be</span> _deliberate_ <span>and</span> _precise_ <span>in order to reproduce the bug. Otherwise the parser would have complained (for example, if you just delete a closing curly brace).</span>
 
@@ -96,7 +96,7 @@ Even if we do hate curly braces, there are better ways to reduce or even complet
 
 <span>Better still, we could use a</span> _structural editor_ <span>that lets us manipulate the AST (abstract syntax tree) directly. Those editors could provide several options of denoting blocks. You can switch between colored blocks, curly braces, or nothing at all. You can switch the look of your code at any time, instantly. People have implemented such editors, for example</span> [this editor](http://blogs.msdn.com/b/kirillosenkov/archive/2009/09/08/first-videos-of-the-structured-editor-prototype.aspx) <span>designed by Kirill Osenkov.</span>
 
- [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2688bcb6-816d-4c5f-93d6-e55c991daefd_794x720.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2688bcb6-816d-4c5f-93d6-e55c991daefd_794x720.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2688bcb6-816d-4c5f-93d6-e55c991daefd_794x720.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2688bcb6-816d-4c5f-93d6-e55c991daefd_794x720.png 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2688bcb6-816d-4c5f-93d6-e55c991daefd_794x720.png "Structural Editor by Kirill Osenkov")</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2688bcb6-816d-4c5f-93d6-e55c991daefd_794x720.png) 
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2688bcb6-816d-4c5f-93d6-e55c991daefd_794x720.png "Structural Editor by Kirill Osenkov")
 
 ### Re-indentation hassle
 
@@ -112,17 +112,17 @@ Some people say that because those languages have advanced semantics, programs a
 
 *   Renaming. We seldom choose the best names on the first shot, and good names make programs self-explanatory, so renaming is a very important and commonplace action. But in the following simple Haskell program, if we change the name from "helloworld" to "hello" and don't re-indent the rest of the lines, we will get a parse error.
 
-    > helloworld z = let x = 1
-    >                        y = 2 in
-    >                      x+y+z
+> helloworld z = let x = 1
+>                        y = 2 in
+>                      x+y+z
 
-    Because the code becomes the following after the renaming, and the second line will no longer be aligned to "x = ...", and that confuses the parser.
+Because the code becomes the following after the renaming, and the second line will no longer be aligned to "x = ...", and that confuses the parser.
 
-    > hello z = let x = 1
-    >                        y = 2 in
-    >                      x+y+z
+> hello z = let x = 1
+>                        y = 2 in
+>                      x+y+z
 
-    <span>A similar thing happens when we lengthen the name to something like "helloworldcup". Try it yourself. From this example, I hope you see how simple things are made frustratingly complicated by layout syntax. If you haven't been convinced, try adding more lines to the above</span> `let` <span>expression.</span>
+<span>A similar thing happens when we lengthen the name to something like "helloworldcup". Try it yourself. From this example, I hope you see how simple things are made frustratingly complicated by layout syntax. If you haven't been convinced, try adding more lines to the above</span> `let` <span>expression.</span>
 
 The interruption from re-indenting code is usually not just one or two seconds, but often tens of seconds, even minutes. The programmer has to put down real problems at hand and turn to the mind-dead re-indenting job. This disrupts the "flow", which is essential for producing creative and elegant code.
 

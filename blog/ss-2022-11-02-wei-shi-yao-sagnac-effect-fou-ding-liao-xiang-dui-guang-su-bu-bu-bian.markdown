@@ -2,6 +2,7 @@
 
 相对速度就是“相对路程”除以时间。这两种情况下，光的相对路程都是没变的，都是一个半圆弧的距离。但是旋转之后，左边的光到达 END 处需要更多的时间，所以左边的光的相对速度就变慢了，低于 c。而右边的光因为提前到达，所以相对速度变快了，高于 c。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg)
 
@@ -10,6 +11,7 @@
 
 Sagnac 的实验用的环状光路，只是为了让实验可以使用同一个光源，这样就可以用干涉的方式来得知两束光的路程差异，否则是不好测量它们的相对速度的。如果能找到两个完全一样的激光器，那你其实不需要环状路径。直接把两个激光器面对面装在一个底座上，让两束光相对发出。如果平移这个底座，那么这两束光相遇时，两者走过的路程就会因为底座的运动而发生改变，从而导致干涉条纹的移动。
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg)
 

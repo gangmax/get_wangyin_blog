@@ -18,6 +18,7 @@
 
 有一个高速飞行中的飞船，在 0 秒的时候瞬间朝斜方向发出一束激光。注意，这光是瞬间的脉冲，而不是持续发光的。5 秒钟后，光和飞船的位置都变了。现在假想你沿着光经过的轨迹找回去，是否会找到飞船在 0 秒时的位置呢？
 
+<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg)
 
