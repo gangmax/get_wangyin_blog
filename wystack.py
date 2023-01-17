@@ -14,6 +14,7 @@
 import json
 import os
 import requests
+import sys
 from slugify import slugify
 from urllib.parse import quote, unquote
 
@@ -23,7 +24,7 @@ PAGE_CONTENT_START_TAG = '<div dir="auto" class="body markup">'
 PAGE_CONTENT_END_TAG = '<div class="post-footer use-separators">'
 BASE_BLOG_PATH = "./blog"
 
-def parse_index(index_url = INDEX_URL):
+def parse_index(index_url):
     '''
     Return a list of post items, each item contains the post basic info.
     '''
@@ -59,7 +60,8 @@ def get_filename(item):
     return 'ss-{}-{}.markdown'.format(item['date'], slugify(item['title']))
 
 if __name__ == '__main__':
-    items = parse_index()
+    given_url = sys.argv[1] if len(sys.argv) > 1 else INDEX_URL
+    items = parse_index(given_url)
     print('Find total "{}" posts...'.format(len(items)))
     for item in items:
         target_dir = BASE_BLOG_PATH
