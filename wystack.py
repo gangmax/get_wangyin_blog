@@ -17,16 +17,13 @@ import requests
 from slugify import slugify
 from urllib.parse import quote, unquote
 
-https://yinwang1.substack.com/api/v1/archive?sort=new&search=&offset=12&limit=12
-
 INDEX_URL = 'https://yinwang1.substack.com/api/v1/archive?sort=new&search=&offset=0&limit=12'
 INDEX_DATE_TITLE_REGEX = r'(\d{4})/(\d{2})/(\d{2})/(.*)/$'
-PAGE_CONTENT_START_TAG = '<div class="available-content">'
-PAGE_CONTENT_END_TAG = '<div class="visibility-check">'
-PAGE_CONTENT_BACKUP_END_TAG = '<div class="post-footer use-separators">'
+PAGE_CONTENT_START_TAG = '<div dir="auto" class="body markup">'
+PAGE_CONTENT_END_TAG = '<div class="post-footer use-separators">'
 BASE_BLOG_PATH = "./blog"
 
-def parse_index(index_url):
+def parse_index(index_url = INDEX_URL):
     '''
     Return a list of post items, each item contains the post basic info.
     '''
@@ -46,13 +43,12 @@ def parse_index(index_url):
     return result
 
 def parse_page_to_post(page_url, start_tag = PAGE_CONTENT_START_TAG,
-    end_tag = PAGE_CONTENT_END_TAG,
-    backup_end_tag = PAGE_CONTENT_BACKUP_END_TAG):
+    end_tag = PAGE_CONTENT_END_TAG):
     '''
     Return a string which contains the post content in markdown format.
     '''
-    stream = os.popen("./resources/h2m.js '{}' '{}' '{}' '{}'".format(
-        page_url, start_tag, end_tag, backup_end_tag))
+    stream = os.popen("./resources/h2m.js '{}' '{}' '{}'".format(
+        page_url, start_tag, end_tag))
     return stream.read()
 
 def write_post(content, target_filename, target_dir):
@@ -60,7 +56,7 @@ def write_post(content, target_filename, target_dir):
         f.write(content)
 
 def get_filename(item):
-    return 'wp-{}-{}.markdown'.format(item['date'], slugify(item['title']))
+    return 'ss-{}-{}.markdown'.format(item['date'], slugify(item['title']))
 
 if __name__ == '__main__':
     items = parse_index()
