@@ -18,7 +18,7 @@ import sys
 from slugify import slugify
 from urllib.parse import quote, unquote
 
-INDEX_URL = 'https://yinwang1.substack.com/api/v1/archive?sort=new&search=&offset=0&limit=12'
+INDEX_URL = 'https://yinwang1.substack.com/api/v1/archive?sort=new&limit=12&offset=0'
 INDEX_DATE_TITLE_REGEX = r'(\d{4})/(\d{2})/(\d{2})/(.*)/$'
 PAGE_CONTENT_START_TAG = '<div dir="auto" class="body markup">'
 PAGE_CONTENT_END_TAG = '<div class="post-footer use-separators">'
