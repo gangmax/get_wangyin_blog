@@ -4,8 +4,6 @@
 
 <div id="youtube2-o67TNtgPPck" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;o67TNtgPPck&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/o67TNtgPPck?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
-</div>
 
 有时候我们以为科学家的这些行为是正常的“错误”，而没有想到他们可能是“故意”为之。

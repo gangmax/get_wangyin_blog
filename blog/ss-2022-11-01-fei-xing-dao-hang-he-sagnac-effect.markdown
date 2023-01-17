@@ -4,17 +4,13 @@
 
 <div id="youtube2-Pq_PDaYclAw" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;Pq_PDaYclAw&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/Pq_PDaYclAw?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
-</div>
 
 2\. IRS（Inertial Reference System）
 
 <div id="youtube2-mUWlrlRcb0Q" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;mUWlrlRcb0Q&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/mUWlrlRcb0Q?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
-</div>
 
 就像我之前说的，飞机导航是不依靠 GPS 的。使用 INS 或者 IRS，飞机完全不依靠外部信号就能确定自己在地球上的位置。INS 和 IRS 的原理一样，差别只是里面用的陀螺仪不一样。INS 用的是机械陀螺仪，而 IRS 用的是激光陀螺仪。
 
@@ -22,19 +18,15 @@
 
 如下图所示，如果机身没有旋转，那么两束光会同时到达终点。
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F031ab636-d195-442d-b608-b9777eda6ed8_1318x1318.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F031ab636-d195-442d-b608-b9777eda6ed8_1318x1318.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F031ab636-d195-442d-b608-b9777eda6ed8_1318x1318.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F031ab636-d195-442d-b608-b9777eda6ed8_1318x1318.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F031ab636-d195-442d-b608-b9777eda6ed8_1318x1318.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F031ab636-d195-442d-b608-b9777eda6ed8_1318x1318.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F031ab636-d195-442d-b608-b9777eda6ed8_1318x1318.jpeg)
 
-</div>
 
 但如果机身向右旋转了，那么左边的光会比右边的更晚到达终点。
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe80f9601-e12c-42ce-99ad-f9a233a555fd_1327x1327.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe80f9601-e12c-42ce-99ad-f9a233a555fd_1327x1327.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe80f9601-e12c-42ce-99ad-f9a233a555fd_1327x1327.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe80f9601-e12c-42ce-99ad-f9a233a555fd_1327x1327.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe80f9601-e12c-42ce-99ad-f9a233a555fd_1327x1327.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe80f9601-e12c-42ce-99ad-f9a233a555fd_1327x1327.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe80f9601-e12c-42ce-99ad-f9a233a555fd_1327x1327.jpeg)
 
-</div>
 
 <span>依靠这个原理，IRS 可以探测到非常细微的旋转，随时更新机身的方向。这个现象叫做</span> [Sagnac effect](https://en.wikipedia.org/wiki/Sagnac_effect)<span>，是法国物理学家 Georges Sagnac 发现的。有意思的是，他当年设计这个实验是为了证明以太的存在。</span>
 

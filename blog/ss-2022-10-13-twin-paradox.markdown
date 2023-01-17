@@ -1,8 +1,6 @@
 <div id="youtube2-LKjaBPVtvms" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;LKjaBPVtvms&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/LKjaBPVtvms?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
-</div>
 
 Twin paradox 是爱因斯坦狭义相对论的一个悖论，我先简要解释一下它是什么意思。因为根据相对论，运动的物体体验到的时间会变慢（所谓“time dilation”），所以 twin paradox 的问题就是，有一对双胞胎，其中一个坐飞船去别的星球兜了一圈回来，因为他在高速运动，时间走得慢一些，所以回来的时候就会发现坐飞船的这个比留在地球上的那一个更年轻。但因为运动都是相对的，我们也可以认为坐飞船的那一个是静止的，而地球上的那一个是运动的，这样看的话，地球上的那一个因为在运动，就会更年轻。所以就矛盾了。
 

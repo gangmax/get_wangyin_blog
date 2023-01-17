@@ -2,9 +2,7 @@
 
 <div id="youtube2-BI_ZehPOMwI" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;BI_ZehPOMwI&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/BI_ZehPOMwI?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
-</div>
 
 我不需要相信他，我只是用自己的眼睛看见了他指出的事情。现在推荐大家看看这篇原文，里面还有另一些我没有提到的内容。
 

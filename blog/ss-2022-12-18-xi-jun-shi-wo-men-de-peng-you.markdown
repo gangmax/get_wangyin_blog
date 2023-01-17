@@ -1,10 +1,8 @@
 医学给人们从小灌输的其中一个错误思想，就是细菌是有害的。给细菌造出一些狰狞邪恶的漫画形象，从小吓唬小孩子，把恐惧深深地植入他们的头脑里。世界很危险，只有医学能救你。告诉他们手上有无数的细菌，告诫他们要勤洗手，用杀菌洗手液洗手，用酒精擦东西，杀灭细菌。结果有些人就养成了洁癖，回家总要拿酒精擦手机之类的，以为不这样做就会发生什么可怕的事情。
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde063e62-f81a-4c10-8cf0-73e4ea267bcb_551x552.jpeg)
 
-</div>
 
 自然创造出细菌这种东西，是用来做什么的？当然不是为了害人，而是为了维持生态平衡。细菌是自然界的垃圾清运工。死了的动植物都需要细菌把它们分解，转化成肥料，供给活着的植物生存所需。那为什么细菌有时候好像会“侵入”人体呢？那是因为有人长期不运动，让那部分身体看起来像是死肉，或者受伤了，伤口附近有死掉的细胞，所以细菌们就来帮忙打扫了。所以想防止出现这种事情，就要保持各部分的活力，别让细菌误解为死肉，如果出现伤口，要注意伤口附近的卫生，就行了。
 

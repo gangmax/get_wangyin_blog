@@ -4,9 +4,7 @@
 
 <div id="youtube2-BI_ZehPOMwI" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;BI_ZehPOMwI&quot;,&quot;startTime&quot;:&quot;2902&quot;,&quot;endTime&quot;:null}">
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/BI_ZehPOMwI?start=2902&amp;rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
-</div>
 
 讲话者为宇航员阿姆斯特朗（Neil Armstrong），第一个踏上月球表面的人类。他正在回答记者的提问：“你看向天空的时候，能看见星星吗？”
 
@@ -24,17 +22,14 @@
 
 * * *
 
-</div>
 
 第二天（答案）：
 
 卖了一天关子，也只有播放量 0.2% 的点赞量，说明极少有人看明白了。这实在太简单了，我就直接揭秘吧——如图。
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42675ee8-b29b-4ea8-ad3c-6b42b4c0bdaa_2205x1668.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42675ee8-b29b-4ea8-ad3c-6b42b4c0bdaa_2205x1668.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42675ee8-b29b-4ea8-ad3c-6b42b4c0bdaa_2205x1668.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42675ee8-b29b-4ea8-ad3c-6b42b4c0bdaa_2205x1668.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42675ee8-b29b-4ea8-ad3c-6b42b4c0bdaa_2205x1668.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42675ee8-b29b-4ea8-ad3c-6b42b4c0bdaa_2205x1668.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42675ee8-b29b-4ea8-ad3c-6b42b4c0bdaa_2205x1668.jpeg)
 
-</div>
 
 那是一个提词器。注意他的眼睛，就会发现他一直都在看提词器。他的话都是看着提词器念出来的，而不是自己的话。有了这个信息，大家再把视频多看几遍吧，会发现越看越好玩。注意看眼睛，表情（比如睁大眼睛，皱眉头），语速突然变化的地方。特别是这几个地方 "by ... eye", "uh...", "we were photographing...", "what, what stars ..."
 

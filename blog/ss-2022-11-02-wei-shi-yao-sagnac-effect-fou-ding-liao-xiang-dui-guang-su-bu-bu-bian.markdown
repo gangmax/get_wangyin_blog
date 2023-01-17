@@ -2,20 +2,16 @@
 
 相对速度就是“相对路程”除以时间。这两种情况下，光的相对路程都是没变的，都是一个半圆弧的距离。但是旋转之后，左边的光到达 END 处需要更多的时间，所以左边的光的相对速度就变慢了，低于 c。而右边的光因为提前到达，所以相对速度变快了，高于 c。
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg)
 
-</div>
 
 有人可能惊讶，怎么可能超过光速 c？我们认为的“光速 c”其实都是说的绝对速度。这就像你开车速度是 80 km/h，对面来的一辆车速度是 60 km/h，对面的车相对于你的速度就是 140 km/h。如果你们相距 140 km（相对距离），那么你们会在 1 小时之后相遇。这就是相对速度的基本概念，其实这两辆车并没有变快或者变慢。相对论的前提就是光的相对速度不随观察者的运动而改变，而不只是说绝对速度。
 
 Sagnac 的实验用的环状光路，只是为了让实验可以使用同一个光源，这样就可以用干涉的方式来得知两束光的路程差异，否则是不好测量它们的相对速度的。如果能找到两个完全一样的激光器，那你其实不需要环状路径。直接把两个激光器面对面装在一个底座上，让两束光相对发出。如果平移这个底座，那么这两束光相遇时，两者走过的路程就会因为底座的运动而发生改变，从而导致干涉条纹的移动。
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg)
 
-</div>
 
 使用环状光路的原因是因为制造两个完全一样的光源，能发出一致，可以发生干涉的光，是非常困难的。这样的技术从未实现过，所以只好用一个光源，把光分成两半，让它们发生干涉。这就是为什么 Sagnac 的实验使用的是环状光路。但相对论支持者就因此说它是旋转的，所以不是“惯性系”，以此诡辩方式来蒙混过关。

@@ -2,17 +2,13 @@
 
 <div id="youtube2-sGoXn1vMrjE" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;sGoXn1vMrjE&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/sGoXn1vMrjE?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
-</div>
 
 然而看了完整的采访之后，我发现那个片段（起点在 7:12）其实是故意节选下来让人断章取义，以为他承认了没去过月球。
 
 <div id="youtube2-Y4UP6nRMuGs" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;Y4UP6nRMuGs&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/Y4UP6nRMuGs?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
-</div>
 
 看完整个采访，我发现他一直在说自己在整个登月过程中的经历，飞上太空是怎样的体验，登月是多么伟大的成就，等等。他怎么会突然承认没去过月球呢？那段话绕来绕去，其实是在说：“后来的人没有去过月球……”
 

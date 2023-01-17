@@ -18,11 +18,9 @@
 
 有一个高速飞行中的飞船，在 0 秒的时候瞬间朝斜方向发出一束激光。注意，这光是瞬间的脉冲，而不是持续发光的。5 秒钟后，光和飞船的位置都变了。现在假想你沿着光经过的轨迹找回去，是否会找到飞船在 0 秒时的位置呢？
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg)
 
-</div>
 
 如果你的答案是“是的”，这就证明了绝对参考系的存在。为什么呢？如果你在飞船外面画一个框，把它作为飞船的参考系，就会发现光的运动并没有随着飞船的参考系的运动而改变，它不像一颗子弹。如果是子弹的话，沿着子弹的路径找回去，你会找到飞船“现在”的位置，而不是 0 秒时的位置，所以子弹是在飞船的参考系里。而光的运动是完全独立于飞船的，它是在光自己的参考系里。
 

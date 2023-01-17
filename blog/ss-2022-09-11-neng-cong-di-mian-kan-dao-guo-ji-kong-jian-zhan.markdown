@@ -10,15 +10,11 @@
 
 <div id="youtube2-q_ADBlrIRsM" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;q_ADBlrIRsM&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/q_ADBlrIRsM?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
-</div>
 
 <div id="youtube2-0yuQOO2jA1I" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;0yuQOO2jA1I&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/0yuQOO2jA1I?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
 
-</div>
 
 他们用了高级的天文望远镜和相机，还得配上特殊的自动跟踪支架。费了很大功夫，抓住难得的机会，也只能拍到非常模糊的影子，都难说那是什么东西，也许就是一个普通的卫星（如果卫星存在的话），或者其它什么偶然的现象。而且做过这件事的人很少，你怎么知道他们就不是请来制造假象的人，或者是自己想要显得技术厉害呢？
 

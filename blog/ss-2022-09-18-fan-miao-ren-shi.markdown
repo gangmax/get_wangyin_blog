@@ -4,11 +4,9 @@
 
 当时我还相信疫情是存在的，我以为过一段时间国内平息了，应该就没事了。可是没想到两个月之后，它居然在国外爆发了。于是我才听说，国外有一种人叫“反苗主义者”（anti-vaxxer）。他们游行示威，高呼“人权”和“自由”，拒绝疫苗和封控，甚至拒绝戴口罩。我心想，世界上怎么会有这样的傻子，不懂科学。你们所谓的“人权”和“自由”，面对这样的危机，还是应该忍一忍的吧？
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg 1456w" sizes="100vw">![图像.jpeg](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg "图像.jpeg")</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ee9330a-216e-41c5-9d71-2e6131499e6f_1200x630.jpeg "图像.jpeg")
 
-</div>
 
 <span>就这样过了一年半。去年 7 月的时候因为好奇，我开始研究关于“疫情真相”的信息，才发现网上有“伦敦自由大游行”（London Freedom March 2021）的演讲视频。看了两个</span>[演讲](https://odysee.com/@WhatIsTruth_WasIstWahrheit_2:f/DR.-ANDREW-KAUFMANS-SPEECH-AT-LONDON-FREEDOM-PROTEST-JULY-24TH,-2021:2)<span>之后，我才忽然发现疫情原来是那么回事。就像我最初的直觉一样，它很可能是假的。经过多方面的考察，参考网络上被封禁的医学专家的看法，通过自己的对比和思考，我发现他们是对的。这些曾经被我认为是“傻子”，“不懂科学”的反苗人士，他们居然是对的。</span>
 

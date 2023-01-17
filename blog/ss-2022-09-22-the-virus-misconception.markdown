@@ -1,10 +1,8 @@
 <span>推荐每个人都看看 Stefan Lanka 博士的这篇《</span>[The Virus Misconception](https://wissenschafftplus.de/uploads/article/wissenschafftplus-the-virus-misconception-part-1.pdf)<span>》。</span>
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe160df6-1fbc-47dd-9104-582a2c73f6f0_994x820.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe160df6-1fbc-47dd-9104-582a2c73f6f0_994x820.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe160df6-1fbc-47dd-9104-582a2c73f6f0_994x820.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe160df6-1fbc-47dd-9104-582a2c73f6f0_994x820.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe160df6-1fbc-47dd-9104-582a2c73f6f0_994x820.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe160df6-1fbc-47dd-9104-582a2c73f6f0_994x820.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe160df6-1fbc-47dd-9104-582a2c73f6f0_994x820.jpeg)
 
-</div>
 
 每个人都自以为知道病毒是什么，甚至有些人自以为理解了“免疫学”，新闻一直在说“新冠病毒”杀死了很多的人。可是德国微生物学家 Stefan Lanka 却告诉人们，致病的病毒从来没有被证明存在过。不只是新冠病毒，而是所有的病毒，它们从未被科学地证明存在过。如此让人惊讶，不可思议的说法，仿佛在说“皇帝没有穿衣服”。
 

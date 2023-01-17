@@ -14,11 +14,9 @@
 
 ### 实验过程
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd914879b-d252-4e23-8889-7c6fde727358_725x480.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd914879b-d252-4e23-8889-7c6fde727358_725x480.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd914879b-d252-4e23-8889-7c6fde727358_725x480.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd914879b-d252-4e23-8889-7c6fde727358_725x480.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd914879b-d252-4e23-8889-7c6fde727358_725x480.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd914879b-d252-4e23-8889-7c6fde727358_725x480.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd914879b-d252-4e23-8889-7c6fde727358_725x480.jpeg)
 
-</div>
 
 “病毒分离实验”的过程很简单，从第一篇论文中“Methods”小节短短几段话就能看明白。我把第一篇论文的方法简要转述如下：
 
@@ -32,15 +30,13 @@
 
 5.  对分离后的液体进行基因测序。
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc861ef6d-f7c2-49f6-97ac-8a214e1a402f_1621x1533.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc861ef6d-f7c2-49f6-97ac-8a214e1a402f_1621x1533.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc861ef6d-f7c2-49f6-97ac-8a214e1a402f_1621x1533.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc861ef6d-f7c2-49f6-97ac-8a214e1a402f_1621x1533.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc861ef6d-f7c2-49f6-97ac-8a214e1a402f_1621x1533.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc861ef6d-f7c2-49f6-97ac-8a214e1a402f_1621x1533.jpeg) 
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc861ef6d-f7c2-49f6-97ac-8a214e1a402f_1621x1533.jpeg)
 
 <figcaption class="image-caption"></figcaption>
 
 </figure>
 
-</div>
 
 ### 对照试验
 
@@ -48,19 +44,15 @@
 
 下面是第一篇论文的对照试验。它的对照组叫做“uninfected”，似乎完全没加东西进去，所以并不完全和“感染组”的方法对等。
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06cfcf5c-53fe-48a8-afbc-54be26a0dfc0_974x1513.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06cfcf5c-53fe-48a8-afbc-54be26a0dfc0_974x1513.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06cfcf5c-53fe-48a8-afbc-54be26a0dfc0_974x1513.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06cfcf5c-53fe-48a8-afbc-54be26a0dfc0_974x1513.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06cfcf5c-53fe-48a8-afbc-54be26a0dfc0_974x1513.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06cfcf5c-53fe-48a8-afbc-54be26a0dfc0_974x1513.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06cfcf5c-53fe-48a8-afbc-54be26a0dfc0_974x1513.jpeg)
 
-</div>
 
 下面是第二篇论文的对照试验。他们使用了“mock-infected”的说法，所以按照定义应该是对等的。也就是说，对“感染组”做了什么，对于“对照组”就做完全一样的事，只是不加病毒进去。但这篇论文里只用了 mock-infected 这个词一次，并没有描述他们是如何进行这个 mock，所以不能确定他们的 mock 里面放了什么。
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fafdbc8b4-3c5b-4fdf-9532-46fb0317df3b_1753x1195.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fafdbc8b4-3c5b-4fdf-9532-46fb0317df3b_1753x1195.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fafdbc8b4-3c5b-4fdf-9532-46fb0317df3b_1753x1195.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fafdbc8b4-3c5b-4fdf-9532-46fb0317df3b_1753x1195.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fafdbc8b4-3c5b-4fdf-9532-46fb0317df3b_1753x1195.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fafdbc8b4-3c5b-4fdf-9532-46fb0317df3b_1753x1195.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fafdbc8b4-3c5b-4fdf-9532-46fb0317df3b_1753x1195.jpeg)
 
-</div>
 
 ### 对“对照试验”的分析
 
@@ -100,11 +92,9 @@ Stefan Lanka 说他们都没做对照试验，这个是不属实的，至少表�
 
 <span>刚写完这篇文章就发现 Sam Bailey 医生几天前的</span>[这个视频](https://odysee.com/@drsambailey:c/Secrets-of-Virology-Control-Experiments:e)<span>，专门讲病毒学“对照实验”的问题，正好跟我发现的问题一模一样。</span>
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F65d3f526-cc11-4d39-b774-ed7cebccd8de_521x385.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F65d3f526-cc11-4d39-b774-ed7cebccd8de_521x385.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F65d3f526-cc11-4d39-b774-ed7cebccd8de_521x385.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F65d3f526-cc11-4d39-b774-ed7cebccd8de_521x385.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F65d3f526-cc11-4d39-b774-ed7cebccd8de_521x385.jpeg)</picture></div>](https://odysee.com/@drsambailey:c/Secrets-of-Virology-Control-Experiments:e) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F65d3f526-cc11-4d39-b774-ed7cebccd8de_521x385.jpeg)
 
-</div>
 
 真正的对照实验，“对照组”应该和“感染组”完全一致，除了“没有病毒”这一个变量不同。对于新冠病毒，这意味着需要用棉签蘸取一个健康人的体液，放进另一个细胞培养，其它的成分和做法应该和“感染组”完全一样。
 
@@ -112,11 +102,9 @@ Stefan Lanka 说他们都没做对照试验，这个是不属实的，至少表�
 
 很多论文光是写了“control”或者“mock-infected”这样的字样，却没有描述对照组的具体做法。这是不符合科学发表的要求的。经过 Bailey 医生的 email 询问，论文作者承认了他们并没有用棉签取得健康人的体液进行“对照试验”，所以他们的做法是错误的，不能证明病毒的存在。
 
-<div class="captioned-image-container">
 
-<figure> [<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cfd04ff-bcdd-4a99-b3d3-5708bf2f77c9_2388x1339.jpeg 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cfd04ff-bcdd-4a99-b3d3-5708bf2f77c9_2388x1339.jpeg 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cfd04ff-bcdd-4a99-b3d3-5708bf2f77c9_2388x1339.jpeg 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cfd04ff-bcdd-4a99-b3d3-5708bf2f77c9_2388x1339.jpeg 1456w" sizes="100vw">![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cfd04ff-bcdd-4a99-b3d3-5708bf2f77c9_2388x1339.jpeg)</picture></div>](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cfd04ff-bcdd-4a99-b3d3-5708bf2f77c9_2388x1339.jpeg) </figure>
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cfd04ff-bcdd-4a99-b3d3-5708bf2f77c9_2388x1339.jpeg)
 
-</div>
 
 感谢 Sam Bailey 医生，确认了我发现的地方是正确的。Stefan Lanka 说的并没有差太远，病毒学家是进行了“对照实验”，但却不是正确的做法。经过一番自己的摸索，我深刻地理解了对照实验应该如何进行。
 
