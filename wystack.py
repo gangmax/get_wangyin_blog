@@ -74,7 +74,9 @@ def optimize_content(raw: str) -> str:
     result = ''
     for line in raw.splitlines():
         if line[0:8] in CONVERTING_FUNCTION_MAP.keys():
-            result = result + CONVERTING_FUNCTION_MAP[line[0:8]](line) + '\n'
+            converted = CONVERTING_FUNCTION_MAP[line[0:8]](line)
+            if len(converted) > 0:
+                result = result + CONVERTING_FUNCTION_MAP[line[0:8]](line) + '\n'
         else:
             result = result + line + '\n'
     return result
