@@ -60,8 +60,10 @@ def convert_image_tag(content: str) -> str:
     return '![]({})'.format(m.group(1))
 
 CONVERTING_FUNCTION_MAP = {
-    '<div cla': lambda x: "",
-    '<figure>': convert_image_tag,
+    '<figure> [': convert_image_tag,
+    '<figure>': lambda x: "",
+    '</figure>': lambda x: "",
+    '<div class': lambda x: "",
     '</div>': lambda x: "",
 }
 
@@ -73,10 +75,10 @@ def optimize_content(raw: str) -> str:
     '''
     result = ''
     for line in raw.splitlines():
-        if line[0:8] in CONVERTING_FUNCTION_MAP.keys():
-            converted = CONVERTING_FUNCTION_MAP[line[0:8]](line)
+        if line[0:10] in CONVERTING_FUNCTION_MAP.keys():
+            converted = CONVERTING_FUNCTION_MAP[line[0:10]](line)
             if len(converted) > 0:
-                result = result + CONVERTING_FUNCTION_MAP[line[0:8]](line) + '\n'
+                result = result + CONVERTING_FUNCTION_MAP[line[0:10]](line) + '\n'
         else:
             result = result + line + '\n'
     return result
