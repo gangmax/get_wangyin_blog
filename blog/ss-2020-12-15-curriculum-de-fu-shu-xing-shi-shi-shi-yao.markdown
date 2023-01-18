@@ -1,3 +1,7 @@
+# Curriculum 的复数形式是什么？
+
+From [here](https://yinwang1.substack.com/p/curriculum).
+
 一个语言引进了外来词，应该保留它原来的语法和读音吗？这是一个很多国家的语言都没有弄明白的事情。
 
 比如，英语里的 curriculum（课程）一词的复数形式，是 curricula 还是 curriculums？

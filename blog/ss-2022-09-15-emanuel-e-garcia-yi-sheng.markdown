@@ -1,9 +1,10 @@
+# Emanuel E. Garcia 医生
+
+From [here](https://yinwang1.substack.com/p/emanuel-e-garcia).
+
 <span>感谢这篇文章《</span>[How High the Moon? or the Greatest Deception of Them All](https://www.aulis.com/high_moon.htm)<span>》。作者 Emanuel E. Garcia 获得医学博士学位，是一个心理医生，心理分析师，还是一个作家和戏剧导演。他发现阿波罗登月所有的照片里都没有星星，而且指出阿波罗 11 新闻发布会极其诡异的气氛。</span>
 
-<div id="youtube2-BI_ZehPOMwI" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;BI_ZehPOMwI&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/BI_ZehPOMwI?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/BI_ZehPOMwI)
 
 我不需要相信他，我只是用自己的眼睛看见了他指出的事情。现在推荐大家看看这篇原文，里面还有另一些我没有提到的内容。
 

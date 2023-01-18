@@ -1,7 +1,8 @@
-<div class="captioned-image-container">
+# 韦伯太空望远镜
+
+From [here](https://yinwang1.substack.com/p/f65).
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98bc004e-82fb-47da-aef3-dffebc863e4f_2388x1344.jpeg)
-
 
 昨天一个女生朋友和我喝下午茶，忽然跟我说起韦伯太空望远镜（James Webb Space Telescope）来，说韦伯望远镜拍下来的宇宙边沿的星系照片，证明了“宇宙大爆炸学说”是错的，还说出一些理由来，说本来某个地方应该是模糊的，结果拍下来是清晰的，所以宇宙不应该是在膨胀…… 这简直就是《生活大爆炸》的场景，反转了一下。😄
 
@@ -9,19 +10,13 @@
 
 别忘了我之前发的那个宇航员维修哈勃望远镜的视频
 
-<div id="youtube2-xgbUbdC6kbo" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;xgbUbdC6kbo&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/xgbUbdC6kbo?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/xgbUbdC6kbo)
 
 ，纯黑的天空中没有一颗星星。在摄影棚里装模作样摆弄一个模型而已。韦伯望远镜和哈勃望远镜应该都是假的。“照片”很容易用电脑画出来，“实物”也只是一个模型和摆设。
 
 当然，韦伯望远镜是假的并不能说明“宇宙大爆炸学说”就是真的。我觉得“宇宙大爆炸学说”也纯属扯淡，没人能看见，没人能证实。推荐大家看看这个评价霍金的视频：
 
-<div id="youtube2-d0Zjc9WYZNA" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;d0Zjc9WYZNA&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/d0Zjc9WYZNA?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/d0Zjc9WYZNA)
 
 我觉得霍金是个骗子。
 

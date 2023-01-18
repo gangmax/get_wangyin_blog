@@ -1,3 +1,7 @@
+# PySonar2 opensourced
+
+From [here](https://yinwang0.substack.com/p/pysonar2).
+
 <span>As mentioned in a</span> [post](http://yinwang0.wordpress.com/2010/09/12/pysonar) <span>several years ago, I made an advanced Python static analyzer at Google. It turns out that this piece of code is still the most advanced static analysis for Python until today. But because of one highly tricky bug inside the analyzer, it had serious performance issues.</span>
 
 Only recently I revived my interest in it and fixed the bug by commenting out two lines of code ;-) After mutual agreement with Google, I can now release PySonar's second version code (call it PySonar2). The code is now open for downloading on my GitHub repo:

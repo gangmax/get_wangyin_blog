@@ -1,3 +1,7 @@
+# PySonar: a type inferencer and indexer for Python
+
+From [here](https://yinwang0.substack.com/p/pysonar).
+
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F39ac9350-362b-4419-ad84-33e4adfe1798_500x384.gif "pysonar2")
 
 PySonar is a type inferencer and indexer for Python. It includes a powerful type system and a sophisticated inter-procedural analysis. Compared to style-checking tools or IDEs, PySonar analyzes programs in deeper ways and produces more accurate results. PySonar resolves more names than typical IDEs. The current resolution rate is about 97% for Python's standard library.

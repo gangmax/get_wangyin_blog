@@ -1,3 +1,7 @@
+# “动作要标准”的误区
+
+From [here](https://yinwang1.substack.com/p/movement).
+
 <span>最近对瑜伽的探索，加上之前对大提琴教学的</span>[看法](http://www.yinwang.org/blog-cn/2021/04/16/cello-technique?continueFlag=8ffda83096721cbd33647ef8ec5a7570)<span>，其实共同揭示了一个规律。那就是：</span>
 
 各类运动（包括乐器）的教学，都不应该一开头就要求姿势“正确”或者“标准”。应该顺其自然，让身体自然而然逐渐调整。

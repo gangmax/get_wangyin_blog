@@ -1,3 +1,7 @@
+# A reformulation of reducibility
+
+From [here](https://yinwang0.substack.com/p/reducibility).
+
 I found the theory of computation books very imprecise about their descriptions of Turing machines and reductions. They usually start with something precise and mathematical, for example they would define a Turing machine as a 7-tuple, but after that, everything about decidability and reduction is described with impenetrable paragraphs in natural languages.
 
 I believe that the use of natural languages leads to most of the confusion in theory of computation because natural languages are inherently imprecise and ambiguous. There are too many ways to say the same thing. For example, you can find these sentences which mean exactly the same in the books:
@@ -20,11 +24,11 @@ Another serious problem is that natural languages are very weak at representing 
 
 **Definition 1** <span>(reduction): A</span> _reduction_ <span>(as in theory of computation) is a homomorphism (as in universal algebra):</span>
 
-Reduce(TM, I) = (TM', I')
+    Reduce(TM, I) = (TM', I')
 
 satisfying the property
 
-TM @ I = TM' @ I'
+    TM @ I = TM' @ I'
 
 where
 
@@ -58,11 +62,11 @@ For convenience, we let
 
 Now the reduction can be fully described by the following homomorphism:
 
-Reduce(DATM, (M,w)) = (DHALT, (M',w))
-where
-M' = <if (M @ w) then accept else loop>
-satisfying
-DATM @ (M,w) = DHALT @ (M',w)
+    Reduce(DATM, (M,w)) = (DHALT, (M',w))
+    where
+      M' = <if (M @ w) then accept else loop>
+    satisfying
+      DATM @ (M,w) = DHALT @ (M',w)
 
 <span>Yes, that's an all-inclusive formal proof that</span> `HALT` <span>is undecidable. It even includes the notion of "reduction" itself.</span>
 
@@ -70,13 +74,13 @@ DATM @ (M,w) = DHALT @ (M',w)
 
 Now let's look at the last line:
 
-DATM @ (M,w) = DHALT @ (M',w)
+    DATM @ (M,w) = DHALT @ (M',w)
 
 <span>It says: if we have a decider for</span> `HALT` <span>(</span>`DHALT`<span>), then we can use it to define</span> `DATM`<span>, thus deciding</span> `ATM`<span>.</span>
 
 <span>Why this is a valid defintion for</span> `DATM`<span>? This is because from the definition of</span> `M'`
 
-<if (M @ w) then accept else loop>
+    <if (M @ w) then accept else loop>
 
 we know that:
 
@@ -106,10 +110,10 @@ If you wonder how this proof corresponds to Definition 1, here is some details h
 
 This is a lot more concise, accurate and easier to understand than a paragraph:
 
-F = "On input <M,w>:
-1\. Construct the following machine M'
-M' = "On input x:
-1\. Run M on x.
-2\. If M accepts, accept.
-3\. If M rejects, enter a loop."
-2\. Output <M',w>."
+    F = "On input <M,w>:
+      1\. Construct the following machine M'
+         M' = "On input x:
+            1\. Run M on x.
+            2\. If M accepts, accept.
+            3\. If M rejects, enter a loop."
+      2\. Output <M',w>."

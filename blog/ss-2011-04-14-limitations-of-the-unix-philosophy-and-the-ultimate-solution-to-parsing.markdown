@@ -1,3 +1,7 @@
+# Limitations of the Unix philosophy and the ultimate solution to parsing
+
+From [here](https://yinwang0.substack.com/p/unix).
+
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fda04d47d-2411-48ff-9938-0ea70e5ad81e_300x151.jpeg)
 
 _"Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface"_<span>. This the widely accepted Unix Philosophy.</span>

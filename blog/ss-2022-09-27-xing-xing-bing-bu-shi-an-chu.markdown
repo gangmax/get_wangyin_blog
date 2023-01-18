@@ -1,9 +1,10 @@
+# 星星并不是“暗处”
+
+From [here](https://yinwang1.substack.com/p/783).
+
 看了一个反驳各种“登月阴谋论”的视频，其中有一段是解释为什么在月球上看不到星星（33:07）。
 
-<div id="youtube2-DxW__ZtZApo" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;DxW__ZtZApo&quot;,&quot;startTime&quot;:&quot;1987&quot;,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/DxW__ZtZApo?start=1987&amp;rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/DxW__ZtZApo)
 
 其实也就是通常人们看到的解释，说人的眼睛瞳孔会因为月球表面反射的强光而缩小，所以就看不到星星了。我觉得大部分人看了这个解释可能就信了，也不会自己去观察和实验。这是比较悲哀的事情。
 

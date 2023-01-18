@@ -1,3 +1,7 @@
+# On object-oriented programming
+
+From [here](https://yinwang0.substack.com/p/oop).
+
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc18e4728-acc7-4118-9946-6ada3fbc6156_350x240.jpeg)
 
 [written at the end of 2013 AD, during the Dark Ages of programming]
@@ -22,15 +26,15 @@ The programmer's world is full of fads and superstitions. Every now and then the
 
 For the purpose of code reusing, OO encourages a level of abstraction which makes programs hard to understand and hard to analyze. I often see Java programs with multiple levels of inheritance, overloading and design patterns, but actually doing very little. And because there is so much code that doesn't do useful things, it is really hard to find out which part of the code is doing the thing you want. It is like going through a maze. Another nice word for this is "robustness". If I have to go into all this trouble to make code reusable or robust, I'd rather just make copies of the code and modify them, but keep each copy simple and easy to understand. Whenever you criticize Java or C++ for their verbosity, OO proponents will tell you that they are not authentic OO languages. They would ask you to look at Smalltalk. If Smalltalk's ways are that good, why almost nobody is using Smalltalk now? Because there are real problems in its approach. I think Smalltalk is the origin of over-abstraction and over-complication you find in other OO languages. The "authentic" OO style of Smalltalk promotes the notion of "extremely late binding", which basically means that the meaning of the program constructs is determined as late as possible. Late binding gives you a chance to swap out the underlying implementation without forcing the upper levels to change, but this also means that you are no longer sure what a piece of code means. When I look at expressions such as '1+2' and 'if (t) then ... else ...' in Java or C++, I at least know for sure that they mean an integer addition and an usual conditional. But I'm no longer sure about this in an "extremely late binding language", because the meaning of '+' and 'if" can be redefined. Giving the programmers the power of defining control structures is a bad idea, because soon your language will be abundant of quirky control structures designed by programmers who try to be clever. It will no longer be the language that you used to know. An example for this feature is Smalltalk's conditional structure, which looks like this:
 
-result := a > b
-ifTrue:[ 'greater' ]
-ifFalse:[ 'less or equal' ]
+    result := a > b
+        ifTrue:[ 'greater' ]
+        ifFalse:[ 'less or equal' ]
 
 <span>You send a message ifTrue: to a Boolean object, passing as an argument a block of code to be executed if and only if the Boolean receiver is true. First of all, if you</span> _really_ <span>have a well-designed language, you shouldn't be wanting to define your own control structures. As a seasoned Lisp/Scheme programmer, I have seen many custom-designed control structures (such as the various looping macros) over the years, but none of them turned out to be good ideas. I'd rather write slightly longer and more verbose code in the vanilla language than to learn those weird control structures. Second, if you are really genius enough to have invented another good control structure, the late binding feature of Smalltalk probably won't provide you the necessary power for defining it. The power of functions as an abstraction tool is limited. It is strictly less powerful than Lisp/Scheme's macros. Third, this feature of Smalltalk is not really a novel approach, and it has a serious problem. A similar but more beautiful conditional construct had been defined in lambda calculus since before computer science was born:</span>
 
-TRUE = λx.λy.x
-FALSE = λx.λy.y
-IF = λb.λt.λf.b t f
+    TRUE = λx.λy.x
+    FALSE = λx.λy.y
+    IF = λb.λt.λf.b t f
 
 <span>This is very beautiful and can be done in any functional language, but why none of the functional languages implement conditionals this way? Because when you see an expression IF b t f, you will have no idea whether it is a conditional or not, because IF can be redefined in the program. Also because IF is just a function, it may also accept unexpected values other than TRUE or FALSE. This may</span> _happen to_ <span>make the conditional construct work but cause trouble later on. This is called "unintentional semantics". This kind of bug can be very hard to track down. This approach also makes compiler and static analysis hard. When the compiler sees IF b t f, it no longer knows that it is a conditional so it can't optimize it that way. It has to treat it as a usual function call. Similarly when the type checker sees it, it doesn't know what type to expect for b, because it may not be a conditional at all. The above argument against the lambda calculus can easily be adapted to Smalltalk. So abstraction is a powerful weapon when used moderately, but when you do it in excess, it backfires. Not only does it make it hard for humans to understand the code, it makes automated analysis tools and compiler optimizations difficult or impossible to make.</span>
 

@@ -1,3 +1,7 @@
+# 爱因斯坦相对论论文里的致命错误
+
+From [here](https://yinwang1.substack.com/p/16d).
+
 （2022/10/14 更新：这篇文章里面误解了爱因斯坦的数学，所以不再有效。以下是更新的内容。）
 
 嗯，之前说爱因斯坦的论文里有个数学错误，导致向左的光速度不会是 c。今天重新理解了一下，发现依靠 Lorentz 变换，它还真可以算出向左的光速也是 c。因为 Lorentz 变换的“长度压缩”会把向左的长度比向右的长度压缩的多一些…… 总之它就是这么设计的，思路就是“凑答案”，扭曲运动物体上的时间和长度，让各个方向来的相对光速算出来都是 c，虽然因为物体的运动，光速在静止的观察者看来是 c-v 或者 c+v。所以在数学上，这个事情还真可以“实现”。这么多眼睛盯着那些数学，他们不至于犯这样的低级错误。
@@ -10,13 +14,9 @@
 
 （以下是原文）
 
-<div class="captioned-image-container">
-
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F401970a2-6766-421e-b5e8-969fd82d35ed_1288x966.jpeg)
 
 <figcaption class="image-caption"></figcaption>
-
-
 
 <span>经过又一天对爱因斯坦的（狭义）相对论论文《</span>[On the Electrodynamics of Moving Bodies](https://www.physics.umd.edu/courses/Phys606/spring_2011/einstein_electrodynamics_of_moving_bodies.pdf)<span>》（1905）的分析，彻底分析了他的数学推导，自己又按照他的思路用另外一种方式推导了一遍，独立得出了跟他几乎完全一致的结果。通过自己的推导，我完全掌握了他的思路和动机，推敲了每一个环节。我发现这篇论文的问题已经很明显了。</span>
 

@@ -1,3 +1,7 @@
+# On software design patterns
+
+From [here](https://yinwang0.substack.com/p/design-patterns).
+
 In this post I try to answer the controversial question
 
 > Are software design patterns good or bad?

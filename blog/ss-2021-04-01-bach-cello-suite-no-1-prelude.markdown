@@ -1,3 +1,7 @@
+# Bach Cello Suite No.1: Prelude
+
+From [here](https://yinwang1.substack.com/p/bach-cello-suite-no-1-prelude).
+
 纪念这一天，自学音乐以来完成第一首完整的练习曲：Bach Cello Suite No.1: Prelude。
 
 花了一天改进识谱的方法论，后面的半首 prelude 被用于测试这个方法，结果一天就学完了。不仅看见就能奏出来（延迟几秒种），而且最后不知不觉全记住了。

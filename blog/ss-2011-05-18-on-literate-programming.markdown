@@ -1,3 +1,7 @@
+# On literate programming
+
+From [here](https://yinwang0.substack.com/p/literate-programming).
+
 A friend and I had a discussion about the current trends of programming methodologies. At some point, the topic turned to Literate Programming (LP). I personally have written a non-trivial literate program (in CWEB) a few years back, but like many other people, I did not persevere. As a hindsight, there are some good reasons why people do not adopt LP.
 
 ### Missing the big picture

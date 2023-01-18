@@ -1,9 +1,10 @@
+# 航海与GPS
+
+From [here](https://yinwang1.substack.com/p/gps-c90).
+
 <span>了解到一些关于航海导航的信息。航海的时候 GPS 系统也是靠不住的，都在用「</span>[Differential GPS](https://en.wikipedia.org/wiki/Differential_GPS)<span>」，一种基于地面基站的系统，使用长波从港口往海里发射信号。</span>
 
-<div class="captioned-image-container">
-
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9db9a0c-34c0-44c1-8508-c7e1611190b5_1935x1417.jpeg)
-
 
 天上不是有“GPS 卫星”吗？为什么还得依靠地面的系统？虽然表面上说是“对卫星 GPS 系统的增强”，然而解读一下，就会发现“卫星 GPS”在海里其实是不能用的，或者根本就是不存在的。
 

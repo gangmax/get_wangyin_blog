@@ -1,3 +1,7 @@
+# How to reduce the contagious power of 'const' in C++
+
+From [here](https://yinwang0.substack.com/p/const).
+
 For the purpose of optimization and (possibly?) safety, the C++ programming language decided that the users should manually specify 'const' annotations for variables that they know will/should never be modified. While I admit the possible usefulness of this annotation, I often see it misused, and this often results in a contagious effect where unnecessarily many variables and parameters are annotated as 'const'.
 
 In this post, I reason philosophically about the true meaning of the 'const' annotation, and propose some tentative principles regarding the use of it. By following them, I hope to reduce the contagious power of 'const' to the minimum.
@@ -8,8 +12,8 @@ First, the rule for 'const' annotations for variables:
 
 By this principle, these examples are legitimate:
 
-const int max = 1000;
-const char* name = "permanent name";
+    const int max = 1000;
+    const char* name = "permanent name";
 
 These declarations can be global variables as well as local variables. Declaring them as 'const' can facilitate the inlining opportunities of them, as well as prevent unwanted modifications.
 
@@ -25,14 +29,14 @@ This is a good thing, because you give the callers of the function more freedom 
 
 So in general, this is a good thing to do in C++:
 
-void foo(const char* in);
+      void foo(const char* in);
 
 <span>But there is a catch here: whether you can put 'const' here depends on the function body and all the function calls inside. Whenever you put 'const' on the parameter type, you have to make sure that any functions you call don't modify this parameter either. That is to say this is a</span> _transitive_ <span>property. For example, something like this will not work:</span>
 
-void foo(const char* in) {
-bar(in);
-}
-void bar(char* in) { ... }
+      void foo(const char* in) {
+        bar(in);
+      }
+    void bar(char* in) { ... }
 
 That is because bar may modify its parameter, which is also foo's parameter.
 
@@ -52,24 +56,24 @@ If you put 'const' on the return type and the callers respect it, then it will c
 
 So in general, this is not a good thing to do:
 
-const char* bar();
+      const char* bar();
 
 Because your caller would have to be like this:
 
-void baz() {
-const char* ret = bar();
-bizaar(ret);
-}
+    void baz() {
+      const char* ret = bar();
+      bizaar(ret);
+    }
 
 And the receiver of the return value (bizaar) must be defined as something like:
 
-void bizaar(const char* in) {
-bizaar2(in);
-}
+      void bizaar(const char* in) {
+        bizaar2(in);
+      }
 
 And now bizaar2 needs to be declared as:
 
-void bizaar2(const char* in);
+      void bizaar2(const char* in);
 
 And so on... You see how the contagion started? Because bar() returned a const value, which is unnecessarily restrictive. So in general, it is not a good idea to return 'const'.
 

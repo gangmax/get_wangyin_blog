@@ -1,7 +1,8 @@
-<div class="captioned-image-container">
+# 再看《扁鹊见蔡恒公》
+
+From [here](https://yinwang1.substack.com/p/6df).
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F09aa047d-a466-40ea-8722-aca9755feb40_1317x647.jpeg)
-
 
 现在再看《扁鹊见蔡恒公》的故事，我越来越理解蔡桓公了。我自己没感觉有病，凭什么要相信你说我有病，吃你的药？历史上是否真有此事，蔡桓公是否真是那样死的，我觉得很值得怀疑。
 

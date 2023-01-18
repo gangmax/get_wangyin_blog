@@ -1,20 +1,18 @@
+# 爱因斯坦相对论论文分析进展
+
+From [here](https://yinwang1.substack.com/p/9db).
+
 经过一天的折腾，连蒙带猜，终于弄明白了爱因斯坦的思路。虽然他写作非常不清晰，变量名混淆扰乱思路，各种动机不明，逻辑混乱，但最终的问题终于被看出来了。
 
 <span>爱因斯坦的公式推导里面其实有一个隐含的，未经实验证实的假设，那就是光的相对速度对于任何运动中的观测者都是一样的，都是</span> _c_<span>。注意，这个假设说的不是通常所谓的“光速不变”。通常说的“光速不变”，只是说光速不随“光源”的运动而改变，并没说光的相对速度不以“观测者”的运动而改变。注意这两者的差别，一个是说光的发出者，一个是说光的接收者，完全是两回事。前者我可以接受，但是这后者其实是未经实验证实的。</span>
 
 爱因斯坦在第一节提出“前提”的时候，只说“光速不变”的意思是光速不随“光源”（原文叫“emitting body”）的运动而改变，可是到后来，他其实假定了光的相对速度不随“观测者”的运动而改变，却始终没有明确的把它提出来说清楚。这导致他的公式推导，各种操作的动机非常难以理解。
 
-<div class="captioned-image-container">
-
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb765f82-a672-49d7-917f-b52bfbddc3af_1426x611.jpeg)
-
 
 只是在下面讨论“同步”的时候，他通过“定义”（by definition）的方式，假设光“从 A 到 B”和“从 B 到 A”需要的时间是一样的。注意这只是一个“定义”，不是一个已经被实验证明的事实。这个“定义”其实隐含了“光相对于任何运动的观察者的速度都一样”，但是他始终没有强调这个重要的前提，只是在后面突然开始使用它。
 
-<div class="captioned-image-container">
-
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3716994-779f-4c78-8f2a-f768a8f9ec2a_1295x433.jpeg)
-
 
 <span>一般的物体，当观察者运动的时候，物体相对于观察者的“相对速度”是会变化的，但这个假设说光是一个例外。不管观察者如何运动，他测出来的“光相对于自己的速度”都是一样的，仍然是</span> _c_<span>。</span>
 
@@ -22,25 +20,15 @@
 
 “光的相对速度不随观测者的运动而改变”，这个说法其实是没有经过实验证实的。为什么我这么说呢？因为所有测光速（或者变相测光速）的装置，包括 Michelson-Morley 实验在内，里面的光都是“往返”运动的，从来不是“单程”。他们测的都不是瞬时速度，而是往返总路程的平均速度。他们总会放一个镜子在那里，把光射过去，再反射回来，计算总路程和时间，然后用“路程/时间”算出平均速度（如图）。
 
-<div class="captioned-image-container">
-
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7db04eae-d1b7-4e3d-af41-321de14e446d_388x201.jpeg)
 
 <figcaption class="image-caption"></figcaption>
 
-
-
-<div class="captioned-image-container">
-
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fec08f-6dac-46d8-af72-220e949e11b8_494x223.png)
-
 
 参考这个视频，你会发现从来没有人测过“单程”或者“瞬时”的光速，全都是在测“往返”的平均光速。
 
-<div id="youtube2-pTn6Ewhb27k" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;pTn6Ewhb27k&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/pTn6Ewhb27k?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/pTn6Ewhb27k)
 
 <span>稍微思考一下就会发现，如果整个测光速的装置都在运动中的话，这样的“往返”路程算出来的平均速度，是无法反映每段路程的“相对速度”的。比如装置以</span> _v_ <span>的速度朝着光发出的方向在运动，那么“光相对于接收器的速度”，去的时候是</span> _c-v_<span>，回来的时候是</span> _c+v_<span>。但因为镜子和接收器同步在动，相对距离不变，所以光经过的总路程和时间都不随</span> _v_ <span>改变。最后你用这些数据算出来，就以为光的相对速度一直是</span> _c_ <span>没变过。而其实它的相对速度过去的时候慢了一些，回来的时候快了一些。</span>
 

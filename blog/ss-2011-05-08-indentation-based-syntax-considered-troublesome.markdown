@@ -1,3 +1,7 @@
+# Indentation-based syntax considered troublesome
+
+From [here](https://yinwang0.substack.com/p/layout).
+
 <span>Although the idea of</span> [layout syntax](http://en.wikipedia.org/wiki/Off-side_rule)<span>---using whitespace characters to delimit blocks---has been promoted by several languages (notably Python and Haskell), I think this kind of syntax brings more trouble than benefits.</span>
 
 ### It takes just one keystroke to produce a serious bug
@@ -10,7 +14,7 @@ In most languages a program's format is determined by its meaning, but in a lang
 >             if x == y:
 >                 return True
 >         return False         # correct indentation
->
+> 
 >     # incorrect definition
 >     def member(x, ls):
 >         for y in ls:
@@ -39,9 +43,9 @@ Given the correct definition, can you imagine how you could reproduce the bug wi
 
 2.  <span>It takes at least</span> _two edits_ <span>and</span> _one movement_ <span>in the editor to move the return statement into the loop. There are two alternatives to choose from:</span>
 
-*   <span>Cut</span> `return False`<span>. Move the cursor into the closing curly brace of the for-loop. Paste.</span>
+    *   <span>Cut</span> `return False`<span>. Move the cursor into the closing curly brace of the for-loop. Paste.</span>
 
-*   <span>Delete the closing curly brace of the for-loop. Move the cursor beyond</span> `return False`<span>. Insert an closing curly brace.</span>
+    *   <span>Delete the closing curly brace of the for-loop. Move the cursor beyond</span> `return False`<span>. Insert an closing curly brace.</span>
 
 <span>Either way, you must be</span> _deliberate_ <span>and</span> _precise_ <span>in order to reproduce the bug. Otherwise the parser would have complained (for example, if you just delete a closing curly brace).</span>
 
@@ -112,17 +116,17 @@ Some people say that because those languages have advanced semantics, programs a
 
 *   Renaming. We seldom choose the best names on the first shot, and good names make programs self-explanatory, so renaming is a very important and commonplace action. But in the following simple Haskell program, if we change the name from "helloworld" to "hello" and don't re-indent the rest of the lines, we will get a parse error.
 
-> helloworld z = let x = 1
->                        y = 2 in
->                      x+y+z
+    > helloworld z = let x = 1
+    >                        y = 2 in
+    >                      x+y+z
 
-Because the code becomes the following after the renaming, and the second line will no longer be aligned to "x = ...", and that confuses the parser.
+    Because the code becomes the following after the renaming, and the second line will no longer be aligned to "x = ...", and that confuses the parser.
 
-> hello z = let x = 1
->                        y = 2 in
->                      x+y+z
+    > hello z = let x = 1
+    >                        y = 2 in
+    >                      x+y+z
 
-<span>A similar thing happens when we lengthen the name to something like "helloworldcup". Try it yourself. From this example, I hope you see how simple things are made frustratingly complicated by layout syntax. If you haven't been convinced, try adding more lines to the above</span> `let` <span>expression.</span>
+    <span>A similar thing happens when we lengthen the name to something like "helloworldcup". Try it yourself. From this example, I hope you see how simple things are made frustratingly complicated by layout syntax. If you haven't been convinced, try adding more lines to the above</span> `let` <span>expression.</span>
 
 The interruption from re-indenting code is usually not just one or two seconds, but often tens of seconds, even minutes. The programmer has to put down real problems at hand and turn to the mind-dead re-indenting job. This disrupts the "flow", which is essential for producing creative and elegant code.
 

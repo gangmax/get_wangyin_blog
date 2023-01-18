@@ -1,3 +1,7 @@
+# Why is indexing faster than binary search
+
+From [here](https://yinwang0.substack.com/p/indexing).
+
 We all know that indexing into an array takes only O(1) time, while searching for a number in a sorted array takes O(n) time with linear search, and O(log n) time with binary search. But why is indexing so fast? What is the secret sauce?
 
 The reason is really about the nature of indexing -- how it is implemented in a circuit. In order to illustrate this, let me show you an "addressing circuit".

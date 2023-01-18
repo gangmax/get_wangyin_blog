@@ -1,9 +1,10 @@
+# 传染理论的历史
+
+From [here](https://yinwang1.substack.com/p/054).
+
 曾经推荐过这个 Stefan Lanka 博士关于“传染理论历史”的演讲。他指出所谓“病毒”其实是不存在的，医学界一直在弄虚作假，让人以为“病毒”这东西存在。历史上所有的“疫情”都是制造出来的骗局，用于政治目的。
 
-<div id="youtube2-3cnlynJZLtM" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;3cnlynJZLtM&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/3cnlynJZLtM?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/3cnlynJZLtM)
 
 对于 Lanka 博士的说法，我并不是全盘接受的。关于“病毒是否存在”这个问题，他的论据里面似乎有一些纰漏，所以我还未能完全确信。但通过“犯罪心理”的分析，我觉得病毒可能确实是不存在的，它很有可能是一个骗局。
 

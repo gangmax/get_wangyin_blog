@@ -1,3 +1,7 @@
+# Concurrent stack does not exist
+
+From [here](https://yinwang0.substack.com/p/concurrent-stack).
+
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8f788ca3-b459-422c-98de-4aab9fbd6c62_150x230.jpeg)
 
 <span>Some weeks ago I read this thought-provoking article by Nir Shavit</span> _[Data Structures in the Multicore Age](http://cacm.acm.org/magazines/2011/3/105308-data-structures-in-the-multicore-age)_<span>. The topic is about efficiency of concurrent data structures. There have been many thinkings going on after the reading, but the most interesting point to me is that the author started trying to use a "concurrent stack", but ended up happily using a pool.</span>

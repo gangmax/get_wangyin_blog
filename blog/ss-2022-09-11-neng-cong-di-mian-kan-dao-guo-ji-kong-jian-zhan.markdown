@@ -1,3 +1,7 @@
+# 能从地面看到国际空间站？
+
+From [here](https://yinwang1.substack.com/p/07f).
+
 为什么我说星空缺失对于“航天”是一个致命的破绽，而且我不需要回应其他的“支持证据”呢？这是因为如果一个事情是真实的，它会 100% 一致而没有破绽。只要有一个不符合科学规律或常识的地方，它就不会是真的。这是基本的逻辑学原理：“一个反例足以推翻整个命题，有再多其它支持证据也无济于事。” 这类似于程序测试，一万个测试都通过，只有一个失败，那你的程序就是错误的。所有的“太空”照片里面全都没有星星，这违反了基本的物理规律和常识，已经足以说明它们是假的了。
 
 制造谎言的人喜欢回避致命的破绽（反例），他们会编造出一万个不相关的“支持证据”（假象）来跟你论战。你哪有时间和精力去回应这些？这是一个圈套，他们吸引你去驳倒这每一个假象，耗费你的精力，没完没了，这样谎言就得以继续。然而其实你并不需要理会这些，因为找到一个致命的破绽就足够否定整个命题，就像一个失败的测试一样。
@@ -8,15 +12,9 @@
 
 如果你搜索一下网络，就会发现想要从地面看到 ISS 有多难。这两个视频是两个天文爱好者拍摄 ISS 的故事：
 
-<div id="youtube2-q_ADBlrIRsM" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;q_ADBlrIRsM&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
+[Video](https://www.youtube-nocookie.com/embed/q_ADBlrIRsM)
 
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/q_ADBlrIRsM?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
-
-<div id="youtube2-0yuQOO2jA1I" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;0yuQOO2jA1I&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/0yuQOO2jA1I?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/0yuQOO2jA1I)
 
 他们用了高级的天文望远镜和相机，还得配上特殊的自动跟踪支架。费了很大功夫，抓住难得的机会，也只能拍到非常模糊的影子，都难说那是什么东西，也许就是一个普通的卫星（如果卫星存在的话），或者其它什么偶然的现象。而且做过这件事的人很少，你怎么知道他们就不是请来制造假象的人，或者是自己想要显得技术厉害呢？
 

@@ -1,3 +1,7 @@
+# PySonar2 successfully integrated with Sourcegraph.com
+
+From [here](https://yinwang0.substack.com/p/pysonar-sourcegraph).
+
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F01ff6607-60b5-4bf2-a849-16970fb9823e_400x162.png)
 
 <span>(The above picture was taken from: </span>[http://sourcegraph.com/github.com/mitsuhiko/flask](http://sourcegraph.com/github.com/mitsuhiko/flask)<span>) I recently joined a newly founded company called</span> [Sourcegraph.com](http://www.sourcegraph.com)<span>. We build an intelligent code search engine using some of the most powerful programming language technologies. The difference between Sourcegraph and other code search sites is: Sourcegraph truly understands code and produces accurate results. Sourcegraph lets you</span> _semantically_ <span>search and browse opensource code on the web in a similar fashion as you do locally with IDEs. It also finds users of your code worldwide, and show exactly how they use your code. For example the following is what Sourcegraph shows you about</span> [Flask](http://sourcegraph.com/github.com/mitsuhiko/flask)<span> framework's Flask.route method.</span>

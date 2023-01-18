@@ -1,3 +1,7 @@
+# 日本的「第五代计划」
+
+From [here](https://yinwang1.substack.com/p/20-10-19).
+
 <span>之前那篇关于人工智能的文章《</span>[人工智能的局限性](http://www.yinwang.org/blog-cn/2017/04/23/ai)<span>》 里面，有一段关于 Prolog 语言的叙述。很多年轻一代可能还不知道，这上一次“AI 热”，与之相关的 Prolog 语言，跟日本很有关系。</span>
 
 <span>1980 年代的时候，日本政府雄心勃勃试图“超英赶美”，号称要使用 Prolog 语言来实现所谓「第五代计划」，实现「能思考的机器」。最后在花费 10 年时间和 4 亿美元的经费之后宣告失败。简要的信息可以参考</span>[这篇文章](https://www.sjsu.edu/faculty/watkins/5thgen.htm)<span>，当然我鼓励大家去寻找更多的历史线索。</span>

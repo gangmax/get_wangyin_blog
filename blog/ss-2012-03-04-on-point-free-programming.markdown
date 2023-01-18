@@ -1,3 +1,7 @@
+# On point-free programming
+
+From [here](https://yinwang0.substack.com/p/point-free).
+
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9c06c6af-7e74-480d-939b-716580595c4e_250x250.jpeg)
 
 <span>Concatenative programming, or point-free style, is useful sometimes, but has some serious drawbacks similar to the</span> [SKI combinators](http://en.wikipedia.org/wiki/SKI_combinator_calculus)<span>. Applicative programs can be compiled into point-free style easily, but writing and reading them directly in large scale is usually a mental burden.</span>
@@ -6,13 +10,13 @@ It only works well with functions with one or two arguments. Concatenation of fu
 
 For example, if the function is defined as:
 
-f :: Int -> String -> Bool
-f x y = ...
+    f :: Int -> String -> Bool
+    f x y = ...
 
 <span>If you want to use it as the predicate for filtering a list of strings, that's fine. You just write something like</span> `filter (f 2) ...`<span>. But what if you want to filter a list of integers? Then you will need to swap the order of the first two arguments before you can do the partial application. So you write</span> `filter (flip f 2) ...`<span>. Fine. But what if the function looks like:</span>
 
-g :: Int -> A -> String -> Bool
-g x y z = ...
+    g :: Int -> A -> String -> Bool
+    g x y z = ...
 
 And you want to filter a list of A's? Which function do you use to switch the argument order, and you expect the reader of the program to learn it?
 
@@ -22,8 +26,8 @@ In order to prevent this kind of plumbing, we have to take unnecessary care when
 
 Names are more convenient. Notice that even mathematics uses names for permutations (as in algebra):
 
-(a b c d)
-(b a d c)
+    (a b c d)
+    (b a d c)
 
 Concatenative programming is like connecting the components of a circuit. But even electronic engineers don't do it this way. They use net-lists with names and labels.
 

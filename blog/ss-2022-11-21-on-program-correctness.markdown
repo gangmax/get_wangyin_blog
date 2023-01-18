@@ -1,3 +1,7 @@
+# On Program Correctness
+
+From [here](https://yinwang0.substack.com/p/on-program-correctness).
+
 No matter in the academic circle or in the industrial circle, there are always many people who care too much about the so-called "correctness of the program", and some even go to the point of trembling and chasing after the end. Here are a few examples:
 
 Many people take testing (test) too seriously. Before the horoscope of the code was written, I was clamoring for how to test it strictly to prevent someone from changing the code wrong in the "future". These people are often bound by the test in the end, unable to move an inch. Not only is the code full of bugs, but there are also many bugs in the test.

@@ -1,3 +1,7 @@
+# 生命是一个奇迹
+
+From [here](https://yinwang1.substack.com/p/ba9).
+
 （接着昨天的写）
 
 昨天我说：
