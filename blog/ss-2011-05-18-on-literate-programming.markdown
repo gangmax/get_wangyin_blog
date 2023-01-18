@@ -1,8 +1,12 @@
+#On literate programming
+
+From [here](https://yinwang1.substack.com/p/literate-programming).
+
 A friend and I had a discussion about the current trends of programming methodologies. At some point, the topic turned to Literate Programming (LP). I personally have written a non-trivial literate program (in CWEB) a few years back, but like many other people, I did not persevere. As a hindsight, there are some good reasons why people do not adopt LP.
 
 ### Missing the big picture
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3bbac884-94ee-4d88-a8e8-7616e820a37e_320x240.jpeg)
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg)
 
 Although we love books, they may not be the best medium for documenting programs. Programs are much like circuits or cars. They are very complex systems with interconnected parts. The interactions and constraints among the parts can't really be understood when they are taken apart.
 
@@ -28,7 +32,7 @@ So instead of investing in LP, a probably better direction is to investigate bet
 
 ### Painful code navigation
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Feac9bb94-3ef5-4e58-b22e-5158e6face25_250x187.jpeg)
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg)
 
 <span>Once the code is weaved into a book, it will be very hard to navigate through. Several years ago, I spent some time reading Knuth's</span> _MMIXware_<span>, a book generated from a CWEB program. I noticed how much time I spent on finding definitions and cross-references of variables. Although Knuth painstakingly constructed an index for the book, obviously I still had to turn hundreds of pages back and forth, while in IDEs I can jump to the definition of a variable with just one keystroke. One should wonder why we bother publishing code as books at all. Use an IDE and save the trees! :)</span>
 

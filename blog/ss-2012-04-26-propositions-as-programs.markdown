@@ -1,3 +1,7 @@
+#Propositions as Programs
+
+From [here](https://yinwang1.substack.com/p/propositions-as-programs).
+
 <span>The</span> [Curry-Howard correspondence](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence) <span>says that propositions are types and proofs are programs. I had been wondering if there is a simpler way to think about it, so I came up with this:</span>
 
 > <span>Propositions are programs; proofs are "abstract interpretation" of them to</span> `True`<span>.</span>
@@ -14,26 +18,26 @@ This seems to match what we have been doing with proof assistants like Coq. Comp
 
 The propositions in Coq are a little far-fetched to be called "types" of the proof terms. For example, we can have a proof term like
 
-fun (n' : nat) (IHn' : n' + 0 = n') => ...
+    fun (n' : nat) (IHn' : n' + 0 = n') => ...
 
 <span>Is</span> `n' + 0 = n'` <span>the type of</span> `IHn'`<span>? Well, you have the freedom to call it a type, but this doesn't feel natural. What we want is just a way to</span> _bind_ <span>an equation to a name, so that we can refer to it later. The semantics of type annotations, for example</span> `IHn' : n' + 0 = n'` <span>here, happen to make the required binding for us.</span>
 
 <span>It feels better if we just think of propositions as programs with boolean return types, and think of the proof terms reduction sequences of them into</span> `True`<span>. If you take a look at the proof terms of Coq, you may find that this is the case. For example, take a look at this simple theorem and the tactics that prove it:</span>
 
-Theorem plus_0_r : forall n : nat, n + 0 = n.
-Proof.
-intros n. induction n as [| n'].
-reflexivity.
-simpl. rewrite -> IHn'. reflexivity.  Qed.
+    Theorem plus_0_r : forall n : nat, n + 0 = n.
+    Proof.
+      intros n. induction n as [| n'].
+      reflexivity.
+      simpl. rewrite -> IHn'. reflexivity.  Qed.
 
 They produce the following proof term:
 
-plus_0_r =
-fun n : nat =>
-nat_ind (fun n0 : nat => n0 + 0 = n0) eq_refl
-(fun (n' : nat) (IHn' : n' + 0 = n') =>
-eq_ind_r (fun n0 : nat => S n0 = S n') eq_refl IHn') n
-: forall n : nat, n + 0 = n
+    plus_0_r = 
+    fun n : nat =>
+    nat_ind (fun n0 : nat => n0 + 0 = n0) eq_refl
+      (fun (n' : nat) (IHn' : n' + 0 = n') =>
+       eq_ind_r (fun n0 : nat => S n0 = S n') eq_refl IHn') n
+         : forall n : nat, n + 0 = n
 
 <span>You may think of this proof term as a program with the theorem as its type, but you can also think of it as a</span> _reduction sequence_ <span>of the program</span> `n + 0 = n` <span>to</span> `True`<span>, where</span> `n` <span>is a natural number. It is saying: "Do an induction where the first branch executes an equivalence judgment, and the other branch does an unfolding, a rewriting using the induction hypothesis, and an equivalence judgment." I think this way of thinking is much more natural.</span>
 

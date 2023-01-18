@@ -1,9 +1,10 @@
+#《The Blue Pearl》
+
+From [here](https://yinwang1.substack.com/p/the-blue-pearl).
+
 网络上仅存的，能够在天空中看到星星的“太空纪录片”，叫做《The Blue Pearl》。它的场景是国际空间站（ISS）俯瞰地球的场面。你可以在这里观看全片：
 
-<div id="youtube2-IMVjlgWby74" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;IMVjlgWby74&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/IMVjlgWby74?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/IMVjlgWby74)
 
 我之前看到这个“纪录片”的时候，还以为国际空间站是真的，所以能看到星星，而且还能看到北极光。然而看了国际空间站上宇航员“实拍”的片子（比如这些 youtu.be/lQlYG8hOgAs，youtu.be/KSzuiqVjJg4，youtu.be/VyfE1y5WL5M，youtu.be/7J7Fifzf8ao，youtu.be/cIXnT2UCq80）我才发现，原来“实拍”的片子里面都是没有星星的。
 

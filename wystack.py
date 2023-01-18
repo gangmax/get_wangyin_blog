@@ -16,10 +16,12 @@ import os
 import re
 import sys
 import requests
-from functools import partial
 from slugify import slugify
 
-INDEX_URL = 'https://yinwang1.substack.com/api/v1/archive?sort=new&limit=12&offset={}'
+PAGE_SIZE = 12
+INDEX_URL = (
+    'https://yinwang1.substack.com/api/v1/archive?sort=new&limit={}&offset={}'
+)
 PAGE_CONTENT_START_TAG = '<div dir="auto" class="body markup">'
 PAGE_CONTENT_END_TAG = '<div class="post-footer use-separators">'
 BASE_BLOG_PATH = "./blog"
@@ -36,6 +38,7 @@ MATCHED_PATTERNS = {
     '^\<div class=\"youtube-inner\">\<iframe src=\"(.+)\?.+\<\/div\>$': '[Video]({})',
 }
 
+
 def parse_index(index_url):
     '''
     Return a list of post items, each item contains the post basic info.
@@ -48,24 +51,25 @@ def parse_index(index_url):
         title = item['title']
         url = item['canonical_url']
         date = item['post_date'][0:-14]
-        result.append({
-            'id': pid,
-            'title': title,
-            'url': url,
-            'date': date})
+        result.append({'id': pid, 'title': title, 'url': url, 'date': date})
     return result
+
 
 def get_filename(item):
     return 'ss-{}-{}.markdown'.format(item['date'], slugify(item['title']))
 
-def parse_page_to_post(page_url, start_tag = PAGE_CONTENT_START_TAG,
-    end_tag = PAGE_CONTENT_END_TAG):
+
+def parse_page_to_post(
+    page_url, start_tag=PAGE_CONTENT_START_TAG, end_tag=PAGE_CONTENT_END_TAG
+):
     '''
     Return a string which contains the post content in markdown format.
     '''
-    stream = os.popen("./resources/h2m.js '{}' '{}' '{}'".format(
-        page_url, start_tag, end_tag))
+    stream = os.popen(
+        "./resources/h2m.js '{}' '{}' '{}'".format(page_url, start_tag, end_tag)
+    )
     return stream.read()
+
 
 def is_filtered_line(line: str) -> bool:
     for item in FILTERED_LINES_PATTERNS:
@@ -73,6 +77,7 @@ def is_filtered_line(line: str) -> bool:
         if m is not None:
             return True
     return False
+
 
 def optimize_content(raw: str, title: str, url: str) -> str:
     '''
@@ -97,9 +102,11 @@ def optimize_content(raw: str, title: str, url: str) -> str:
         last_line = line
     return result
 
+
 def write_post(content, target_filename, target_dir):
     with open('{}/{}'.format(target_dir, target_filename), 'w') as f:
         f.write(content)
+
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
@@ -112,7 +119,7 @@ if __name__ == '__main__':
         from_batch_num = 0
         to_batch_num = 1
     for i in range(from_batch_num, to_batch_num):
-        given_url = INDEX_URL.format(i)
+        given_url = INDEX_URL.format(PAGE_SIZE, PAGE_SIZE * i)
         items = parse_index(given_url)
         print('Find total "{}" posts on "{}"...'.format(len(items), given_url))
         for item in items:
@@ -120,6 +127,8 @@ if __name__ == '__main__':
             filename = get_filename(item)
             print('Fetching the "{}/{}" post...'.format(target_dir, filename))
             raw_content = parse_page_to_post(item['url'])
-            result_content = optimize_content(raw_content, item['title'], item['url'])
+            result_content = optimize_content(
+                raw_content, item['title'], item['url']
+            )
             write_post(result_content, filename, target_dir)
     print('Done.')

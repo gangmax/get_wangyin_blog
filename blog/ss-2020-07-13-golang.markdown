@@ -1,3 +1,7 @@
+#golang
+
+From [here](https://yinwang1.substack.com/p/golang).
+
 某人：你对 golang 什么看法？
 
 我：垃圾。

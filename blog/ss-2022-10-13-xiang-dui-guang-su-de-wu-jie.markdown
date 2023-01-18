@@ -1,21 +1,16 @@
-<span>看了两个关于“相对光速”的问答（</span>[问答1](https://www.quora.com/What-is-the-relative-speed-of-the-speed-of-light?share=1)<span>，</span>[问答2](https://physics.stackexchange.com/questions/114523/what-is-the-speed-of-light-relative-to)<span>），发现绝大部分人都认为“光相对于任何观察者的速度都是一样的，永远都是</span> _c_<span>”。但他们只是在鹦鹉学舌，显示自己“懂科学”，却从未想过这个说法是怎么来的。</span>
+#相对光速的误解
 
-<div class="captioned-image-container">
+From [here](https://yinwang1.substack.com/p/06e).
+
+<span>看了两个关于“相对光速”的问答（</span>[问答1](https://www.quora.com/What-is-the-relative-speed-of-the-speed-of-light?share=1)<span>，</span>[问答2](https://physics.stackexchange.com/questions/114523/what-is-the-speed-of-light-relative-to)<span>），发现绝大部分人都认为“光相对于任何观察者的速度都是一样的，永远都是</span> _c_<span>”。但他们只是在鹦鹉学舌，显示自己“懂科学”，却从未想过这个说法是怎么来的。</span>
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7ca75e06-cf9d-4963-93bd-4b7eae0ea923_1330x748.jpeg)
 
-
 <span>其实这个被世人所接受的“光相对于任何物体的速度总是</span> _c_<span>”的说法，只是根据那些“测光速”的实验来的。这些实验者发现，无论测光速的装置以什么速度移动，朝着什么方向，测出来的“光速”总是 c。但这些装置总是用一些镜子，把光原路反射回去，然后用“往返总路程 / 总时间”得到速度。所以它们测的全都是“往返平均光速”，不是“瞬时光速”，也不是“单程光速”。从来没有人测量过“瞬时光速”或“单程光速”。</span>
-
-<div class="captioned-image-container">
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd97f802-9485-4f2c-8464-e5e2ea073b37_388x201.jpeg)
 
-
-<div class="captioned-image-container">
-
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F725993d4-97aa-4a6a-b1f0-385708f4c116_494x223.png)
-
 
 “速度”这个概念，本来应该是指“瞬时速度”，“瞬时”也包含了“单程”的意思。只有在测“瞬时速度”有困难的时候，才会去测长距离的“单程平均速度”。只有在测“单程平均速度”都有困难的时候，才会去测“往返平均速度”。光就是最后这种情况，因为它跑得太快了，所以测“瞬时速度”和“单程平均速度”都有困难。按照目前的技术水平，就只能测“往返平均速度”了。但是有技术困难不等于你就可以认为“光速”在整个宇宙中相对于任何观察者都是那个“往返平均光速”，把它作为真理教给所有人，并且由它推导出一大堆奇怪的理论来。
 
@@ -25,10 +20,7 @@
 
 <span>分析：由于你在往前走，所以球过去的时候和回来的时候，相对于你的速度是不同的，去的时候是</span> _v1-v2_<span>，回来的时候是</span> _v1+v2_<span>。但如果你计算球的“往返平均速度”（球往返的路程/总时间），是不可能算出两段路程的相对速度的，你只能得到一个平均速度</span> _v1_<span>。走路的速度</span> _v2_ <span>因为在往返两段路程是反号的，抵消掉了。所以你不能靠这个计算“往返平均速度”的方法算出球相对于你的速度。要想得到相对速度，你只能测“单程速度”。</span>
 
-<div class="captioned-image-container">
-
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe44cbd07-2624-43c4-a8c7-b05ea7002933_822x555.jpeg)
-
 
 <span>这也就是为什么你不能用测“往返平均光速”的装置来测量光的相对速度。如果测量装置以</span> _v_ <span>的速度与光同方向运动，那么光相对于装置的速度可能和打球的情况类似，过去的时候是</span> _c-v_<span>，反射回来的时候是</span> _c+v_<span>，但因为测的是往返平均速度，所以平均下来就是</span> _c_<span>。他们就因此认为光相对于任何观察者的速度总是</span> _c_<span>，无论观察者如何运动。这是错误的，因为这样测出来的不是光的相对速度，相对速度必须是单程速度。</span>
 

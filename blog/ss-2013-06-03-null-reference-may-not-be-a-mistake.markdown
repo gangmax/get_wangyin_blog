@@ -1,4 +1,8 @@
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F073c3daa-a238-4dd0-8500-219696b02626_300x225.png "null")
+#Null reference may not be a mistake
+
+From [here](https://yinwang1.substack.com/p/null).
+
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png "null")
 
 <span>The null pointer is considered to be a "</span>[billion-dollar mistake](http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)<span>". I have been wondering why there is such a notion until I saw the </span>[video](http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare) <span>where Tony Hoare claims it to be his mistake. In fact, he didn't really say that null pointer should not be used.</span>
 
@@ -8,29 +12,29 @@
 
 <span>Unfortunately most languages don't provide a convenient union type that you can put</span> `String` <span>and</span> `null` <span>together (</span>[Typed Racket](http://docs.racket-lang.org/ts-guide/) <span>is an exception). If Java is to have union types, we can say something like:</span>
 
-{String, null} find1() {
-if (...) {
-return "okay";
-} else {
-return null;
-}
-}
+    {String, null} find1() {
+      if (...) {
+        return "okay";
+      } else {
+        return null;
+      }
+    }
 
 <span>This is saying:</span> `find1`<span>may return a name which is a</span> `String`<span>, or it may return</span> _nothing_<span>. Because of the union type </span>`{String, null}`<span>, the type system knows that you should check for null when you have called</span> `find(),`<span> so it will force you to write a null check:</span>
 
-String s = find();
-if (s != null) {
-x = s.length();
-}
+    String s = find();  
+    if (s != null) {
+      x = s.length();
+    }
 
 In comparison, if we define a slightly different function find2, with a different return type:
 
-String find2() {
-...
-return "okay";
-}
+    String find2() {
+        ...
+        return "okay";
+    }
 
 From the return type we know that find2 will never return null, so the type checker can let you you use the String without checking:
 
-String s = find();
-x = s.length();
+    String s = find();
+    x = s.length();

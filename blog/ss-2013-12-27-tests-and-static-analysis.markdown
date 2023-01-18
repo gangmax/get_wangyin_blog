@@ -1,3 +1,7 @@
+#Tests and static analysis
+
+From [here](https://yinwang1.substack.com/p/tests-and-static-anaysis).
+
 <span>Ever since I made a static analysis tool for Python called</span> [PySonar](http://yinwang0.wordpress.com/2010/09/12/pysonar)<span>, I have been asked about the question: "What is the difference between testing and static analysis?" When I worked at</span> [Coverity](http://www.coverity.com)<span>, my coworkers told me that they also spent quite some time explaining to people about their difference. My answer to this question evolves as my understanding of this area deepens. Recently I replied to a comment asking a similar question, so I think it's a good time to write down some systematic answer for this question.</span>
 
 ### Static analysis is static, tests are dynamic

@@ -1,9 +1,10 @@
+#Muon 寿命的循环推理
+
+From [here](https://yinwang1.substack.com/p/muon).
+
 <span>这篇文章里对与 muon 寿命的测量方法存在误解，请看这篇更新《</span>[测量 muon 寿命的实验](https://yinwang0.substack.com/p/muon-bff)<span>》。虽然这篇文章误解了实验的过程，但它的分析也许可以用在其它的粒子物理实验，所以我还是保留这里的内容。</span>
 
-<div id="youtube2-rVzDP8SMhPo" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;rVzDP8SMhPo&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/rVzDP8SMhPo?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/rVzDP8SMhPo)
 
 另一个最近听说的“相对论实验证据”，就是 muon （μ 子）这种粒子了。这个视频说 muon 的寿命只有 2.2 微秒，所以就算速度接近光速，它们也只能前进 660 米就消失。可是宇宙射线到地球之后产生的 muon 却可以穿透大气层到达地面。
 

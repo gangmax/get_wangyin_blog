@@ -1,13 +1,14 @@
+#1918 西班牙流感
+
+From [here](https://yinwang1.substack.com/p/7fe).
+
 我之前提到“艾滋疫情”其实就是“新冠疫情”的前世今生，它们是用同一个剧本造出来的假象，但其实“艾滋疫情”也不是最早的“病毒剧”了。还有更早的，那就是 1918 年的“西班牙流感”，差不多正好在一百年前。
 
 我已经看过充足的资料，说明 1918 年的“西班牙流感”也是一个假象和骗局。早在那个时候媒体就已经和“科学界”合作，使用“假新闻+假科学”，制造这类恐慌来对民众进行操纵。
 
 推荐大家看看这个介绍 1918 西班牙流感疫情的影片
 
-<div id="youtube2-UDY5COg2P2c" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;UDY5COg2P2c&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/UDY5COg2P2c?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/UDY5COg2P2c)
 
 观察一下他们是如何制造这些恐怖景象的。我们看到的不过是一堆照片和数字，还有一些无法证实的谣传。
 

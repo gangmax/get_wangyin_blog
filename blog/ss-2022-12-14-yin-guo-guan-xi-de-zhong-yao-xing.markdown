@@ -1,7 +1,8 @@
-<div class="captioned-image-container">
+#因果关系的重要性
+
+From [here](https://yinwang1.substack.com/p/70f).
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9135a546-71fe-4664-b348-d7b4b82871d6_1838x2850.jpeg)
-
 
 在这个科学界已经混乱到不明白什么是“因果关系”，如何才能正确得到因果关系的年代，我觉得这本 Judea Pearl 的书《The Book of Why》更加值得推荐了。很多科学家都不能分辨“因果关系”和“相关性”，所以他们看似做了实验，得出的结论却很多是错的。
 

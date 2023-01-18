@@ -1,7 +1,8 @@
-<div class="captioned-image-container">
+#My new book: Ground-Up Computer Science
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0b00d33c-8777-4daf-a21c-d26f198ac6ab_215x300.jpeg)
+From [here](https://yinwang1.substack.com/p/gucs-sample).
 
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg)
 
 <span>I have been teaching online computer science lessons for some time. Recently I'm writing a new introductory book to computer science. I have finished six chapters so far. You may download the first draft chapter here:</span> [gucs-sample-chapter1](https://www.yinwang.org/resources/gucs-sample-chapter1.pdf)<span>.</span>
 

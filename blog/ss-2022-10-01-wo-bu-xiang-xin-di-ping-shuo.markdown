@@ -1,7 +1,8 @@
-<div class="captioned-image-container">
+#我不相信地平说
+
+From [here](https://yinwang1.substack.com/p/6a1).
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa21a1f22-09f7-4791-b617-f83da94d82ff_6240x4160.jpeg)
-
 
 在这个奇妙的时代，如果你质疑登月或其它太空计划的真实性，会很容易被认为是“地平说者”（Flat Earther）。所以有人在猜，我指出了这么多太空计划的虚假，会不会到时候忽然开始支持地平说，那就好玩了。但这是不会发生的，我不会相信地平说。
 

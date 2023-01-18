@@ -1,11 +1,12 @@
+#纽伦堡公约
+
+From [here](https://yinwang1.substack.com/p/b16).
+
 <span>每个人都应该了解一下什么是“</span>[纽伦堡公约](https://en.wikipedia.org/wiki/Nuremberg_Code)<span>”（Nuremberg Code）。我去年研究新冠疫情的时候就知道这个东西了。又过了一年，可能大部分人仍然不知道。现在知道也许还不算太晚。</span>
 
 “纽伦堡公约是一套人体试验之准则，是成于第二次世界大战之后的纽伦堡审判的结果。具体地说，其准则是顶著由于纳粹于战时对人类进行不人道的实验而来，如约瑟夫·门格勒之类的人所进行的实验。”
 
-<div class="captioned-image-container">
-
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fac6b65e8-25cc-49a5-ae3a-4272f050efc8_400x599.jpeg)
-
 
 我发现中文版的“纽伦堡公约”的说明里面，几乎全都没有细则。这个现象比较有意思。但知乎上有一个帖子，里面有翻译的细则 https://zhuanlan.zhihu.com/p/401641353。我只把重点内容拷贝如下，建议大家去看原文。
 

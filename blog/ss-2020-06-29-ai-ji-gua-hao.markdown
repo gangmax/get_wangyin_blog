@@ -1,3 +1,7 @@
+#埃及括號
+
+From [here](https://yinwang1.substack.com/p/egypt-brackets).
+
 自從出現 Java 語言，所謂 Egyptian brackets（埃及括號）的寫法就開始流行。為什麼叫「埃及括號」呢？因為他們把左邊的花括號放在一行的末尾，看起來就很像埃及壁畫裡的人物圖案（如圖）。
 
 function fact(n) {

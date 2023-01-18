@@ -1,4 +1,8 @@
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F39ac9350-362b-4419-ad84-33e4adfe1798_500x384.gif "pysonar2")
+#PySonar: a type inferencer and indexer for Python
+
+From [here](https://yinwang1.substack.com/p/pysonar).
+
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif "pysonar2")
 
 PySonar is a type inferencer and indexer for Python. It includes a powerful type system and a sophisticated inter-procedural analysis. Compared to style-checking tools or IDEs, PySonar analyzes programs in deeper ways and produces more accurate results. PySonar resolves more names than typical IDEs. The current resolution rate is about 97% for Python's standard library.
 
@@ -16,7 +20,7 @@ PySonar is a type inferencer and indexer for Python. It includes a powerful typ
 
 4.  **High accuracy semantic indexing** <span>PySonar can build code indexes that respects scopes and types. Because it performs inter-procedural analysis, it is often able to find the definitions of attributes inside function parameters. This works across functions, classes and modules. The following image shows that it can accurately locate the field</span> `x.z` <span>which refers to the "z" fields in classes</span> `B1` <span>and</span> `C1`<span>, but not</span> `A1`<span>.</span>
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2eb28281-71c7-47c9-879f-1e6e6a9f52dc_654x367.png)
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png)
 
 ### Availability
 

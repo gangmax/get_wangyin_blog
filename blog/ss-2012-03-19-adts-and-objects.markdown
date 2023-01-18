@@ -1,3 +1,7 @@
+#ADTs and objects
+
+From [here](https://yinwang1.substack.com/p/objects).
+
 <span>After reading William Cook's essay</span> _[On Understanding Data Abstraction, Revisited](http://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf)_<span>, let me try to condense the difference between abstract data types (ADTs) and objects into a few words.</span>
 
 (To avoid ambiguity, I use "instances" to stand for data created by instantiating ADTs)

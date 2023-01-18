@@ -1,3 +1,7 @@
+#Purely Functional Languages and Monads
+
+From [here](https://yinwang1.substack.com/p/pure-fp-and-monads).
+
 In general, functional languages are pleasant to work with because they support first-class functions, which are a very powerful modeling tool. But if you pursue the extreme---to use a purely functional language, you get adverse effects similar to OO design patterns.
 
 In a conventional OO language, having to use OO design patterns makes hard things even harder; but in a purely functional language, having to use pure functions to model side-effects makes trivial things hard and hard things impossible. So speaking of the two evils, OOP is the lesser one because at least easy things are still easy in them.
@@ -31,7 +35,7 @@ Purely functional languages also complicates the programs and ensue a huge cogni
 <span>One of the major design patterns in purely functional languages is called</span> _monads_<span>, a highly stylized way of structuring side-effects. If you look deep into them, monads make programs complicated and hard to write, and monad transformers are in essence a hack to get around monads' limitations---they are not principled ways of composing monads. Representing side-effects using monads is as convoluted as writing interpreters or compilers using visitor patterns. For this matter, I wrote a</span> [short article](http://yinwang0.wordpress.com/2013/03/31/purely-functional) <span>some time ago which not many people have read:</span>
 
 > <span>To write programs in a purely functional programming language is much like living in a </span>_wired world_<span>. In such a world, there are no electromagnetic waves nor sound waves, so you don’t have wifi, cell phones, satellite TV, radios, etc. You don’t even have light or sound. In other words, everything is blind and deaf.</span>
->
+> 
 > All information must pass through wires or pipes, connected by switch boxes which we call “monads”. You must carefully route all the wires and pipes and connect them correctly before any information processing device, including your eyes and ears, can properly work.
 
 <span>Trivial things in other languages (such as random number generators or circular data structures) become non-trivial in a purely functional language. Easy things often become research problems when you try to write them using monads, so you often see papers titled</span> _A Monadic Approach to a-solved-problem_<span>.</span>

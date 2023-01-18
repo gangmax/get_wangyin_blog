@@ -1,9 +1,10 @@
+#关于星空的光学
+
+From [here](https://yinwang1.substack.com/p/a35).
+
 看看这个很美的影片，是在挪威拍摄的北极光，里面也有很多星星。
 
-<div id="youtube2-_nE8AhurAs0" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;_nE8AhurAs0&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/_nE8AhurAs0?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/_nE8AhurAs0)
 
 （用大点的屏幕观看，否则有些光线弱的星星因为像素压缩原因可能看不到）
 

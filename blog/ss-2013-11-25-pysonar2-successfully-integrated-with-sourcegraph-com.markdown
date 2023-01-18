@@ -1,14 +1,18 @@
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F01ff6607-60b5-4bf2-a849-16970fb9823e_400x162.png)
+#PySonar2 successfully integrated with Sourcegraph.com
+
+From [here](https://yinwang1.substack.com/p/pysonar-sourcegraph).
+
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffee5e0a7-77b4-4781-8d1e-c49aa330eb6f_400x162.png)
 
 <span>(The above picture was taken from: </span>[http://sourcegraph.com/github.com/mitsuhiko/flask](http://sourcegraph.com/github.com/mitsuhiko/flask)<span>) I recently joined a newly founded company called</span> [Sourcegraph.com](http://www.sourcegraph.com)<span>. We build an intelligent code search engine using some of the most powerful programming language technologies. The difference between Sourcegraph and other code search sites is: Sourcegraph truly understands code and produces accurate results. Sourcegraph lets you</span> _semantically_ <span>search and browse opensource code on the web in a similar fashion as you do locally with IDEs. It also finds users of your code worldwide, and show exactly how they use your code. For example the following is what Sourcegraph shows you about</span> [Flask](http://sourcegraph.com/github.com/mitsuhiko/flask)<span> framework's Flask.route method.</span>
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4d571736-2e07-46f9-b86c-b809ebb3ca3c_300x279.png "code examples of Flask.route")
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fda33ecc0-1142-4f25-9785-07fb537aa86b_300x279.png "code examples of Flask.route")
 
 ### PySonar2 integration
 
 <span>Two weeks since joining, I have successfully integrated</span> [PySonar2](http://github.com/yinwang0/pysonar2)<span>'s type inference and indexing features with Sourcegraph.com, so that it can now show inferred types for Python functions. This is an advanced feature currently not available in any Python IDE. For example, the following is the "Top Functions" page for the</span> [Flask framework](http://flask.pocoo.org)<span>, showing the PySonar2 inferred types. Notice that the parameters are not type-annotated. PySonar2 infers the types by an advanced interprocedural analysis.</span>
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd863698a-1fbe-4e9f-b037-c21d07cb2999_300x240.png)
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0dc15852-72b5-4cb2-8dba-e48c37f6bf33_300x240.png)
 
 ### How to use sourcegraph.com to browse your GitHub repo
 

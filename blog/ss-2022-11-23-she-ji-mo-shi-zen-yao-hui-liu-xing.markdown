@@ -1,7 +1,8 @@
-<div class="captioned-image-container">
+#设计模式怎么会流行？
+
+From [here](https://yinwang1.substack.com/p/846).
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F09d0aa8d-a8c8-4f21-8cae-b974e5918acd_420x648.jpeg)
-
 
 <span>30 年后，人们终于开始庆祝《Design Patterns》的逐渐灭亡。这本书曾经在 Google 公司的每一个书架上，被奉为经典。十多年前我第一次看到这本书，就发现它完全是无稽之谈，但没想到它会成为如此大的祸害，需要高明的程序员们经过这么多年的不懈抗争，才开始扭转局面。世界上这么多的聪明人，为什么他们需要做这样的事情？纪念我的《</span>[解密“设计模式”](http://www.yinwang.org/blog-cn/2013/03/07/design-patterns)<span>》写作将近十周年。</span>
 

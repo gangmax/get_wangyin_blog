@@ -1,7 +1,8 @@
-<div class="captioned-image-container">
+#改良版 Twin Paradox
+
+From [here](https://yinwang1.substack.com/p/twin-paradox-7e4).
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6adcf916-8c66-4df5-ac50-195017bed55d_1100x500.jpeg)
-
 
 我觉得想出了 twin paradox 的真正答案，它和我见过的任何答案都不一样。但我想先卖一个关子，我想先提出一个对 twin paradox 的改良方案，让它变得似乎无懈可击，更刁钻更难一些，然后再按照相对论来解决它。我的答案稍后再写，大家可以先思考一下这个问题。
 

@@ -1,4 +1,8 @@
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0b55315-7088-4e66-be8d-d9c5a557bd82_249x187.jpeg)
+#A bug in GHC's type system
+
+From [here](https://yinwang1.substack.com/p/ghc-type).
+
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9ac463f3-4cfb-4f9b-b834-74006cc0ebed_249x187.jpeg)
 
 Several days ago, I implemented an experimental type inference system with first-class polymorphism. When comparing it with other systems, I found a possible bug in GHC's type system regarding universal quantification. The phenomemon was confirmed and reproduced by people at #haskell IRC channel for GHC versions above 7.01\. The code that causes trouble is:
 

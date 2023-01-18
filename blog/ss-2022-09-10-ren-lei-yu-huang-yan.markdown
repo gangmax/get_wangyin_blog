@@ -1,3 +1,7 @@
+#人类与谎言
+
+From [here](https://yinwang1.substack.com/p/05b).
+
 本来动物是不会撒谎的。普通动物没有复杂的语言，只能靠简单的叫声，肢体语言，心灵感应，所以它们的生活特别简单，不会有骗术产生。
 
 但人类这种动物不一样，他们不但发明了工具，而且产生了具有复杂表达力的语言。自从人类有了语言能力，就开始有了谎言。这就像一个机器里面加上了编程语言，它就容易产生 bug 一样。简单的汽车如果全部靠机械设计，是不容易弄错的，但如果你放进电脑芯片，用软件去控制它的各个部件，它就容易出问题了。不但容易出错，而且容易被“恶意程序”和“诈骗程序”攻击。
@@ -8,10 +12,7 @@
 
 后来出现了电影和电视，人们就开始相信影片拍下来的就假不了，然而他们没想到的是，电影技术早已发展到可以任意创造虚假的影片。根本不需要 AI 来做这个事，早已有了万能的绿幕和 Adobe After Effects 这样的软件。看看这个指南
 
-<div id="youtube2-Gya4QBqSrJo" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;Gya4QBqSrJo&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}">
-
-<div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/Gya4QBqSrJo?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div>
-
+[Video](https://www.youtube-nocookie.com/embed/Gya4QBqSrJo)
 
 你也能把玩具汽车拍下来，通过后期处理把自己放进去，就像自己在开真车一样。
 

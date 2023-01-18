@@ -1,3 +1,7 @@
+#There is no human-level computer vision
+
+From [here](https://yinwang1.substack.com/p/human-level-computer-vision).
+
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0627a84-592e-408a-b3b4-9ee1367457bd_500x300.jpeg "Image result for car")
 
 What is this? It is a car. You will say so immediately without hesitance. But if you ask this question to a computer vision model, even the most advanced ones, they may answer like this:

@@ -1,27 +1,22 @@
+#Back to the future of databases
+
+From [here](https://yinwang1.substack.com/p/database).
+
 Why do we need databases? What a stupid question. I already heard some people say. But it is a legitimate question, and here is an answer that not many people know.
 
 <span>First of all, why can't we just write programs that operate on objects? The answer is, obviously, we don't have enough memory to hold all the data. But why can't we just swap out the objects to disk and load them back when needed? The answer is yes we can, but not in Unix, because Unix manages memory as</span> _pages_<span>, not as</span> _objects_<span>. There are systems who lived before Unix that manage memory as objects, and perform </span>_object-granularity persistence_<span>. That is a feature ahead of its time, and is until today far more advanced than the current state-of-the-art. Here are some pictures of such systems:</span>
 
 [IBM System/38](http://en.wikipedia.org/wiki/IBM_System/38)
 
-<div class="captioned-image-container">
-
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a93a378-7287-4073-897a-93f539095687_200x150.jpeg "system-38")
-
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd886afed-1775-4b45-a742-b789d9cb0766_200x150.jpeg "system-38")
 
 [Lisp Machine](http://en.wikipedia.org/wiki/Lisp_machine)
 
-<div class="captioned-image-container">
-
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5241935-c588-466a-8e2d-696cf8a9ce5c_160x211.jpeg "lisp-machine")
-
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F30c9d034-2e54-4fbd-a893-fa9600888ced_160x211.jpeg "lisp-machine")
 
 [Oberon](http://www.ics.uci.edu/~franz/Site/pubs-pdf/BC03.pdf)
 
-<div class="captioned-image-container">
-
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c88c323-26de-4453-9027-986f2438d2d4_200x151.png "Oberon")
-
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F081fb49f-76c4-4aef-84db-fc01b8c9c01b_200x151.png "Oberon")
 
 Those systems don't really need databases (in its usual sense). Data integration was seamless and transparent to the programmer. You don't need to know the existence of a "disk", a "file system", or a "database". You can just pretend that you can allocate infinite number of objects and work on them in the most natural way. Unfortunately most of those systems were either terribly expensive or had problems in other aspects of their design. Finally, they seemed to have died out.
 
@@ -47,21 +42,21 @@ You create the problem, and then you solve it. And you call this two inventions.
 
 <span>A database "</span>_schema_<span>" is in essence a "structure type", like the struct definition in C. For example, the schema created by the following SQL statement</span>
 
-CREATE TABLE Students ( sid CHAR(20),
-name CHAR(20),
-login CHAR(20),
-age INTEGER,
-gpa REAL )
+    CREATE TABLE Students ( sid CHAR(20),
+                            name CHAR(20),
+                            login CHAR(20),
+                            age INTEGER,
+                            gpa REAL )
 
 is equivalent to the C struct
 
-struct student {
-char* sid;
-char* name;
-char* login;
-int age;
-double gpa;
-}
+    struct student {
+      char* sid;
+      char* name;
+      char* login;
+      int age;
+      double gpa;
+    }
 
 (Note that I use a SQL declaration here just because I don't want to draw a picture of the schema. This equivalence of a relational schema with a structure type has nothing to do with SQL.)
 
@@ -73,14 +68,14 @@ If you really want to learn SQL, here is the cheat sheet for it:
 
 The query
 
-SELECT Book.title
-FROM Book
-WHERE price > 100
+    SELECT Book.title
+     FROM Book
+     WHERE price > 100
 
 is equivalent to the Lisp expression
 
-(map (lambda (b) b.title)
-(filter (lambda (p) (> p 100)) Book)
+    (map (lambda (b) b.title)
+         (filter (lambda (p) (> p 100)) Book)
 
 This program is then sent to the "database engine" for execution. That is, we move the program to the data, instead of loading the data to the program. And that's also the principle behind MapReduce. Have you noticed how easy this can be done with Lisp? You just send the code to the interpreters running on remote machines!
 
