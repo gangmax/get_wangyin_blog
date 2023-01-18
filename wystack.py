@@ -102,8 +102,16 @@ def write_post(content, target_filename, target_dir):
         f.write(content)
 
 if __name__ == '__main__':
-    total_batch_num = sys.argv[1] if len(sys.argv) > 1 else 1
-    for i in range(0, total_batch_num):
+    if len(sys.argv) == 2:
+        from_batch_num = 0
+        to_batch_num = int(sys.argv[1])
+    elif len(sys.argv) == 3:
+        from_batch_num = int(sys.argv[1])
+        to_batch_num = int(sys.argv[2])
+    else:
+        from_batch_num = 0
+        to_batch_num = 1
+    for i in range(from_batch_num, to_batch_num):
         given_url = INDEX_URL.format(i)
         items = parse_index(given_url)
         print('Find total "{}" posts on "{}"...'.format(len(items), given_url))
