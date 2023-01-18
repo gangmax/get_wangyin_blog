@@ -19,7 +19,7 @@ import requests
 from functools import partial
 from slugify import slugify
 
-INDEX_URL = 'https://yinwang1.substack.com/api/v1/archive?sort=new&limit=12&offset=0'
+INDEX_URL = 'https://yinwang1.substack.com/api/v1/archive?sort=new&limit=12&offset={}'
 PAGE_CONTENT_START_TAG = '<div dir="auto" class="body markup">'
 PAGE_CONTENT_END_TAG = '<div class="post-footer use-separators">'
 BASE_BLOG_PATH = "./blog"
@@ -102,14 +102,16 @@ def write_post(content, target_filename, target_dir):
         f.write(content)
 
 if __name__ == '__main__':
-    given_url = sys.argv[1] if len(sys.argv) > 1 else INDEX_URL
-    items = parse_index(given_url)
-    print('Find total "{}" posts...'.format(len(items)))
-    for item in items:
-        target_dir = BASE_BLOG_PATH
-        filename = get_filename(item)
-        raw_content = parse_page_to_post(item['url'])
-        result_content = optimize_content(raw_content, item['title'], item['url'])
-        write_post(result_content, filename, target_dir)
-        print('Finish getting the "{}/{}" post...'.format(target_dir, filename))
+    total_batch_num = sys.argv[1] if len(sys.argv) > 1 else 1
+    for i in range(0, total_batch_num):
+        given_url = INDEX_URL.format(i)
+        items = parse_index(given_url)
+        print('Find total "{}" posts on "{}"...'.format(len(items), given_url))
+        for item in items:
+            target_dir = BASE_BLOG_PATH
+            filename = get_filename(item)
+            raw_content = parse_page_to_post(item['url'])
+            result_content = optimize_content(raw_content, item['title'], item['url'])
+            write_post(result_content, filename, target_dir)
+            print('Finish getting the "{}/{}" post...'.format(target_dir, filename))
     print('Done.')
