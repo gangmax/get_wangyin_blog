@@ -20,10 +20,17 @@ from functools import partial
 from slugify import slugify
 
 INDEX_URL = 'https://yinwang1.substack.com/api/v1/archive?sort=new&limit=12&offset=0'
-INDEX_DATE_TITLE_REGEX = r'(\d{4})/(\d{2})/(\d{2})/(.*)/$'
 PAGE_CONTENT_START_TAG = '<div dir="auto" class="body markup">'
 PAGE_CONTENT_END_TAG = '<div class="post-footer use-separators">'
 BASE_BLOG_PATH = "./blog"
+FILTERED_LINES_PATTERNS = [
+    '^\<div class=\"captioned-image-container\"\>$',
+    '^\<div\>$',
+    '^\</div\>$',
+    '^\<figure\>$',
+    '^\</figure\>$',
+    '',
+]
 
 def parse_index(index_url):
     '''
@@ -56,43 +63,47 @@ def parse_page_to_post(page_url, start_tag = PAGE_CONTENT_START_TAG,
         page_url, start_tag, end_tag))
     return stream.read()
 
-def convert_others(threshold: int, content: str) -> str:
-    return '' if len(content) <= threshold else content
-
 def convert_image_tag(content: str) -> str:
     m = re.search(r'\!\[.*\]\((.+)\)\<\/picture\>', content)
     return '![]({})'.format(m.group(1))
 
+def is_filtered_line(line: str) -> bool:
+    for item in FILTERED_LINES_PATTERNS:
+        m = re.fullmatch(item, line)
+        if m is not None:
+            return True
+    return False
+
 CONVERTING_FUNCTION_MAP = {
     '[<div clas': convert_image_tag,
     '<figure> [': convert_image_tag,
-    '<figure>': partial(convert_others, 8),
-    '</figure>': partial(convert_others, 9),
-    '<div class': partial(convert_others, 10),
-    '</div>': partial(convert_others, 6),
 }
 
-def optimize_content(raw: str) -> str:
+def optimize_content(raw: str, title: str, url: str) -> str:
     '''
     Optimize the text content by:
         1. Remove the useless html tags such as "<div>" and "</div>".
         2. Convert the original image tag to readable content.
     '''
-    result = ''
+    result = '#{}\n\nFrom [here]({}).\n\n'.format(title, url)
+    last_line = ''
     for line in raw.splitlines():
-        line = line.strip()
-        if line[0:10] in CONVERTING_FUNCTION_MAP.keys():
+        if len(line) == 0 or is_filtered_line(line):
+            line = ''
+        elif line[0:10] in CONVERTING_FUNCTION_MAP.keys():
             converted = CONVERTING_FUNCTION_MAP[line[0:10]](line)
             if len(converted) > 0:
-                result = result + CONVERTING_FUNCTION_MAP[line[0:10]](line) + '\n'
+                line = converted
+        if last_line == '' and line == '':
+            result = result
         else:
             result = result + line + '\n'
+        last_line = line
     return result
 
 def write_post(content, target_filename, target_dir):
     with open('{}/{}'.format(target_dir, target_filename), 'w') as f:
         f.write(content)
-
 
 if __name__ == '__main__':
     given_url = sys.argv[1] if len(sys.argv) > 1 else INDEX_URL
@@ -102,7 +113,7 @@ if __name__ == '__main__':
         target_dir = BASE_BLOG_PATH
         filename = get_filename(item)
         raw_content = parse_page_to_post(item['url'])
-        result_content = optimize_content(raw_content)
+        result_content = optimize_content(raw_content, item['title'], item['url'])
         write_post(result_content, filename, target_dir)
         print('Finish getting the "{}/{}" post...'.format(target_dir, filename))
     print('Done.')
