@@ -35,12 +35,11 @@ import re
 import urllib.request
 
 IMAGE_URL_PATTERNS = [
-    '(\(http[s]{0,1}:\/\/www.yinwang.org\/images\/.+?g\))',
-    '\(http[s]{0,1}:\/\/substackcdn.com\/image/fetch\/.+_[\d|x]+.(?:jpg|gif|png)\)',
+    '\((http[s]{0,1}:\/\/www.yinwang.org\/images\/.+?g)\)',
+    '\((http[s]{0,1}:\/\/substackcdn.com\/image\/fetch\/\S+.(?:jpg|jpeg|gif|png)).*\)',
 ]
-
 IMAGE_NAME_PATTERNS = {
-    '^https.+images%2F(.+\.(?:jpg|gif|png))$': lambda x: 'substack_' + x
+    '^https.+images%2F(.+\.(?:jpg|jpeg|gif|png))$': lambda x: 'substack_' + x
 }
 
 
@@ -59,7 +58,7 @@ def get_imagelinks(blog_path):
             for exp in IMAGE_URL_PATTERNS:
                 matched = re.findall(exp, line)
                 for x in matched:
-                    imagelinks.append(x[1:-1])
+                    imagelinks.append(x)
     imagelinks.reverse()
     print(imagelinks)
     return imagelinks
