@@ -118,8 +118,8 @@ if __name__ == '__main__':
         for item in items:
             target_dir = BASE_BLOG_PATH
             filename = get_filename(item)
+            print('Fetching the "{}/{}" post...'.format(target_dir, filename))
             raw_content = parse_page_to_post(item['url'])
             result_content = optimize_content(raw_content, item['title'], item['url'])
             write_post(result_content, filename, target_dir)
-            print('Finish getting the "{}/{}" post...'.format(target_dir, filename))
     print('Done.')
