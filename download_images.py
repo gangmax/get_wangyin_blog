@@ -30,23 +30,28 @@
 
 '''
 
-
-
 import os
 import re
 import urllib.request
 
 IMAGE_URL_PATTERNS = [
     '(\(http[s]{0,1}:\/\/www.yinwang.org\/images\/.+?g\))',
-    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[.A-Za-z0-9_-]+\.\w+g\?w=\d+&h=\d+\))',
-    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[.A-Za-z0-9_-]+\.\w+g\?w=\d+\))',
-    '(\(http[s]{0,1}:\/\/yinwang1.files.wordpress.com\/\d+\/\d+\/[.A-Za-z0-9_-]+\.\w+g\))'
+    '\(http[s]{0,1}:\/\/substackcdn.com\/image/fetch\/.+_[\d|x]+.(?:jpg|gif|png)\)',
 ]
+
+IMAGE_NAME_PATTERNS = {
+    '^https.+images%2F(.+\.(?:jpg|gif|png))$': lambda x: 'substack_' + x
+}
+
 
 def get_imagelinks(blog_path):
     imagelinks = []
     # Filter files with extension: https://stackoverflow.com/a/3964696
-    filenames = [f for f in sorted(os.listdir(blog_path)) if f.endswith('.markdown') or f.endswith('.md')]
+    filenames = [
+        f
+        for f in sorted(os.listdir(blog_path))
+        if f.endswith('.markdown') or f.endswith('.md')
+    ]
     for fname in filenames:
         with open(blog_path + '/' + fname) as f:
             fcontent = f.readlines()
@@ -59,15 +64,19 @@ def get_imagelinks(blog_path):
     print(imagelinks)
     return imagelinks
 
+
 def get_filename(url):
     file_name = url.split('/')[-1]
-    if '?' in file_name:
-        # Handle the situation like "album_temp_1601205394.jpg?w=945&h=1552&zoom=2".
-        file_name = file_name.split('?')[0]
+    for key in IMAGE_NAME_PATTERNS.keys():
+        m = re.match(key, file_name)
+        if m is not None:
+            file_name = IMAGE_NAME_PATTERNS[key](m.group(1))
     return file_name
+
 
 def download_image(url, image_path):
     urllib.request.urlretrieve(url, image_path + '/' + get_filename(url))
+
 
 if __name__ == '__main__':
     blog_path = './blog'
@@ -80,4 +89,3 @@ if __name__ == '__main__':
         download_image(url, image_path)
         count = count + 1
     print('Done({}).'.format(count))
-
