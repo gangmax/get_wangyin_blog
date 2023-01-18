@@ -29,8 +29,12 @@ FILTERED_LINES_PATTERNS = [
     '^\</div\>$',
     '^\<figure\>$',
     '^\</figure\>$',
-    '',
+    '^\<div id=\"youtube2-.+\"\>$',
 ]
+MATCHED_PATTERNS = {
+    '.*\<div class=\"image2-inset\"\>.+\!\[.*\]\((.+)\)\<\/picture\>': '![]({})',
+    '^\<div class=\"youtube-inner\">\<iframe src=\"(.+)\?.+\<\/div\>$': '[Video]({})',
+}
 
 def parse_index(index_url):
     '''
@@ -63,21 +67,12 @@ def parse_page_to_post(page_url, start_tag = PAGE_CONTENT_START_TAG,
         page_url, start_tag, end_tag))
     return stream.read()
 
-def convert_image_tag(content: str) -> str:
-    m = re.search(r'\!\[.*\]\((.+)\)\<\/picture\>', content)
-    return '![]({})'.format(m.group(1))
-
 def is_filtered_line(line: str) -> bool:
     for item in FILTERED_LINES_PATTERNS:
         m = re.fullmatch(item, line)
         if m is not None:
             return True
     return False
-
-CONVERTING_FUNCTION_MAP = {
-    '[<div clas': convert_image_tag,
-    '<figure> [': convert_image_tag,
-}
 
 def optimize_content(raw: str, title: str, url: str) -> str:
     '''
@@ -90,10 +85,11 @@ def optimize_content(raw: str, title: str, url: str) -> str:
     for line in raw.splitlines():
         if len(line) == 0 or is_filtered_line(line):
             line = ''
-        elif line[0:10] in CONVERTING_FUNCTION_MAP.keys():
-            converted = CONVERTING_FUNCTION_MAP[line[0:10]](line)
-            if len(converted) > 0:
-                line = converted
+        else:
+            for pattern in MATCHED_PATTERNS.keys():
+                m = re.search(pattern, line)
+                if m is not None:
+                    line = MATCHED_PATTERNS[pattern].format(m.group(1))
         if last_line == '' and line == '':
             result = result
         else:
