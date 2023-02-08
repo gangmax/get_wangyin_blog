@@ -204,7 +204,7 @@ febreze 是我在美国见过的品牌，但我在美国从来不买这种东西
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39b01f1e-2868-43d7-9adc-4efc3b4340b2_400x533.jpeg)
 
-<span>另外，我查了一下 Ecolab 这个公司的资料，发现一些很可疑的背景。看看他们的</span>[最大股东](https://www.barrons.com/articles/bill-gates-ecolab-stock-51660936071)<span>是谁，他为什么对这样的公司有这么大的投资兴趣？明白的人应该就明白这大概是怎么回事了。</span>
+<span>另外，我查了一下 Ecolab 这个公司的资料，发现一些很可疑的背景。看看他们的</span>[最大股东](https://www.barrons.com/articles/bill-gates-ecolab-stock-51660936071)<span>是谁，他为什么对这样的公司有这么大的投资兴趣？如果你明白他投资的各种“疫苗”给世界带来了多大的灾难，害死了多少人，就能明白这大概是怎么回事了。</span>
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5901035-260a-4a7f-a1f0-60f930866dec_1822x1420.jpeg)
 
