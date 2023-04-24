@@ -23,7 +23,7 @@ INDEX_URL = (
     'https://yinwang1.substack.com/api/v1/archive?sort=new&limit={}&offset={}'
 )
 PAGE_CONTENT_START_TAG = '<div dir="auto" class="body markup">'
-PAGE_CONTENT_END_TAG = '<div class="post-footer use-separators">'
+PAGE_CONTENT_END_TAG = '<div class="post-footer">'
 BASE_BLOG_PATH = "./blog"
 FILTERED_LINES_PATTERNS = [
     '^\<div class=\"captioned-image-container\"\>$',
