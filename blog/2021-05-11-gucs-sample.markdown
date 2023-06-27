@@ -15,6 +15,11 @@
 样章可以在这里下载：
 
 [第 1 章](https://www.yinwang.org/resources/gucs-sample-chapter1.pdf)  
-[第 2 章](https://www.yinwang.org/resources/gucs-sample-chapter2.pdf)
+[第 2 章](https://www.yinwang.org/resources/gucs-sample-chapter2.pdf)  
+[第 3 章](https://www.yinwang.org/resources/gucs-sample-chapter3.pdf)  
+[第 4 章](https://www.yinwang.org/resources/gucs-sample-chapter4.pdf)  
+[第 5 章](https://www.yinwang.org/resources/gucs-sample-chapter5.pdf)  
+[第 6 章](https://www.yinwang.org/resources/gucs-sample-chapter6.pdf)  
+[第 7 章](https://www.yinwang.org/resources/gucs-sample-chapter7.pdf)
 
-请注意这只是前两节课的内容，不可能包罗万象。因为是样章，所以不提供练习和指导。因为免费样章已经包含了很多价值，所以这本书可能不会再有其它免费内容发布。
+因为是样章，所以不提供练习和指导。
