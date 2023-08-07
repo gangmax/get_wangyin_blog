@@ -1,6 +1,6 @@
 # How to reinvent the Y combinator
 
-From [here](https://yinwang0.substack.com/p/reinvent-y).
+From [here](https://yinwang1.substack.com/p/reinvent-y).
 
 [slideshare id=12319464&w=425&h=355&sc=no]
 

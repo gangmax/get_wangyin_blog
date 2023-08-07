@@ -1,8 +1,8 @@
 # A minimal boot sector tutorial
 
-From [here](https://yinwang0.substack.com/p/boot-sector).
+From [here](https://yinwang1.substack.com/p/boot-sector).
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F21bd9773-9983-432b-acbf-6ec2d2ccf57f_720x400.png)
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6f08a434-dc03-4ba4-b018-36633b586a02_720x400.png)
 
 The natural first step of building an operating system is to find a way to run programs on "bare hardware". The task turns out to be quite easy despite its daunting first impression. After researching on the net and trying out various tutorials, I found all of them overly complicated. Most of them assume interfacing with a C-like language and implementing a Unix-like system, but C and Unix are not the only story about operating systems design. A boot sector tutorial should teach nothing more than how to boot a computer.
 

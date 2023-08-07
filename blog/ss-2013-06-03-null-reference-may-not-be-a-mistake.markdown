@@ -1,8 +1,8 @@
 # Null reference may not be a mistake
 
-From [here](https://yinwang0.substack.com/p/null).
+From [here](https://yinwang1.substack.com/p/null).
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F073c3daa-a238-4dd0-8500-219696b02626_300x225.png "null")
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png "null")
 
 <span>The null pointer is considered to be a "</span>[billion-dollar mistake](http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)<span>". I have been wondering why there is such a notion until I saw the </span>[video](http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare) <span>where Tony Hoare claims it to be his mistake. In fact, he didn't really say that null pointer should not be used.</span>
 

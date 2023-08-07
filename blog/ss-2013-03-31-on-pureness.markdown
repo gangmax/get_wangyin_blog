@@ -1,6 +1,6 @@
 # On pureness
 
-From [here](https://yinwang0.substack.com/p/purely-functional).
+From [here](https://yinwang1.substack.com/p/purely-functional).
 
 <span>It is usually a pleasure to use a functional programming language, but it is doubtful whether we should care about the "pureness" of the language. To write programs in a completely </span>_pure_<span>functional programming language (e.g. Haskell) is much like living in a</span> _wired world_<span>.</span>
 

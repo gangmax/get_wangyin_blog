@@ -1,6 +1,6 @@
 # Three famous quotes
 
-From [here](https://yinwang0.substack.com/p/quotes).
+From [here](https://yinwang1.substack.com/p/quotes).
 
 These three quotes are logically related to each other. Have you figured out their logical connections? ;-)
 

@@ -1,6 +1,6 @@
 # Sum types and union types
 
-From [here](https://yinwang0.substack.com/p/sum).
+From [here](https://yinwang1.substack.com/p/sum).
 
 In a new type system I'm designing, I was trying to find a good reason to get rid of sum types (as are commonly used in ML and Haskell). Well, I don't hate them that much, but for simplicity's sake, I always try to remove things unless there are undeniable reasons that they must exist.
 

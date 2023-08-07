@@ -1,6 +1,6 @@
 # Purely Functional Languages and Monads
 
-From [here](https://yinwang0.substack.com/p/pure-fp-and-monads).
+From [here](https://yinwang1.substack.com/p/pure-fp-and-monads).
 
 In general, functional languages are pleasant to work with because they support first-class functions, which are a very powerful modeling tool. But if you pursue the extreme---to use a purely functional language, you get adverse effects similar to OO design patterns.
 

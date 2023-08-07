@@ -1,6 +1,6 @@
 # Back to the future of databases
 
-From [here](https://yinwang0.substack.com/p/database).
+From [here](https://yinwang1.substack.com/p/database).
 
 Why do we need databases? What a stupid question. I already heard some people say. But it is a legitimate question, and here is an answer that not many people know.
 
@@ -8,15 +8,15 @@ Why do we need databases? What a stupid question. I already heard some people sa
 
 [IBM System/38](http://en.wikipedia.org/wiki/IBM_System/38)
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a93a378-7287-4073-897a-93f539095687_200x150.jpeg "system-38")
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd886afed-1775-4b45-a742-b789d9cb0766_200x150.jpeg "system-38")
 
 [Lisp Machine](http://en.wikipedia.org/wiki/Lisp_machine)
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5241935-c588-466a-8e2d-696cf8a9ce5c_160x211.jpeg "lisp-machine")
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F30c9d034-2e54-4fbd-a893-fa9600888ced_160x211.jpeg "lisp-machine")
 
 [Oberon](http://www.ics.uci.edu/~franz/Site/pubs-pdf/BC03.pdf)
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c88c323-26de-4453-9027-986f2438d2d4_200x151.png "Oberon")
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F081fb49f-76c4-4aef-84db-fc01b8c9c01b_200x151.png "Oberon")
 
 Those systems don't really need databases (in its usual sense). Data integration was seamless and transparent to the programmer. You don't need to know the existence of a "disk", a "file system", or a "database". You can just pretend that you can allocate infinite number of objects and work on them in the most natural way. Unfortunately most of those systems were either terribly expensive or had problems in other aspects of their design. Finally, they seemed to have died out.
 

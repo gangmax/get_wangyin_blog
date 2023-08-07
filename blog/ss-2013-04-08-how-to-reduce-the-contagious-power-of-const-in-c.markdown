@@ -1,6 +1,6 @@
 # How to reduce the contagious power of 'const' in C++
 
-From [here](https://yinwang0.substack.com/p/const).
+From [here](https://yinwang1.substack.com/p/const).
 
 For the purpose of optimization and (possibly?) safety, the C++ programming language decided that the users should manually specify 'const' annotations for variables that they know will/should never be modified. While I admit the possible usefulness of this annotation, I often see it misused, and this often results in a contagious effect where unnecessarily many variables and parameters are annotated as 'const'.
 

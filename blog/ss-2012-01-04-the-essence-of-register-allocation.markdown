@@ -1,6 +1,6 @@
 # The essence of register allocation
 
-From [here](https://yinwang0.substack.com/p/register-allocation).
+From [here](https://yinwang1.substack.com/p/register-allocation).
 
 [slideshare id=229465411&doc=regalloc-200301034705]
 

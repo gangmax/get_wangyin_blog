@@ -1,6 +1,6 @@
 # Indentation-based syntax considered troublesome
 
-From [here](https://yinwang0.substack.com/p/layout).
+From [here](https://yinwang1.substack.com/p/layout).
 
 <span>Although the idea of</span> [layout syntax](http://en.wikipedia.org/wiki/Off-side_rule)<span>---using whitespace characters to delimit blocks---has been promoted by several languages (notably Python and Haskell), I think this kind of syntax brings more trouble than benefits.</span>
 
@@ -100,7 +100,7 @@ Even if we do hate curly braces, there are better ways to reduce or even complet
 
 <span>Better still, we could use a</span> _structural editor_ <span>that lets us manipulate the AST (abstract syntax tree) directly. Those editors could provide several options of denoting blocks. You can switch between colored blocks, curly braces, or nothing at all. You can switch the look of your code at any time, instantly. People have implemented such editors, for example</span> [this editor](http://blogs.msdn.com/b/kirillosenkov/archive/2009/09/08/first-videos-of-the-structured-editor-prototype.aspx) <span>designed by Kirill Osenkov.</span>
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2688bcb6-816d-4c5f-93d6-e55c991daefd_794x720.png "Structural Editor by Kirill Osenkov")
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png "Structural Editor by Kirill Osenkov")
 
 ### Re-indentation hassle
 

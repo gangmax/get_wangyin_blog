@@ -1,6 +1,6 @@
 # A reformulation of reducibility
 
-From [here](https://yinwang0.substack.com/p/reducibility).
+From [here](https://yinwang1.substack.com/p/reducibility).
 
 I found the theory of computation books very imprecise about their descriptions of Turing machines and reductions. They usually start with something precise and mathematical, for example they would define a Turing machine as a 7-tuple, but after that, everything about decidability and reduction is described with impenetrable paragraphs in natural languages.
 

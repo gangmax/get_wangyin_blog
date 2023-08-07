@@ -1,8 +1,8 @@
 # A mind map guide for TeXmacs
 
-From [here](https://yinwang0.substack.com/p/texmacs).
+From [here](https://yinwang1.substack.com/p/texmacs).
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2f361a9-53fe-474c-8901-484b33a1a099_799x685.png "screenshot of TeXmacs")
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbda3a56e-9326-4889-b5e8-930e9854232d_799x685.png "screenshot of TeXmacs")
 
 [TeXmacs](http://texmacs.org)<span> was my best kept secret for writing math homework and papers. It is a state-of-the-art typesetting system. Many people think that it is a "front end" of TeX/LaTeX (similar to </span>[LyX](http://www.lyx.org/)<span>), but actually TeXmacs is independent of TeX and fundamentally better than TeX. TeXmacs inherited some good designs of TeX, but then went far beyond.</span>
 
@@ -12,4 +12,4 @@ From [here](https://yinwang0.substack.com/p/texmacs).
 
 Have fun!
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6097c1ff-5bf4-4b89-8f9e-01c3d6133ff6_635x423.png)
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26353a8e-7afa-42f8-8c22-84c1b6a57738_635x423.png)

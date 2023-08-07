@@ -1,6 +1,6 @@
 # Propositions as Programs
 
-From [here](https://yinwang0.substack.com/p/propositions-as-programs).
+From [here](https://yinwang1.substack.com/p/propositions-as-programs).
 
 <span>The</span> [Curry-Howard correspondence](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence) <span>says that propositions are types and proofs are programs. I had been wondering if there is a simpler way to think about it, so I came up with this:</span>
 

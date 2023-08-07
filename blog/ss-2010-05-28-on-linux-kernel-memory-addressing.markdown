@@ -1,6 +1,6 @@
 # On linux kernel memory addressing
 
-From [here](https://yinwang0.substack.com/p/linux-mem).
+From [here](https://yinwang1.substack.com/p/linux-mem).
 
 <span>I got addicted to this book named</span> _Understanding the Linux Kernel_ <span>by Daniel Bovet and Marco Cesati, which I happened to have picked up from a shelf. I wrote Linux drivers when I was an undergrad and (unfortunately) had to read quite some Linux kernel code in order to figure things out. How time flies. I finally got my breath back and have some time to read more of it. This time I look at the Linux kernel in a very different perspective, as you will see.</span>
 

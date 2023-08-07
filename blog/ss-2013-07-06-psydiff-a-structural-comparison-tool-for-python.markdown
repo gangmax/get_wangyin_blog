@@ -1,8 +1,8 @@
 # psydiff: a structural comparison tool for Python
 
-From [here](https://yinwang0.substack.com/p/psydiff).
+From [here](https://yinwang1.substack.com/p/psydiff).
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F00537d31-8c16-424b-9cd2-bf475177a703_300x212.gif)
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc35156a0-5c93-41d2-830c-74e847da22cb_300x212.gif)
 
 (click on the above picture for a demo)
 

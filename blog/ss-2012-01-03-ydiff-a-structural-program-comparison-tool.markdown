@@ -1,8 +1,8 @@
 # ydiff: a structural program comparison tool
 
-From [here](https://yinwang0.substack.com/p/ydiff).
+From [here](https://yinwang1.substack.com/p/ydiff).
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5513dc54-bcb5-4a81-9d9a-a46c899e36db_300x210.gif)
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif)
 
 (Click on the above picture to see it in action. See the end of the post for more demos)
 

@@ -1,8 +1,8 @@
 # On point-free programming
 
-From [here](https://yinwang0.substack.com/p/point-free).
+From [here](https://yinwang1.substack.com/p/point-free).
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9c06c6af-7e74-480d-939b-716580595c4e_250x250.jpeg)
+![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg)
 
 <span>Concatenative programming, or point-free style, is useful sometimes, but has some serious drawbacks similar to the</span> [SKI combinators](http://en.wikipedia.org/wiki/SKI_combinator_calculus)<span>. Applicative programs can be compiled into point-free style easily, but writing and reading them directly in large scale is usually a mental burden.</span>
 
