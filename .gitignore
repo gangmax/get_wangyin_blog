@@ -11,4 +11,5 @@ pom.xml.asc
 /node_modules
 /.clj-kondo/
 .lsp/
+.venv/
 package-lock.json
