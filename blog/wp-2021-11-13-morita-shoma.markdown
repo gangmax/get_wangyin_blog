@@ -1,6 +1,6 @@
 <div class="wp-block-image">
 
-<figure class="aligncenter size-medium">![](https://yinwang1.files.wordpress.com/2021/11/img_0368.jpg?w=300)</figure>
+<figure class="aligncenter size-medium">![](https://yinwang1.wordpress.com/wp-content/uploads/2021/11/img_0368.jpg?w=300)</figure>
 
 </div>
 

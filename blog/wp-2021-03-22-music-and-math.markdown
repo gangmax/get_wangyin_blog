@@ -6,7 +6,7 @@
 
 这里我想举一个例子。比如这幅图，是我在探索过程中用 Mathematica 数学软件分析十二平均律（equal temperament）与托勒密音阶（Ptolemy scale, 是一种 Just intonation），关于 major 和弦（major triad）的声音波形的对比。用数学函数画出声音的波形，可以直观地看到它们的差别。上图是托勒密音阶的 major triad 波形，下图是平均律的 major triad 波形。
 
-![Screen Shot 2021-04-04 at 3.35.43 PM](https://yinwang1.files.wordpress.com/2021/03/screen-shot-2021-04-04-at-3.35.43-pm.png?w=572&h=634)
+![Screen Shot 2021-04-04 at 3.35.43 PM](https://yinwang1.wordpress.com/wp-content/uploads/2021/03/screen-shot-2021-04-04-at-3.35.43-pm.png?w=572&h=634)
 
 （之前这个分析里面的 ET 公式不小心写错了，现在更正了一下。）
 
@@ -14,7 +14,7 @@
 
 如果你把这个波形继续往后画，会发现 Just intonation 一直是那个样子，不断地重复，而平均律一直在变化，每一个阶段都不一样，所以托勒密音阶看起来是更和谐的。
 
-![Screen Shot 2021-04-04 at 3.48.38 PM](https://yinwang1.files.wordpress.com/2021/03/screen-shot-2021-04-04-at-3.48.38-pm.png?w=547&h=521)
+![Screen Shot 2021-04-04 at 3.48.38 PM](https://yinwang1.wordpress.com/wp-content/uploads/2021/03/screen-shot-2021-04-04-at-3.48.38-pm.png?w=547&h=521)
 
 哦对了，这个托勒密（Ptolemy）就是那个创建了“地心说”的古罗马天文学家，总是在科学课程里作为哥白尼的反面人物，导致布鲁诺被烧死的那个人。公元前 100 年的古人了，导致 1500 年后一个不信他的人被烧死。但托勒密其实也遭到同样的待遇，因为他改进和简化了毕达哥拉斯的音阶，使得它更和谐，以至于被毕达哥拉斯的信徒们封杀 1200 年。才一抬头，结果在 1324 年教皇 John XXII 又颁布一个命令，禁止在教堂里使用托勒密音阶，原因是它“太性感”[坏笑]
 

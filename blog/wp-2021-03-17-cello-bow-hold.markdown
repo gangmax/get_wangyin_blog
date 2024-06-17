@@ -8,63 +8,63 @@
 
 我不相信这类活动的教学应该是这样进行的，可惜这种教学方式，包括了一些有名的大提琴家。比如 YouTube 上有法国大提琴家 Andre Navarra 的录像 _My Cello Technique_，在多方面采集信息并研究实践之后，我发现他有些方面挺误导人的。比如，他说小指要放在琴弓那个”眼睛”的位置，拇指要弯曲，拇指指尖的一角要放在那个不舒服的顶起来的地方。可是很多人就照做了，并且照这样教别人。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_5945-1.jpg?w=300&h=227)![](https://yinwang1.files.wordpress.com/2021/04/img_3184.jpg?w=300&h=191)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_5945-1.jpg?w=300&h=227)![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3184.jpg?w=300&h=191)
 
 另一些大提琴家，跟你说拿弓的手腕要”放松”，可是手腕真的能放松吗？手拿着琴弓那么顶端的位置，由于杠杆作用，会让手有挺大的受力。手腕需要支持琴弓的重量，在这种情况怎么可能放松？其实本来应该说，手腕不要僵硬，应该可以灵活自如地运动，但这不等于它应该放松。如果你真放松了，弓就掉下去了。至于手腕为什么要灵活，他们也没有从原理去解释。
 
 其实只要多看一些顶级大提琴家的表演视频（比如 Pablo Casals）就会发现，他们很多人都没有遵循这些教条，用什么姿势的都有。Casals 的小指经常不在弓杆上，就算有时候在弓杆上，也不在那个”眼睛”的地方。而且他的琴放得很低，这也违反了一些人的”标准高度”，说琴的那个角要正好在膝盖的高度。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_2993.jpg?w=300&h=210)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_2993.jpg?w=300&h=210)
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_2970.png?w=300&h=210)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_2970.png?w=300&h=210)
 
 观察其他的大提琴家，小指也不一定是在圆圈处。有的可能会把小指压在弓杆上，这样可以帮助翘起弓的另外一头。有趣的是，并没有任何人教我，起步的时候我往往会不知不觉把小指压在弓杆上面，因为这样特别稳定。稍后小指可能会去别的位置，我也不知道它具体去了哪里，我只知道一件事：琴弓应该如何运动。可是总有人说，小提琴才那样握弓，小指放上面，大提琴不应该这样。
 
 关于拇指，很多人说拇指第一关节要弯曲，不能直着。可是你仔细看看马友友的[视频](https://youtu.be/3qrKjywjo7Q)，他的拇指就是直着的。放大了看，拇指是直着捏着弓杆的，控制拇指的那块肌肉是紧张的，鼓起来的。也许他的拇指并不总是伸直的，但不像很多人教的，一定要弯曲。
 
-![](https://yinwang1.files.wordpress.com/2021/04/image.jpg?w=736&h=552)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/image.jpg?w=736&h=552)
 
 这个[视频](https://youtu.be/03GpPfOsFkQ)角度更清晰。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3191.jpg?w=736&h=643)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3191.jpg?w=736&h=643)
 
 还有这个[视频](https://youtu.be/oZxklTKOkcw)，能看见不论弓在什么位置，拇指都是伸直的，稳稳地按着琴弓。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3202.jpg?w=736&h=442)![](https://yinwang1.files.wordpress.com/2021/04/img_3203.jpg?w=736&h=564)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3202.jpg?w=736&h=442)![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3203.jpg?w=736&h=564)
 
 这个[视频](https://youtu.be/3uiUHvET_jg)里可以看见，其实手可以拿在其它位置，他用这个靠前的位置拉出了一整首巴赫大提琴曲。有趣的是，弓还在动的时候他也能自由地调整握弓的姿势。后来我才知道，这种握弓的位置更靠近弓的重心，叫做”巴洛克式握法”。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3197.jpg?w=736&h=413)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3197.jpg?w=736&h=413)
 
 所有人都说拇指应该弯曲，所以我试图按照其他人的说法弯曲拇指，却总是发现它不自觉地就伸直了，我为此还在疑惑。可能因为要稳定地握住一根杆子，拇指自然就会伸直。马友友的握弓姿势似乎证明了，拇指其实不一定要弯着。我觉得又一个困惑得到了解脱，我只需要顺其自然。
 
 当然也不能说拇指一定要伸直，那就成为另一种教条了。我只是说它可以伸直，这没什么错。不只马友友一个人是这样拿弓的。可以观察一下其他大提琴家，应该各种姿势都有，但我发现大部分人的拇指都是直的。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3220.jpg?w=736&h=413)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3220.jpg?w=736&h=413)
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3237.jpg?w=736&h=414)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3237.jpg?w=736&h=414)
 
 除了 Andre Navarra，我只发现一个人的拇指随时都弯着，一丝不苟按照姿势来，那就是 Mischa Maisky。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3235.jpg?w=736&h=564)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3235.jpg?w=736&h=564)
 
 其实在 18 世纪巴洛克时代，大提琴并不是现在这样用的。当时的大提琴没有下面那根杆子（endpin），而是随意地架在两腿之间。琴弓也跟现在不一样，所以拿琴弓的时候，位置和手势都不一样，像餐刀一样轻轻拿着就好了。琴弦是羊肠做的，音色比现在的金属弦要柔和，按起来也舒服。调音频率是 415Hz，比现在低了半个音。因为琴弦张力小，对琴的压力小，琴的振动好很多，手按起来也轻松。
 
 比如这幅画里，是 18 世纪意大利作曲家和大提琴家 Luigi Boccherini。你会发现那个时候使用大提琴的姿势跟现在的很不一样，而且相比现在的姿势有好几个优点。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3276.jpg?w=202&h=300)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3276.jpg?w=202&h=300)
 
 仔细看看这些历史画作里，人们拿弓的姿势（包括拇指），而且有很多人手是拿在弓下面的，跟二胡似的。在那个年代，几乎一半的人是这样握弓的。为了理解这些姿势，我买了一个巴洛克式琴弓，并且试了这个握法，发现比起拿上面的握法在某些时候有优势，当然也有缺点。人可以选择自己喜欢的握法，但很多大提琴家恐怕从来没试过这些做法，因为老师告诉了他们什么是”正确姿势”，连拇指要弯曲这个事情都规定了。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3266.jpg?w=265&h=300)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3266.jpg?w=265&h=300)
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3272.jpg?w=736)![](https://yinwang1.files.wordpress.com/2021/04/img_3271.jpg?w=300&h=300)![](https://yinwang1.files.wordpress.com/2021/04/img_3269.jpg?w=300&h=300)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3272.jpg?w=736)![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3271.jpg?w=300&h=300)![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3269.jpg?w=300&h=300)
 
 （以上图片来自这个巴赫大提琴曲的[网站](https://www.jsbachcellosuites.com/bowhold.html)）
 
 巴洛克时代没有后来的 Classic 和 Romantic 时代那种很用力很激烈的音乐，琴弓当武士刀一样，宫本武藏式的拉法。为什么要这样做呢？听众听起来不舒服，演奏者也因为太用力，双手都是老茧，甚至可能受伤。音乐本来应该是轻松健康的，接近听众的。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_6294-1.jpg?w=188&h=300)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_6294-1.jpg?w=188&h=300)
 
 现在的音乐，调音频率越来越高，琴弦材料都在追求音量和“穿透力”，金属声越来越刺耳，作曲水平大不如以前，社会的人心也越来越浮躁。大家学个音乐都很拼，功利驱动，总想朝难的方向发展，而不是为了优美，乐趣和享受，所以越来越少的人愿意学音乐。制琴的技术很多也失传了。著名大提琴家们的琴，不是 17xx 年，就是 16xx 年制造的。几百年前原价不贵的琴当宝贝一样卖天价。
 
@@ -86,15 +86,15 @@
 
 如果你仔细观察被弓拉动的[琴弦的振动](https://youtu.be/6JeyiM0YNo4)，就会发现它不是在平面上来回振动，而是绕着一根中轴在转，形状是很扁的椭球形，像一些旋转球，或者更贴切点，像一根长跳绳。被琴弓拉动的琴弦和被手拨动的琴弦的振动方式是不一样的，前者是椭球形在旋转，后者只在平面上来回。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3249.jpg?w=300&h=223)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3249.jpg?w=300&h=223)
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3250.jpg?w=300&h=199)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3250.jpg?w=300&h=199)
 
 因为琴弦是在旋转，所以回弓的时候你需要让琴弦朝反方向旋转，其实就是把球抽回去。如果琴弓突然折返，或者返回时速度不对，琴弦就会像被打飞的乒乓球一样发出杂音。所以我的体会是，大提琴根本就是一项体育运动。拉大提琴有时候像是在抽球，有时候像是在颠球。
 
 马友友 7 岁的时候遇到 Pablo Casal，为他演奏了一曲。马友友演奏之后，Casals 说：”你的大提琴拉得很好，但你也应该去打棒球！” 你能明白[此中](https://youtu.be/e0E0U-9XOt8)的深意吗？因为拉大提琴很像打棒球，旋转的棒球。另外，这类体育运动可以训练人的空间感知能力，提高对乐器的定位和操作能力。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3243.jpg?w=300&h=190)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3243.jpg?w=300&h=190)
 
 如果大提琴老师能告诉学生这些原理，这些动作需要造成的物体运动目标，拉空弦就不再是一件枯燥无味的事情了。就像打乒乓球，每次热身都要来回抽球。踢足球，每次热身都要用各种部位颠球。人的运动系统会依据这些热身运动的反馈进行调整，这样正式运动起来才会流畅。颠足球可以多有趣？我中学的时候经常双脚颠球玩，多的时候可以颠 200 多次不落地。颠球使得运动系统对球的物理性质如此熟悉，以至于传球和射门角度可以随心所欲。
 

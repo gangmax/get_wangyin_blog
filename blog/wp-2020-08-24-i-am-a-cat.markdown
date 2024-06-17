@@ -6,4 +6,4 @@
 
 现在对人类文字和思想感兴趣，所以是要发展人类文学的。计算机和人类文字同时进行，达到在思维方式上的统一。
 
-编程语言对电脑编程，人类语言对人脑编程。两者合力，破除愚昧。![](https://yinwang1.files.wordpress.com/2020/08/img_1080.jpg?w=736)
+编程语言对电脑编程，人类语言对人脑编程。两者合力，破除愚昧。![](https://yinwang1.wordpress.com/wp-content/uploads/2020/08/img_1080.jpg?w=736)

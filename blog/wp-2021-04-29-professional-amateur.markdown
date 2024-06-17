@@ -1,6 +1,6 @@
 <div class="wp-block-image">
 
-<figure class="aligncenter size-medium">![](https://yinwang1.files.wordpress.com/2021/04/70d6bd61-1236-430d-9f96-f0c7b09d1458-91412-00002d9d86f633f9_file.jpg?w=300)</figure>
+<figure class="aligncenter size-medium">![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/70d6bd61-1236-430d-9f96-f0c7b09d1458-91412-00002d9d86f633f9_file.jpg?w=300)</figure>
 
 </div>
 
@@ -14,7 +14,7 @@
 
 <div class="wp-block-image">
 
-<figure class="aligncenter size-medium">![](https://yinwang1.files.wordpress.com/2021/04/2b0c1854-baab-40b1-8154-952faa7982e1-91412-00002d7ae2917be8_file.jpg?w=300)</figure>
+<figure class="aligncenter size-medium">![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/2b0c1854-baab-40b1-8154-952faa7982e1-91412-00002d7ae2917be8_file.jpg?w=300)</figure>
 
 </div>
 
@@ -22,13 +22,13 @@
 
 <div class="wp-block-image">
 
-<figure class="aligncenter size-medium">![](https://yinwang1.files.wordpress.com/2021/04/img_6366.jpg?w=300)</figure>
+<figure class="aligncenter size-medium">![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_6366.jpg?w=300)</figure>
 
 </div>
 
 <div class="wp-block-image">
 
-<figure class="aligncenter size-medium">![](https://yinwang1.files.wordpress.com/2021/04/581a9417-247c-476d-9bb8-bc520acc0987-91412-00002d7dbd12d113_file.jpg?w=300)</figure>
+<figure class="aligncenter size-medium">![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/581a9417-247c-476d-9bb8-bc520acc0987-91412-00002d7dbd12d113_file.jpg?w=300)</figure>
 
 </div>
 
@@ -42,7 +42,7 @@
 
 <div class="wp-block-image">
 
-<figure class="aligncenter size-medium">![](https://yinwang1.files.wordpress.com/2021/04/e547526b-a70e-4f96-9422-5b58053dd35c-91412-00002d7c619959c9_file.jpg?w=300)</figure>
+<figure class="aligncenter size-medium">![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/e547526b-a70e-4f96-9422-5b58053dd35c-91412-00002d7c619959c9_file.jpg?w=300)</figure>
 
 </div>
 
@@ -56,7 +56,7 @@
 
 <div class="wp-block-image">
 
-<figure class="aligncenter size-medium">![](https://yinwang1.files.wordpress.com/2021/05/img_6381.jpg?w=300)</figure>
+<figure class="aligncenter size-medium">![](https://yinwang1.wordpress.com/wp-content/uploads/2021/05/img_6381.jpg?w=300)</figure>
 
 </div>
 
@@ -70,13 +70,13 @@
 
 <div class="wp-block-image">
 
-<figure class="aligncenter size-medium">![](https://yinwang1.files.wordpress.com/2021/04/22e0fcf6-692d-43c8-9f5c-0b919f397481-91412-00002c5fcb077fb7_file.jpg?w=247)</figure>
+<figure class="aligncenter size-medium">![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/22e0fcf6-692d-43c8-9f5c-0b919f397481-91412-00002c5fcb077fb7_file.jpg?w=247)</figure>
 
 </div>
 
 观察巴洛克式的大提琴，它们的指板角度比现代大提琴小，琴桥高度很矮，用的羊肠弦张力很小，所以演奏起来非常轻松，可就是音量和穿透力无法满足现代大型音乐厅的需求。我猜想，在巴洛克时代，很多大提琴都是业余爱好者在用，朋友聚会大家一起奏乐玩的，音量大了反而嫌太吵。职业的演奏者肯定有，但他们的演出场地也不会很大。因为到处都有现场演出，甚至是免费的，所以不会有那么多人同时去一个地方。
 
-<figure class="wp-block-image size-large">![](https://yinwang1.files.wordpress.com/2021/04/img_3427.jpg?w=1000)</figure>
+<figure class="wp-block-image size-large">![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3427.jpg?w=1000)</figure>
 
 不像现在，高水平的演奏者极其稀少，好不容易来一场演出，需要体育场那么大的音乐厅来容纳这么多的人。为了后排听众都能听见，乐器的音量就需要大，琴弦张力就得大，按起来就手痛，结果会用这乐器的人就越来越少…… 恶性循环。
 

@@ -1,4 +1,4 @@
-<figure class="wp-block-image size-large">![](https://yinwang1.files.wordpress.com/2021/11/img_0413.jpg?w=1024)</figure>
+<figure class="wp-block-image size-large">![](https://yinwang1.wordpress.com/wp-content/uploads/2021/11/img_0413.jpg?w=1024)</figure>
 
 不仅是 Tesla 的车，在很多其它工业设计场景，我都发现滥用触摸屏和触控按键的做法。像这种健身器材，有一个反应不灵，经常按了不动的触摸屏，就已经够失误了，却还把手柄上的“+”和“-”按键也做成了“触控”的。手指按下去没有反馈，就不能确信是否按到了，不能清楚地知道按了几下，而且拿着很容易发生误触，导致意想不到的速度或阻力变化。为了避免误触，设计者把触摸点放在一个凹槽里，不仅手按着别扭，而且仍然会不经意发生误触。
 

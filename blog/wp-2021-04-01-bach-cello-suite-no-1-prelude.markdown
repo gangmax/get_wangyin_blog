@@ -10,4 +10,4 @@
 
 世上无难事，只怕有方法。感谢 LinnStrument 的设计者 Roger Linn，使得这不可能的事情变成了可能。感谢巴赫写出这有魔力的乐谱。感谢马友友提供 YouTube 视频里的参照音乐。
 
-![](https://yinwang1.files.wordpress.com/2021/04/img_3133.jpg?w=736&h=412)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2021/04/img_3133.jpg?w=736&h=412)

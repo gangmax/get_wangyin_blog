@@ -6,4 +6,4 @@
 
 我：我不需要画缺乏美感的人，所以我还挺喜欢素描 🙂
 
-![](https://yinwang1.files.wordpress.com/2020/09/img_4156.jpg?w=113&h=150)
+![](https://yinwang1.wordpress.com/wp-content/uploads/2020/09/img_4156.jpg?w=113&h=150)
